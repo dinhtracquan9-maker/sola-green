@@ -1,9 +1,37 @@
 {
   "topics": [
-    {"keyword":"aesthetic wholesale supplier evaluation","title":"How to Evaluate an Aesthetic Wholesale Supplier Before Ordering","category":"Procurement","status":"pending"},
-    {"keyword":"international aesthetic product shipping checklist","title":"International Aesthetic Product Shipping: A Buyer's Checklist","category":"Logistics","status":"pending"},
-    {"keyword":"aesthetic wholesale quotation checklist","title":"What to Include in an Aesthetic Wholesale Quotation Request","category":"Buyer Guide","status":"pending"},
-    {"keyword":"aesthetic product inventory planning clinics","title":"Practical Inventory Planning for Aesthetic Clinics","category":"Operations","status":"pending"}
+    {
+      "keyword": "aesthetic wholesale supplier evaluation",
+      "title": "How to Evaluate an Aesthetic Wholesale Supplier Before Ordering",
+      "category": "Procurement",
+      "status": "published",
+      "slug": "how-to-evaluate-an-aesthetic-wholesale-supplier-before-ordering",
+      "published_at": "2026-06-22T10:21:49.665300+00:00"
+    },
+    {
+      "keyword": "international aesthetic product shipping checklist",
+      "title": "International Aesthetic Product Shipping: A Buyer's Checklist",
+      "category": "Logistics",
+      "status": "pending"
+    },
+    {
+      "keyword": "aesthetic wholesale quotation checklist",
+      "title": "What to Include in an Aesthetic Wholesale Quotation Request",
+      "category": "Buyer Guide",
+      "status": "pending"
+    },
+    {
+      "keyword": "aesthetic product inventory planning clinics",
+      "title": "Practical Inventory Planning for Aesthetic Clinics",
+      "category": "Operations",
+      "status": "pending"
+    }
   ],
-  "published": []
+  "published": [
+    {
+      "title": "How to Evaluate an Aesthetic Wholesale Supplier Before Ordering",
+      "slug": "how-to-evaluate-an-aesthetic-wholesale-supplier-before-ordering",
+      "published_at": "2026-06-22T10:21:49.665300+00:00"
+    }
+  ]
 }
