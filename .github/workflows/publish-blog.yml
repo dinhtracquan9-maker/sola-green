@@ -2,7 +2,7 @@ name: Publish SOLA Journal article
 on:
   workflow_dispatch:
   schedule:
-    - cron: "0 1 * * 1"
+    - cron: "0 1 * * *"
 concurrency:
   group: sola-blog-publisher
   cancel-in-progress: false

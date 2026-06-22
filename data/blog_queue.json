@@ -1,29 +1,1361 @@
 {
   "topics": [
     {
-      "keyword": "aesthetic wholesale supplier evaluation",
-      "title": "How to Evaluate an Aesthetic Wholesale Supplier Before Ordering",
-      "category": "Procurement",
-      "status": "published",
-      "slug": "how-to-evaluate-an-aesthetic-wholesale-supplier-before-ordering",
-      "published_at": "2026-06-22T10:21:49.665300+00:00"
-    },
-    {
-      "keyword": "international aesthetic product shipping checklist",
-      "title": "International Aesthetic Product Shipping: A Buyer's Checklist",
-      "category": "Logistics",
+      "keyword": "ultrafill wholesale",
+      "title": "Sourcing Ultrafill Wholesale: A Buyer's Guide for Clinics and Distributors",
+      "category": "Dermal Fillers",
+      "image": "../assets/images/products/ultrafill.png",
       "status": "pending"
     },
     {
-      "keyword": "aesthetic wholesale quotation checklist",
-      "title": "What to Include in an Aesthetic Wholesale Quotation Request",
-      "category": "Buyer Guide",
+      "keyword": "buy senorita wholesale",
+      "title": "How Professional Buyers Evaluate Senorita Before Ordering Wholesale",
+      "category": "Skin Boosters",
+      "image": "../assets/images/products/senorita.png",
       "status": "pending"
     },
     {
-      "keyword": "aesthetic product inventory planning clinics",
-      "title": "Practical Inventory Planning for Aesthetic Clinics",
-      "category": "Operations",
+      "keyword": "asce wholesale supplier",
+      "title": "Asce for Aesthetic Clinics: A Practical Wholesale Sourcing Guide",
+      "category": "Exosome & Meso",
+      "image": "../assets/images/products/Asce.png",
+      "status": "pending"
+    },
+    {
+      "keyword": "hairna for clinics",
+      "title": "What to Check Before Ordering Hairna from a Wholesale Supplier",
+      "category": "Hair & Meso",
+      "image": "../assets/images/products/hairna.png",
+      "status": "pending"
+    },
+    {
+      "keyword": "wholesale allergan 50u sourcing",
+      "title": "Buying Allergan 50U Wholesale: Documentation, Handling and Shipping Essentials",
+      "category": "Botulinum Toxin",
+      "image": "../assets/images/products/allergan50u.png",
+      "status": "pending"
+    },
+    {
+      "keyword": "olidia distributor",
+      "title": "A Procurement Guide to Olidia for Spas, Clinics and Resellers",
+      "category": "Biostimulators",
+      "image": "../assets/images/products/olivia.png",
+      "status": "pending"
+    },
+    {
+      "keyword": "sedy fill wholesale",
+      "title": "Sourcing Sedy Fill Wholesale: A Buyer's Guide for Clinics and Distributors",
+      "category": "Body Fillers",
+      "image": "../assets/images/bestSeller/sedyFill.png",
+      "status": "pending"
+    },
+    {
+      "keyword": "buy lemon bottle wholesale",
+      "title": "How Professional Buyers Evaluate Lemon Bottle Before Ordering Wholesale",
+      "category": "Lipolysis",
+      "image": "../assets/images/bestSeller/lemonBottle.png",
+      "status": "pending"
+    },
+    {
+      "keyword": "mounjaro 2.5mg wholesale supplier",
+      "title": "Mounjaro 2.5mg for Aesthetic Clinics: A Practical Wholesale Sourcing Guide",
+      "category": "Weight Management",
+      "image": "../assets/images/bestSeller/moujaro2.5mg.png",
+      "status": "pending"
+    },
+    {
+      "keyword": "laroscorbine diamond e-uf for clinics",
+      "title": "What to Check Before Ordering Laroscorbine Diamond E-UF from a Wholesale Supplier",
+      "category": "IV & Wellness",
+      "image": "../assets/images/products/laros.png",
+      "status": "pending"
+    },
+    {
+      "keyword": "wholesale liporase sourcing",
+      "title": "Buying Liporase Wholesale: Documentation, Handling and Shipping Essentials",
+      "category": "Hyaluronidase",
+      "image": "../assets/images/products/liporase.png",
+      "status": "pending"
+    },
+    {
+      "keyword": "huons water numb distributor",
+      "title": "A Procurement Guide to Huons Water Numb for Spas, Clinics and Resellers",
+      "category": "Numbing & Supplies",
+      "image": "../assets/images/products/huonsWaterNumb.png",
+      "status": "pending"
+    },
+    {
+      "keyword": "j-cain numbing cream 10.56% wholesale",
+      "title": "Sourcing J-Cain Numbing Cream 10.56% Wholesale: A Buyer's Guide for Clinics and Distributors",
+      "category": "Numbing & Supplies",
+      "image": "../assets/images/products/jCainNumbingCream10.56.png",
+      "status": "pending"
+    },
+    {
+      "keyword": "buy triamcinolo wholesale",
+      "title": "How Professional Buyers Evaluate Triamcinolo Before Ordering Wholesale",
+      "category": "Injectables",
+      "image": "../assets/images/products/triamcinolo.png",
+      "status": "pending"
+    },
+    {
+      "keyword": "b.braun omnican 1ml wholesale supplier",
+      "title": "B.Braun Omnican 1ml for Aesthetic Clinics: A Practical Wholesale Sourcing Guide",
+      "category": "Injection Supplies",
+      "image": "../assets/images/products/BBraun.png",
+      "status": "pending"
+    },
+    {
+      "keyword": "32g meso needle for clinics",
+      "title": "What to Check Before Ordering 32g Meso Needle from a Wholesale Supplier",
+      "category": "Meso & Needles",
+      "image": "../assets/images/products/32gMesoNeedle.png",
+      "status": "pending"
+    },
+    {
+      "keyword": "wholesale linospan sourcing",
+      "title": "Buying Linospan Wholesale: Documentation, Handling and Shipping Essentials",
+      "category": "Dental Supplies",
+      "image": "../assets/images/products/linospan.png",
+      "status": "pending"
+    },
+    {
+      "keyword": "sardenya distributor",
+      "title": "A Procurement Guide to Sardenya for Spas, Clinics and Resellers",
+      "category": "Dermal Fillers",
+      "image": "../assets/images/products/Sardenya.png",
+      "status": "pending"
+    },
+    {
+      "keyword": "tmie vip wholesale",
+      "title": "Sourcing TMIE VIP Wholesale: A Buyer's Guide for Clinics and Distributors",
+      "category": "Skin Boosters",
+      "image": "../assets/images/products/tmieVip.png",
+      "status": "pending"
+    },
+    {
+      "keyword": "buy exocode wholesale",
+      "title": "How Professional Buyers Evaluate Exocode Before Ordering Wholesale",
+      "category": "Exosome & Meso",
+      "image": "../assets/images/products/excode.png",
+      "status": "pending"
+    },
+    {
+      "keyword": "allergan 100u wholesale supplier",
+      "title": "Allergan 100U for Aesthetic Clinics: A Practical Wholesale Sourcing Guide",
+      "category": "Botulinum Toxin",
+      "image": "../assets/images/products/allergan100u.png",
+      "status": "pending"
+    },
+    {
+      "keyword": "gouri for clinics",
+      "title": "What to Check Before Ordering Gouri from a Wholesale Supplier",
+      "category": "Biostimulators",
+      "image": "../assets/images/products/gouri.png",
+      "status": "pending"
+    },
+    {
+      "keyword": "wholesale france body sourcing",
+      "title": "Buying France Body Wholesale: Documentation, Handling and Shipping Essentials",
+      "category": "Body Fillers",
+      "image": "../assets/images/products/franceBody.png",
+      "status": "pending"
+    },
+    {
+      "keyword": "aqualyx distributor",
+      "title": "A Procurement Guide to Aqualyx for Spas, Clinics and Resellers",
+      "category": "Lipolysis",
+      "image": "../assets/images/bestSeller/aqualyx.png",
+      "status": "pending"
+    },
+    {
+      "keyword": "mounjaro 5mg wholesale",
+      "title": "Sourcing Mounjaro 5mg Wholesale: A Buyer's Guide for Clinics and Distributors",
+      "category": "Weight Management",
+      "image": "../assets/images/bestSeller/moujaro5mg.png",
+      "status": "pending"
+    },
+    {
+      "keyword": "buy samsung pharm whitening wholesale",
+      "title": "How Professional Buyers Evaluate Samsung Pharm Whitening Before Ordering Wholesale",
+      "category": "IV & Wellness",
+      "image": "../assets/images/products/sumsungPharmWhitening.png",
+      "status": "pending"
+    },
+    {
+      "keyword": "bm hyrunidase wholesale supplier",
+      "title": "BM Hyrunidase for Aesthetic Clinics: A Practical Wholesale Sourcing Guide",
+      "category": "Hyaluronidase",
+      "image": "../assets/images/products/bmHyrunidase.png",
+      "status": "pending"
+    },
+    {
+      "keyword": "medicain 2% for clinics",
+      "title": "What to Check Before Ordering Medicain 2% from a Wholesale Supplier",
+      "category": "Numbing & Supplies",
+      "image": "../assets/images/products/medicain2.png",
+      "status": "pending"
+    },
+    {
+      "keyword": "wholesale j-cain numbing cream 15.6% sourcing",
+      "title": "Buying J-Cain Numbing Cream 15.6% Wholesale: Documentation, Handling and Shipping Essentials",
+      "category": "Numbing & Supplies",
+      "image": "../assets/images/products/jCainNumbingCream15.6.png",
+      "status": "pending"
+    },
+    {
+      "keyword": "admedic distributor",
+      "title": "A Procurement Guide to Admedic for Spas, Clinics and Resellers",
+      "category": "Injection Supplies",
+      "image": "../assets/images/products/admedic.png",
+      "status": "pending"
+    },
+    {
+      "keyword": "34g meso needle wholesale",
+      "title": "Sourcing 34G Meso Needle Wholesale: A Buyer's Guide for Clinics and Distributors",
+      "category": "Meso & Needles",
+      "image": "../assets/images/products/34GMesoNeedle.png",
+      "status": "pending"
+    },
+    {
+      "keyword": "buy milanie wholesale",
+      "title": "How Professional Buyers Evaluate Milanie Before Ordering Wholesale",
+      "category": "Dermal Fillers",
+      "image": "../assets/images/products/milanie.png",
+      "status": "pending"
+    },
+    {
+      "keyword": "hyaron wholesale supplier",
+      "title": "Hyaron for Aesthetic Clinics: A Practical Wholesale Sourcing Guide",
+      "category": "Skin Boosters",
+      "image": "../assets/images/bestSeller/hyaron.png",
+      "status": "pending"
+    },
+    {
+      "keyword": "exoten for clinics",
+      "title": "What to Check Before Ordering Exoten from a Wholesale Supplier",
+      "category": "Exosome & Meso",
+      "image": "../assets/images/products/exoten.png",
+      "status": "pending"
+    },
+    {
+      "keyword": "wholesale wondertox 200u sourcing",
+      "title": "Buying Wondertox 200U Wholesale: Documentation, Handling and Shipping Essentials",
+      "category": "Botulinum Toxin",
+      "image": "../assets/images/products/woundertox200u.png",
+      "status": "pending"
+    },
+    {
+      "keyword": "sculptra distributor",
+      "title": "A Procurement Guide to Sculptra for Spas, Clinics and Resellers",
+      "category": "Biostimulators",
+      "image": "../assets/images/bestSeller/Sculptra.png",
+      "status": "pending"
+    },
+    {
+      "keyword": "jariot body wholesale",
+      "title": "Sourcing Jariot Body Wholesale: A Buyer's Guide for Clinics and Distributors",
+      "category": "Body Fillers",
+      "image": "../assets/images/products/jariotBody.png",
+      "status": "pending"
+    },
+    {
+      "keyword": "buy gana v line wholesale",
+      "title": "How Professional Buyers Evaluate Gana V Line Before Ordering Wholesale",
+      "category": "Lipolysis",
+      "image": "../assets/images/products/ganaVline.png",
+      "status": "pending"
+    },
+    {
+      "keyword": "mounjaro 7.5mg wholesale supplier",
+      "title": "Mounjaro 7.5mg for Aesthetic Clinics: A Practical Wholesale Sourcing Guide",
+      "category": "Weight Management",
+      "image": "../assets/images/bestSeller/moujaro7.5mg.png",
+      "status": "pending"
+    },
+    {
+      "keyword": "laennec for clinics",
+      "title": "What to Check Before Ordering Laennec from a Wholesale Supplier",
+      "category": "IV & Wellness",
+      "image": "../assets/images/products/leannec.png",
+      "status": "pending"
+    },
+    {
+      "keyword": "wholesale hyalaze sourcing",
+      "title": "Buying Hyalaze Wholesale: Documentation, Handling and Shipping Essentials",
+      "category": "Hyaluronidase",
+      "image": "../assets/images/products/hyazale.png",
+      "status": "pending"
+    },
+    {
+      "keyword": "j-cain numbing cream 29.9% distributor",
+      "title": "A Procurement Guide to J-Cain Numbing Cream 29.9% for Spas, Clinics and Resellers",
+      "category": "Numbing & Supplies",
+      "image": "../assets/images/products/jCainNumbingCream29.9.png",
+      "status": "pending"
+    },
+    {
+      "keyword": "bac water wholesale",
+      "title": "Sourcing BAC Water Wholesale: A Buyer's Guide for Clinics and Distributors",
+      "category": "Injection Supplies",
+      "image": "../assets/images/products/bacwater.png",
+      "status": "pending"
+    },
+    {
+      "keyword": "buy meso 30g sungshim wholesale",
+      "title": "How Professional Buyers Evaluate Meso 30g Sungshim Before Ordering Wholesale",
+      "category": "Meso & Needles",
+      "image": "../assets/images/products/meso30gSungshim.png",
+      "status": "pending"
+    },
+    {
+      "keyword": "lips wholesale supplier",
+      "title": "Lips for Aesthetic Clinics: A Practical Wholesale Sourcing Guide",
+      "category": "Dermal Fillers",
+      "image": "../assets/images/products/lips.png",
+      "status": "pending"
+    },
+    {
+      "keyword": "nctf for clinics",
+      "title": "What to Check Before Ordering NCTF from a Wholesale Supplier",
+      "category": "Skin Boosters",
+      "image": "../assets/images/bestSeller/nctf.png",
+      "status": "pending"
+    },
+    {
+      "keyword": "wholesale gtm 3% sourcing",
+      "title": "Buying GTM 3% Wholesale: Documentation, Handling and Shipping Essentials",
+      "category": "Exosome & Meso",
+      "image": "../assets/images/products/gtm3.png",
+      "status": "pending"
+    },
+    {
+      "keyword": "wondertox 100u distributor",
+      "title": "A Procurement Guide to Wondertox 100U for Spas, Clinics and Resellers",
+      "category": "Botulinum Toxin",
+      "image": "../assets/images/products/wuondertox100u.png",
+      "status": "pending"
+    },
+    {
+      "keyword": "radiesse wholesale",
+      "title": "Sourcing Radiesse Wholesale: A Buyer's Guide for Clinics and Distributors",
+      "category": "Biostimulators",
+      "image": "../assets/images/products/radiesse.png",
+      "status": "pending"
+    },
+    {
+      "keyword": "buy helios body wholesale",
+      "title": "How Professional Buyers Evaluate Helios Body Before Ordering Wholesale",
+      "category": "Body Fillers",
+      "image": "../assets/images/products/heliosBody.png",
+      "status": "pending"
+    },
+    {
+      "keyword": "slim queen wholesale supplier",
+      "title": "Slim Queen for Aesthetic Clinics: A Practical Wholesale Sourcing Guide",
+      "category": "Lipolysis",
+      "image": "../assets/images/products/slimqueen.png",
+      "status": "pending"
+    },
+    {
+      "keyword": "mounjaro 10mg for clinics",
+      "title": "What to Check Before Ordering Mounjaro 10mg from a Wholesale Supplier",
+      "category": "Weight Management",
+      "image": "../assets/images/bestSeller/moujaro10mg.png",
+      "status": "pending"
+    },
+    {
+      "keyword": "wholesale melsmon sourcing",
+      "title": "Buying Melsmon Wholesale: Documentation, Handling and Shipping Essentials",
+      "category": "IV & Wellness",
+      "image": "../assets/images/products/melsmon.png",
+      "status": "pending"
+    },
+    {
+      "keyword": "j-cain numbing cream 59.9% distributor",
+      "title": "A Procurement Guide to J-Cain Numbing Cream 59.9% for Spas, Clinics and Resellers",
+      "category": "Numbing & Supplies",
+      "image": "../assets/images/products/jCainNumbingCream59.9.png",
+      "status": "pending"
+    },
+    {
+      "keyword": "hyadew wholesale",
+      "title": "Sourcing Hyadew Wholesale: A Buyer's Guide for Clinics and Distributors",
+      "category": "Dermal Fillers",
+      "image": "../assets/images/products/hyadew.png",
+      "status": "pending"
+    },
+    {
+      "keyword": "buy profhilo wholesale",
+      "title": "How Professional Buyers Evaluate Profhilo Before Ordering Wholesale",
+      "category": "Skin Boosters",
+      "image": "../assets/images/bestSeller/profhilo.png",
+      "status": "pending"
+    },
+    {
+      "keyword": "gtm 8% wholesale supplier",
+      "title": "GTM 8% for Aesthetic Clinics: A Practical Wholesale Sourcing Guide",
+      "category": "Exosome & Meso",
+      "image": "../assets/images/products/gtm8.png",
+      "status": "pending"
+    },
+    {
+      "keyword": "xeomin for clinics",
+      "title": "What to Check Before Ordering Xeomin from a Wholesale Supplier",
+      "category": "Botulinum Toxin",
+      "image": "../assets/images/products/xeomin.png",
+      "status": "pending"
+    },
+    {
+      "keyword": "wholesale sculptra 5ml sourcing",
+      "title": "Buying Sculptra 5ml Wholesale: Documentation, Handling and Shipping Essentials",
+      "category": "Biostimulators",
+      "image": "../assets/images/products/Sculptra5ml.png",
+      "status": "pending"
+    },
+    {
+      "keyword": "helios vip distributor",
+      "title": "A Procurement Guide to Helios VIP for Spas, Clinics and Resellers",
+      "category": "Body Fillers",
+      "image": "../assets/images/products/heliosVip.png",
+      "status": "pending"
+    },
+    {
+      "keyword": "v line sol wholesale",
+      "title": "Sourcing V Line Sol Wholesale: A Buyer's Guide for Clinics and Distributors",
+      "category": "Lipolysis",
+      "image": "../assets/images/products/vlineSol.png",
+      "status": "pending"
+    },
+    {
+      "keyword": "buy semaglutide 10mg wholesale",
+      "title": "How Professional Buyers Evaluate Semaglutide 10mg Before Ordering Wholesale",
+      "category": "Weight Management",
+      "image": "../assets/images/products/semaglutide.png",
+      "status": "pending"
+    },
+    {
+      "keyword": "nad+ wholesale supplier",
+      "title": "NAD+ for Aesthetic Clinics: A Practical Wholesale Sourcing Guide",
+      "category": "IV & Wellness",
+      "image": "../assets/images/products/nad.png",
+      "status": "pending"
+    },
+    {
+      "keyword": "chaumcaine for clinics",
+      "title": "What to Check Before Ordering Chaumcaine from a Wholesale Supplier",
+      "category": "Numbing & Supplies",
+      "image": "../assets/images/products/chaumcain.png",
+      "status": "pending"
+    },
+    {
+      "keyword": "wholesale elasty sourcing",
+      "title": "Buying Elasty Wholesale: Documentation, Handling and Shipping Essentials",
+      "category": "Dermal Fillers",
+      "image": "../assets/images/products/elasty.png",
+      "status": "pending"
+    },
+    {
+      "keyword": "profhilo structura distributor",
+      "title": "A Procurement Guide to Profhilo Structura for Spas, Clinics and Resellers",
+      "category": "Skin Boosters",
+      "image": "../assets/images/bestSeller/profhiloStructura.png",
+      "status": "pending"
+    },
+    {
+      "keyword": "meso jarrior wholesale",
+      "title": "Sourcing Meso Jarrior Wholesale: A Buyer's Guide for Clinics and Distributors",
+      "category": "Exosome & Meso",
+      "image": "../assets/images/products/mesoJarrior.png",
+      "status": "pending"
+    },
+    {
+      "keyword": "buy neuronox 100u wholesale",
+      "title": "How Professional Buyers Evaluate Neuronox 100U Before Ordering Wholesale",
+      "category": "Botulinum Toxin",
+      "image": "../assets/images/products/neuronox100u.png",
+      "status": "pending"
+    },
+    {
+      "keyword": "sculptra wholesale supplier",
+      "title": "Sculptra for Aesthetic Clinics: A Practical Wholesale Sourcing Guide",
+      "category": "Biostimulators",
+      "image": "../assets/images/products/Sculptra1.png",
+      "status": "pending"
+    },
+    {
+      "keyword": "pink fill body for clinics",
+      "title": "What to Check Before Ordering Pink Fill Body from a Wholesale Supplier",
+      "category": "Body Fillers",
+      "image": "../assets/images/products/pinkFillBody.png",
+      "status": "pending"
+    },
+    {
+      "keyword": "wholesale kabelline sourcing",
+      "title": "Buying Kabelline Wholesale: Documentation, Handling and Shipping Essentials",
+      "category": "Lipolysis",
+      "image": "../assets/images/products/kabelline.png",
+      "status": "pending"
+    },
+    {
+      "keyword": "tirzepatide 30mg distributor",
+      "title": "A Procurement Guide to Tirzepatide 30mg for Spas, Clinics and Resellers",
+      "category": "Weight Management",
+      "image": "../assets/images/products/tirzepatide30Mg.png",
+      "status": "pending"
+    },
+    {
+      "keyword": "ruby luxury wholesale",
+      "title": "Sourcing Ruby Luxury Wholesale: A Buyer's Guide for Clinics and Distributors",
+      "category": "IV & Wellness",
+      "image": "../assets/images/products/rubyluxury.png",
+      "status": "pending"
+    },
+    {
+      "keyword": "buy mi-cain pro wholesale",
+      "title": "How Professional Buyers Evaluate Mi-Cain Pro Before Ordering Wholesale",
+      "category": "Numbing & Supplies",
+      "image": "../assets/images/products/miCainpro.png",
+      "status": "pending"
+    },
+    {
+      "keyword": "restylane kysse wholesale supplier",
+      "title": "Restylane Kysse for Aesthetic Clinics: A Practical Wholesale Sourcing Guide",
+      "category": "Dermal Fillers",
+      "image": "../assets/images/products/restylaneKysse.png",
+      "status": "pending"
+    },
+    {
+      "keyword": "rejuran hb for clinics",
+      "title": "What to Check Before Ordering Rejuran HB from a Wholesale Supplier",
+      "category": "Skin Boosters",
+      "image": "../assets/images/bestSeller/rejuranHB.png",
+      "status": "pending"
+    },
+    {
+      "keyword": "wholesale hutox 100u sourcing",
+      "title": "Buying Hutox 100U Wholesale: Documentation, Handling and Shipping Essentials",
+      "category": "Botulinum Toxin",
+      "image": "../assets/images/products/hutox100U.png",
+      "status": "pending"
+    },
+    {
+      "keyword": "maxxyfill body distributor",
+      "title": "A Procurement Guide to Maxxyfill Body for Spas, Clinics and Resellers",
+      "category": "Body Fillers",
+      "image": "../assets/images/products/mexxyFillBosy.png",
+      "status": "pending"
+    },
+    {
+      "keyword": "lemon bottle wholesale",
+      "title": "Sourcing Lemon Bottle Wholesale: A Buyer's Guide for Clinics and Distributors",
+      "category": "Lipolysis",
+      "image": "../assets/images/products/lemonBottle.png",
+      "status": "pending"
+    },
+    {
+      "keyword": "buy mounjaro 12.5mg wholesale",
+      "title": "How Professional Buyers Evaluate Mounjaro 12.5mg Before Ordering Wholesale",
+      "category": "Weight Management",
+      "image": "../assets/images/products/moujaro12.5mg.png",
+      "status": "pending"
+    },
+    {
+      "keyword": "glutax 5gs micro wholesale supplier",
+      "title": "Glutax 5GS Micro for Aesthetic Clinics: A Practical Wholesale Sourcing Guide",
+      "category": "IV & Wellness",
+      "image": "../assets/images/products/glutax5gsmicro.png",
+      "status": "pending"
+    },
+    {
+      "keyword": "neuramis for clinics",
+      "title": "What to Check Before Ordering Neuramis from a Wholesale Supplier",
+      "category": "Dermal Fillers",
+      "image": "../assets/images/products/neuramis.png",
+      "status": "pending"
+    },
+    {
+      "keyword": "wholesale rejuran healer sourcing",
+      "title": "Buying Rejuran Healer Wholesale: Documentation, Handling and Shipping Essentials",
+      "category": "Skin Boosters",
+      "image": "../assets/images/bestSeller/rejuranHealer.png",
+      "status": "pending"
+    },
+    {
+      "keyword": "neuronox 100u distributor",
+      "title": "A Procurement Guide to Neuronox 100U for Spas, Clinics and Resellers",
+      "category": "Botulinum Toxin",
+      "image": "../assets/images/products/neuronox100u.png",
+      "status": "pending"
+    },
+    {
+      "keyword": "jariot body wholesale",
+      "title": "Sourcing Jariot Body Wholesale: A Buyer's Guide for Clinics and Distributors (Jariot Body)",
+      "category": "Body Fillers",
+      "image": "../assets/images/products/jariotBody.png",
+      "status": "pending"
+    },
+    {
+      "keyword": "buy lipolab wholesale",
+      "title": "How Professional Buyers Evaluate Lipolab Before Ordering Wholesale",
+      "category": "Lipolysis",
+      "image": "../assets/images/products/lipolab.png",
+      "status": "pending"
+    },
+    {
+      "keyword": "mounjaro 15mg wholesale supplier",
+      "title": "Mounjaro 15mg for Aesthetic Clinics: A Practical Wholesale Sourcing Guide",
+      "category": "Weight Management",
+      "image": "../assets/images/products/mounjaro15mg.png",
+      "status": "pending"
+    },
+    {
+      "keyword": "glutax 10000000 for clinics",
+      "title": "What to Check Before Ordering Glutax 10000000 from a Wholesale Supplier",
+      "category": "IV & Wellness",
+      "image": "../assets/images/products/glutax10m.png",
+      "status": "pending"
+    },
+    {
+      "keyword": "wholesale revolax sourcing",
+      "title": "Buying Revolax Wholesale: Documentation, Handling and Shipping Essentials",
+      "category": "Dermal Fillers",
+      "image": "../assets/images/products/revolax.png",
+      "status": "pending"
+    },
+    {
+      "keyword": "rejuran i distributor",
+      "title": "A Procurement Guide to Rejuran I for Spas, Clinics and Resellers",
+      "category": "Skin Boosters",
+      "image": "../assets/images/bestSeller/rejuranI.png",
+      "status": "pending"
+    },
+    {
+      "keyword": "kaimax 100 wholesale",
+      "title": "Sourcing Kaimax 100 Wholesale: A Buyer's Guide for Clinics and Distributors",
+      "category": "Botulinum Toxin",
+      "image": "../assets/images/products/kaimax.png",
+      "status": "pending"
+    },
+    {
+      "keyword": "buy jariot vip wholesale",
+      "title": "How Professional Buyers Evaluate Jariot VIP Before Ordering Wholesale",
+      "category": "Body Fillers",
+      "image": "../assets/images/products/jariotVip.png",
+      "status": "pending"
+    },
+    {
+      "keyword": "lri pro wholesale supplier",
+      "title": "LRI Pro for Aesthetic Clinics: A Practical Wholesale Sourcing Guide",
+      "category": "Lipolysis",
+      "image": "../assets/images/products/lriPro.png",
+      "status": "pending"
+    },
+    {
+      "keyword": "ozempic for clinics",
+      "title": "What to Check Before Ordering Ozempic from a Wholesale Supplier",
+      "category": "Weight Management",
+      "image": "../assets/images/products/ozempic.png",
+      "status": "pending"
+    },
+    {
+      "keyword": "wholesale glutax 22000000 sourcing",
+      "title": "Buying Glutax 22000000 Wholesale: Documentation, Handling and Shipping Essentials",
+      "category": "IV & Wellness",
+      "image": "../assets/images/products/glutax22m.png",
+      "status": "pending"
+    },
+    {
+      "keyword": "restylane eyelight distributor",
+      "title": "A Procurement Guide to Restylane Eyelight for Spas, Clinics and Resellers",
+      "category": "Dermal Fillers",
+      "image": "../assets/images/products/RestylaneEyelight.png",
+      "status": "pending"
+    },
+    {
+      "keyword": "rejuran s wholesale",
+      "title": "Sourcing Rejuran S Wholesale: A Buyer's Guide for Clinics and Distributors",
+      "category": "Skin Boosters",
+      "image": "../assets/images/bestSeller/rejuranS.png",
+      "status": "pending"
+    },
+    {
+      "keyword": "buy kaimax 200u wholesale",
+      "title": "How Professional Buyers Evaluate Kaimax 200U Before Ordering Wholesale",
+      "category": "Botulinum Toxin",
+      "image": "../assets/images/products/kaimax200u.png",
+      "status": "pending"
+    },
+    {
+      "keyword": "lri v line wholesale supplier",
+      "title": "LRI V Line for Aesthetic Clinics: A Practical Wholesale Sourcing Guide",
+      "category": "Lipolysis",
+      "image": "../assets/images/products/lriVline.png",
+      "status": "pending"
+    },
+    {
+      "keyword": "glutax 35000000 for clinics",
+      "title": "What to Check Before Ordering Glutax 35000000 from a Wholesale Supplier",
+      "category": "IV & Wellness",
+      "image": "../assets/images/products/glutax35m.png",
+      "status": "pending"
+    },
+    {
+      "keyword": "wholesale dermalax sourcing",
+      "title": "Buying Dermalax Wholesale: Documentation, Handling and Shipping Essentials",
+      "category": "Dermal Fillers",
+      "image": "../assets/images/products/dermalax.png",
+      "status": "pending"
+    },
+    {
+      "keyword": "luhilo distributor",
+      "title": "A Procurement Guide to Luhilo for Spas, Clinics and Resellers",
+      "category": "Skin Boosters",
+      "image": "../assets/images/bestSeller/luhilo.png",
+      "status": "pending"
+    },
+    {
+      "keyword": "kingtox wholesale",
+      "title": "Sourcing Kingtox Wholesale: A Buyer's Guide for Clinics and Distributors",
+      "category": "Botulinum Toxin",
+      "image": "../assets/images/products/kingTox.png",
+      "status": "pending"
+    },
+    {
+      "keyword": "buy muscle inhibitors wholesale",
+      "title": "How Professional Buyers Evaluate Muscle Inhibitors Before Ordering Wholesale",
+      "category": "Lipolysis",
+      "image": "../assets/images/products/muscleInhibitors.png",
+      "status": "pending"
+    },
+    {
+      "keyword": "gluthione 1200mg wholesale supplier",
+      "title": "Gluthione 1200mg for Aesthetic Clinics: A Practical Wholesale Sourcing Guide",
+      "category": "IV & Wellness",
+      "image": "../assets/images/products/gluthione.png",
+      "status": "pending"
+    },
+    {
+      "keyword": "white fill pro for clinics",
+      "title": "What to Check Before Ordering White Fill Pro from a Wholesale Supplier",
+      "category": "Dermal Fillers",
+      "image": "../assets/images/products/whiteFillPro.png",
+      "status": "pending"
+    },
+    {
+      "keyword": "wholesale karisma sourcing",
+      "title": "Buying Karisma Wholesale: Documentation, Handling and Shipping Essentials",
+      "category": "Skin Boosters",
+      "image": "../assets/images/bestSeller/karisma.png",
+      "status": "pending"
+    },
+    {
+      "keyword": "blacktox distributor",
+      "title": "A Procurement Guide to Blacktox for Spas, Clinics and Resellers",
+      "category": "Botulinum Toxin",
+      "image": "../assets/images/products/blacktox.png",
+      "status": "pending"
+    },
+    {
+      "keyword": "placenta wholesale",
+      "title": "Sourcing Placenta Wholesale: A Buyer's Guide for Clinics and Distributors",
+      "category": "IV & Wellness",
+      "image": "../assets/images/products/placenta.png",
+      "status": "pending"
+    },
+    {
+      "keyword": "buy teoxane wholesale",
+      "title": "How Professional Buyers Evaluate Teoxane Before Ordering Wholesale",
+      "category": "Dermal Fillers",
+      "image": "../assets/images/products/teoxane.png",
+      "status": "pending"
+    },
+    {
+      "keyword": "jalupro wholesale supplier",
+      "title": "Jalupro for Aesthetic Clinics: A Practical Wholesale Sourcing Guide",
+      "category": "Skin Boosters",
+      "image": "../assets/images/products/jalupro.png",
+      "status": "pending"
+    },
+    {
+      "keyword": "botulax 300u for clinics",
+      "title": "What to Check Before Ordering Botulax 300U from a Wholesale Supplier",
+      "category": "Botulinum Toxin",
+      "image": "../assets/images/products/botulax300U.png",
+      "status": "pending"
+    },
+    {
+      "keyword": "wholesale cindella set sourcing",
+      "title": "Buying Cindella Set Wholesale: Documentation, Handling and Shipping Essentials",
+      "category": "IV & Wellness",
+      "image": "../assets/images/products/cindellaSet.png",
+      "status": "pending"
+    },
+    {
+      "keyword": "restylane lyft distributor",
+      "title": "A Procurement Guide to Restylane Lyft for Spas, Clinics and Resellers",
+      "category": "Dermal Fillers",
+      "image": "../assets/images/products/restylaneLyft.png",
+      "status": "pending"
+    },
+    {
+      "keyword": "jalupro classic wholesale",
+      "title": "Sourcing Jalupro Classic Wholesale: A Buyer's Guide for Clinics and Distributors",
+      "category": "Skin Boosters",
+      "image": "../assets/images/products/jaluproClassic.png",
+      "status": "pending"
+    },
+    {
+      "keyword": "buy daxxify wholesale",
+      "title": "How Professional Buyers Evaluate Daxxify Before Ordering Wholesale",
+      "category": "Botulinum Toxin",
+      "image": "../assets/images/products/daxxify.png",
+      "status": "pending"
+    },
+    {
+      "keyword": "vitarium wholesale supplier",
+      "title": "Vitarium for Aesthetic Clinics: A Practical Wholesale Sourcing Guide",
+      "category": "IV & Wellness",
+      "image": "../assets/images/products/vitarium.png",
+      "status": "pending"
+    },
+    {
+      "keyword": "juvederm volift for clinics",
+      "title": "What to Check Before Ordering Juvederm Volift from a Wholesale Supplier",
+      "category": "Dermal Fillers",
+      "image": "../assets/images/products/juvedermVolift.png",
+      "status": "pending"
+    },
+    {
+      "keyword": "wholesale luxer sourcing",
+      "title": "Buying Luxer Wholesale: Documentation, Handling and Shipping Essentials",
+      "category": "Skin Boosters",
+      "image": "../assets/images/products/luxer.png",
+      "status": "pending"
+    },
+    {
+      "keyword": "dysport chai to distributor",
+      "title": "A Procurement Guide to Dysport Chai To for Spas, Clinics and Resellers",
+      "category": "Botulinum Toxin",
+      "image": "../assets/images/products/Dysport.png",
+      "status": "pending"
+    },
+    {
+      "keyword": "lucchini wholesale",
+      "title": "Sourcing Lucchini Wholesale: A Buyer's Guide for Clinics and Distributors",
+      "category": "IV & Wellness",
+      "image": "../assets/images/products/lucchini.png",
+      "status": "pending"
+    },
+    {
+      "keyword": "buy juvederm volux wholesale",
+      "title": "How Professional Buyers Evaluate Juvederm Volux Before Ordering Wholesale",
+      "category": "Dermal Fillers",
+      "image": "../assets/images/products/juvedermVolux.png",
+      "status": "pending"
+    },
+    {
+      "keyword": "priere wholesale supplier",
+      "title": "Priere for Aesthetic Clinics: A Practical Wholesale Sourcing Guide",
+      "category": "Skin Boosters",
+      "image": "../assets/images/products/priere.png",
+      "status": "pending"
+    },
+    {
+      "keyword": "botulax 200u for clinics",
+      "title": "What to Check Before Ordering Botulax 200U from a Wholesale Supplier",
+      "category": "Botulinum Toxin",
+      "image": "../assets/images/bestSeller/botulax200u.png",
+      "status": "pending"
+    },
+    {
+      "keyword": "wholesale juvederm xc sourcing",
+      "title": "Buying Juvederm XC Wholesale: Documentation, Handling and Shipping Essentials",
+      "category": "Dermal Fillers",
+      "image": "../assets/images/products/juvedermXC.png",
+      "status": "pending"
+    },
+    {
+      "keyword": "ammi distributor",
+      "title": "A Procurement Guide to Ammi for Spas, Clinics and Resellers",
+      "category": "Skin Boosters",
+      "image": "../assets/images/products/ammi.png",
+      "status": "pending"
+    },
+    {
+      "keyword": "rentox 200 wholesale",
+      "title": "Sourcing Rentox 200 Wholesale: A Buyer's Guide for Clinics and Distributors",
+      "category": "Botulinum Toxin",
+      "image": "../assets/images/bestSeller/rentox200.png",
+      "status": "pending"
+    },
+    {
+      "keyword": "buy eptq wholesale",
+      "title": "How Professional Buyers Evaluate EPTQ Before Ordering Wholesale",
+      "category": "Dermal Fillers",
+      "image": "../assets/images/products/eptq.png",
+      "status": "pending"
+    },
+    {
+      "keyword": "jade cain cream 10,56% wholesale supplier",
+      "title": "Jade Cain Cream 10,56% for Aesthetic Clinics: A Practical Wholesale Sourcing Guide",
+      "category": "Skin Boosters",
+      "image": "../assets/images/products/jdibio.png",
+      "status": "pending"
+    },
+    {
+      "keyword": "botulax 100 unit for clinics",
+      "title": "What to Check Before Ordering Botulax 100 Unit from a Wholesale Supplier",
+      "category": "Botulinum Toxin",
+      "image": "../assets/images/bestSeller/botulax100unit.png",
+      "status": "pending"
+    },
+    {
+      "keyword": "wholesale celosome vip sourcing",
+      "title": "Buying Celosome VIP Wholesale: Documentation, Handling and Shipping Essentials",
+      "category": "Dermal Fillers",
+      "image": "../assets/images/products/celosomeVip.png",
+      "status": "pending"
+    },
+    {
+      "keyword": "juvederm skinvive distributor",
+      "title": "A Procurement Guide to Juvederm Skinvive for Spas, Clinics and Resellers",
+      "category": "Skin Boosters",
+      "image": "../assets/images/products/juvedermSkinvive.png",
+      "status": "pending"
+    },
+    {
+      "keyword": "meditoxin 100 wholesale",
+      "title": "Sourcing Meditoxin 100 Wholesale: A Buyer's Guide for Clinics and Distributors",
+      "category": "Botulinum Toxin",
+      "image": "../assets/images/bestSeller/meditoxin100.png",
+      "status": "pending"
+    },
+    {
+      "keyword": "buy chaeum wholesale",
+      "title": "How Professional Buyers Evaluate Chaeum Before Ordering Wholesale",
+      "category": "Dermal Fillers",
+      "image": "../assets/images/products/chaeum.png",
+      "status": "pending"
+    },
+    {
+      "keyword": "lumi eyes wholesale supplier",
+      "title": "Lumi Eyes for Aesthetic Clinics: A Practical Wholesale Sourcing Guide",
+      "category": "Skin Boosters",
+      "image": "../assets/images/products/lumieyes.png",
+      "status": "pending"
+    },
+    {
+      "keyword": "bienox 100u for clinics",
+      "title": "What to Check Before Ordering Bienox 100U from a Wholesale Supplier",
+      "category": "Botulinum Toxin",
+      "image": "../assets/images/products/bienox100U.png",
+      "status": "pending"
+    },
+    {
+      "keyword": "wholesale dermacan sourcing",
+      "title": "Buying Dermacan Wholesale: Documentation, Handling and Shipping Essentials",
+      "category": "Dermal Fillers",
+      "image": "../assets/images/products/dermacan.png",
+      "status": "pending"
+    },
+    {
+      "keyword": "luna eyes distributor",
+      "title": "A Procurement Guide to Luna Eyes for Spas, Clinics and Resellers",
+      "category": "Skin Boosters",
+      "image": "../assets/images/products/lunaeyes.png",
+      "status": "pending"
+    },
+    {
+      "keyword": "coretox 100u wholesale",
+      "title": "Sourcing Coretox 100U Wholesale: A Buyer's Guide for Clinics and Distributors",
+      "category": "Botulinum Toxin",
+      "image": "../assets/images/products/coretox100u.png",
+      "status": "pending"
+    },
+    {
+      "keyword": "buy doris filler wholesale",
+      "title": "How Professional Buyers Evaluate Doris Filler Before Ordering Wholesale",
+      "category": "Dermal Fillers",
+      "image": "../assets/images/products/doris.png",
+      "status": "pending"
+    },
+    {
+      "keyword": "malinda wholesale supplier",
+      "title": "Malinda for Aesthetic Clinics: A Practical Wholesale Sourcing Guide",
+      "category": "Skin Boosters",
+      "image": "../assets/images/products/malinda.png",
+      "status": "pending"
+    },
+    {
+      "keyword": "dehantox for clinics",
+      "title": "What to Check Before Ordering Dehantox from a Wholesale Supplier",
+      "category": "Botulinum Toxin",
+      "image": "../assets/images/products/dehantox.png",
+      "status": "pending"
+    },
+    {
+      "keyword": "wholesale stylage l sourcing",
+      "title": "Buying Stylage L Wholesale: Documentation, Handling and Shipping Essentials",
+      "category": "Dermal Fillers",
+      "image": "../assets/images/products/stylageL.png",
+      "status": "pending"
+    },
+    {
+      "keyword": "juvelook distributor",
+      "title": "A Procurement Guide to Juvelook for Spas, Clinics and Resellers",
+      "category": "Skin Boosters",
+      "image": "../assets/images/products/juvelook.png",
+      "status": "pending"
+    },
+    {
+      "keyword": "liztox 100 wholesale",
+      "title": "Sourcing Liztox 100 Wholesale: A Buyer's Guide for Clinics and Distributors",
+      "category": "Botulinum Toxin",
+      "image": "../assets/images/products/liztox100.png",
+      "status": "pending"
+    },
+    {
+      "keyword": "buy stylage m wholesale",
+      "title": "How Professional Buyers Evaluate Stylage M Before Ordering Wholesale",
+      "category": "Dermal Fillers",
+      "image": "../assets/images/products/stylageM.png",
+      "status": "pending"
+    },
+    {
+      "keyword": "richesse eyes wholesale supplier",
+      "title": "Richesse Eyes for Aesthetic Clinics: A Practical Wholesale Sourcing Guide",
+      "category": "Skin Boosters",
+      "image": "../assets/images/products/richeseeyes.png",
+      "status": "pending"
+    },
+    {
+      "keyword": "neuronox 100u for clinics",
+      "title": "What to Check Before Ordering Neuronox 100U from a Wholesale Supplier",
+      "category": "Botulinum Toxin",
+      "image": "../assets/images/products/Neuronox100U.png",
+      "status": "pending"
+    },
+    {
+      "keyword": "wholesale stylage s sourcing",
+      "title": "Buying Stylage S Wholesale: Documentation, Handling and Shipping Essentials",
+      "category": "Dermal Fillers",
+      "image": "../assets/images/products/stylageS.png",
+      "status": "pending"
+    },
+    {
+      "keyword": "roya distributor",
+      "title": "A Procurement Guide to Roya for Spas, Clinics and Resellers",
+      "category": "Skin Boosters",
+      "image": "../assets/images/products/roya.png",
+      "status": "pending"
+    },
+    {
+      "keyword": "onetox 100 wholesale",
+      "title": "Sourcing Onetox 100 Wholesale: A Buyer's Guide for Clinics and Distributors",
+      "category": "Botulinum Toxin",
+      "image": "../assets/images/products/onetox100.png",
+      "status": "pending"
+    },
+    {
+      "keyword": "buy stylage xxl wholesale",
+      "title": "How Professional Buyers Evaluate Stylage XXL Before Ordering Wholesale",
+      "category": "Dermal Fillers",
+      "image": "../assets/images/products/stylageXXL.png",
+      "status": "pending"
+    },
+    {
+      "keyword": "rrs ha eyes wholesale supplier",
+      "title": "RRS HA Eyes for Aesthetic Clinics: A Practical Wholesale Sourcing Guide",
+      "category": "Skin Boosters",
+      "image": "../assets/images/products/rrshaeyes.png",
+      "status": "pending"
+    },
+    {
+      "keyword": "onetox 200 for clinics",
+      "title": "What to Check Before Ordering Onetox 200 from a Wholesale Supplier",
+      "category": "Botulinum Toxin",
+      "image": "../assets/images/products/ontox200.png",
+      "status": "pending"
+    },
+    {
+      "keyword": "wholesale restylane contour sourcing",
+      "title": "Buying Restylane Contour Wholesale: Documentation, Handling and Shipping Essentials",
+      "category": "Dermal Fillers",
+      "image": "../assets/images/products/restylaneContour.png",
+      "status": "pending"
+    },
+    {
+      "keyword": "aqua pn distributor",
+      "title": "A Procurement Guide to Aqua PN for Spas, Clinics and Resellers",
+      "category": "Skin Boosters",
+      "image": "../assets/images/products/aquapn.png",
+      "status": "pending"
+    },
+    {
+      "keyword": "evetox wholesale",
+      "title": "Sourcing Evetox Wholesale: A Buyer's Guide for Clinics and Distributors",
+      "category": "Botulinum Toxin",
+      "image": "../assets/images/products/evetox.png",
+      "status": "pending"
+    },
+    {
+      "keyword": "buy restylane fynesse wholesale",
+      "title": "How Professional Buyers Evaluate Restylane Fynesse Before Ordering Wholesale",
+      "category": "Dermal Fillers",
+      "image": "../assets/images/products/restylanefynesse.png",
+      "status": "pending"
+    },
+    {
+      "keyword": "oxyx wholesale supplier",
+      "title": "Oxyx for Aesthetic Clinics: A Practical Wholesale Sourcing Guide",
+      "category": "Skin Boosters",
+      "image": "../assets/images/products/oxyx.png",
+      "status": "pending"
+    },
+    {
+      "keyword": "extox 100u for clinics",
+      "title": "What to Check Before Ordering Extox 100U from a Wholesale Supplier",
+      "category": "Botulinum Toxin",
+      "image": "../assets/images/products/extox100u.png",
+      "status": "pending"
+    },
+    {
+      "keyword": "wholesale restylane lidocaine sourcing",
+      "title": "Buying Restylane Lidocaine Wholesale: Documentation, Handling and Shipping Essentials",
+      "category": "Dermal Fillers",
+      "image": "../assets/images/products/restylaneLidocaine.png",
+      "status": "pending"
+    },
+    {
+      "keyword": "kiara reju distributor",
+      "title": "A Procurement Guide to Kiara Reju for Spas, Clinics and Resellers",
+      "category": "Skin Boosters",
+      "image": "../assets/images/products/kiaraReju.png",
+      "status": "pending"
+    },
+    {
+      "keyword": "toxta 100 wholesale",
+      "title": "Sourcing Toxta 100 Wholesale: A Buyer's Guide for Clinics and Distributors",
+      "category": "Botulinum Toxin",
+      "image": "../assets/images/products/toxta100.png",
+      "status": "pending"
+    },
+    {
+      "keyword": "buy restylane refyne wholesale",
+      "title": "How Professional Buyers Evaluate Restylane Refyne Before Ordering Wholesale",
+      "category": "Dermal Fillers",
+      "image": "../assets/images/products/restylaneRefyne.png",
+      "status": "pending"
+    },
+    {
+      "keyword": "dr lacir wholesale supplier",
+      "title": "Dr Lacir for Aesthetic Clinics: A Practical Wholesale Sourcing Guide",
+      "category": "Skin Boosters",
+      "image": "../assets/images/products/Drlacir.png",
+      "status": "pending"
+    },
+    {
+      "keyword": "botulax 100 for clinics",
+      "title": "What to Check Before Ordering Botulax 100 from a Wholesale Supplier",
+      "category": "Botulinum Toxin",
+      "image": "../assets/images/products/botulax100.png",
+      "status": "pending"
+    },
+    {
+      "keyword": "wholesale restylane volyme sourcing",
+      "title": "Buying Restylane Volyme Wholesale: Documentation, Handling and Shipping Essentials",
+      "category": "Dermal Fillers",
+      "image": "../assets/images/products/restylaneVolyme.png",
+      "status": "pending"
+    },
+    {
+      "keyword": "evehilo distributor",
+      "title": "A Procurement Guide to Evehilo for Spas, Clinics and Resellers",
+      "category": "Skin Boosters",
+      "image": "../assets/images/products/evehilo.png",
+      "status": "pending"
+    },
+    {
+      "keyword": "innotox 100 wholesale",
+      "title": "Sourcing Innotox 100 Wholesale: A Buyer's Guide for Clinics and Distributors",
+      "category": "Botulinum Toxin",
+      "image": "../assets/images/products/innotox100.png",
+      "status": "pending"
+    },
+    {
+      "keyword": "buy teoxane redensity ii wholesale",
+      "title": "How Professional Buyers Evaluate Teoxane Redensity II Before Ordering Wholesale",
+      "category": "Dermal Fillers",
+      "image": "../assets/images/bestSeller/teoxaneRedensity2.png",
+      "status": "pending"
+    },
+    {
+      "keyword": "eve eyes wholesale supplier",
+      "title": "Eve Eyes for Aesthetic Clinics: A Practical Wholesale Sourcing Guide",
+      "category": "Skin Boosters",
+      "image": "../assets/images/products/eveEyes.png",
+      "status": "pending"
+    },
+    {
+      "keyword": "innotox 50 for clinics",
+      "title": "What to Check Before Ordering Innotox 50 from a Wholesale Supplier",
+      "category": "Botulinum Toxin",
+      "image": "../assets/images/products/inntox50.png",
+      "status": "pending"
+    },
+    {
+      "keyword": "wholesale rejeunesse sourcing",
+      "title": "Buying Rejeunesse Wholesale: Documentation, Handling and Shipping Essentials",
+      "category": "Dermal Fillers",
+      "image": "../assets/images/bestSeller/rejeunesse.png",
+      "status": "pending"
+    },
+    {
+      "keyword": "jalupro young eye distributor",
+      "title": "A Procurement Guide to Jalupro Young Eye for Spas, Clinics and Resellers",
+      "category": "Skin Boosters",
+      "image": "../assets/images/products/jalupro.png",
+      "status": "pending"
+    },
+    {
+      "keyword": "rubytoxin 100u wholesale",
+      "title": "Sourcing Rubytoxin 100U Wholesale: A Buyer's Guide for Clinics and Distributors",
+      "category": "Botulinum Toxin",
+      "image": "../assets/images/products/rubytoxin100u.png",
+      "status": "pending"
+    },
+    {
+      "keyword": "buy juvederm ultra 3 wholesale",
+      "title": "How Professional Buyers Evaluate Juvederm Ultra 3 Before Ordering Wholesale",
+      "category": "Dermal Fillers",
+      "image": "../assets/images/bestSeller/juvederm3.png",
+      "status": "pending"
+    },
+    {
+      "keyword": "ceres wholesale supplier",
+      "title": "Ceres for Aesthetic Clinics: A Practical Wholesale Sourcing Guide",
+      "category": "Skin Boosters",
+      "image": "../assets/images/products/ceres.png",
+      "status": "pending"
+    },
+    {
+      "keyword": "meditoxin 200 for clinics",
+      "title": "What to Check Before Ordering Meditoxin 200 from a Wholesale Supplier",
+      "category": "Botulinum Toxin",
+      "image": "../assets/images/products/meditoxin200.png",
+      "status": "pending"
+    },
+    {
+      "keyword": "wholesale juvederm voluma sourcing",
+      "title": "Buying Juvederm Voluma Wholesale: Documentation, Handling and Shipping Essentials",
+      "category": "Dermal Fillers",
+      "image": "../assets/images/bestSeller/juvedermVoluma.png",
+      "status": "pending"
+    },
+    {
+      "keyword": "ammi eyes distributor",
+      "title": "A Procurement Guide to Ammi Eyes for Spas, Clinics and Resellers",
+      "category": "Skin Boosters",
+      "image": "../assets/images/products/ammiEyes.png",
+      "status": "pending"
+    },
+    {
+      "keyword": "nabota 100 wholesale",
+      "title": "Sourcing Nabota 100 Wholesale: A Buyer's Guide for Clinics and Distributors",
+      "category": "Botulinum Toxin",
+      "image": "../assets/images/products/nabota100.png",
+      "status": "pending"
+    },
+    {
+      "keyword": "buy juvederm xc plus wholesale",
+      "title": "How Professional Buyers Evaluate Juvederm XC Plus Before Ordering Wholesale",
+      "category": "Dermal Fillers",
+      "image": "../assets/images/bestSeller/juvedermXcPlus.png",
+      "status": "pending"
+    },
+    {
+      "keyword": "arista wholesale supplier",
+      "title": "Arista for Aesthetic Clinics: A Practical Wholesale Sourcing Guide",
+      "category": "Skin Boosters",
+      "image": "../assets/images/products/arista.png",
+      "status": "pending"
+    },
+    {
+      "keyword": "nabota 200 for clinics",
+      "title": "What to Check Before Ordering Nabota 200 from a Wholesale Supplier",
+      "category": "Botulinum Toxin",
+      "image": "../assets/images/products/nabota200.png",
+      "status": "pending"
+    },
+    {
+      "keyword": "wholesale restylane kysse sourcing",
+      "title": "Buying Restylane Kysse Wholesale: Documentation, Handling and Shipping Essentials",
+      "category": "Dermal Fillers",
+      "image": "../assets/images/bestSeller/restylaneKysse.png",
+      "status": "pending"
+    },
+    {
+      "keyword": "fabi distributor",
+      "title": "A Procurement Guide to Fabi for Spas, Clinics and Resellers",
+      "category": "Skin Boosters",
+      "image": "../assets/images/products/fabi.png",
+      "status": "pending"
+    },
+    {
+      "keyword": "rentox 100 wholesale",
+      "title": "Sourcing Rentox 100 Wholesale: A Buyer's Guide for Clinics and Distributors",
+      "category": "Botulinum Toxin",
+      "image": "../assets/images/products/rentox100.png",
+      "status": "pending"
+    },
+    {
+      "keyword": "buy restylane defyne wholesale",
+      "title": "How Professional Buyers Evaluate Restylane Defyne Before Ordering Wholesale",
+      "category": "Dermal Fillers",
+      "image": "../assets/images/bestSeller/restylanedefine.png",
+      "status": "pending"
+    },
+    {
+      "keyword": "restylane skinbooster wholesale supplier",
+      "title": "Restylane Skinbooster for Aesthetic Clinics: A Practical Wholesale Sourcing Guide",
+      "category": "Skin Boosters",
+      "image": "../assets/images/products/restylaneSkinbooster.png",
+      "status": "pending"
+    },
+    {
+      "keyword": "rentox 200 for clinics",
+      "title": "What to Check Before Ordering Rentox 200 from a Wholesale Supplier",
+      "category": "Botulinum Toxin",
+      "image": "../assets/images/products/Rentox200.png",
+      "status": "pending"
+    },
+    {
+      "keyword": "wholesale pink glow sourcing",
+      "title": "Buying Pink Glow Wholesale: Documentation, Handling and Shipping Essentials",
+      "category": "Skin Boosters",
+      "image": "../assets/images/products/pinkglow.png",
+      "status": "pending"
+    },
+    {
+      "keyword": "placentex distributor",
+      "title": "A Procurement Guide to Placentex for Spas, Clinics and Resellers",
+      "category": "Skin Boosters",
+      "image": "../assets/images/products/placentex.png",
+      "status": "pending"
+    },
+    {
+      "keyword": "jalupro hmw wholesale",
+      "title": "Sourcing Jalupro HMW Wholesale: A Buyer's Guide for Clinics and Distributors",
+      "category": "Skin Boosters",
+      "image": "../assets/images/products/jaluproHMW.png",
+      "status": "pending"
+    },
+    {
+      "keyword": "buy jalupro super hydro wholesale",
+      "title": "How Professional Buyers Evaluate Jalupro Super Hydro Before Ordering Wholesale",
+      "category": "Skin Boosters",
+      "image": "../assets/images/products/jaluproSuper.png",
       "status": "pending"
     }
   ],
