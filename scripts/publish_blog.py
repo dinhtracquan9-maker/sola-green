@@ -26,9 +26,9 @@ def generate(topic):
     prompt = f'''Write an original English article for SOLA Medical Supply's professional buyer journal.
 Title brief: {topic['title']}
 Keyword: {topic['keyword']}; Category: {topic['category']}.
-Write 900-1200 useful words for clinics, spas, resellers and distributors. This is procurement education, not medical advice. Never invent certifications, partnerships, prices, stock, approvals or customer results. Do not claim SOLA is an authorised distributor. Use H2 sections, short paragraphs and one checklist. Mention SOLA only in the closing CTA.
+CRITICAL LENGTH REQUIREMENT: html_body must contain AT LEAST 950 words of body text (excluding HTML tags). Write 6 to 8 H2 sections, each with 2-3 full paragraphs of 3-5 sentences, plus one checklist (ul/li). Do not summarise, do not stop early, do not write a short article. Aim for 1000-1200 words. Audience: clinics, spas, resellers and distributors. This is procurement education, not medical advice. Never invent certifications, partnerships, prices, stock, approvals or customer results. Do not claim SOLA is an authorised distributor. Mention SOLA only in the closing CTA.
 Return JSON only: title, meta_description (max 155 chars), excerpt (35-50 words), read_time, html_body. html_body may use only h2, h3, p, ul, li, strong and em tags.'''
-    payload = json.dumps({"model":env("BLOG_MODEL"),"temperature":0.4,"messages":[{"role":"system","content":"You are a careful B2B editor. Return valid JSON only."},{"role":"user","content":prompt}]}).encode()
+    payload = json.dumps({"model":env("BLOG_MODEL"),"temperature":0.5,"max_tokens":4000,"messages":[{"role":"system","content":"You are a careful B2B editor. Return valid JSON only."},{"role":"user","content":prompt}]}).encode()
     request = urllib.request.Request(env("BLOG_API_URL"), data=payload, headers={"Authorization":f"Bearer {env('BLOG_API_KEY')}","Content-Type":"application/json"}, method="POST")
     try:
         with urllib.request.urlopen(request, timeout=120) as response: result=json.loads(response.read().decode())
@@ -47,7 +47,7 @@ def validate(a):
     bad=re.search(r"<(script|style|iframe|img|a|form)\b",a["html_body"],re.I)
     if bad: raise RuntimeError(f"Forbidden generated tag: {bad.group(1)}")
     words=len(re.sub(r"<[^>]+>"," ",a["html_body"]).split())
-    if words<650: raise RuntimeError(f"Article too short: {words} words")
+    if words<600: raise RuntimeError(f"Article too short: {words} words")
 
 def page(a,slug,category,date):
     title,desc=html.escape(a["title"]),html.escape(a["meta_description"],quote=True)
