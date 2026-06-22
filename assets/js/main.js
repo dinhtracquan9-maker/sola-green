@@ -1,0 +1,120 @@
+const WHATSAPP_NUMBER = '84981778670';
+const $ = (s, r = document) => r.querySelector(s);
+const $$ = (s, r = document) => [...r.querySelectorAll(s)];
+const allProducts = window.SOLA_PRODUCTS || [];
+const wa = (text = 'Hello SOLA Medical Supply, I would like to request a wholesale quotation.') => `https://wa.me/${WHATSAPP_NUMBER}?text=${encodeURIComponent(text)}`;
+
+function renderSiteChrome() {
+  const inBlog = location.pathname.replace(/\\/g, '/').includes('/blog/');
+  const base = inBlog ? '../' : '';
+  const page = location.pathname.split(/[\\/]/).pop() || 'index.html';
+  const section = inBlog ? 'journal' : page.replace('.html', '');
+  const active = key => section === key ? ' class="active"' : '';
+  const header = `<div class="topbar"><div class="wrap"><span>Professional aesthetic wholesale · Worldwide shipping support</span><a data-wa>Talk to a specialist →</a></div></div>
+    <nav class="nav"><div class="wrap nav-inner"><a class="brand" href="${base}index.html"><img src="${base}assets/icons/logoNgang.png" alt="SOLA Medical Supply"></a><button class="menu" type="button" aria-label="Open navigation" aria-expanded="false">Menu</button><div class="links">
+    <a${active('index')} href="${base}index.html">Home</a><a${active('products')} href="${base}products.html">Products</a><a${active('brands')} href="${base}brands.html">Brands</a><a${active('shipping')} href="${base}shipping.html">Shipping</a><a${active('about')} href="${base}about.html">About</a><a${active('faq')} href="${base}faq.html">FAQ</a><a${active('journal')} href="${base}blog/index.html">Journal</a><a${active('contact')} href="${base}contact.html">Contact</a><a class="btn primary" data-wa>Request a quote</a></div></div></nav>`;
+  document.querySelector('.topbar')?.remove();
+  document.querySelector('.nav')?.remove();
+  document.body.insertAdjacentHTML('afterbegin', header);
+
+  const footer = `<footer class="footer new-footer"><div class="wrap"><div class="footer-top"><div><img src="${base}assets/icons/logoNgang.png" alt="SOLA"><p>Professional aesthetic wholesale supply for clinics, spas, resellers and distributors worldwide.</p></div><div><b>Explore</b><a href="${base}products.html">Products</a><a href="${base}brands.html">Brands</a><a href="${base}shipping.html">Shipping</a><a href="${base}blog/index.html">Journal</a></div><div><b>Company</b><a href="${base}about.html">About SOLA</a><a href="${base}faq.html">FAQ</a><a href="${base}contact.html">Contact</a></div><div><b>Contact</b><a data-wa>WhatsApp: +84 98 177 86 70</a><a href="mailto:sales@solamedicalsupply.com">Email: sales@solamedicalsupply.com</a></div></div><div class="footer-bottom"><span>© 2026 SOLA Medical Supply</span><span>Professional buyers only · Product availability varies by market</span></div></div></footer>`;
+  document.querySelector('.footer')?.remove();
+  document.body.insertAdjacentHTML('beforeend', footer);
+}
+
+renderSiteChrome();
+
+$('.menu')?.addEventListener('click', e => {
+  $('.links')?.classList.toggle('open');
+  e.currentTarget.setAttribute('aria-expanded', $('.links')?.classList.contains('open') ? 'true' : 'false');
+});
+$$('[data-wa]').forEach(a => a.href = wa(a.dataset.wa || undefined));
+
+const quoteList = new Map();
+let visibleCount = 24;
+let filteredProducts = allProducts;
+
+function productCard(p) {
+  const selected = quoteList.has(p.name);
+  const action = $('[data-quote-drawer]')
+    ? `<button class="add-quote ${selected ? 'selected' : ''}" data-add-quote="${p.name.replace(/"/g, '&quot;')}">${selected ? 'Added ✓' : '+ Add to quote'}</button>`
+    : `<a class="add-quote" href="${wa('Hello SOLA Medical Supply, please quote: ' + p.name)}" target="_blank">Request quotation →</a>`;
+  return `<article class="product">
+    <figure><img src="${p.image}" alt="${p.name}" loading="lazy" decoding="async"></figure>
+    <div class="product-body"><h3>${p.name}</h3><div class="meta"><span class="badge">${p.category}</span><span class="badge">${p.brand}</span></div>
+    <p>${p.origin || 'International'} supply • ${p.tag || 'Available on request'}</p>
+    ${action}</div>
+  </article>`;
+}
+
+function renderGrid(grid, list) {
+  const isFull = grid.dataset.mode === 'all';
+  const shown = isFull ? list.slice(0, visibleCount) : list;
+  grid.innerHTML = shown.map(productCard).join('') || '<p>No products found. Try another search.</p>';
+  const count = $('[data-results-count]');
+  if (count && isFull) count.textContent = `${list.length} products found`;
+  const more = $('[data-load-more]');
+  if (more) more.hidden = visibleCount >= list.length;
+}
+
+function updateQuoteBar() {
+  const drawer = $('[data-quote-drawer]');
+  const count = $('[data-quote-count]');
+  const send = $('[data-send-quote]');
+  if (count) count.textContent = quoteList.size;
+  drawer?.classList.toggle('open', quoteList.size > 0);
+  if (send) send.disabled = quoteList.size === 0;
+}
+
+document.addEventListener('click', e => {
+  const add = e.target.closest('[data-add-quote]');
+  if (add) {
+    const name = add.dataset.addQuote;
+    quoteList.has(name) ? quoteList.delete(name) : quoteList.set(name, true);
+    add.classList.toggle('selected', quoteList.has(name));
+    add.textContent = quoteList.has(name) ? 'Added ✓' : '+ Add to quote';
+    updateQuoteBar();
+  }
+});
+
+$('[data-send-quote]')?.addEventListener('click', () => {
+  const items = [...quoteList.keys()].map((name, i) => `${i + 1}. ${name} — Qty:`).join('\n');
+  window.open(wa(`Hello SOLA Medical Supply, please quote the following products:\n\n${items}\n\nDestination country:`), '_blank');
+});
+
+function setupProductSections() {
+  $$('[data-products-grid]').forEach(grid => renderGrid(grid, grid.dataset.mode === 'featured' ? allProducts.filter(p => p.featured) : allProducts));
+}
+
+function setupFilters() {
+  const cat = $('[data-category-filter]'), brand = $('[data-brand-filter]'), search = $('[data-search]');
+  const grid = $('[data-products-grid][data-mode="all"]');
+  if (!grid) return;
+  const options = list => ['All', ...[...new Set(list)].sort((a, b) => a.localeCompare(b))].map(v => `<option value="${v}">${v}</option>`).join('');
+  cat.innerHTML = options(allProducts.map(p => p.category));
+  brand.innerHTML = options(allProducts.map(p => p.brand));
+  cat.value = 'All';
+  brand.value = 'All';
+  const apply = () => {
+    const q = search.value.toLowerCase().trim(); visibleCount = 24;
+    filteredProducts = allProducts.filter(p => (cat.value === 'All' || p.category === cat.value) && (brand.value === 'All' || p.brand === brand.value) && (!q || `${p.name} ${p.brand} ${p.category}`.toLowerCase().includes(q)));
+    renderGrid(grid, filteredProducts);
+  };
+  [cat, brand, search].forEach(el => el.addEventListener('input', apply));
+  $('[data-clear-filters]')?.addEventListener('click', () => { search.value = ''; cat.value = 'All'; brand.value = 'All'; apply(); });
+  $('[data-load-more]')?.addEventListener('click', () => { visibleCount += 24; renderGrid(grid, filteredProducts); });
+  apply();
+}
+
+function renderBrands() {
+  const el = $('[data-brands-grid]'); if (!el) return;
+  const brands = [...new Set(allProducts.map(p => p.brand))].sort();
+  el.innerHTML = brands.map(b => `<div class="brand-card">${b}<br><small>${allProducts.filter(p => p.brand === b).length} items</small></div>`).join('');
+}
+
+function setupForm() {
+  const f = $('[data-quote-form]'); if (!f) return;
+  f.addEventListener('submit', e => { e.preventDefault(); const d = new FormData(f); window.open(wa(`Hello SOLA Medical Supply,\nName: ${d.get('name') || ''}\nCountry: ${d.get('country') || ''}\nProducts: ${d.get('products') || ''}\nQuantity: ${d.get('quantity') || ''}\nMessage: ${d.get('message') || ''}`), '_blank'); });
+}
+
+setupProductSections(); setupFilters(); renderBrands(); setupForm();
