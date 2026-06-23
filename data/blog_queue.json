@@ -14,7 +14,9 @@
       "title": "How Professional Buyers Evaluate Senorita Before Ordering Wholesale",
       "category": "Skin Boosters",
       "image": "../assets/images/products/senorita.png",
-      "status": "pending"
+      "status": "published",
+      "slug": "how-professional-buyers-evaluate-senorita-before-ordering-wholesale",
+      "published_at": "2026-06-23T06:16:23.701366+00:00"
     },
     {
       "keyword": "asce wholesale supplier",
@@ -1371,6 +1373,11 @@
       "title": "Sourcing Ultrafill Wholesale: A Buyer's Guide for Clinics and Distributors",
       "slug": "sourcing-ultrafill-wholesale-a-buyer-s-guide-for-clinics-and-distributors",
       "published_at": "2026-06-22T11:37:42.674099+00:00"
+    },
+    {
+      "title": "How Professional Buyers Evaluate Senorita Before Ordering Wholesale",
+      "slug": "how-professional-buyers-evaluate-senorita-before-ordering-wholesale",
+      "published_at": "2026-06-23T06:16:23.701366+00:00"
     }
   ]
 }
