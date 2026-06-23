@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://www.solamedicalsupply.com/sitemap.xml

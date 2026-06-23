@@ -1,17 +1,19 @@
-name: Publish SOLA Journal article
+name: Build SOLA product pages
 on:
   workflow_dispatch:
-  schedule:
-    - cron: "37 2 * * *"
+    inputs:
+      limit:
+        description: "Max product pages to build this run (re-run to continue)"
+        default: "60"
 concurrency:
-  group: sola-blog-publisher
+  group: sola-product-builder
   cancel-in-progress: false
 permissions:
   contents: write
 jobs:
-  publish:
+  build:
     runs-on: ubuntu-latest
-    timeout-minutes: 15
+    timeout-minutes: 50
     steps:
       - uses: actions/checkout@v4
         with:
@@ -24,22 +26,22 @@ jobs:
           BLOG_API_URL: ${{ secrets.BLOG_API_URL }}
           BLOG_API_KEY: ${{ secrets.BLOG_API_KEY }}
           BLOG_MODEL: ${{ secrets.BLOG_MODEL }}
-        run: python scripts/publish_blog.py --check
-      - name: Generate one article
+        run: python scripts/build_product_pages.py --check
+      - name: Build product pages
         env:
           BLOG_API_URL: ${{ secrets.BLOG_API_URL }}
           BLOG_API_KEY: ${{ secrets.BLOG_API_KEY }}
           BLOG_MODEL: ${{ secrets.BLOG_MODEL }}
-        run: python scripts/publish_blog.py
-      - name: Commit article
+        run: python scripts/build_product_pages.py --limit ${{ github.event.inputs.limit }}
+      - name: Commit pages
         run: |
           git config user.name "SOLA Journal Bot"
           git config user.email "bot@solamedicalsupply.com"
-          git add blog/ data/blog_queue.json
+          git add products/ sitemap.xml robots.txt
           if git diff --cached --quiet; then
-            echo "No article generated."
+            echo "No new product pages."
           else
-            git commit -m "Journal: publish scheduled article [skip ci]"
+            git commit -m "Build product pages [skip ci]"
             git pull --rebase origin main
             git push origin HEAD:main
           fi
