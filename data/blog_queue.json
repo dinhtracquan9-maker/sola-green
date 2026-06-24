@@ -23,7 +23,9 @@
       "title": "Asce for Aesthetic Clinics: A Practical Wholesale Sourcing Guide",
       "category": "Exosome & Meso",
       "image": "../assets/images/products/Asce.png",
-      "status": "pending"
+      "status": "published",
+      "slug": "asce-for-aesthetic-clinics-a-practical-wholesale-sourcing-guide",
+      "published_at": "2026-06-24T12:09:03.302899+00:00"
     },
     {
       "keyword": "hairna for clinics",
@@ -1378,6 +1380,11 @@
       "title": "How Professional Buyers Evaluate Senorita Before Ordering Wholesale",
       "slug": "how-professional-buyers-evaluate-senorita-before-ordering-wholesale",
       "published_at": "2026-06-23T06:16:23.701366+00:00"
+    },
+    {
+      "title": "Asce for Aesthetic Clinics: A Practical Wholesale Sourcing Guide",
+      "slug": "asce-for-aesthetic-clinics-a-practical-wholesale-sourcing-guide",
+      "published_at": "2026-06-24T12:09:03.302899+00:00"
     }
   ]
 }
