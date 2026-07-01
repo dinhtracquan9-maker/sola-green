@@ -35,3 +35,12 @@ No build step needed.
 git add .  
 git commit -m "Organize products"  
 git push
+
+```
+git config --global user.name "dinhtracquan9-maker"
+git config --global user.email "dinhtracquan.9@gmail.com"
+git commit -m "Update homepage and styles"
+git push origin main
+git status
+```
+
