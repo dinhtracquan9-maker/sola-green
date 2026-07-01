@@ -107,8 +107,8 @@ function buildEmail(name) {
 
 '<p>To request a quotation or place an order, contact us directly:</p>' +
 '<ul style="line-height:2.1">' +
-  '<li><strong>WhatsApp Korea:</strong> <a href="https://wa.me/821021892675" style="color:#265f42">+82 10-2189-2675</a></li>' +
   '<li><strong>WhatsApp Vietnam:</strong> <a href="https://wa.me/84921909928" style="color:#265f42">+84 92 190 99 28</a></li>' +
+  '<li><strong>WhatsApp Korea:</strong> <a href="https://wa.me/821021892675" style="color:#265f42">+82 10-2189-2675</a></li>' +
   '<li><strong>Email:</strong> hanseongbeauty@gmail.com</li>' +
   '<li><strong>Instagram:</strong> <a href="https://www.instagram.com/hanseong_beauty_global/" style="color:#265f42">@hanseong_beauty_global</a></li>' +
   '<li><strong>Website:</strong> <a href="https://www.hanseongbeauty.com" style="color:#265f42">hanseongbeauty.com</a></li>' +

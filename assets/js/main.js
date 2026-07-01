@@ -1,5 +1,5 @@
-const WHATSAPP_NUMBER = '821021892675';
-const WHATSAPP_VIETNAM = '84921909928';
+const WHATSAPP_NUMBER = '84921909928';
+const WHATSAPP_KOREA = '821021892675';
 const DEFAULT_WHATSAPP_MESSAGE = "Hi! I'm interested in your products and would like a wholesale quotation.";
 const $ = (s, r = document) => r.querySelector(s);
 const $$ = (s, r = document) => [...r.querySelectorAll(s)];
@@ -13,21 +13,21 @@ function renderSiteChrome() {
   const page = location.pathname.split(/[\\/]/).pop() || 'index.html';
   const section = inBlog ? 'journal' : page.replace('.html', '');
   const active = key => section === key ? ' class="active"' : '';
-  const header = `<div class="topbar"><div class="wrap"><span>HANSEONG BEAUTY GLOBAL · Korea & Vietnam</span><a data-wa>WhatsApp +82 10-2189-2675 →</a></div></div>
+  const header = `<div class="topbar"><div class="wrap"><span>HANSEONG BEAUTY GLOBAL · Korea & Vietnam</span><a data-wa>WhatsApp +84 92 190 99 28 →</a></div></div>
     <nav class="nav"><div class="wrap nav-inner"><a class="brand brand-logo" href="${base}index.html" aria-label="HANSEONG BEAUTY GLOBAL home"><img src="${base}assets/icons/logoNgang.png" alt="HANSEONG BEAUTY GLOBAL"></a><button class="menu" type="button" aria-label="Open navigation" aria-expanded="false">Menu</button><div class="links">
     <a${active('index')} href="${base}index.html">Home</a><a${active('products')} href="${base}products.html">Products</a><a${active('brands')} href="${base}brands.html">Brands</a><a${active('shipping')} href="${base}shipping.html">Shipping</a><a${active('about')} href="${base}about.html">About</a><a${active('faq')} href="${base}faq.html">FAQ</a><a${active('journal')} href="${base}blog/index.html">Journal</a><a${active('contact')} href="${base}contact.html">Contact</a><a class="btn primary" data-wa>Request a quote</a></div></div></nav>`;
   document.querySelector('.topbar')?.remove();
   document.querySelector('.nav')?.remove();
   document.body.insertAdjacentHTML('afterbegin', header);
 
-  const footer = `<footer class="footer new-footer"><div class="wrap"><div class="footer-top"><div class="footer-brand"><div class="footer-logo"><img src="${base}assets/icons/logoFooter.png" alt="HANSEONG BEAUTY GLOBAL"></div><p>Professional aesthetic wholesale supply for clinics, spas, resellers and distributors worldwide.</p><div class="footer-social"><a href="https://www.instagram.com/hanseong_beauty_global/" target="_blank" rel="noopener">@hanseong_beauty_global</a><a href="https://www.facebook.com/hanseongbeautyglobal/" target="_blank" rel="noopener">Facebook</a></div></div><div><b>Explore</b><a href="${base}products.html">Products</a><a href="${base}brands.html">Brands</a><a href="${base}shipping.html">Shipping</a><a href="${base}blog/index.html">Journal</a><a href="${base}about.html">About HANSEONG</a></div><div><b>Contact</b><a data-wa>WhatsApp Korea: +82 10-2189-2675</a><a class="wa-vietnam">WhatsApp Vietnam: +84 92 190 99 28</a><a href="mailto:hanseongbeauty@gmail.com">hanseongbeauty@gmail.com</a></div><div class="footer-addresses"><b>Our offices</b><address><strong>Korea Headquarters</strong>Seoul Finance Center, 36 Sejong-daero, Jung-gu, Seoul 04520, South Korea</address><address><strong>Vietnam Office</strong>Kim Hoan Building, 19 Duy Tan, Cau Giay District, Hanoi 113000, Vietnam</address></div></div><div class="footer-bottom"><span>© 2026 HANSEONG BEAUTY GLOBAL</span><span>Professional buyers only · Product availability varies by market</span></div></div></footer>`;
+  const footer = `<footer class="footer new-footer"><div class="wrap"><div class="footer-top"><div class="footer-brand"><div class="footer-logo"><img src="${base}assets/icons/logoFooter.png" alt="HANSEONG BEAUTY GLOBAL"></div><p>Professional aesthetic wholesale supply for clinics, spas, resellers and distributors worldwide.</p><div class="footer-social"><a href="https://www.instagram.com/hanseong_beauty_global/" target="_blank" rel="noopener">@hanseong_beauty_global</a><a href="https://www.facebook.com/hanseongbeautyglobal/" target="_blank" rel="noopener">Facebook</a></div></div><div><b>Explore</b><a href="${base}products.html">Products</a><a href="${base}brands.html">Brands</a><a href="${base}shipping.html">Shipping</a><a href="${base}blog/index.html">Journal</a><a href="${base}about.html">About HANSEONG</a></div><div><b>Contact</b><a data-wa>WhatsApp Vietnam: +84 92 190 99 28</a><a class="wa-korea">WhatsApp Korea: +82 10-2189-2675</a><a href="mailto:hanseongbeauty@gmail.com">hanseongbeauty@gmail.com</a></div><div class="footer-addresses"><b>Our offices</b><address><strong>Korea Headquarters</strong>Seoul Finance Center, 36 Sejong-daero, Jung-gu, Seoul 04520, South Korea</address><address><strong>Vietnam Office</strong>Kim Hoan Building, 19 Duy Tan, Cau Giay District, Hanoi 113000, Vietnam</address></div></div><div class="footer-bottom"><span>© 2026 HANSEONG BEAUTY GLOBAL</span><span>Professional buyers only · Product availability varies by market</span></div></div></footer>`;
   document.querySelector('.footer')?.remove();
   document.body.insertAdjacentHTML('beforeend', footer);
 }
 
 renderSiteChrome();
 
-$$('.wa-vietnam').forEach(a => a.href = wa(undefined, WHATSAPP_VIETNAM));
+$('.wa-korea').forEach(a => a.href = wa(undefined, WHATSAPP_KOREA));
 
 $('.menu')?.addEventListener('click', e => {
   $('.links')?.classList.toggle('open');
@@ -124,3 +124,53 @@ function setupForm() {
 }
 
 setupProductSections(); setupFilters(); renderBrands(); setupForm();
+
+
+// About-page count-up
+(function initCountUp() {
+  var counters = Array.from(document.querySelectorAll('[data-count]'));
+  if (!counters.length) return;
+
+  var reduceMotion = window.matchMedia && window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+
+  function finishCounter(el) {
+    el.textContent = (el.dataset.count || '0') + (el.dataset.suffix || '');
+  }
+
+  function animateCounter(el) {
+    if (el.dataset.counted === 'true') return;
+    el.dataset.counted = 'true';
+    var target = Number(el.dataset.count || 0);
+    if (reduceMotion || !Number.isFinite(target)) {
+      finishCounter(el);
+      return;
+    }
+    var start = performance.now();
+    var duration = 1250;
+    function frame(now) {
+      var progress = Math.min((now - start) / duration, 1);
+      var eased = 1 - Math.pow(1 - progress, 3);
+      el.textContent = Math.round(target * eased) + (el.dataset.suffix || '');
+      if (progress < 1) requestAnimationFrame(frame);
+    }
+    requestAnimationFrame(frame);
+  }
+
+  if (!('IntersectionObserver' in window)) {
+    counters.forEach(animateCounter);
+    return;
+  }
+
+  var observer = new IntersectionObserver(function(entries) {
+    entries.forEach(function(entry) {
+      if (!entry.isIntersecting) return;
+      animateCounter(entry.target);
+      observer.unobserve(entry.target);
+    });
+  }, { threshold: 0.45 });
+
+  counters.forEach(function(el) {
+    if (!reduceMotion) el.textContent = '0' + (el.dataset.suffix || '');
+    observer.observe(el);
+  });
+})();
