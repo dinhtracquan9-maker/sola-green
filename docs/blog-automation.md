@@ -1,4 +1,4 @@
-# SOLA Journal — Quy trình đăng bài SEO tự động
+# HANSEONG Journal — Quy trình đăng bài SEO tự động
 
 Tự động: chọn chủ đề trong hàng đợi → AI viết bài chuẩn SEO → sinh file HTML trong `/blog/`
 → thêm card vào `/blog/index.html` → commit & push lên `main` → Vercel tự deploy.
@@ -22,7 +22,7 @@ Vào GitHub repo → **Settings → Secrets and variables → Actions → New re
 > Muốn dùng **Claude (Anthropic)**: API của Claude là `/v1/messages` (khác định dạng) — cần chỉnh script một chút, nhắn mình làm giúp.
 
 ## Kết nối Vercel (deploy tự động)
-Đảm bảo project Vercel đã liên kết repo `solamedicalsupply-ops/sola-medical-supply`, **Production Branch = `main`**.
+Đảm bảo project Vercel đã liên kết repo `dinhtracquan9-maker/sola-green`, **Production Branch = `main`**.
 Mỗi lần Action push lên `main`, Vercel tự build & deploy. (Commit của bot có `[skip ci]` để không kích hoạt lại Action.)
 
 ## Thêm / sửa chủ đề
@@ -33,7 +33,7 @@ Mở `data/blog_queue.json`, thêm vào `topics[]`:
 Mỗi lần chạy lấy 1 chủ đề `pending` cũ nhất → khi xong đổi thành `published`. Hết `pending` thì Action bỏ qua (không lỗi).
 
 ## Cách dùng
-- **Chạy thử ngay (không chờ lịch):** GitHub → tab **Actions** → *Publish SOLA Journal article* → **Run workflow**.
+- **Chạy thử ngay (không chờ lịch):** GitHub → tab **Actions** → *Publish HANSEONG Journal article* → **Run workflow**.
 - **Tự động:** giữ nguyên, mỗi sáng Thứ Hai bài mới tự lên.
 - **Đổi lịch:** sửa dòng `cron` trong workflow (vd `0 1 * * 1,4` = Thứ Hai & Thứ Năm).
 

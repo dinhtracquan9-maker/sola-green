@@ -1,8 +1,10 @@
-const WHATSAPP_NUMBER = '84981778670';
+const WHATSAPP_NUMBER = '821021892675';
+const WHATSAPP_VIETNAM = '84921909928';
+const DEFAULT_WHATSAPP_MESSAGE = "Hi! I'm interested in your products and would like a wholesale quotation.";
 const $ = (s, r = document) => r.querySelector(s);
 const $$ = (s, r = document) => [...r.querySelectorAll(s)];
 const allProducts = window.SOLA_PRODUCTS || [];
-const wa = (text = 'Hello SOLA Medical Supply, I would like to request a wholesale quotation.') => `https://wa.me/${WHATSAPP_NUMBER}?text=${encodeURIComponent(text)}`;
+const wa = (text = DEFAULT_WHATSAPP_MESSAGE, number = WHATSAPP_NUMBER) => `https://wa.me/${number}?text=${encodeURIComponent(text)}`;
 const slugify = s => s.toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '');
 
 function renderSiteChrome() {
@@ -11,19 +13,21 @@ function renderSiteChrome() {
   const page = location.pathname.split(/[\\/]/).pop() || 'index.html';
   const section = inBlog ? 'journal' : page.replace('.html', '');
   const active = key => section === key ? ' class="active"' : '';
-  const header = `<div class="topbar"><div class="wrap"><span>Professional aesthetic wholesale · Worldwide shipping support</span><a data-wa>Talk to a specialist →</a></div></div>
-    <nav class="nav"><div class="wrap nav-inner"><a class="brand" href="${base}index.html"><img src="${base}assets/icons/logoNgang.png" alt="SOLA Medical Supply"></a><button class="menu" type="button" aria-label="Open navigation" aria-expanded="false">Menu</button><div class="links">
+  const header = `<div class="topbar"><div class="wrap"><span>HANSEONG BEAUTY GLOBAL · Korea & Vietnam</span><a data-wa>WhatsApp +82 10-2189-2675 →</a></div></div>
+    <nav class="nav"><div class="wrap nav-inner"><a class="brand brand-logo" href="${base}index.html" aria-label="HANSEONG BEAUTY GLOBAL home"><img src="${base}assets/icons/logoNgang.png" alt="HANSEONG BEAUTY GLOBAL"></a><button class="menu" type="button" aria-label="Open navigation" aria-expanded="false">Menu</button><div class="links">
     <a${active('index')} href="${base}index.html">Home</a><a${active('products')} href="${base}products.html">Products</a><a${active('brands')} href="${base}brands.html">Brands</a><a${active('shipping')} href="${base}shipping.html">Shipping</a><a${active('about')} href="${base}about.html">About</a><a${active('faq')} href="${base}faq.html">FAQ</a><a${active('journal')} href="${base}blog/index.html">Journal</a><a${active('contact')} href="${base}contact.html">Contact</a><a class="btn primary" data-wa>Request a quote</a></div></div></nav>`;
   document.querySelector('.topbar')?.remove();
   document.querySelector('.nav')?.remove();
   document.body.insertAdjacentHTML('afterbegin', header);
 
-  const footer = `<footer class="footer new-footer"><div class="wrap"><div class="footer-top"><div><img src="${base}assets/icons/logoNgang.png" alt="SOLA"><p>Professional aesthetic wholesale supply for clinics, spas, resellers and distributors worldwide.</p></div><div><b>Explore</b><a href="${base}products.html">Products</a><a href="${base}brands.html">Brands</a><a href="${base}shipping.html">Shipping</a><a href="${base}blog/index.html">Journal</a></div><div><b>Company</b><a href="${base}about.html">About SOLA</a><a href="${base}faq.html">FAQ</a><a href="${base}contact.html">Contact</a></div><div><b>Contact</b><a data-wa>WhatsApp: +84 98 177 86 70</a><a href="mailto:sales@solamedicalsupply.com">Email: sales@solamedicalsupply.com</a></div></div><div class="footer-bottom"><span>© 2026 SOLA Medical Supply</span><span>Professional buyers only · Product availability varies by market</span></div></div></footer>`;
+  const footer = `<footer class="footer new-footer"><div class="wrap"><div class="footer-top"><div class="footer-brand"><div class="footer-logo"><img src="${base}assets/icons/logoFooter.png" alt="HANSEONG BEAUTY GLOBAL"></div><p>Professional aesthetic wholesale supply for clinics, spas, resellers and distributors worldwide.</p><div class="footer-social"><a href="https://www.instagram.com/hanseong_beauty_global/" target="_blank" rel="noopener">@hanseong_beauty_global</a><a href="https://www.facebook.com/hanseongbeautyglobal/" target="_blank" rel="noopener">Facebook</a></div></div><div><b>Explore</b><a href="${base}products.html">Products</a><a href="${base}brands.html">Brands</a><a href="${base}shipping.html">Shipping</a><a href="${base}blog/index.html">Journal</a><a href="${base}about.html">About HANSEONG</a></div><div><b>Contact</b><a data-wa>WhatsApp Korea: +82 10-2189-2675</a><a class="wa-vietnam">WhatsApp Vietnam: +84 92 190 99 28</a><a href="mailto:hanseongbeauty@gmail.com">hanseongbeauty@gmail.com</a></div><div class="footer-addresses"><b>Our offices</b><address><strong>Korea Headquarters</strong>Seoul Finance Center, 36 Sejong-daero, Jung-gu, Seoul 04520, South Korea</address><address><strong>Vietnam Office</strong>Kim Hoan Building, 19 Duy Tan, Cau Giay District, Hanoi 113000, Vietnam</address></div></div><div class="footer-bottom"><span>© 2026 HANSEONG BEAUTY GLOBAL</span><span>Professional buyers only · Product availability varies by market</span></div></div></footer>`;
   document.querySelector('.footer')?.remove();
   document.body.insertAdjacentHTML('beforeend', footer);
 }
 
 renderSiteChrome();
+
+$$('.wa-vietnam').forEach(a => a.href = wa(undefined, WHATSAPP_VIETNAM));
 
 $('.menu')?.addEventListener('click', e => {
   $('.links')?.classList.toggle('open');
@@ -39,7 +43,7 @@ function productCard(p) {
   const selected = quoteList.has(p.name);
   const action = $('[data-quote-drawer]')
     ? `<button class="add-quote ${selected ? 'selected' : ''}" data-add-quote="${p.name.replace(/"/g, '&quot;')}">${selected ? 'Added ✓' : '+ Add to quote'}</button>`
-    : `<a class="add-quote" href="${wa('Hello SOLA Medical Supply, please quote: ' + p.name)}" target="_blank">Request quotation →</a>`;
+    : `<a class="add-quote" href="${wa(`${DEFAULT_WHATSAPP_MESSAGE}\nProduct: ${p.name}`)}" target="_blank">Request quotation →</a>`;
   const url = `products/${slugify(p.name)}.html`;
   return `<article class="product">
     <figure><a href="${url}"><img src="${p.image}" alt="${p.name}" loading="lazy" decoding="async"></a></figure>
@@ -81,7 +85,7 @@ document.addEventListener('click', e => {
 
 $('[data-send-quote]')?.addEventListener('click', () => {
   const items = [...quoteList.keys()].map((name, i) => `${i + 1}. ${name} — Qty:`).join('\n');
-  window.open(wa(`Hello SOLA Medical Supply, please quote the following products:\n\n${items}\n\nDestination country:`), '_blank');
+  window.open(wa(`Hi! I'm interested in the following products and would like a wholesale quotation:\n\n${items}\n\nDestination country:`), '_blank');
 });
 
 function setupProductSections() {
@@ -116,7 +120,7 @@ function renderBrands() {
 
 function setupForm() {
   const f = $('[data-quote-form]'); if (!f) return;
-  f.addEventListener('submit', e => { e.preventDefault(); const d = new FormData(f); window.open(wa(`Hello SOLA Medical Supply,\nName: ${d.get('name') || ''}\nCountry: ${d.get('country') || ''}\nProducts: ${d.get('products') || ''}\nQuantity: ${d.get('quantity') || ''}\nMessage: ${d.get('message') || ''}`), '_blank'); });
+  f.addEventListener('submit', e => { e.preventDefault(); const d = new FormData(f); window.open(wa(`Hi! I'm interested in your products and would like a wholesale quotation.\nName: ${d.get('name') || ''}\nCountry: ${d.get('country') || ''}\nProducts: ${d.get('products') || ''}\nQuantity: ${d.get('quantity') || ''}\nMessage: ${d.get('message') || ''}`), '_blank'); });
 }
 
 setupProductSections(); setupFilters(); renderBrands(); setupForm();

@@ -1,4 +1,4 @@
-# SOLA Medical Supply — Ultimate Static Website
+# HANSEONG BEAUTY GLOBAL — Ultimate Static Website
 
 Premium multi-page static B2B catalogue website.
 

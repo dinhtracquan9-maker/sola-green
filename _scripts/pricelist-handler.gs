@@ -1,5 +1,5 @@
 // ============================================================
-// SOLA Medical Supply — Price List Lead Capture
+// HANSEONG BEAUTY GLOBAL — Price List Lead Capture
 // Google Apps Script Web App
 //
 // SETUP (5 minutes):
@@ -24,8 +24,8 @@ const CONFIG = {
   SHEET_ID:     'YOUR_GOOGLE_SHEET_ID',   // ← replace this
   PDF_FILE_ID:  'YOUR_PDF_FILE_ID',        // ← replace this
   SHEET_NAME:   'Price List Leads',
-  SENDER_NAME:  'SOLA Medical Supply',
-  EMAIL_SUBJECT:'SOLA Medical Supply — Your Wholesale Price List',
+  SENDER_NAME:  'HANSEONG BEAUTY GLOBAL',
+  EMAIL_SUBJECT:'HANSEONG BEAUTY GLOBAL — Your Wholesale Price List',
   TIMEZONE:     'Asia/Ho_Chi_Minh'
 };
 
@@ -52,7 +52,7 @@ function doPost(e) {
     if (email) {
       const pdfFile = DriveApp.getFileById(CONFIG.PDF_FILE_ID);
       const blob    = pdfFile.getBlob()
-        .setName('SOLA Medical Supply - Wholesale Price List.pdf');
+        .setName('HANSEONG BEAUTY GLOBAL - Wholesale Price List.pdf');
 
       MailApp.sendEmail({
         to:          email,
@@ -78,7 +78,7 @@ function doPost(e) {
 // Handles GET requests — useful to test the deployment is live
 function doGet() {
   return ContentService
-    .createTextOutput('SOLA Price List Handler — running OK.')
+    .createTextOutput('HANSEONG BEAUTY GLOBAL Price List Handler — running OK.')
     .setMimeType(ContentService.MimeType.TEXT);
 }
 
@@ -87,17 +87,17 @@ function buildEmail(name) {
   return '<!DOCTYPE html>' +
 '<html><body style="font-family:Arial,sans-serif;max-width:600px;margin:0 auto;padding:24px;color:#1a1a1a">' +
 
-'<div style="border-bottom:3px solid #e84f8a;padding-bottom:20px;margin-bottom:28px">' +
-  '<h2 style="margin:0;color:#571f38;font-size:22px">SOLA Medical Supply</h2>' +
-  '<p style="margin:4px 0 0;color:#9b7a8c;font-size:13px">Professional Aesthetic Wholesale</p>' +
+'<div style="border-bottom:3px solid #508f6f;padding-bottom:20px;margin-bottom:28px">' +
+  '<h2 style="margin:0;color:#163b28;font-size:22px">HANSEONG BEAUTY GLOBAL</h2>' +
+  '<p style="margin:4px 0 0;color:#508f6f;font-size:13px">Professional Aesthetic Wholesale</p>' +
 '</div>' +
 
 '<p>' + greeting + ',</p>' +
-'<p>Thank you for your interest in SOLA Medical Supply. Please find attached our <strong>complete wholesale price list</strong>.</p>' +
+'<p>Thank you for your interest in HANSEONG BEAUTY GLOBAL. Please find attached our <strong>complete wholesale price list</strong>.</p>' +
 
-'<div style="background:#f6dfe9;border-radius:12px;padding:20px;margin:24px 0">' +
-  '<p style="margin:0 0 10px;font-weight:700;color:#571f38">What\'s included:</p>' +
-  '<ul style="margin:0;padding-left:20px;line-height:1.9;color:#571f38">' +
+'<div style="background:#e6efe9;border-radius:12px;padding:20px;margin:24px 0">' +
+  '<p style="margin:0 0 10px;font-weight:700;color:#163b28">What\'s included:</p>' +
+  '<ul style="margin:0;padding-left:20px;line-height:1.9;color:#265f42">' +
     '<li>190+ wholesale products</li>' +
     '<li>Dermal fillers, skin boosters, toxins, mesotherapy &amp; more</li>' +
     '<li>Organised by category and brand of origin</li>' +
@@ -107,16 +107,18 @@ function buildEmail(name) {
 
 '<p>To request a quotation or place an order, contact us directly:</p>' +
 '<ul style="line-height:2.1">' +
-  '<li><strong>WhatsApp:</strong> <a href="https://wa.me/84981778670" style="color:#e84f8a">+84 98 177 86 70</a></li>' +
-  '<li><strong>Email:</strong> solamedicalsupply@gmail.com</li>' +
-  '<li><strong>Website:</strong> <a href="https://www.solamedicalsupply.com" style="color:#e84f8a">solamedicalsupply.com</a></li>' +
+  '<li><strong>WhatsApp Korea:</strong> <a href="https://wa.me/821021892675" style="color:#265f42">+82 10-2189-2675</a></li>' +
+  '<li><strong>WhatsApp Vietnam:</strong> <a href="https://wa.me/84921909928" style="color:#265f42">+84 92 190 99 28</a></li>' +
+  '<li><strong>Email:</strong> hanseongbeauty@gmail.com</li>' +
+  '<li><strong>Instagram:</strong> <a href="https://www.instagram.com/hanseong_beauty_global/" style="color:#265f42">@hanseong_beauty_global</a></li>' +
+  '<li><strong>Website:</strong> <a href="https://www.hanseongbeauty.com" style="color:#265f42">hanseongbeauty.com</a></li>' +
 '</ul>' +
 
 '<p>We look forward to working with you.</p>' +
-'<p>Best regards,<br><strong>SOLA Medical Supply</strong></p>' +
+'<p>Best regards,<br><strong>HANSEONG BEAUTY GLOBAL</strong></p>' +
 
-'<div style="margin-top:40px;padding-top:16px;border-top:1px solid #ead9e1;font-size:11px;color:#bbb">' +
-  'Professional buyers only. Availability and pricing subject to change.' +
+'<div style="margin-top:40px;padding-top:16px;border-top:1px solid #c8ded2;font-size:11px;color:#527061">' +
+  '© 2026 HANSEONG BEAUTY GLOBAL · Professional buyers only. Availability and pricing subject to change.' +
 '</div>' +
 '</body></html>';
 }
