@@ -27,7 +27,7 @@ function renderSiteChrome() {
 
 renderSiteChrome();
 
-$('.wa-korea').forEach(a => a.href = wa(undefined, WHATSAPP_KOREA));
+$$('.wa-korea').forEach(a => a.href = wa(undefined, WHATSAPP_KOREA));
 
 $('.menu')?.addEventListener('click', e => {
   $('.links')?.classList.toggle('open');
