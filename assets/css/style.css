@@ -1047,13 +1047,6 @@ th { background: var(--sage); font-weight: 700 }
     .partner-track { animation-duration: 31s }
 }
 
-@media (prefers-reduced-motion: reduce) {
-    .partner-track { animation: none; transform: none }
-    .partner-set[aria-hidden="true"] { display: none }
-    .partner-viewport { overflow-x: auto; -webkit-mask-image: none; mask-image: none; scrollbar-width: thin }
-}
-
-
 @media (max-width: 600px) {
     .brand-strip { display: block; padding: 18px 0 }
     .brand-strip .wrap > span { display: block; text-align: center }
