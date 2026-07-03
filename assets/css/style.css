@@ -1011,7 +1011,7 @@ th { background: var(--sage); font-weight: 700 }
     width: 210px;
     height: 76px;
     overflow: hidden;
-    border-radius: 12px;
+    border-radius: 0;
     background: #508f6f;
     transition: background-color .22s ease;
 }
