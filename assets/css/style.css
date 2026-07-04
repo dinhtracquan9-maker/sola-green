@@ -1058,6 +1058,28 @@ th { background: var(--sage); font-weight: 700 }
 }
 
 /* === CHANNEL HUB === */
+.activity-reel { padding:clamp(64px,7vw,94px) 0;background:#f3f2ed }
+.activity-heading { display:flex;align-items:end;justify-content:space-between;gap:34px;margin-bottom:30px }
+.activity-heading > div > span { color:#9e7b48;font:700 9px/1 'Plus Jakarta Sans',sans-serif;letter-spacing:.18em }
+.activity-heading h2 { margin:13px 0 0;color:#163b28;font-size:clamp(36px,4vw,56px);line-height:1.02;letter-spacing:-.05em }
+.activity-heading h2 em { color:#508f6f;font-style:normal }
+.activity-heading > p { max-width:440px;margin:0;color:#65756d;font-size:14px;line-height:1.7 }
+.activity-gallery { display:flex;gap:12px;height:clamp(430px,45vw,620px) }
+.activity-gallery figure { position:relative;flex:.75 1 0;min-width:0;margin:0;overflow:hidden;border-radius:24px;background:#dfe6e0;box-shadow:0 18px 45px rgba(20,59,40,.08);transition:flex .65s cubic-bezier(.2,.8,.2,1),transform .45s ease,box-shadow .45s ease }
+.activity-gallery .activity-main { flex:1.65 1 0 }
+.activity-gallery:hover figure { flex:.65 1 0 }.activity-gallery figure:hover { flex:1.7 1 0;transform:translateY(-6px);box-shadow:0 30px 64px rgba(20,59,40,.16) }
+.activity-gallery img { width:100%;height:100%;object-fit:cover;transition:transform .8s cubic-bezier(.2,.8,.2,1),filter .45s ease }
+.activity-gallery:hover figure:not(:hover) img { filter:saturate(.72) brightness(.82) }.activity-gallery figure:hover img { transform:scale(1.035) }
+.activity-gallery figcaption { position:absolute;inset:auto 0 0;padding:80px 22px 22px;background:linear-gradient(transparent,rgba(8,35,24,.86));color:#fff;transform:translateY(10px);transition:transform .4s ease }
+.activity-gallery figure:hover figcaption { transform:translateY(0) }
+.activity-gallery figcaption small,.activity-gallery figcaption b { display:block }.activity-gallery figcaption small { margin-bottom:7px;color:rgba(255,255,255,.7);font:700 8px/1 'Plus Jakarta Sans',sans-serif;letter-spacing:.14em }.activity-gallery figcaption b { max-width:340px;font:700 clamp(16px,1.7vw,24px)/1.2 'Plus Jakarta Sans',sans-serif }
+@media (max-width:700px) {
+  .activity-reel { padding:52px 0 }.activity-heading { display:block;margin-bottom:24px;text-align:center }.activity-heading > p { margin:16px auto 0 }
+  .activity-gallery { height:360px;overflow-x:auto;scroll-snap-type:x mandatory;scrollbar-width:none;padding-right:30px }.activity-gallery::-webkit-scrollbar { display:none }
+  .activity-gallery figure,.activity-gallery .activity-main,.activity-gallery:hover figure,.activity-gallery figure:hover { flex:0 0 82%;transform:none;scroll-snap-align:center;border-radius:19px }
+  .activity-gallery:hover figure:not(:hover) img { filter:none }.activity-gallery figcaption { transform:none;padding:70px 17px 17px }
+}
+
 .channel-hub { padding:clamp(62px,7vw,96px) 0;background:#fff }
 .channel-hub-inner { display:grid;grid-template-columns:minmax(280px,.72fr) minmax(520px,1.28fr);gap:clamp(36px,6vw,88px);align-items:center }
 .channel-intro > span { color:#a47e45;font:700 9px/1 'Plus Jakarta Sans',sans-serif;letter-spacing:.18em }
@@ -1185,6 +1207,7 @@ th { background: var(--sage); font-weight: 700 }
 }
 @media (prefers-reduced-motion: reduce) {
     .tg-logo,.tg-message,.tg-live i { animation:none }
+    .activity-gallery figure,.activity-gallery img { transition:none }
 }
 
 /* === WHOLESALE NAVIGATION 2026 === */
@@ -1193,6 +1216,7 @@ th { background: var(--sage); font-weight: 700 }
 .top-socials { display:flex;align-items:center;gap:7px }
 .top-socials > span { margin-right:3px;color:rgba(255,255,255,.45);font-size:8px;letter-spacing:.14em }
 .top-socials a { display:grid;place-items:center;width:26px;height:26px;border:1px solid rgba(255,255,255,.17);border-radius:50%;color:#fff;font:700 8px/1 Manrope,sans-serif;transition:background .2s ease,border-color .2s ease,transform .2s ease }
+.top-socials a svg { width:14px;height:14px;fill:currentColor }
 .top-socials a:hover { transform:translateY(-2px);border-color:rgba(255,255,255,.45);background:rgba(255,255,255,.1) }
 .topbar-note { color:rgba(255,255,255,.74);font-size:9px;font-weight:600;letter-spacing:.13em;text-align:center }
 .topbar .top-wa { justify-self:end;display:flex;align-items:center;gap:8px;color:#fff;font:700 9px/1 'Plus Jakarta Sans',sans-serif;letter-spacing:.06em }
