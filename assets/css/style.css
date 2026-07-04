@@ -1057,6 +1057,41 @@ th { background: var(--sage); font-weight: 700 }
     .category-marquee::-webkit-scrollbar { display: none }
 }
 
+/* === CHANNEL HUB === */
+.channel-hub { padding:clamp(62px,7vw,96px) 0;background:#fff }
+.channel-hub-inner { display:grid;grid-template-columns:minmax(280px,.72fr) minmax(520px,1.28fr);gap:clamp(36px,6vw,88px);align-items:center }
+.channel-intro > span { color:#a47e45;font:700 9px/1 'Plus Jakarta Sans',sans-serif;letter-spacing:.18em }
+.channel-intro h2 { margin:17px 0 18px;color:#163b28;font-size:clamp(38px,4.2vw,58px);line-height:1.02;letter-spacing:-.052em }
+.channel-intro h2 em { color:#508f6f;font-style:normal }
+.channel-intro p { max-width:510px;margin:0;color:#64746b;font-size:14px;line-height:1.75 }
+.channel-grid { display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:12px }
+.channel-card { display:flex;align-items:center;gap:15px;min-height:118px;padding:18px;border:1px solid #e3ebe5;border-radius:20px;background:#f8faf8;color:#163b28;box-shadow:0 12px 32px rgba(20,59,40,.055);transition:transform .22s ease,border-color .22s ease,box-shadow .22s ease }
+.channel-card:hover { transform:translateY(-4px);border-color:#c5d8ca;box-shadow:0 18px 40px rgba(20,59,40,.1) }
+.channel-card > span:last-child { min-width:0 }.channel-card small,.channel-card b,.channel-card em { display:block }
+.channel-card small { margin-bottom:5px;color:#809088;font:700 7px/1.2 'Plus Jakarta Sans',sans-serif;letter-spacing:.13em }
+.channel-card b { color:inherit;font:700 17px/1.2 'Plus Jakarta Sans',sans-serif }
+.channel-card em { margin-top:5px;color:#718078;font-size:10px;font-style:normal;line-height:1.4 }
+.channel-icon { display:grid;place-items:center;flex:0 0 48px;width:48px;height:48px;border-radius:15px;background:#e8f2eb;color:#17683a }
+.channel-icon svg { width:25px;height:25px;fill:currentColor }
+.channel-wa { grid-column:1/-1;min-height:126px;border-color:transparent;background:linear-gradient(118deg,#163b28,#077437);color:#fff;box-shadow:0 22px 46px rgba(5,92,35,.2) }
+.channel-wa:hover { border-color:transparent;box-shadow:0 27px 52px rgba(5,92,35,.27) }
+.channel-wa .channel-icon { background:rgba(255,255,255,.13);color:#fff }.channel-wa small,.channel-wa em { color:rgba(255,255,255,.7) }.channel-wa b { font-size:22px }
+.channel-tg .channel-icon { background:#e6f5fb;color:#229ed9 }.channel-ig .channel-icon { background:#f6ecf2;color:#a63871 }.channel-fb .channel-icon { background:#eaf0fb;color:#2864aa }
+
+@media (max-width:900px) {
+  .channel-hub-inner { grid-template-columns:1fr;gap:28px }
+  .channel-intro { text-align:center }.channel-intro p { margin-inline:auto }
+}
+@media (max-width:600px) {
+  .channel-hub { padding:48px 0 }
+  .channel-intro h2 { font-size:36px }
+  .channel-grid { gap:9px }
+  .channel-card { min-height:104px;padding:14px;gap:11px;border-radius:16px }
+  .channel-wa { min-height:112px }
+  .channel-icon { flex-basis:42px;width:42px;height:42px;border-radius:13px }.channel-icon svg { width:22px;height:22px }
+  .channel-card b { font-size:14px }.channel-card em { font-size:9px }.channel-wa b { font-size:18px }
+}
+
 /* === TELEGRAM COMMUNITY INVITE === */
 .telegram-invite {
     padding: clamp(58px,7vw,92px) 0;
@@ -1096,7 +1131,8 @@ th { background: var(--sage); font-weight: 700 }
     border-radius:15px;background:#fff;color:#07552f;font:700 13px/1.2 'Plus Jakarta Sans',sans-serif;
     box-shadow:0 18px 42px rgba(1,30,28,.24);transition:transform .22s ease,box-shadow .22s ease,background .22s ease;
 }
-.telegram-cta b { display:grid;place-items:center;width:30px;height:30px;border-radius:50%;background:#229ed9;color:#fff;font-size:16px }
+.telegram-cta b { display:grid;place-items:center;width:30px;height:30px;border-radius:50%;background:#229ed9;color:#fff }
+.telegram-cta b svg { width:17px;height:17px;fill:currentColor }
 .telegram-cta:hover { transform:translateY(-3px);background:#f4fffb;box-shadow:0 23px 48px rgba(1,30,28,.3) }
 .telegram-copy > small { display:block;margin-top:14px;color:rgba(255,255,255,.54);font-size:10px;letter-spacing:.04em }
 .telegram-visual { position:relative;min-height:520px;align-self:stretch }
@@ -1139,7 +1175,7 @@ th { background: var(--sage); font-weight: 700 }
     .telegram-tags { margin:20px 0 22px;gap:7px }
     .telegram-tags span { padding:8px 10px;font-size:10px }
     .telegram-cta { width:100%;min-width:0;padding-left:17px;gap:10px }
-    .telegram-visual { min-height:340px }
+    .telegram-visual { min-height:310px }
     .telegram-visual:before { width:270px;height:270px }
     .tg-orbit-one { width:330px;height:330px }.tg-orbit-two { width:230px;height:230px }
     .tg-logo { width:96px;height:96px;border-radius:29px }.tg-logo svg { width:56px;height:56px }
@@ -1227,7 +1263,7 @@ th { background: var(--sage); font-weight: 700 }
     .mobile-menu-head { display:block;grid-column:1/-1;padding:2px 3px 12px;border-bottom:1px solid #e1e7e2 }
     .mobile-menu-head span,.mobile-menu-head b { display:block }.mobile-menu-head span { color:#799084;font-size:8px;font-weight:700;letter-spacing:.16em;text-transform:uppercase }.mobile-menu-head b { margin-top:3px;color:#163b28;font:700 18px/1.2 'Plus Jakarta Sans',sans-serif;letter-spacing:-.035em }
     .nav-2026 .links > a:not(.btn) { display:flex;align-items:center;justify-content:space-between;min-height:48px;padding:12px 13px;border:1px solid #e7ece8;border-radius:13px;background:#f8faf8;font-size:11px;font-weight:600 }
-    .nav-2026 .links > a:not(.btn):after { content:"↗";position:static;display:block;width:auto;height:auto;background:none;transform:none;color:#86a092;font-size:11px }
+    .nav-2026 .links > a:not(.btn):after { display:none }
     .nav-2026 .nav-mobile-community { grid-column:1/-1;min-height:52px!important;border-color:#d7edf6!important;background:#eff9fd!important;color:#1579a7!important }
     .nav-2026 .nav-mobile-quote { grid-column:1/-1;min-height:50px;margin:0;border-radius:13px }
     .new-home .lux-hero { padding-top:124px }
