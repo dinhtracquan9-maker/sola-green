@@ -1229,7 +1229,7 @@ th { background: var(--sage); font-weight: 700 }
 .top-wa b { color:#8de1cb;font-size:12px }
 .nav.nav-2026 { padding:11px 0;background:linear-gradient(180deg,rgba(238,249,241,.96),rgba(249,252,247,.92));backdrop-filter:blur(18px);border:0 }
 .nav-2026 .nav-inner { position:relative;display:grid;grid-template-columns:minmax(0,1fr) auto minmax(0,1fr);gap:24px;height:76px;padding:0 17px;border:1px solid rgba(11,122,67,.13);border-radius:18px;background:linear-gradient(180deg,rgba(255,255,255,.99),rgba(250,255,251,.96));box-shadow:0 15px 38px rgba(11,122,67,.105) }
-.nav-2026 .brand-logo { position:absolute;left:50%;top:50%;grid-column:auto;width:132px;height:36px;flex-basis:auto;place-self:auto;transform:translate(-50%,-50%) }
+.nav-2026 .brand-logo { position:absolute;left:50%;top:calc(50% + 2px);grid-column:auto;width:132px;height:36px;flex-basis:auto;place-self:auto;transform:translate(-50%,-50%) }
 .nav-2026 .brand-logo img { transform:none }
 .nav-2026 .links { grid-column:1;grid-row:1;justify-self:start;gap:18px;font-size:12px }
 .nav-2026 .links > a:not(.btn) { position:relative;padding:29px 0 27px }
@@ -1279,8 +1279,8 @@ th { background: var(--sage); font-weight: 700 }
     .new-home .nav.nav-2026 { background:transparent;margin-bottom:-78px }
     .nav-2026 .wrap { position:relative }
     .nav-2026 .nav-inner { display:grid;grid-template-columns:44px minmax(0,1fr) 44px;gap:8px;height:58px;padding:0 8px;border-radius:17px;background:rgba(255,255,255,.97);box-shadow:0 14px 36px rgba(20,57,41,.13) }
-    .nav-2026 .brand-logo { position:static;left:auto;top:auto;grid-column:2;grid-row:1;justify-self:center;align-self:center;order:0;width:116px;height:32px;flex-basis:auto;margin:0;transform:none }
-    .nav-2026 .brand-logo img { transform:none }
+    .nav-2026 .brand-logo { position:absolute;left:50%;top:calc(50% + 1px);grid-column:auto;grid-row:auto;justify-self:auto;align-self:auto;order:0;width:116px;height:32px;flex-basis:auto;margin:0;transform:translate(-50%,-50%) }
+    .nav-2026 .brand-logo img { transform:translateX(1px) }
     .nav-2026 .nav-actions { display:contents }
     .nav-2026 .nav-whatsapp { grid-column:3;grid-row:1;align-self:center;justify-self:center;width:40px;height:40px;padding:0;border-radius:50%;justify-content:center;box-shadow:0 8px 20px rgba(5,92,35,.24) }
     .nav-2026 .nav-whatsapp svg { width:20px;height:20px }
