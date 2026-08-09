@@ -11,7 +11,7 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Manrope:wght@600;700&family=Plus+Jakarta+Sans:wght@600;700;800&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="assets/css/style.css?v=20260806-topbar9">
+  <link rel="stylesheet" href="assets/css/style.css?v=20260809-skinmeso4">
 </head>
 <body class="contact-page">
   <div class="topbar"><div class="wrap"><span>Professional aesthetic wholesale Â· Worldwide shipping support</span><a data-wa>Talk to a specialist â†’</a></div></div>
@@ -31,7 +31,7 @@
     <div class="pricelist-panel" id="pricelist">
       <div class="pricelist-left">
         <span class="pricelist-badge">EXCLUSIVE</span>
-        <h2>Want to see our<br>wholesale pricing?</h2>
+        <h2>Want to see our<br>wholesale pricing</h2>
         <p>Submit your email and WhatsApp below. We'll send you the complete HANSEONG BEAUTY GLOBAL price list â€” 190+ products with current wholesale rates, organised by category and brand.</p>
         <ul class="pricelist-perks">
           <li><span>âœ“</span> 190+ products with wholesale pricing</li>
@@ -53,7 +53,7 @@
           <div class="pl-success-check">âœ“</div>
           <b>Price list sent to your email!</b>
           <p>Check your inbox â€” the PDF should arrive within a few minutes. Also feel free to message us directly on WhatsApp.</p>
-          <a class="btn primary pl-success-wa" id="pl-wa-btn" href="https://wa.me/84921909928" target="_blank" rel="noopener">Chat on WhatsApp â†’</a>
+          <a class="btn primary pl-success-wa" id="pl-wa-btn" href="https://wa.me/84921909928?text=Hi!%20I%27m%20interested%20in%20your%20products%20and%20would%20like%20a%20wholesale%20quotation." target="_blank" rel="noopener">Chat on WhatsApp â†’</a>
         </div>
       </div>
     </div>
@@ -128,8 +128,8 @@
   <a class="whatsapp" data-wa>WhatsApp</a>
 
   <script type="application/ld+json">{"@context":"https://schema.org","@type":"Organization","name":"HANSEONG BEAUTY GLOBAL","url":"https://www.hanseongbeauty.com","email":"hanseongbeauty@gmail.com","sameAs":["https://www.instagram.com/hanseong_beauty_global/","https://www.facebook.com/hanseongbeautyglobal/"],"contactPoint":[{"@type":"ContactPoint","telephone":"+821021892675","contactType":"sales","availableLanguage":"English"},{"@type":"ContactPoint","telephone":"+84921909928","contactType":"sales","availableLanguage":["English","Vietnamese"]}],"location":[{"@type":"Place","name":"Korea Headquarters","address":"Seoul Finance Center, 36 Sejong-daero, Jung-gu, Seoul 04520, South Korea"},{"@type":"Place","name":"Vietnam Office","address":"Kim Hoan Building, 19 Duy Tan, Cau Giay District, Hanoi 113000, Vietnam"}]}</script>
-  <script src="assets/data/products.js?v=20260727"></script>
-  <script src="assets/js/main.js?v=20260806-social8"></script>
+  <script src="assets/data/products.js?v=20260809-skinmeso4"></script>
+  <script src="assets/js/main.js?v=20260809-skinmeso4"></script>
   <script>
     // Tab switcher
     document.querySelectorAll('.contact-tab').forEach(tab => {
@@ -148,7 +148,7 @@
         e.preventDefault();
         const d = new FormData(emailForm);
         const body = `Hello HANSEONG BEAUTY GLOBAL,\n\nCompany/Name: ${d.get('name') || ''}\nDestination country: ${d.get('country') || ''}\nProducts needed: ${d.get('products') || ''}\nQuantity: ${d.get('quantity') || ''}\nAdditional notes: ${d.get('message') || ''}`;
-        window.location.href = `mailto:hanseongbeauty@gmail.com?subject=Wholesale%20Quotation%20Request&body=${encodeURIComponent(body)}`;
+        window.location.href = `mailto:hanseongbeauty@gmail.comsubject=Wholesale%20Quotation%20Request&body=${encodeURIComponent(body)}`;
       });
     }
 
@@ -187,7 +187,7 @@
         // Update WhatsApp button with pre-filled message so owner gets a ping too
         if (plWaBtn) {
           var msg = "Hi! I'm interested in your products and would like a wholesale quotation.\n\nI just requested the wholesale price list.\nName: " + name + '\nEmail: ' + email + '\nWhatsApp: ' + whatsapp;
-          plWaBtn.href = 'https://wa.me/84921909928?text=' + encodeURIComponent(msg);
+          plWaBtn.href = 'https://wa.me/84921909928?text=Hi!%20I%27m%20interested%20in%20your%20products%20and%20would%20like%20a%20wholesale%20quotation.text=' + encodeURIComponent(msg);
         }
 
         // Show success immediately (don't wait for network response)

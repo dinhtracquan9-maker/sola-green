@@ -1478,3 +1478,72 @@ th { background: var(--sage); font-weight: 700 }
 @media(prefers-reduced-motion:reduce){.as-gallery img{transition:none}}
 
 @media(max-width:680px){.about-story-page .whatsapp{left:auto;right:14px;padding:11px 15px}}
+
+/* Product menu, catalogue filters, and mobile header polish */
+.product-nav-wrap{position:relative;display:flex;align-items:center}
+.product-nav-wrap>a{position:relative;padding:29px 0 27px;color:inherit;text-decoration:none}
+.product-nav-wrap>a:after{content:"";position:absolute;left:0;right:0;bottom:20px;height:1px;background:var(--forest);transform:scaleX(0);transform-origin:right;transition:transform .2s ease}
+.product-nav-wrap:hover>a:after,.product-nav-wrap>a.active:after{transform:scaleX(1);transform-origin:left}
+.product-mega{position:absolute;top:calc(100% + 16px);left:-18px;width:min(680px,calc(100vw - 48px));padding:22px;border:1px solid rgba(22,59,40,.13);border-radius:26px;background:rgba(255,255,255,.985);box-shadow:0 28px 90px rgba(12,45,30,.18);backdrop-filter:blur(18px);opacity:0;visibility:hidden;pointer-events:none;transform:translateY(10px);transition:opacity .2s ease,transform .22s ease,visibility .2s ease;z-index:95}
+.product-mega:before{content:"";position:absolute;top:-18px;left:0;right:0;height:18px}
+.product-nav-wrap:hover .product-mega,.product-nav-wrap:focus-within .product-mega{opacity:1;visibility:visible;pointer-events:auto;transform:translateY(0)}
+.mega-head{display:flex;justify-content:space-between;gap:18px;align-items:center;padding-bottom:13px;border-bottom:1px solid #e5ebe6}
+.mega-head span{font:800 11px/1 'Plus Jakarta Sans',sans-serif;letter-spacing:.14em;text-transform:uppercase;color:#0b6130}
+.mega-head a{font:700 12px Inter,sans-serif;color:#b08b50;text-decoration:none}
+.mega-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:10px;margin-top:14px}
+.mega-grid a{display:block;padding:15px;border:1px solid #e6eee8;border-radius:16px;background:linear-gradient(135deg,#fff,#f5faf6);text-decoration:none;color:#173a28;transition:transform .2s ease,border-color .2s ease,box-shadow .2s ease,background .2s ease}
+.mega-grid a:hover{border-color:rgba(5,92,35,.25);background:linear-gradient(135deg,#f7fff9,#e9f6ee);transform:translateY(-2px);box-shadow:0 14px 30px rgba(22,59,40,.10)}
+.mega-grid b{display:block;font:700 14px/1.2 'Plus Jakarta Sans',sans-serif}
+.mega-grid small{display:block;margin-top:5px;color:#68786f;font-size:11px;line-height:1.45}
+.mega-actions{display:flex;gap:10px;margin-top:14px}
+.mega-actions a{display:flex;align-items:center;justify-content:center;min-height:38px;padding:0 15px;border-radius:999px;background:#f0f7f2;color:#055c23;text-decoration:none;font:700 11px 'Plus Jakarta Sans',sans-serif}
+.mega-actions a:first-child{background:var(--gradient-brand);color:#fff}
+.product-filter-panel{margin:30px 0 28px;padding:18px;border:1px solid rgba(5,92,35,.14);border-radius:22px;background:linear-gradient(135deg,rgba(255,255,255,.96),rgba(246,253,248,.92));box-shadow:0 18px 50px rgba(5,92,35,.06)}
+.filter-panel-head{display:flex;align-items:center;justify-content:space-between;gap:14px}
+.filter-panel-head span{display:inline-flex;align-items:center;gap:9px;padding:8px 14px;border:1px solid rgba(5,92,35,.14);border-radius:999px;background:#fff;color:#055c23;font:800 10px/1 'Plus Jakarta Sans',sans-serif;letter-spacing:.13em;text-transform:uppercase}
+.filter-panel-head span i{width:6px;height:6px;border-radius:50%;background:#0b8d4a}
+.clear-filters{border:0;background:transparent;color:#b08b50;font:800 12px 'Plus Jakarta Sans',sans-serif;cursor:pointer}
+.product-filter-panel h2{margin:13px 0 14px;font-size:18px;line-height:1.2;color:#173a28}
+.product-tools-enhanced{display:grid;grid-template-columns:1.7fr 1fr 1fr;gap:9px;align-items:end;margin:0}
+.product-tools-enhanced label{display:grid;gap:7px}
+.product-tools-enhanced label span{font:800 9px/1 'Plus Jakarta Sans',sans-serif;letter-spacing:.13em;text-transform:uppercase;color:#7f6848}
+.quick-category-pills{display:flex;flex-wrap:wrap;gap:8px;margin-top:12px}
+.quick-category-pills button{border:1px solid rgba(5,92,35,.18);border-radius:999px;background:#fff;color:#173a28;padding:8px 12px;font:800 11px 'Plus Jakarta Sans',sans-serif;cursor:pointer}
+.quick-category-pills button.is-active{background:var(--gradient-brand);border-color:transparent;color:#fff}
+.results-bar{margin-top:13px;color:#6d7b73;font:700 12px Inter,sans-serif}
+@media(max-width:1120px){
+  .product-nav-wrap{display:block}
+  .product-nav-wrap>a{display:flex!important;align-items:center;justify-content:space-between;padding:12px 13px!important;border-radius:11px;background:#f5f7f4}
+  .product-nav-wrap>a:after{display:none}
+  .product-mega{display:none;position:static;width:100%;grid-column:1/-1;margin-top:7px;padding:14px;border-radius:16px;box-shadow:none;opacity:1;visibility:visible;pointer-events:auto;transform:none}
+  .links.open .product-mega{display:block}
+  .mega-grid{grid-template-columns:1fr}
+  .mega-actions{display:none}
+}
+@media(max-width:760px){
+  .product-tools-enhanced{grid-template-columns:1fr}
+  .product-filter-panel{padding:14px}
+  .filter-panel-head{align-items:flex-start;flex-direction:column}
+  .quick-category-pills{gap:6px}
+  .quick-category-pills button{font-size:10px;padding:8px 10px}
+}
+@media(max-width:700px){
+  .topbar{height:40px!important;display:flex!important;align-items:center!important}
+  .topbar-grid{height:40px!important;min-height:40px!important;display:flex!important;align-items:center!important;justify-content:center!important;padding:0!important}
+  .topbar .top-wa{
+    position:relative!important;
+    top:auto!important;
+    height:40px!important;
+    min-height:40px!important;
+    padding:0!important;
+    margin:0 auto!important;
+    transform:translateY(5px);
+    line-height:1!important;
+    display:inline-flex!important;
+    align-items:center!important;
+    justify-content:center!important;
+    gap:8px!important;
+  }
+  .topbar .top-wa span{display:block!important;line-height:1!important;padding:0!important;margin:0!important}
+  .topbar .top-wa i{margin:0!important;flex:0 0 7px!important}
+}

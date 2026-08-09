@@ -6,7 +6,7 @@ ROOT = Path(__file__).resolve().parents[1]
 PRODUCTS_JS = ROOT / "assets" / "data" / "products.js"
 OUT = ROOT / "products"
 SITE = "https://www.hanseongbeauty.com"
-WA = "https://wa.me/84921909928"
+WA_BASE = "https://wa.me/84921909928"
 
 def env(name):
     v = os.getenv(name, "").strip()
@@ -51,7 +51,7 @@ body_html: 250-350 words using ONLY these tags: h2, h3, p, ul, li, strong, em. U
     try: text = result["choices"][0]["message"]["content"].strip()
     except (KeyError, IndexError, TypeError) as exc:
         raise RuntimeError("API is not chat/completions compatible") from exc
-    text = re.sub(r"^```(?:json)?\s*|\s*```$", "", text, flags=re.I)
+    text = re.sub(r"^```(:json)\s*|\s*```$", "", text, flags=re.I)
     return json.loads(text)
 
 def validate(a):
@@ -67,7 +67,8 @@ def page(p, a):
     cat = html.escape(p["category"]); brand = html.escape(p["brand"] or "International")
     origin = html.escape(p["origin"] or "International"); img = "../" + p["image"]
     img_abs = f"{SITE}/{p['image']}"; url = f"{SITE}/products/{p['slug']}.html"
-    wa_link = f"{WA}?text=" + urllib.parse.quote(f"Hi! I'm interested in your products and would like a wholesale quotation.\nProduct: {p['name']}\nDestination country: ")
+    wa_text = f"Hi! I'm interested in your products and would like a wholesale quotation.\nProduct: {p['name']}\nDestination country: "
+    wa_link = f"{WA_BASE}?text={urllib.parse.quote(wa_text)}"
     ld = json.dumps({"@context": "https://schema.org", "@graph": [
         {"@type": "Product", "name": p["name"], "image": img_abs, "category": p["category"],
          "brand": {"@type": "Brand", "name": p["brand"] or "HANSEONG BEAUTY GLOBAL"},
@@ -77,7 +78,7 @@ def page(p, a):
             {"@type": "ListItem", "position": 2, "name": "Products", "item": f"{SITE}/products.html"},
             {"@type": "ListItem", "position": 3, "name": p["name"], "item": url}]}]}, ensure_ascii=False)
     nav = '<nav class="nav"><div class="wrap nav-inner"><a class="brand brand-logo" href="../index.html"><img src="../assets/icons/logoHeader.png" alt="HANSEONG BEAUTY GLOBAL"></a><div class="article-nav"><a href="../products.html">← All products</a><a class="btn primary" href="../products.html">Build a quote list</a></div></div></nav>'
-    footer = '<footer class="footer new-footer"><div class="wrap"><div class="footer-top"><div><img src="../assets/icons/logoHeader.png" alt="HANSEONG BEAUTY GLOBAL"><p>Professional aesthetic wholesale supply for clinics, spas, resellers and distributors worldwide.</p></div><div><b>Explore</b><a href="../products.html">Products</a><a href="../brands.html">Brands</a><a href="../blog/index.html">Journal</a></div><div><b>Company</b><a href="../about.html">About HANSEONG</a><a href="../faq.html">FAQ</a><a href="../contact.html">Contact</a></div><div><b>Connect</b><a href="https://wa.me/84921909928">WhatsApp</a><a href="mailto:hanseongbeauty@gmail.com">Email sales</a></div></div><div class="footer-bottom"><span>© 2026 HANSEONG BEAUTY GLOBAL</span><span>Professional buyers only · Availability varies by market</span></div></div></footer>'
+    footer = '<footer class="footer new-footer"><div class="wrap"><div class="footer-top"><div><img src="../assets/icons/logoHeader.png" alt="HANSEONG BEAUTY GLOBAL"><p>Professional aesthetic wholesale supply for clinics, spas, resellers and distributors worldwide.</p></div><div><b>Explore</b><a href="../products.html">Products</a><a href="../brands.html">Brands</a><a href="../blog/index.html">Journal</a></div><div><b>Company</b><a href="../about.html">About HANSEONG</a><a href="../faq.html">FAQ</a><a href="../contact.html">Contact</a></div><div><b>Connect</b><a href="https://wa.me/84921909928?text=Hi!%20I%27m%20interested%20in%20your%20products%20and%20would%20like%20a%20wholesale%20quotation.">WhatsApp</a><a href="mailto:hanseongbeauty@gmail.com">Email sales</a></div></div><div class="footer-bottom"><span>© 2026 HANSEONG BEAUTY GLOBAL</span><span>Professional buyers only · Availability varies by market</span></div></div></footer>'
     return f'''<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>{name} Wholesale | HANSEONG BEAUTY GLOBAL</title><meta name="description" content="{desc}"><link rel="canonical" href="{url}"><meta property="og:type" content="product"><meta property="og:title" content="{name} Wholesale | HANSEONG BEAUTY GLOBAL"><meta property="og:description" content="{desc}"><meta property="og:image" content="{img_abs}"><link rel="icon" href="../assets/icons/logo.png"><link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Manrope:wght@600;700&family=Plus+Jakarta+Sans:wght@600;700;800&display=swap" rel="stylesheet"><link rel="stylesheet" href="../assets/css/style.css"><script type="application/ld+json">{ld}</script></head><body class="article-page">{nav}<main><header class="article-hero"><div class="wrap article-wrap"><span>{html.escape(p["category"].upper())} · WHOLESALE</span><h1>{name}</h1><p>{desc}</p><div class="article-meta"><a href="../index.html">Home</a> › <a href="../products.html">Products</a> › {name}</div></div></header><div class="article-cover wrap"><img src="{img}" alt="{name}" loading="lazy"></div><article class="article-body article-wrap"><p class="article-intro">{html.escape(a["intro"])}</p>{a["body_html"]}<div class="article-callout"><b>Product at a glance</b><ul><li><strong>Brand:</strong> {brand}</li><li><strong>Origin:</strong> {origin}</li><li><strong>Category:</strong> {cat}</li></ul></div><div class="article-end"><h2>Request a wholesale quote for {name}</h2><p>Send your destination country and quantity. Our team will help you check current availability and shipping options.</p><a class="btn primary" href="{wa_link}">Request quotation on WhatsApp →</a></div><p class="disclaimer">General procurement information for professional buyers. Not medical, legal, regulatory or import advice. Product availability varies by market.</p></article></main>{footer}<script src="../assets/js/main.js"></script></body></html>'''
 
 def build_sitemap():
@@ -91,7 +92,7 @@ def build_sitemap():
     today = datetime.now(timezone.utc).strftime("%Y-%m-%d")
     body = "".join(f"<url><loc>{u}</loc><lastmod>{today}</lastmod></url>" for u in urls)
     (ROOT / "sitemap.xml").write_text(
-        f'<?xml version="1.0" encoding="UTF-8"?><urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">{body}</urlset>\n',
+        f'<xml version="1.0" encoding="UTF-8"><urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">{body}</urlset>\n',
         encoding="utf-8")
     (ROOT / "robots.txt").write_text(f"User-agent: *\nAllow: /\nSitemap: {SITE}/sitemap.xml\n", encoding="utf-8")
     return len(urls)
