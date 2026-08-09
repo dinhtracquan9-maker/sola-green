@@ -11,6 +11,8 @@ const instagramIcon = `<svg viewBox="0 0 32 32" aria-hidden="true"><rect x="5" y
 const facebookIcon = `<svg viewBox="0 0 32 32" aria-hidden="true"><path d="M18.5 28V17.3h3.6l.5-4.2h-4.1v-2.7c0-1.2.3-2 2.1-2h2.2V4.7c-.4-.1-1.7-.2-3.2-.2-3.2 0-5.4 1.9-5.4 5.5v3.1h-3.6v4.2h3.6V28h4.3Z"/></svg>`;
 const telegramIcon = `<svg viewBox="0 0 64 64" aria-hidden="true"><path d="M52.4 11.7 7.8 28.9c-3 1.2-3 2.8-.6 3.5l11.4 3.6 4.4 13.4c.5 1.5.3 2.1 1.8 2.1 1.2 0 1.7-.5 2.4-1.1l5.5-5.3 11.5 8.5c2.1 1.2 3.7.6 4.2-2l7.6-35.8c.8-3.1-1.2-4.6-3.6-3.1ZM22.6 35.2l22.3-14.1c1.1-.7 2.1-.3 1.3.4L27.8 38.1l-.7 7.3-4.5-10.2Z"/></svg>`;
 const whatsappIcon = `<svg viewBox="0 0 32 32" aria-hidden="true"><path d="M16 3A13 13 0 0 0 5 23l-2 6 6-2a13 13 0 1 0 7-24Zm0 23a10 10 0 0 1-5-1.3l-.7-.4-3.4 1 1.1-3.2-.4-.7A10 10 0 1 1 16 26Zm5.5-7.5c-.3-.2-1.8-.9-2.1-1-.3-.1-.5-.2-.7.2l-1 1.2c-.2.2-.4.2-.7.1-1.9-.9-3.2-2.2-4.1-4-.2-.3 0-.5.1-.7l.7-.8c.2-.2.2-.4.3-.6.1-.2 0-.5 0-.7l-1-2.3c-.2-.5-.5-.5-.7-.5h-.6c-.2 0-.6.1-.9.4-.3.3-1.2 1.2-1.2 2.9s1.2 3.4 1.4 3.6c.2.2 2.4 3.7 5.9 5.1.8.4 1.5.6 2 .7.8.3 1.6.2 2.2.1.7-.1 1.8-.8 2.1-1.5.3-.7.3-1.4.2-1.5-.1-.1-.3-.2-.6-.4Z"/></svg>`;
+const searchIcon = `<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M11 4a7 7 0 1 1 0 14 7 7 0 0 1 0-14Z" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"/><path d="m16.5 16.5 3.5 3.5" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>`;
+const closeIcon = `<svg viewBox="0 0 24 24" aria-hidden="true"><path d="m6 6 12 12M18 6 6 18" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>`;
 
 function renderSiteChrome() {
   const path = location.pathname.replace(/\\/g, '/');
@@ -74,10 +76,20 @@ function renderSiteChrome() {
           <div class="nav-actions">
             <details class="nav-more"><summary>More <span>⌄</span></summary><div><a${active('shipping')} href="${base}shipping.html">Shipping</a><a${active('faq')} href="${base}faq.html">FAQ</a><a${active('contact')} href="${base}contact.html">Contact</a></div></details>
             <a class="nav-community" href="https://t.me/+3aZiyqL7GRQyMDBl" target="_blank" rel="noopener noreferrer"><i></i> Community</a>
+            <button class="nav-search" type="button" aria-label="Search products" aria-expanded="false" aria-controls="site-search-drawer">${searchIcon}<span>Search products</span></button>
             <a class="nav-whatsapp" data-wa aria-label="Get a wholesale quote on WhatsApp">${whatsappIcon}<span>WhatsApp quote</span></a>
             <button class="menu" type="button" aria-label="Open navigation" aria-expanded="false"><span></span><span></span><span></span><b>Menu</b></button>
           </div>
         </div>
+        <form class="site-search-drawer" id="site-search-drawer" action="${base}products.html" method="get" role="search" aria-label="Search the catalogue" hidden>
+          <label for="site-search-input">Search the catalogue</label>
+          <div class="site-search-box">
+            ${searchIcon}
+            <input id="site-search-input" name="q" type="search" placeholder="Search products or brands..." autocomplete="off">
+            <button class="site-search-submit" type="submit">Search</button>
+            <button class="site-search-close" type="button" aria-label="Close search">${closeIcon}</button>
+          </div>
+        </form>
       </div>
     </nav>`;
 
@@ -117,6 +129,27 @@ $('.menu').addEventListener('click', e => {
   $('.links').classList.toggle('open');
   e.currentTarget.setAttribute('aria-expanded', $('.links').classList.contains('open') ? 'true' : 'false');
 });
+
+(function setupSiteSearch() {
+  const trigger = $('.nav-search');
+  const drawer = $('#site-search-drawer');
+  const input = $('#site-search-input');
+  const close = $('.site-search-close');
+  if (!trigger || !drawer || !input || !close) return;
+
+  const setOpen = open => {
+    drawer.hidden = !open;
+    drawer.classList.toggle('open', open);
+    trigger.setAttribute('aria-expanded', open ? 'true' : 'false');
+    if (open) window.setTimeout(() => input.focus(), 80);
+  };
+
+  trigger.addEventListener('click', () => setOpen(drawer.hidden));
+  close.addEventListener('click', () => setOpen(false));
+  document.addEventListener('keydown', event => {
+    if (event.key === 'Escape' && !drawer.hidden) setOpen(false);
+  });
+})();
 
 $$('.links a').forEach(link => link.addEventListener('click', () => {
   $('.links').classList.remove('open');
@@ -211,6 +244,8 @@ function setupFilters() {
   const params = new URLSearchParams(location.search);
   const requestedCategory = params.get('category');
   if (requestedCategory && [...cat.options].some(o => o.value === requestedCategory)) cat.value = requestedCategory;
+  const initialSearch = params.get('q') || params.get('search') || '';
+  if (initialSearch) search.value = initialSearch;
 
   const apply = () => {
     const q = search.value.toLowerCase().trim();
@@ -240,6 +275,12 @@ function setupFilters() {
     renderGrid(grid, filteredProducts);
   });
   apply();
+  if (params.get('focus') === 'search' || initialSearch) {
+    window.setTimeout(() => {
+      $('.product-filter-panel')?.scrollIntoView({ behavior: 'smooth', block: 'center' });
+      search.focus({ preventScroll: true });
+    }, 180);
+  }
 }
 
 function renderBrands() {
