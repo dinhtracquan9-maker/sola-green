@@ -1265,7 +1265,7 @@ th { background: var(--sage); font-weight: 700 }
 .nav-whatsapp:hover { transform:translateY(-2px);box-shadow:0 14px 30px rgba(11,122,67,.28),inset 0 1px rgba(255,255,255,.24) }
 .nav-whatsapp svg { width:18px;height:18px;fill:currentColor }
 .nav-whatsapp b { display:grid;place-items:center;width:24px;height:24px;border-radius:50%;background:rgba(255,255,255,.16);font-size:12px }
-.mobile-menu-head { display:none }
+.mobile-menu-head,.mobile-menu-search { display:none }
 .nav-2026 .menu { position:relative;display:none;width:43px;height:43px;padding:0;border:0;border-radius:50%;background:transparent;color:var(--forest) }
 .nav-2026 .menu > span { position:absolute;left:12px;width:19px;height:1.5px;border-radius:2px;background:currentColor;transition:top .24s ease,transform .24s ease,opacity .18s ease }
 .nav-2026 .menu > span:nth-child(1) { top:14px }.nav-2026 .menu > span:nth-child(2) { top:20px }.nav-2026 .menu > span:nth-child(3) { top:26px }
@@ -1318,6 +1318,8 @@ th { background: var(--sage); font-weight: 700 }
     .mobile-menu-head span,.mobile-menu-head b { display:block }.mobile-menu-head span { color:#799084;font-size:8px;font-weight:700;letter-spacing:.16em;text-transform:uppercase }.mobile-menu-head b { margin-top:3px;color:#163b28;font:700 18px/1.2 'Plus Jakarta Sans',sans-serif;letter-spacing:-.035em }
     .nav-2026 .links > a:not(.btn) { display:flex;align-items:center;justify-content:space-between;min-height:48px;padding:12px 13px;border:1px solid #e7ece8;border-radius:13px;background:#f8faf8;font-size:11px;font-weight:600 }
     .nav-2026 .links > a:not(.btn):after { display:none }
+    .nav-2026 .mobile-menu-search { grid-column:1/-1;display:flex;align-items:center;justify-content:center;gap:9px;min-height:50px;border:1px solid #dbe9df;border-radius:14px;background:linear-gradient(135deg,#f7fff9,#eef8f2);color:#055c23;font:700 12px/1 'Plus Jakarta Sans',sans-serif;letter-spacing:.01em }
+    .nav-2026 .mobile-menu-search svg { width:17px;height:17px }
     .nav-2026 .nav-mobile-community { grid-column:1/-1;min-height:52px!important;border-color:#d7edf6!important;background:#eff9fd!important;color:#1579a7!important }
     .nav-2026 .nav-mobile-quote { grid-column:1/-1;min-height:50px;margin:0;border-radius:13px }
     .new-home .lux-hero { padding-top:124px }
@@ -1561,7 +1563,7 @@ th { background: var(--sage); font-weight: 700 }
     min-height:40px!important;
     padding:0!important;
     margin:0 auto!important;
-    transform:translateY(5px);
+    transform:none!important;
     line-height:1!important;
     display:inline-flex!important;
     align-items:center!important;
@@ -1570,4 +1572,5 @@ th { background: var(--sage); font-weight: 700 }
   }
   .topbar .top-wa span{display:block!important;line-height:1!important;padding:0!important;margin:0!important}
   .topbar .top-wa i{margin:0!important;flex:0 0 7px!important}
+  .nav-2026 .nav-search{display:none!important}
 }

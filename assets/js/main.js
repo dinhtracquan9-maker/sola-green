@@ -61,6 +61,7 @@ function renderSiteChrome() {
         <div class="nav-inner">
           <div class="links">
             <div class="mobile-menu-head"><span>Explore</span><b>HANSEONG BEAUTY</b></div>
+            <button class="mobile-menu-search" type="button" data-mobile-search>${searchIcon}<span>Search catalogue</span></button>
             <a${active('index')} href="${base}index.html">Home</a>
             <div class="product-nav-wrap"><a${active('products')} href="${base}products.html">Products</a>${productMenu}</div>
             <a${active('brands')} href="${base}brands.html">Brands</a>
@@ -132,6 +133,7 @@ $('.menu').addEventListener('click', e => {
 
 (function setupSiteSearch() {
   const trigger = $('.nav-search');
+  const mobileTrigger = $('[data-mobile-search]');
   const drawer = $('#site-search-drawer');
   const input = $('#site-search-input');
   const close = $('.site-search-close');
@@ -145,6 +147,11 @@ $('.menu').addEventListener('click', e => {
   };
 
   trigger.addEventListener('click', () => setOpen(drawer.hidden));
+  mobileTrigger?.addEventListener('click', () => {
+    $('.links')?.classList.remove('open');
+    $('.menu')?.setAttribute('aria-expanded', 'false');
+    setOpen(true);
+  });
   close.addEventListener('click', () => setOpen(false));
   document.addEventListener('keydown', event => {
     if (event.key === 'Escape' && !drawer.hidden) setOpen(false);
@@ -166,6 +173,28 @@ const quoteList = new Map();
 let visibleCount = 24;
 let filteredProducts = allProducts;
 
+const categoryGroups = [
+  { value: 'All', label: 'All product categories', aliases: null },
+  { value: 'Dermal Fillers', label: 'Dermal Fillers', aliases: ['Dermal Fillers', 'Body Filler'] },
+  { value: 'Skin Booster / Meso', label: 'Skin Booster / Meso', aliases: ['Skin Boosters / PN', 'Exosome / Meso', 'Meso / Needles'] },
+  { value: 'Botulinum Toxin', label: 'Botulinum Toxin', aliases: ['Toxin'] },
+  { value: 'Fat Dissolving / Weight Loss', label: 'Fat Dissolving / Weight Loss', aliases: ['Body & Weight Care', 'Weight Management', 'Lipolysis / Body', 'Dissolving / Hyaluronidase'] },
+  { value: 'Wellness / Injection', label: 'Wellness / Injection', aliases: ['Wellness / IV', 'Injection / Medicine'] },
+  { value: 'Supplies / Anesthetic', label: 'Supplies / Anesthetic', aliases: ['Injection Supplies', 'Dental / Anesthetic', 'Numbing / Anesthetic', 'Numbing Cream'] },
+  { value: 'Biostimulator', label: 'Biostimulator', aliases: ['Biostimulator'] }
+];
+
+function displayCategory(p) {
+  const hit = categoryGroups.find(group => group.aliases?.includes(p.category) || group.aliases?.includes(p.tag));
+  return hit?.label || p.category;
+}
+
+function categoryMatches(p, selected) {
+  if (selected === 'All') return true;
+  const group = categoryGroups.find(item => item.value === selected);
+  return group ? group.aliases.includes(p.category) || group.aliases.includes(p.tag) : p.category === selected;
+}
+
 function productCard(p) {
   const selected = quoteList.has(p.name);
   const inProductsDir = location.pathname.replace(/\\/g, '/').includes('/products/');
@@ -180,7 +209,7 @@ function productCard(p) {
     <figure><a href="${url}"><img src="${imageUrl}" alt="${p.name}" loading="lazy" decoding="async"></a></figure>
     <div class="product-body">
       <h3><a href="${url}">${p.name}</a></h3>
-      <div class="meta"><span class="badge">${p.category}</span><span class="badge">${p.brand}</span></div>
+      <div class="meta"><span class="badge">${displayCategory(p)}</span><span class="badge">${p.brand}</span></div>
       <p>${p.origin || 'International'} supply • ${p.tag || 'Available on request'}</p>
       ${action}
     </div>
@@ -236,14 +265,17 @@ function setupFilters() {
   if (!grid || !cat || !brand || !search) return;
 
   const options = list => ['All', ...[...new Set(list)].sort((a, b) => a.localeCompare(b))].map(v => `<option value="${v}">${v}</option>`).join('');
-  cat.innerHTML = options(allProducts.map(p => p.category));
+  cat.innerHTML = categoryGroups.map(group => `<option value="${group.value}">${group.label}</option>`).join('');
   brand.innerHTML = options(allProducts.map(p => p.brand));
   cat.value = 'All';
   brand.value = 'All';
 
   const params = new URLSearchParams(location.search);
   const requestedCategory = params.get('category');
-  if (requestedCategory && [...cat.options].some(o => o.value === requestedCategory)) cat.value = requestedCategory;
+  if (requestedCategory) {
+    const matchedGroup = categoryGroups.find(group => group.value === requestedCategory || group.aliases?.includes(requestedCategory));
+    if (matchedGroup) cat.value = matchedGroup.value;
+  }
   const initialSearch = params.get('q') || params.get('search') || '';
   if (initialSearch) search.value = initialSearch;
 
@@ -251,7 +283,7 @@ function setupFilters() {
     const q = search.value.toLowerCase().trim();
     visibleCount = 24;
     filteredProducts = allProducts.filter(p =>
-      (cat.value === 'All' || p.category === cat.value) &&
+      categoryMatches(p, cat.value) &&
       (brand.value === 'All' || p.brand === brand.value) &&
       (!q || `${p.name} ${p.brand} ${p.category} ${p.origin || ''}`.toLowerCase().includes(q))
     );
