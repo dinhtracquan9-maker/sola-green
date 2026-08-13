@@ -115,13 +115,20 @@ def select_cover(topic):
 
 def related_links(topic):
     category_url = CATEGORY_LINKS.get(topic["category"], "../products.html")
-    product_query = quote(topic["keyword"].replace(" wholesale", "").replace(" supplier", "").strip())
-    refs = "".join(f'<li><a href="{html.escape(url, quote=True)}" target="_blank" rel="noopener noreferrer">{html.escape(label)}</a></li>' for label, url in EXTERNAL_REFERENCES)
-    return f'''<section class="article-links"><h2>Helpful buyer links</h2><h3>Internal HANSEONG resources</h3><ul><li><a href="{category_url}">Browse related products in the HANSEONG catalogue</a></li><li><a href="../products.html?q={product_query}">Search this product in the catalogue</a></li><li><a href="../shipping.html">Review international shipping support</a></li><li><a href="../contact.html">Request a tailored wholesale quote</a></li></ul><h3>External reference points</h3><ul>{refs}</ul></section>'''
+    product_name = topic["keyword"].replace(" wholesale", "").replace(" supplier", "").replace(" sourcing", "").replace(" for clinics", "").strip()
+    product_query = quote(product_name)
+    refs = "".join(
+        f'<li><a href="{html.escape(url, quote=True)}" target="_blank" rel="noopener noreferrer">{html.escape(label)}</a></li>'
+        for label, url in EXTERNAL_REFERENCES
+    )
+    return f'''<section class="article-links"><h2>Buyer research links</h2><div class="article-link-grid"><div><h3>Internal HANSEONG links</h3><ul><li><a href="{category_url}">Browse this product category</a></li><li><a href="../products.html?q={product_query}">Search {html.escape(product_name)} in the catalogue</a></li><li><a href="../brands.html">Compare related brands</a></li><li><a href="../shipping.html">Check international shipping support</a></li><li><a href="../contact.html">Request a wholesale quote</a></li></ul></div><div><h3>External reference links</h3><ul>{refs}</ul></div></div></section>'''
 
 def social_cta(topic):
-    message = quote(f"Hi HANSEONG BEAUTY GLOBAL, I would like a wholesale quote for: {topic['title']}. Destination country:")
-    return f'''<section class="article-contact-panel"><h2>Talk with HANSEONG BEAUTY GLOBAL</h2><p>Send product names, quantities and destination country. The team can help confirm current availability, packaging details and shipping options for professional buyers.</p><div class="article-contact-actions"><a class="btn primary" href="https://wa.me/84921909928?text={message}" target="_blank" rel="noopener">WhatsApp Vietnam: +84 92 190 99 28</a><a class="btn" href="{TELEGRAM_URL}" target="_blank" rel="noopener noreferrer">Telegram community</a><a class="btn" href="{INSTAGRAM_URL}" target="_blank" rel="noopener">Instagram</a><a class="btn" href="{FACEBOOK_URL}" target="_blank" rel="noopener">Facebook</a></div><p class="disclaimer">Quote requests are for professional buyers only. Product availability and import requirements vary by market.</p></section>'''
+    product_name = topic["keyword"].replace(" wholesale", "").replace(" supplier", "").replace(" sourcing", "").replace(" for clinics", "").strip()
+    quote_message = quote(f"Hi HANSEONG BEAUTY GLOBAL, I would like a wholesale quote for {product_name}. Destination country:")
+    shipping_message = quote(f"Hi HANSEONG BEAUTY GLOBAL, I want to check shipping options for {product_name}. Destination country:")
+    price_message = quote("Hi HANSEONG BEAUTY GLOBAL, please send me the full wholesale price list.")
+    return f'''<section class="article-contact-panel"><div class="article-contact-copy"><span>Professional buyer next steps</span><h2>Ready to check availability?</h2><p>Send your product list, estimated quantity and destination country. HANSEONG BEAUTY GLOBAL can help confirm current availability, packaging details and shipment options for professional buyers.</p></div><div class="article-contact-actions"><a class="btn primary" href="https://wa.me/84921909928?text={quote_message}" target="_blank" rel="noopener">Get wholesale quote</a><a class="btn" href="https://wa.me/84921909928?text={shipping_message}" target="_blank" rel="noopener">Check shipping</a><a class="btn" href="https://wa.me/84921909928?text={price_message}" target="_blank" rel="noopener">Request price list</a><a class="btn" href="{TELEGRAM_URL}" target="_blank" rel="noopener noreferrer">Join Telegram</a></div><div class="article-social-row"><a href="{INSTAGRAM_URL}" target="_blank" rel="noopener">Instagram</a><a href="{FACEBOOK_URL}" target="_blank" rel="noopener">Facebook</a><a href="../contact.html">Contact page</a></div><p class="disclaimer">General educational content for professional buyers. Product availability, import requirements and documentation vary by destination market.</p></section>'''
 
 def page(a, slug, category, date, image, topic):
     title, desc = html.escape(a["title"]), html.escape(a["meta_description"], quote=True)
