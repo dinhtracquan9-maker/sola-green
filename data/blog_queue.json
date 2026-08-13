@@ -59,7 +59,9 @@
       "title": "Sourcing Sedy Fill Wholesale: A Buyer's Guide for Clinics and Distributors",
       "category": "Body Fillers",
       "image": "../assets/images/bestSeller/sedyFill.png",
-      "status": "pending"
+      "status": "published",
+      "slug": "sourcing-sedy-fill-wholesale-a-buyer-s-guide-for-clinics-and-distributors",
+      "published_at": "2026-08-13T16:43:56.655502+00:00"
     },
     {
       "keyword": "buy lemon bottle wholesale",
@@ -1406,6 +1408,11 @@
       "title": "A Procurement Guide to Olidia for Spas, Clinics and Resellers",
       "slug": "a-procurement-guide-to-olidia-for-spas-clinics-and-resellers",
       "published_at": "2026-08-13T16:17:06.707705+00:00"
+    },
+    {
+      "title": "Sourcing Sedy Fill Wholesale: A Buyer's Guide for Clinics and Distributors",
+      "slug": "sourcing-sedy-fill-wholesale-a-buyer-s-guide-for-clinics-and-distributors",
+      "published_at": "2026-08-13T16:43:56.655502+00:00"
     }
   ]
 }
