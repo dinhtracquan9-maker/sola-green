@@ -2,7 +2,9 @@ name: Publish HANSEONG Journal article
 on:
   workflow_dispatch:
   schedule:
-    - cron: "37 2 * * *"
+  - cron: "0 1 * * *"
+  - cron: "0 6 * * *"
+  - cron: "0 12 * * *"
 concurrency:
   group: sola-blog-publisher
   cancel-in-progress: false
