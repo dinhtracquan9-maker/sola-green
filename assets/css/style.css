@@ -1810,3 +1810,26 @@ th { background: var(--sage); font-weight: 700 }
     font-size: 22px;
     line-height: 1.05;
 }
+.posts-grid-new .story-card {
+    min-height: 520px;
+}
+
+.posts-grid-new .story-card img {
+    height: 190px;
+    width: 100%;
+    object-fit: contain !important;
+    object-position: center;
+    padding: 6px;
+    background: #fff;
+}
+
+.posts-grid-new .story-card h3 {
+    font-size: 21px;
+    line-height: 1.08;
+    letter-spacing: 0;
+}
+
+.posts-grid-new .story-card p {
+    font-size: 13px;
+    line-height: 1.65;
+}
