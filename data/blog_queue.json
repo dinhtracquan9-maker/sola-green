@@ -67,8 +67,10 @@
       "keyword": "buy lemon bottle wholesale",
       "title": "How Professional Buyers Evaluate Lemon Bottle Before Ordering Wholesale",
       "category": "Lipolysis",
-      "image": "../assets/images/bestSeller/lemonBottle.png",
-      "status": "pending"
+      "image": "../assets/images/Lemon Bottle full image.jpg",
+      "status": "published",
+      "slug": "how-professional-buyers-evaluate-lemon-bottle-before-ordering-wholesale",
+      "published_at": "2026-08-13T17:57:19.441883+00:00"
     },
     {
       "keyword": "mounjaro 2.5mg wholesale supplier",
@@ -1413,6 +1415,11 @@
       "title": "Sourcing Sedy Fill Wholesale: A Buyer's Guide for Clinics and Distributors",
       "slug": "sourcing-sedy-fill-wholesale-a-buyer-s-guide-for-clinics-and-distributors",
       "published_at": "2026-08-13T16:43:56.655502+00:00"
+    },
+    {
+      "title": "How Professional Buyers Evaluate Lemon Bottle Before Ordering Wholesale",
+      "slug": "how-professional-buyers-evaluate-lemon-bottle-before-ordering-wholesale",
+      "published_at": "2026-08-13T17:57:19.441883+00:00"
     }
   ]
 }
