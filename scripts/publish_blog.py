@@ -8,6 +8,9 @@ QUEUE, BLOG = ROOT / "data" / "blog_queue.json", ROOT / "blog"
 INDEX = BLOG / "index.html"
 START, END = "<!-- AUTO_POSTS_START -->", "<!-- AUTO_POSTS_END -->"
 
+DEFAULT_BLOG_API_URL = "https://api.openai.com/v1/chat/completions"
+DEFAULT_BLOG_MODEL = "gpt-4o-mini"
+
 TELEGRAM_URL = "https://t.me/+3aZiyqL7GRQyMDBl"
 INSTAGRAM_URL = "https://www.instagram.com/hanseong_beauty_global/"
 FACEBOOK_URL = "https://www.facebook.com/hanseongbeautyglobal/"
@@ -67,11 +70,14 @@ EXTERNAL_REFERENCES = [
     ("International Trade Administration export solutions", "https://www.trade.gov/export-solutions"),
 ]
 
-def env(name):
+def env_required(name):
     value = os.getenv(name, "").strip()
     if not value:
         raise RuntimeError(f"Missing GitHub secret: {name}")
     return value
+
+def env_optional(name, default):
+    return os.getenv(name, "").strip() or default
 
 def load_queue():
     try:
@@ -94,8 +100,8 @@ CRITICAL LENGTH REQUIREMENT: html_body must contain AT LEAST 950 words of body t
 Internal link context to naturally mention in plain text: product catalogue {category_url}, quote/contact page ../contact.html, shipping support ../shipping.html, brand overview ../brands.html.
 External source context to mention only as general reference topics, not as claims about this product: FDA pages for dermal fillers/botulinum toxin and general export documentation resources.
 Return JSON only: title, meta_description (max 155 chars), excerpt (35-50 words), read_time, html_body. html_body may use only h2, h3, p, ul, li, strong and em tags. Do not output a tags; links are added by the website automation.'''
-    payload = json.dumps({"model": env("BLOG_MODEL"), "temperature": 0.5, "max_tokens": 4000, "messages": [{"role": "system", "content": "You are a careful B2B editor. Return valid JSON only."}, {"role": "user", "content": prompt}]}).encode()
-    request = urllib.request.Request(env("BLOG_API_URL"), data=payload, headers={"Authorization": f"Bearer {env('BLOG_API_KEY')}", "Content-Type": "application/json"}, method="POST")
+    payload = json.dumps({"model": env_optional("BLOG_MODEL", DEFAULT_BLOG_MODEL), "temperature": 0.5, "max_tokens": 4000, "messages": [{"role": "system", "content": "You are a careful B2B editor. Return valid JSON only."}, {"role": "user", "content": prompt}]}).encode()
+    request = urllib.request.Request(env_optional("BLOG_API_URL", DEFAULT_BLOG_API_URL), data=payload, headers={"Authorization": f"Bearer {env_required('BLOG_API_KEY')}", "Content-Type": "application/json"}, method="POST")
     try:
         with urllib.request.urlopen(request, timeout=120) as response:
             result = json.loads(response.read().decode())
@@ -171,9 +177,9 @@ def main():
     parser.add_argument("--check", action="store_true")
     args = parser.parse_args()
     data = load_queue()
-    env("BLOG_API_URL")
-    env("BLOG_API_KEY")
-    env("BLOG_MODEL")
+    env_required("BLOG_API_KEY")
+    env_optional("BLOG_API_URL", DEFAULT_BLOG_API_URL)
+    env_optional("BLOG_MODEL", DEFAULT_BLOG_MODEL)
     if START not in INDEX.read_text(encoding="utf-8"):
         raise RuntimeError("Automation markers missing from blog/index.html")
     if args.check:

@@ -6,19 +6,19 @@ Tự động: chọn chủ đề trong hàng đợi → AI viết bài chuẩn S
 ## Thành phần
 - `data/blog_queue.json` — hàng đợi chủ đề (`topics[]`) và lịch sử (`published[]`).
 - `scripts/publish_blog.py` — sinh 1 bài từ chủ đề `pending` đầu tiên.
-- `.github/workflows/publish-blog.yml` — chạy theo lịch **Thứ Hai 01:00 UTC hằng tuần** (≈ 08:00 giờ VN), hoặc bấm chạy tay (Run workflow).
+- `.github/workflows/publish-blog.yml` — chạy theo lịch **3 lần/ngày**: 01:00, 06:00, 12:00 UTC (≈ 08:00, 13:00, 19:00 giờ VN), hoặc bấm chạy tay (Run workflow).
 - `blog/index.html` — phải còn 2 dấu mốc `<!-- AUTO_POSTS_START -->` và `<!-- AUTO_POSTS_END -->` (card mới chèn ngay sau START).
 
-## CÒN THIẾU để chạy thật: thêm 3 GitHub Secrets
+## Cấu hình GitHub Secrets
 Vào GitHub repo → **Settings → Secrets and variables → Actions → New repository secret**, thêm:
 
 | Secret | Giá trị ví dụ | Ghi chú |
 |---|---|---|
-| `BLOG_API_URL` | `https://api.openai.com/v1/chat/completions` | Endpoint chuẩn OpenAI chat/completions |
-| `BLOG_API_KEY` | `sk-...` | API key của bạn (OpenAI/OpenRouter/DeepSeek...) |
-| `BLOG_MODEL` | `gpt-4o-mini` | Model rẻ, đủ tốt; hoặc `gpt-4o` |
+| `BLOG_API_KEY` | `sk-...` | Bắt buộc — API key OpenAI |
+| `BLOG_API_URL` | `https://api.openai.com/v1/chat/completions` | Không bắt buộc — nếu bỏ trống script dùng endpoint OpenAI mặc định |
+| `BLOG_MODEL` | `gpt-4o-mini` | Không bắt buộc — nếu bỏ trống script dùng model mặc định |
 
-> Script dùng định dạng **OpenAI-compatible**. Dùng OpenRouter/DeepSeek/Groq... chỉ cần đổi URL + key + tên model.
+> Script dùng định dạng **OpenAI-compatible**. Nếu dùng OpenAI thì chỉ cần `BLOG_API_KEY`. Dùng OpenRouter/DeepSeek/Groq... thì thêm URL + key + tên model tương ứng.
 > Muốn dùng **Claude (Anthropic)**: API của Claude là `/v1/messages` (khác định dạng) — cần chỉnh script một chút, nhắn mình làm giúp.
 
 ## Kết nối Vercel (deploy tự động)
@@ -34,7 +34,7 @@ Mỗi lần chạy lấy 1 chủ đề `pending` cũ nhất → khi xong đổi 
 
 ## Cách dùng
 - **Chạy thử ngay (không chờ lịch):** GitHub → tab **Actions** → *Publish HANSEONG Journal article* → **Run workflow**.
-- **Tự động:** giữ nguyên, mỗi sáng Thứ Hai bài mới tự lên.
+- **Tự động:** giữ nguyên, mỗi ngày có tối đa 3 lượt chạy theo lịch 08:00, 13:00, 19:00 giờ VN.
 - **Đổi lịch:** sửa dòng `cron` trong workflow (vd `0 1 * * 1,4` = Thứ Hai & Thứ Năm).
 
 ## An toàn nội dung (đã cài sẵn trong prompt + validate)
