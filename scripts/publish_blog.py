@@ -49,6 +49,50 @@ REAL_IMAGE_RULES = [
     (("mounjaro",), "../assets/images/Mounjaro Image.jpg"),
 ]
 
+IMAGE_EXTENSIONS = {".jpg", ".jpeg", ".png", ".webp", ".jfif"}
+
+REAL_IMAGE_HINTS = (
+    "about/operations",
+    "warehouse",
+    "stock",
+    "inventory",
+    "order",
+    "packing",
+    "shipment",
+    "shipping",
+    "delivery",
+    "tracking",
+    "proof",
+    "community",
+    "conference",
+    "workshop",
+    "clinic",
+    "customer",
+)
+
+PRODUCT_DESIGN_HINTS = (
+    "/products/",
+    "/bestseller/",
+    "/partners/",
+    "productcatalogue",
+    "products-1",
+)
+
+CATEGORY_REAL_PRIORITIES = {
+    "Botulinum Toxin": ("product-selection", "inventory", "stock-room", "warehouse", "order-preparation"),
+    "Dermal Fillers": ("product-selection", "inventory", "stock-room", "warehouse", "order-detail"),
+    "Skin Boosters": ("product-selection", "inventory", "stock-room", "bulk-inventory", "order-detail"),
+    "Skin Boosters / PN": ("product-selection", "inventory", "stock-room", "bulk-inventory", "order-detail"),
+    "Exosome & Meso": ("product-selection", "inventory", "stock-room", "bulk-inventory", "order-detail"),
+    "Biostimulators": ("product-selection", "inventory", "stock-room", "warehouse", "order-detail"),
+    "Body Fillers": ("product-selection", "inventory", "warehouse", "order-preparation"),
+    "Lipolysis": ("product-selection", "inventory", "stock-room", "order-preparation"),
+    "Weight Management": ("product-selection", "inventory", "stock-room", "order-preparation"),
+    "IV & Wellness": ("product-selection", "inventory", "order-detail", "packing-team"),
+    "Injection Supplies": ("packing-team", "order-detail", "warehouse", "stock-room"),
+    "Numbing & Supplies": ("packing-team", "order-detail", "warehouse", "stock-room"),
+}
+
 CATEGORY_LINKS = {
     "Botulinum Toxin": "../products.html?category=Botulinum%20Toxin",
     "Dermal Fillers": "../products.html?category=Dermal%20Fillers",
@@ -135,7 +179,74 @@ def image_exists(article_src):
         return False
     return (ROOT / article_src[3:]).exists()
 
+def article_image_src(path):
+    return "../" + path.relative_to(ROOT).as_posix()
+
+def discover_images():
+    image_root = ROOT / "assets" / "images"
+    if not image_root.exists():
+        return []
+    return [
+        path for path in image_root.rglob("*")
+        if path.is_file() and path.suffix.lower() in IMAGE_EXTENSIONS
+    ]
+
+def image_score(topic, path):
+    path_text = path.relative_to(ROOT).as_posix().lower()
+    filename = path.stem.lower()
+    topic_text = f"{topic.get('keyword', '')} {topic.get('title', '')} {topic.get('category', '')}".lower()
+    score = 0
+
+    if any(hint in path_text for hint in REAL_IMAGE_HINTS):
+        score += 90
+    if "about/operations" in path_text:
+        score += 35
+    if any(hint in path_text for hint in PRODUCT_DESIGN_HINTS):
+        score -= 45
+
+    for hint in CATEGORY_REAL_PRIORITIES.get(topic.get("category", ""), ()):
+        if hint in path_text:
+            score += 28
+
+    topic_words = {
+        word for word in re.findall(r"[a-z0-9]+", topic_text)
+        if len(word) >= 4 and word not in {"wholesale", "supplier", "sourcing", "clinics", "buyers"}
+    }
+    for word in topic_words:
+        if word in filename:
+            score += 18
+
+    if any(word in topic_text for word in ("shipping", "shipment", "delivery", "tracking", "customs", "export")):
+        if any(word in path_text for word in ("shipping", "shipment", "delivery", "tracking", "order", "packing")):
+            score += 40
+    if any(word in topic_text for word in ("documentation", "certificate", "authentic", "qr", "approval")):
+        if any(word in path_text for word in ("order-detail", "product-selection", "proof", "inventory")):
+            score += 35
+    if any(word in topic_text for word in ("partner", "supplier", "request", "quote", "procurement")):
+        if any(word in path_text for word in ("packing-team", "order-preparation", "warehouse", "inventory")):
+            score += 25
+
+    return score
+
+def select_real_cover(topic):
+    ranked = sorted(
+        ((image_score(topic, path), path) for path in discover_images()),
+        key=lambda item: (-item[0], item[1].as_posix().lower())
+    )
+    ranked = [(score, path) for score, path in ranked if score >= 85]
+    if not ranked:
+        return None
+
+    top_score = ranked[0][0]
+    shortlist = [path for score, path in ranked if score >= top_score - 18][:8]
+    seed = sum(ord(char) for char in f"{topic.get('keyword', '')}|{topic.get('title', '')}")
+    return article_image_src(shortlist[seed % len(shortlist)])
+
 def select_cover(topic):
+    real_cover = select_real_cover(topic)
+    if real_cover and image_exists(real_cover):
+        return real_cover
+
     text = f"{topic.get('keyword', '')} {topic.get('title', '')}".lower()
     for needles, image in REAL_IMAGE_RULES:
         if all(needle in text for needle in needles) and image_exists(image):
