@@ -1,4 +1,4 @@
-import argparse, html, json, os, re, sys, urllib.error, urllib.request
+import argparse, html, json, os, re, sys, unicodedata, urllib.error, urllib.request
 from datetime import datetime, timezone
 from pathlib import Path
 from urllib.parse import quote
@@ -6,6 +6,7 @@ from urllib.parse import quote
 ROOT = Path(__file__).resolve().parents[1]
 QUEUE, BLOG = ROOT / "data" / "blog_queue.json", ROOT / "blog"
 INDEX = BLOG / "index.html"
+SEO_LIBRARY = ROOT / "assets" / "images" / "seo-library"
 START, END = "<!-- AUTO_POSTS_START -->", "<!-- AUTO_POSTS_END -->"
 
 DEFAULT_BLOG_API_URL = "https://api.openai.com/v1/chat/completions"
@@ -52,6 +53,7 @@ REAL_IMAGE_RULES = [
 IMAGE_EXTENSIONS = {".jpg", ".jpeg", ".png", ".webp", ".jfif"}
 
 REAL_IMAGE_HINTS = (
+    "seo-library",
     "about/operations",
     "warehouse",
     "stock",
@@ -77,6 +79,40 @@ PRODUCT_DESIGN_HINTS = (
     "productcatalogue",
     "products-1",
 )
+
+GENERIC_IMAGE_WORDS = {
+    "aesthetic",
+    "article",
+    "beauty",
+    "buyer",
+    "buyers",
+    "buying",
+    "clinic",
+    "clinics",
+    "distributor",
+    "distributors",
+    "for",
+    "global",
+    "guide",
+    "hanseong",
+    "image",
+    "international",
+    "medical",
+    "photo",
+    "practical",
+    "product",
+    "products",
+    "professional",
+    "real",
+    "reseller",
+    "resellers",
+    "seo",
+    "source",
+    "sourcing",
+    "supplier",
+    "supply",
+    "wholesale",
+}
 
 CATEGORY_REAL_PRIORITIES = {
     "Botulinum Toxin": ("product-selection", "inventory", "stock-room", "warehouse", "order-preparation"),
@@ -161,6 +197,81 @@ Return JSON only: title, meta_description (max 155 chars), excerpt (35-50 words)
     except json.JSONDecodeError as exc:
         raise RuntimeError(f"Model returned invalid JSON: {exc}") from exc
 
+def clean_product_name(topic):
+    name = topic["keyword"]
+    for phrase in (
+        " wholesale supplier",
+        " wholesale",
+        " supplier",
+        " sourcing",
+        " distributor",
+        " for clinics",
+        " buy ",
+    ):
+        name = name.replace(phrase, " ")
+    return re.sub(r"\s+", " ", name).strip().title()
+
+def fallback_article(topic):
+    product = clean_product_name(topic)
+    category = topic.get("category", "Professional Aesthetic Supply")
+    title = topic.get("title") or f"{product}: Wholesale Sourcing Guide for Clinics and Resellers"
+    meta = f"Practical wholesale sourcing checklist for {product}: stock, documentation, packing, shipping and buyer communication."
+    excerpt = (
+        f"A practical buyer-focused guide for clinics, spas and distributors evaluating {product}. "
+        "Use it to prepare clearer requests, review documentation needs and coordinate shipment support."
+    )
+    html_body = f"""
+<h2>Why professional buyers research {html.escape(product)} before ordering</h2>
+<p>When a clinic, reseller or distribution partner prepares a wholesale order, the product name is only the first part of the decision. Buyers also need to understand available presentation, current stock condition, handling expectations, shipment timing and the information required for a clear quotation. A structured sourcing process helps reduce delays and makes communication easier for both sides.</p>
+<p>{html.escape(product)} sits within the {html.escape(category)} category, where professional buyers often compare several options before confirming quantities. The safest approach is to prepare a written product list, desired units, destination country and any special packing notes before requesting a quote. This gives the supplier enough context to check availability and provide a practical next step.</p>
+<h2>Start with product identification and exact requirements</h2>
+<p>Before requesting wholesale pricing, buyers should confirm the exact product name, version, size or unit count, and the quantity needed. Small differences in packaging or concentration can create confusion if they are not written clearly. If a clinic is ordering for multiple branches, it is useful to separate quantities by location so packing and documentation can be planned more accurately.</p>
+<p>Photographs can also support the request. Real stock photos, previous carton photos or a reference image from a product catalogue help both sides confirm that they are discussing the same item. For repeat buyers, keeping a simple internal list of approved products can make future ordering faster and more consistent.</p>
+<h2>Documentation and authenticity checks</h2>
+<p>Professional buyers should always ask what documentation can be shared for the destination market. This may include invoice details, product labels, batch or expiry information, packing summaries or other documents required for internal review. Requirements vary by market, so the buyer should also check local import rules and professional-use restrictions before confirming an order.</p>
+<p>Authenticity review should be treated as a normal part of procurement. Buyers can ask for visible product photos before shipment, request carton photos after packing and keep all communication records in one place. These steps do not replace local compliance review, but they help create a cleaner purchasing trail.</p>
+<h2>Stock, packing and order preparation</h2>
+<p>For wholesale orders, packing quality is just as important as the product list. Clinics and distributors often need items grouped by category, branch, client order or treatment room. Clear packing instructions help the warehouse prepare cartons that are easier to receive and check after delivery.</p>
+<p>If the order includes mixed products, ask whether the items can be separated by product line and labelled clearly. For larger shipments, request carton counts, approximate dimensions and weight when available. These details help the buyer estimate receiving space and coordinate local delivery.</p>
+<h2>Shipping communication and destination planning</h2>
+<p>Shipping expectations should be confirmed before payment whenever possible. Buyers should share the destination country, city, preferred timeline and any known customs considerations. A reliable supplier will usually explain that transit time can vary by route, courier, customs review and local delivery conditions.</p>
+<p>For international sourcing, buyers should avoid vague requests such as “send price” without destination details. A stronger request includes the product list, quantities, country, target delivery timing and whether the order is urgent. This allows the supplier to give more realistic guidance instead of a generic answer.</p>
+<h2>Wholesale request checklist</h2>
+<ul>
+<li><strong>Product name:</strong> write the exact product, size, version or unit count.</li>
+<li><strong>Quantity:</strong> separate quantities by product and branch if needed.</li>
+<li><strong>Destination:</strong> include country, city and preferred delivery timing.</li>
+<li><strong>Packing:</strong> request carton grouping, labels or branch separation when important.</li>
+<li><strong>Documents:</strong> ask what invoice, label, batch or expiry information can be shared.</li>
+<li><strong>Communication:</strong> keep quotation, payment confirmation and shipment updates in one thread.</li>
+</ul>
+<h2>How HANSEONG BEAUTY GLOBAL supports wholesale buyers</h2>
+<p>HANSEONG BEAUTY GLOBAL focuses on professional B2B aesthetic supply for clinics, spas, resellers and distributors. The most efficient way to start is to send a clear product list through WhatsApp, including quantity and destination country. The team can then help check current availability, quotation direction and shipment support.</p>
+<p>This article is for general procurement education and does not provide medical advice, treatment guidance or regulatory approval claims. Professional buyers should always review local rules, clinic protocols and import requirements before ordering any aesthetic or medical beauty product.</p>
+"""
+    return {
+        "title": title,
+        "meta_description": meta[:155],
+        "excerpt": excerpt,
+        "read_time": "6 min read",
+        "html_body": html_body,
+    }
+
+def generate_article(topic, attempts=2):
+    errors = []
+    for attempt in range(1, attempts + 1):
+        try:
+            article = generate(topic)
+            validate(article)
+            return article, False
+        except Exception as exc:
+            errors.append(f"attempt {attempt}: {exc}")
+            print(f"WARN: generation {errors[-1]}", file=sys.stderr)
+    article = fallback_article(topic)
+    validate(article)
+    print("WARN: using fallback article after generation errors: " + " | ".join(errors), file=sys.stderr)
+    return article, True
+
 def validate(a):
     for key in ("title", "meta_description", "excerpt", "read_time", "html_body"):
         if not isinstance(a.get(key), str) or not a[key].strip():
@@ -182,6 +293,19 @@ def image_exists(article_src):
 def article_image_src(path):
     return "../" + path.relative_to(ROOT).as_posix()
 
+def normalize_search_text(value):
+    value = unicodedata.normalize("NFKD", str(value or ""))
+    value = "".join(char for char in value if not unicodedata.combining(char))
+    value = value.lower()
+    value = re.sub(r"[^a-z0-9]+", " ", value)
+    return re.sub(r"\s+", " ", value).strip()
+
+def important_tokens(value):
+    return {
+        token for token in normalize_search_text(value).split()
+        if len(token) >= 3 and token not in GENERIC_IMAGE_WORDS
+    }
+
 def discover_images():
     image_root = ROOT / "assets" / "images"
     if not image_root.exists():
@@ -190,6 +314,57 @@ def discover_images():
         path for path in image_root.rglob("*")
         if path.is_file() and path.suffix.lower() in IMAGE_EXTENSIONS
     ]
+
+def phrase_bonus(topic, filename):
+    score = 0
+    for source in (topic.get("keyword", ""), topic.get("title", "")):
+        tokens = [
+            token for token in normalize_search_text(source).split()
+            if token not in GENERIC_IMAGE_WORDS
+        ]
+        for size in range(min(5, len(tokens)), 0, -1):
+            for index in range(0, len(tokens) - size + 1):
+                phrase = " ".join(tokens[index:index + size])
+                if len(phrase) >= 3 and phrase in filename:
+                    score = max(score, 90 + size * 28)
+            if score:
+                break
+    return score
+
+def named_image_score(topic, path):
+    path_text = path.relative_to(ROOT).as_posix().lower()
+    filename = normalize_search_text(path.stem)
+    topic_tokens = important_tokens(
+        f"{topic.get('keyword', '')} {topic.get('title', '')} {topic.get('category', '')}"
+    )
+    filename_tokens = important_tokens(path.stem)
+    score = 0
+
+    if "/seo-library/" in f"/{path_text}":
+        score += 240
+    elif any(hint in path_text for hint in PRODUCT_DESIGN_HINTS):
+        score -= 70
+    else:
+        score += 55
+
+    overlap = topic_tokens & filename_tokens
+    score += len(overlap) * 42
+    score += phrase_bonus(topic, filename)
+
+    category_tokens = important_tokens(topic.get("category", ""))
+    if category_tokens and category_tokens & filename_tokens:
+        score += 35
+
+    return score
+
+def select_named_real_cover(topic):
+    ranked = sorted(
+        ((named_image_score(topic, path), path) for path in discover_images()),
+        key=lambda item: (-item[0], item[1].as_posix().lower())
+    )
+    if not ranked or ranked[0][0] < 140:
+        return None
+    return article_image_src(ranked[0][1])
 
 def image_score(topic, path):
     path_text = path.relative_to(ROOT).as_posix().lower()
@@ -243,16 +418,24 @@ def select_real_cover(topic):
     return article_image_src(shortlist[seed % len(shortlist)])
 
 def select_cover(topic):
-    real_cover = select_real_cover(topic)
-    if real_cover and image_exists(real_cover):
-        return real_cover
+    named_cover = select_named_real_cover(topic)
+    if named_cover and image_exists(named_cover):
+        return named_cover
 
     text = f"{topic.get('keyword', '')} {topic.get('title', '')}".lower()
     for needles, image in REAL_IMAGE_RULES:
         if all(needle in text for needle in needles) and image_exists(image):
             return image
+
     image = topic.get("image") or "../assets/images/products-1.png"
-    return image if image_exists(image) else "../assets/images/products-1.png"
+    if image_exists(image):
+        return image
+
+    real_cover = select_real_cover(topic)
+    if real_cover and image_exists(real_cover):
+        return real_cover
+
+    return "../assets/images/products-1.png"
 
 def related_links(topic):
     category_url = CATEGORY_LINKS.get(topic["category"], "../products.html")
@@ -300,8 +483,7 @@ def main():
     if not topic:
         print("No pending topics.")
         return
-    article = generate(topic)
-    validate(article)
+    article, used_fallback = generate_article(topic)
     slug = slugify(article["title"])
     target = BLOG / f"{slug}.html"
     if target.exists():
@@ -313,7 +495,8 @@ def main():
     topic.update({"status": "published", "slug": slug, "published_at": now.isoformat(), "image": cover})
     data["published"].append({"title": article["title"], "slug": slug, "published_at": now.isoformat()})
     QUEUE.write_text(json.dumps(data, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
-    print(f"Published {target.name}")
+    mode = "fallback content" if used_fallback else "OpenAI content"
+    print(f"Published {target.name} ({mode})")
 
 if __name__ == "__main__":
     try:
