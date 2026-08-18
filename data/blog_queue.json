@@ -103,8 +103,10 @@
       "keyword": "huons water numb distributor",
       "title": "A Procurement Guide to Huons Water Numb for Spas, Clinics and Resellers",
       "category": "Numbing & Supplies",
-      "image": "../assets/images/products/huonsWaterNumb.png",
-      "status": "pending"
+      "image": "../assets/images/Luhilo snow and nomal.jfif",
+      "status": "published",
+      "slug": "a-procurement-guide-to-huons-water-numb-for-spas-clinics-and-resellers",
+      "published_at": "2026-08-18T06:56:09.021613+00:00"
     },
     {
       "keyword": "j-cain numbing cream 10.56% wholesale",
@@ -1441,6 +1443,11 @@
       "title": "Buying Liporase Wholesale: Documentation, Handling and Shipping Essentials",
       "slug": "buying-liporase-wholesale-documentation-handling-and-shipping-essentials",
       "published_at": "2026-08-18T02:18:04.781465+00:00"
+    },
+    {
+      "title": "A Procurement Guide to Huons Water Numb for Spas, Clinics and Resellers",
+      "slug": "a-procurement-guide-to-huons-water-numb-for-spas-clinics-and-resellers",
+      "published_at": "2026-08-18T06:56:09.021613+00:00"
     }
   ]
 }
