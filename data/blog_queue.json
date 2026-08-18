@@ -112,8 +112,10 @@
       "keyword": "j-cain numbing cream 10.56% wholesale",
       "title": "Sourcing J-Cain Numbing Cream 10.56% Wholesale: A Buyer's Guide for Clinics and Distributors",
       "category": "Numbing & Supplies",
-      "image": "../assets/images/products/jCainNumbingCream10.56.png",
-      "status": "pending"
+      "image": "../assets/images/Luhilo snow and nomal.jfif",
+      "status": "published",
+      "slug": "sourcing-j-cain-numbing-cream-10-56-wholesale-a-buyer-s-guide-for-clinics-and-",
+      "published_at": "2026-08-18T12:35:48.731508+00:00"
     },
     {
       "keyword": "buy triamcinolo wholesale",
@@ -1448,6 +1450,11 @@
       "title": "A Procurement Guide to Huons Water Numb for Spas, Clinics and Resellers",
       "slug": "a-procurement-guide-to-huons-water-numb-for-spas-clinics-and-resellers",
       "published_at": "2026-08-18T06:56:09.021613+00:00"
+    },
+    {
+      "title": "Sourcing J-Cain Numbing Cream 10.56% Wholesale: A Buyer's Guide for Clinics and Distributors",
+      "slug": "sourcing-j-cain-numbing-cream-10-56-wholesale-a-buyer-s-guide-for-clinics-and-",
+      "published_at": "2026-08-18T12:35:48.731508+00:00"
     }
   ]
 }
