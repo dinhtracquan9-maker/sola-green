@@ -131,7 +131,9 @@
       "title": "B.Braun Omnican 1ml for Aesthetic Clinics: A Practical Wholesale Sourcing Guide",
       "category": "Injection Supplies",
       "image": "../assets/images/products/BBraun.png",
-      "status": "pending"
+      "status": "published",
+      "slug": "b-braun-omnican-1ml-for-aesthetic-clinics-a-practical-wholesale-sourcing-guide",
+      "published_at": "2026-08-19T06:56:06.880949+00:00"
     },
     {
       "keyword": "32g meso needle for clinics",
@@ -1462,6 +1464,11 @@
       "title": "How Professional Buyers Evaluate Triamcinolo Before Ordering Wholesale",
       "slug": "how-professional-buyers-evaluate-triamcinolo-before-ordering-wholesale",
       "published_at": "2026-08-19T02:20:43.114968+00:00"
+    },
+    {
+      "title": "B.Braun Omnican 1ml for Aesthetic Clinics: A Practical Wholesale Sourcing Guide",
+      "slug": "b-braun-omnican-1ml-for-aesthetic-clinics-a-practical-wholesale-sourcing-guide",
+      "published_at": "2026-08-19T06:56:06.880949+00:00"
     }
   ]
 }
