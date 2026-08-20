@@ -157,8 +157,10 @@
       "keyword": "sardenya distributor",
       "title": "A Procurement Guide to Sardenya for Spas, Clinics and Resellers",
       "category": "Dermal Fillers",
-      "image": "../assets/images/products/Sardenya.png",
-      "status": "pending"
+      "image": "../assets/images/Luhilo snow and nomal.jfif",
+      "status": "published",
+      "slug": "a-procurement-guide-to-sardenya-for-spas-clinics-and-resellers",
+      "published_at": "2026-08-20T06:56:47.893063+00:00"
     },
     {
       "keyword": "tmie vip wholesale",
@@ -1483,6 +1485,11 @@
       "title": "Buying Linospan Wholesale: Documentation, Handling and Shipping Essentials",
       "slug": "buying-linospan-wholesale-documentation-handling-and-shipping-essentials",
       "published_at": "2026-08-20T02:19:56.018433+00:00"
+    },
+    {
+      "title": "A Procurement Guide to Sardenya for Spas, Clinics and Resellers",
+      "slug": "a-procurement-guide-to-sardenya-for-spas-clinics-and-resellers",
+      "published_at": "2026-08-20T06:56:47.893063+00:00"
     }
   ]
 }
