@@ -166,8 +166,10 @@
       "keyword": "tmie vip wholesale",
       "title": "Sourcing TMIE VIP Wholesale: A Buyer's Guide for Clinics and Distributors",
       "category": "Skin Boosters",
-      "image": "../assets/images/products/tmieVip.png",
-      "status": "pending"
+      "image": "../assets/images/Luhilo snow and nomal.jfif",
+      "status": "published",
+      "slug": "sourcing-tmie-vip-wholesale-a-buyer-s-guide-for-clinics-and-distributors",
+      "published_at": "2026-08-20T12:38:15.001830+00:00"
     },
     {
       "keyword": "buy exocode wholesale",
@@ -1490,6 +1492,11 @@
       "title": "A Procurement Guide to Sardenya for Spas, Clinics and Resellers",
       "slug": "a-procurement-guide-to-sardenya-for-spas-clinics-and-resellers",
       "published_at": "2026-08-20T06:56:47.893063+00:00"
+    },
+    {
+      "title": "Sourcing TMIE VIP Wholesale: A Buyer's Guide for Clinics and Distributors",
+      "slug": "sourcing-tmie-vip-wholesale-a-buyer-s-guide-for-clinics-and-distributors",
+      "published_at": "2026-08-20T12:38:15.001830+00:00"
     }
   ]
 }
