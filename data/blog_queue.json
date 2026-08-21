@@ -184,8 +184,10 @@
       "keyword": "allergan 100u wholesale supplier",
       "title": "Allergan 100U for Aesthetic Clinics: A Practical Wholesale Sourcing Guide",
       "category": "Botulinum Toxin",
-      "image": "../assets/images/products/allergan100u.png",
-      "status": "pending"
+      "image": "../assets/images/A Hung Allergan 100.jpg",
+      "status": "published",
+      "slug": "allergan-100u-for-aesthetic-clinics-a-practical-wholesale-sourcing-guide",
+      "published_at": "2026-08-21T06:58:07.180533+00:00"
     },
     {
       "keyword": "gouri for clinics",
@@ -1504,6 +1506,11 @@
       "title": "How Professional Buyers Evaluate Exocode Before Ordering Wholesale",
       "slug": "how-professional-buyers-evaluate-exocode-before-ordering-wholesale",
       "published_at": "2026-08-21T02:25:21.216711+00:00"
+    },
+    {
+      "title": "Allergan 100U for Aesthetic Clinics: A Practical Wholesale Sourcing Guide",
+      "slug": "allergan-100u-for-aesthetic-clinics-a-practical-wholesale-sourcing-guide",
+      "published_at": "2026-08-21T06:58:07.180533+00:00"
     }
   ]
 }
