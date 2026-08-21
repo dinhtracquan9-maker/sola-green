@@ -194,7 +194,9 @@
       "title": "What to Check Before Ordering Gouri from a Wholesale Supplier",
       "category": "Biostimulators",
       "image": "../assets/images/products/gouri.png",
-      "status": "pending"
+      "status": "published",
+      "slug": "what-to-check-before-ordering-gouri-from-a-wholesale-supplier",
+      "published_at": "2026-08-21T12:36:58.783564+00:00"
     },
     {
       "keyword": "wholesale france body sourcing",
@@ -1511,6 +1513,11 @@
       "title": "Allergan 100U for Aesthetic Clinics: A Practical Wholesale Sourcing Guide",
       "slug": "allergan-100u-for-aesthetic-clinics-a-practical-wholesale-sourcing-guide",
       "published_at": "2026-08-21T06:58:07.180533+00:00"
+    },
+    {
+      "title": "What to Check Before Ordering Gouri from a Wholesale Supplier",
+      "slug": "what-to-check-before-ordering-gouri-from-a-wholesale-supplier",
+      "published_at": "2026-08-21T12:36:58.783564+00:00"
     }
   ]
 }
