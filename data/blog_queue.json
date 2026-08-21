@@ -175,8 +175,10 @@
       "keyword": "buy exocode wholesale",
       "title": "How Professional Buyers Evaluate Exocode Before Ordering Wholesale",
       "category": "Exosome & Meso",
-      "image": "../assets/images/products/excode.png",
-      "status": "pending"
+      "image": "../assets/images/How to evaluate wholesale partners Image.jpg",
+      "status": "published",
+      "slug": "how-professional-buyers-evaluate-exocode-before-ordering-wholesale",
+      "published_at": "2026-08-21T02:25:21.216711+00:00"
     },
     {
       "keyword": "allergan 100u wholesale supplier",
@@ -1497,6 +1499,11 @@
       "title": "Sourcing TMIE VIP Wholesale: A Buyer's Guide for Clinics and Distributors",
       "slug": "sourcing-tmie-vip-wholesale-a-buyer-s-guide-for-clinics-and-distributors",
       "published_at": "2026-08-20T12:38:15.001830+00:00"
+    },
+    {
+      "title": "How Professional Buyers Evaluate Exocode Before Ordering Wholesale",
+      "slug": "how-professional-buyers-evaluate-exocode-before-ordering-wholesale",
+      "published_at": "2026-08-21T02:25:21.216711+00:00"
     }
   ]
 }
