@@ -211,8 +211,10 @@
       "keyword": "aqualyx distributor",
       "title": "A Procurement Guide to Aqualyx for Spas, Clinics and Resellers",
       "category": "Lipolysis",
-      "image": "../assets/images/bestSeller/aqualyx.png",
-      "status": "pending"
+      "image": "../assets/images/Luhilo snow and nomal.jfif",
+      "status": "published",
+      "slug": "a-procurement-guide-to-aqualyx-for-spas-clinics-and-resellers",
+      "published_at": "2026-08-22T06:51:39.551461+00:00"
     },
     {
       "keyword": "mounjaro 5mg wholesale",
@@ -1525,6 +1527,11 @@
       "title": "Buying France Body Wholesale: Documentation, Handling and Shipping Essentials",
       "slug": "buying-france-body-wholesale-documentation-handling-and-shipping-essentials",
       "published_at": "2026-08-22T02:17:57.962686+00:00"
+    },
+    {
+      "title": "A Procurement Guide to Aqualyx for Spas, Clinics and Resellers",
+      "slug": "a-procurement-guide-to-aqualyx-for-spas-clinics-and-resellers",
+      "published_at": "2026-08-22T06:51:39.551461+00:00"
     }
   ]
 }
