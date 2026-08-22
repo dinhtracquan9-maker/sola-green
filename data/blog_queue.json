@@ -202,8 +202,10 @@
       "keyword": "wholesale france body sourcing",
       "title": "Buying France Body Wholesale: Documentation, Handling and Shipping Essentials",
       "category": "Body Fillers",
-      "image": "../assets/images/products/franceBody.png",
-      "status": "pending"
+      "image": "../assets/images/Doris Body Image.jfif",
+      "status": "published",
+      "slug": "buying-france-body-wholesale-documentation-handling-and-shipping-essentials",
+      "published_at": "2026-08-22T02:17:57.962686+00:00"
     },
     {
       "keyword": "aqualyx distributor",
@@ -1518,6 +1520,11 @@
       "title": "What to Check Before Ordering Gouri from a Wholesale Supplier",
       "slug": "what-to-check-before-ordering-gouri-from-a-wholesale-supplier",
       "published_at": "2026-08-21T12:36:58.783564+00:00"
+    },
+    {
+      "title": "Buying France Body Wholesale: Documentation, Handling and Shipping Essentials",
+      "slug": "buying-france-body-wholesale-documentation-handling-and-shipping-essentials",
+      "published_at": "2026-08-22T02:17:57.962686+00:00"
     }
   ]
 }
