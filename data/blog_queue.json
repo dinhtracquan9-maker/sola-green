@@ -239,7 +239,9 @@
       "title": "BM Hyrunidase for Aesthetic Clinics: A Practical Wholesale Sourcing Guide",
       "category": "Hyaluronidase",
       "image": "../assets/images/products/bmHyrunidase.png",
-      "status": "pending"
+      "status": "published",
+      "slug": "bm-hyrunidase-for-aesthetic-clinics-a-practical-wholesale-sourcing-guide",
+      "published_at": "2026-08-23T06:52:24.136672+00:00"
     },
     {
       "keyword": "medicain 2% for clinics",
@@ -1546,6 +1548,11 @@
       "title": "How Professional Buyers Evaluate Samsung Pharm Whitening Before Ordering Wholesale",
       "slug": "how-professional-buyers-evaluate-samsung-pharm-whitening-before-ordering-whole",
       "published_at": "2026-08-23T02:25:43.531816+00:00"
+    },
+    {
+      "title": "BM Hyrunidase for Aesthetic Clinics: A Practical Wholesale Sourcing Guide",
+      "slug": "bm-hyrunidase-for-aesthetic-clinics-a-practical-wholesale-sourcing-guide",
+      "published_at": "2026-08-23T06:52:24.136672+00:00"
     }
   ]
 }
