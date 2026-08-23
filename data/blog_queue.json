@@ -248,7 +248,9 @@
       "title": "What to Check Before Ordering Medicain 2% from a Wholesale Supplier",
       "category": "Numbing & Supplies",
       "image": "../assets/images/products/medicain2.png",
-      "status": "pending"
+      "status": "published",
+      "slug": "what-to-check-before-ordering-medicain-2-from-a-wholesale-supplier",
+      "published_at": "2026-08-23T12:30:11.985976+00:00"
     },
     {
       "keyword": "wholesale j-cain numbing cream 15.6% sourcing",
@@ -1553,6 +1555,11 @@
       "title": "BM Hyrunidase for Aesthetic Clinics: A Practical Wholesale Sourcing Guide",
       "slug": "bm-hyrunidase-for-aesthetic-clinics-a-practical-wholesale-sourcing-guide",
       "published_at": "2026-08-23T06:52:24.136672+00:00"
+    },
+    {
+      "title": "What to Check Before Ordering Medicain 2% from a Wholesale Supplier",
+      "slug": "what-to-check-before-ordering-medicain-2-from-a-wholesale-supplier",
+      "published_at": "2026-08-23T12:30:11.985976+00:00"
     }
   ]
 }
