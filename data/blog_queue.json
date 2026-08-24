@@ -265,8 +265,10 @@
       "keyword": "admedic distributor",
       "title": "A Procurement Guide to Admedic for Spas, Clinics and Resellers",
       "category": "Injection Supplies",
-      "image": "../assets/images/products/admedic.png",
-      "status": "pending"
+      "image": "../assets/images/Luhilo snow and nomal.jfif",
+      "status": "published",
+      "slug": "a-procurement-guide-to-admedic-for-spas-clinics-and-resellers",
+      "published_at": "2026-08-24T07:11:33.613110+00:00"
     },
     {
       "keyword": "34g meso needle wholesale",
@@ -1567,6 +1569,11 @@
       "title": "Buying J-Cain Numbing Cream 15.6% Wholesale: Documentation, Handling and Shipping Essentials",
       "slug": "buying-j-cain-numbing-cream-15-6-wholesale-documentation-handling-and-shipping",
       "published_at": "2026-08-24T02:24:50.368659+00:00"
+    },
+    {
+      "title": "A Procurement Guide to Admedic for Spas, Clinics and Resellers",
+      "slug": "a-procurement-guide-to-admedic-for-spas-clinics-and-resellers",
+      "published_at": "2026-08-24T07:11:33.613110+00:00"
     }
   ]
 }
