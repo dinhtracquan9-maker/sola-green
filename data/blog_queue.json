@@ -256,8 +256,10 @@
       "keyword": "wholesale j-cain numbing cream 15.6% sourcing",
       "title": "Buying J-Cain Numbing Cream 15.6% Wholesale: Documentation, Handling and Shipping Essentials",
       "category": "Numbing & Supplies",
-      "image": "../assets/images/products/jCainNumbingCream15.6.png",
-      "status": "pending"
+      "image": "../assets/images/Luhilo snow and nomal.jfif",
+      "status": "published",
+      "slug": "buying-j-cain-numbing-cream-15-6-wholesale-documentation-handling-and-shipping",
+      "published_at": "2026-08-24T02:24:50.368659+00:00"
     },
     {
       "keyword": "admedic distributor",
@@ -1560,6 +1562,11 @@
       "title": "What to Check Before Ordering Medicain 2% from a Wholesale Supplier",
       "slug": "what-to-check-before-ordering-medicain-2-from-a-wholesale-supplier",
       "published_at": "2026-08-23T12:30:11.985976+00:00"
+    },
+    {
+      "title": "Buying J-Cain Numbing Cream 15.6% Wholesale: Documentation, Handling and Shipping Essentials",
+      "slug": "buying-j-cain-numbing-cream-15-6-wholesale-documentation-handling-and-shipping",
+      "published_at": "2026-08-24T02:24:50.368659+00:00"
     }
   ]
 }
