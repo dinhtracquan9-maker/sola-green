@@ -293,7 +293,9 @@
       "title": "Hyaron for Aesthetic Clinics: A Practical Wholesale Sourcing Guide",
       "category": "Skin Boosters",
       "image": "../assets/images/bestSeller/hyaron.png",
-      "status": "pending"
+      "status": "published",
+      "slug": "hyaron-for-aesthetic-clinics-a-practical-wholesale-sourcing-guide",
+      "published_at": "2026-08-25T06:59:42.326487+00:00"
     },
     {
       "keyword": "exoten for clinics",
@@ -1588,6 +1590,11 @@
       "title": "How Professional Buyers Evaluate Milanie Before Ordering Wholesale",
       "slug": "how-professional-buyers-evaluate-milanie-before-ordering-wholesale",
       "published_at": "2026-08-25T02:20:08.118668+00:00"
+    },
+    {
+      "title": "Hyaron for Aesthetic Clinics: A Practical Wholesale Sourcing Guide",
+      "slug": "hyaron-for-aesthetic-clinics-a-practical-wholesale-sourcing-guide",
+      "published_at": "2026-08-25T06:59:42.326487+00:00"
     }
   ]
 }
