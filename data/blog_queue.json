@@ -302,7 +302,9 @@
       "title": "What to Check Before Ordering Exoten from a Wholesale Supplier",
       "category": "Exosome & Meso",
       "image": "../assets/images/products/exoten.png",
-      "status": "pending"
+      "status": "published",
+      "slug": "what-to-check-before-ordering-exoten-from-a-wholesale-supplier",
+      "published_at": "2026-08-25T12:38:24.118232+00:00"
     },
     {
       "keyword": "wholesale wondertox 200u sourcing",
@@ -1595,6 +1597,11 @@
       "title": "Hyaron for Aesthetic Clinics: A Practical Wholesale Sourcing Guide",
       "slug": "hyaron-for-aesthetic-clinics-a-practical-wholesale-sourcing-guide",
       "published_at": "2026-08-25T06:59:42.326487+00:00"
+    },
+    {
+      "title": "What to Check Before Ordering Exoten from a Wholesale Supplier",
+      "slug": "what-to-check-before-ordering-exoten-from-a-wholesale-supplier",
+      "published_at": "2026-08-25T12:38:24.118232+00:00"
     }
   ]
 }
