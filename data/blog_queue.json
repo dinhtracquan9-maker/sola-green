@@ -328,8 +328,10 @@
       "keyword": "jariot body wholesale",
       "title": "Sourcing Jariot Body Wholesale: A Buyer's Guide for Clinics and Distributors",
       "category": "Body Fillers",
-      "image": "../assets/images/products/jariotBody.png",
-      "status": "pending"
+      "image": "../assets/images/Doris Body Image.jfif",
+      "status": "published",
+      "slug": "sourcing-jariot-body-wholesale-a-buyer-s-guide-for-clinics-and-distributors",
+      "published_at": "2026-08-26T12:41:30.065348+00:00"
     },
     {
       "keyword": "buy gana v line wholesale",
@@ -1616,6 +1618,11 @@
       "title": "A Procurement Guide to Sculptra for Spas, Clinics and Resellers",
       "slug": "a-procurement-guide-to-sculptra-for-spas-clinics-and-resellers",
       "published_at": "2026-08-26T07:00:04.466718+00:00"
+    },
+    {
+      "title": "Sourcing Jariot Body Wholesale: A Buyer's Guide for Clinics and Distributors",
+      "slug": "sourcing-jariot-body-wholesale-a-buyer-s-guide-for-clinics-and-distributors",
+      "published_at": "2026-08-26T12:41:30.065348+00:00"
     }
   ]
 }
