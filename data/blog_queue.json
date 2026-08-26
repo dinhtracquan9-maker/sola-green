@@ -319,8 +319,10 @@
       "keyword": "sculptra distributor",
       "title": "A Procurement Guide to Sculptra for Spas, Clinics and Resellers",
       "category": "Biostimulators",
-      "image": "../assets/images/bestSeller/Sculptra.png",
-      "status": "pending"
+      "image": "../assets/images/Luhilo snow and nomal.jfif",
+      "status": "published",
+      "slug": "a-procurement-guide-to-sculptra-for-spas-clinics-and-resellers",
+      "published_at": "2026-08-26T07:00:04.466718+00:00"
     },
     {
       "keyword": "jariot body wholesale",
@@ -1609,6 +1611,11 @@
       "title": "Buying Wondertox 200U Wholesale: Documentation, Handling and Shipping Essentials",
       "slug": "buying-wondertox-200u-wholesale-documentation-handling-and-shipping-essentials",
       "published_at": "2026-08-26T02:27:00.898154+00:00"
+    },
+    {
+      "title": "A Procurement Guide to Sculptra for Spas, Clinics and Resellers",
+      "slug": "a-procurement-guide-to-sculptra-for-spas-clinics-and-resellers",
+      "published_at": "2026-08-26T07:00:04.466718+00:00"
     }
   ]
 }
