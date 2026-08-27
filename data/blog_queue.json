@@ -356,7 +356,9 @@
       "title": "What to Check Before Ordering Laennec from a Wholesale Supplier",
       "category": "IV & Wellness",
       "image": "../assets/images/products/leannec.png",
-      "status": "pending"
+      "status": "published",
+      "slug": "what-to-check-before-ordering-laennec-from-a-wholesale-supplier",
+      "published_at": "2026-08-27T21:38:43.694737+00:00"
     },
     {
       "keyword": "wholesale hyalaze sourcing",
@@ -1637,6 +1639,11 @@
       "title": "Mounjaro 7.5mg for Aesthetic Clinics: A Practical Wholesale Sourcing Guide",
       "slug": "mounjaro-7-5mg-for-aesthetic-clinics-a-practical-wholesale-sourcing-guide",
       "published_at": "2026-08-27T17:33:22.438344+00:00"
+    },
+    {
+      "title": "What to Check Before Ordering Laennec from a Wholesale Supplier",
+      "slug": "what-to-check-before-ordering-laennec-from-a-wholesale-supplier",
+      "published_at": "2026-08-27T21:38:43.694737+00:00"
     }
   ]
 }
