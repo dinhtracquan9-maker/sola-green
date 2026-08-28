@@ -373,8 +373,10 @@
       "keyword": "j-cain numbing cream 29.9% distributor",
       "title": "A Procurement Guide to J-Cain Numbing Cream 29.9% for Spas, Clinics and Resellers",
       "category": "Numbing & Supplies",
-      "image": "../assets/images/products/jCainNumbingCream29.9.png",
-      "status": "pending"
+      "image": "../assets/images/Luhilo snow and nomal.jfif",
+      "status": "published",
+      "slug": "a-procurement-guide-to-j-cain-numbing-cream-29-9-for-spas-clinics-and-reseller",
+      "published_at": "2026-08-28T18:30:03.518148+00:00"
     },
     {
       "keyword": "bac water wholesale",
@@ -1651,6 +1653,11 @@
       "title": "Buying Hyalaze Wholesale: Documentation, Handling and Shipping Essentials",
       "slug": "buying-hyalaze-wholesale-documentation-handling-and-shipping-essentials",
       "published_at": "2026-08-28T12:38:02.912399+00:00"
+    },
+    {
+      "title": "A Procurement Guide to J-Cain Numbing Cream 29.9% for Spas, Clinics and Resellers",
+      "slug": "a-procurement-guide-to-j-cain-numbing-cream-29-9-for-spas-clinics-and-reseller",
+      "published_at": "2026-08-28T18:30:03.518148+00:00"
     }
   ]
 }
