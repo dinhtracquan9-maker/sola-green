@@ -364,8 +364,10 @@
       "keyword": "wholesale hyalaze sourcing",
       "title": "Buying Hyalaze Wholesale: Documentation, Handling and Shipping Essentials",
       "category": "Hyaluronidase",
-      "image": "../assets/images/products/hyazale.png",
-      "status": "pending"
+      "image": "../assets/images/Luhilo snow and nomal.jfif",
+      "status": "published",
+      "slug": "buying-hyalaze-wholesale-documentation-handling-and-shipping-essentials",
+      "published_at": "2026-08-28T12:38:02.912399+00:00"
     },
     {
       "keyword": "j-cain numbing cream 29.9% distributor",
@@ -1644,6 +1646,11 @@
       "title": "What to Check Before Ordering Laennec from a Wholesale Supplier",
       "slug": "what-to-check-before-ordering-laennec-from-a-wholesale-supplier",
       "published_at": "2026-08-27T21:38:43.694737+00:00"
+    },
+    {
+      "title": "Buying Hyalaze Wholesale: Documentation, Handling and Shipping Essentials",
+      "slug": "buying-hyalaze-wholesale-documentation-handling-and-shipping-essentials",
+      "published_at": "2026-08-28T12:38:02.912399+00:00"
     }
   ]
 }
