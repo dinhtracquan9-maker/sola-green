@@ -409,8 +409,10 @@
       "keyword": "nctf for clinics",
       "title": "What to Check Before Ordering NCTF from a Wholesale Supplier",
       "category": "Skin Boosters",
-      "image": "../assets/images/bestSeller/nctf.png",
-      "status": "pending"
+      "image": "../assets/images/NCTF 5 vial  Image.jpg",
+      "status": "published",
+      "slug": "what-to-check-before-ordering-nctf-from-a-wholesale-supplier",
+      "published_at": "2026-08-29T16:06:13.135655+00:00"
     },
     {
       "keyword": "wholesale gtm 3% sourcing",
@@ -1679,6 +1681,11 @@
       "title": "Lips for Aesthetic Clinics: A Practical Wholesale Sourcing Guide",
       "slug": "lips-for-aesthetic-clinics-a-practical-wholesale-sourcing-guide",
       "published_at": "2026-08-29T12:35:52.552907+00:00"
+    },
+    {
+      "title": "What to Check Before Ordering NCTF from a Wholesale Supplier",
+      "slug": "what-to-check-before-ordering-nctf-from-a-wholesale-supplier",
+      "published_at": "2026-08-29T16:06:13.135655+00:00"
     }
   ]
 }
