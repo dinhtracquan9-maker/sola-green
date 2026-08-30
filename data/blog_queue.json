@@ -427,8 +427,10 @@
       "keyword": "wondertox 100u distributor",
       "title": "A Procurement Guide to Wondertox 100U for Spas, Clinics and Resellers",
       "category": "Botulinum Toxin",
-      "image": "../assets/images/products/wuondertox100u.png",
-      "status": "pending"
+      "image": "../assets/images/Luhilo snow and nomal.jfif",
+      "status": "published",
+      "slug": "a-procurement-guide-to-wondertox-100u-for-spas-clinics-and-resellers",
+      "published_at": "2026-08-30T11:44:29.042016+00:00"
     },
     {
       "keyword": "radiesse wholesale",
@@ -1693,6 +1695,11 @@
       "title": "Buying GTM 3% Wholesale: Documentation, Handling and Shipping Essentials",
       "slug": "buying-gtm-3-wholesale-documentation-handling-and-shipping-essentials",
       "published_at": "2026-08-30T06:24:27.103030+00:00"
+    },
+    {
+      "title": "A Procurement Guide to Wondertox 100U for Spas, Clinics and Resellers",
+      "slug": "a-procurement-guide-to-wondertox-100u-for-spas-clinics-and-resellers",
+      "published_at": "2026-08-30T11:44:29.042016+00:00"
     }
   ]
 }
