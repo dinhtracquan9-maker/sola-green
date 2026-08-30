@@ -436,8 +436,10 @@
       "keyword": "radiesse wholesale",
       "title": "Sourcing Radiesse Wholesale: A Buyer's Guide for Clinics and Distributors",
       "category": "Biostimulators",
-      "image": "../assets/images/products/radiesse.png",
-      "status": "pending"
+      "image": "../assets/images/Luhilo snow and nomal.jfif",
+      "status": "published",
+      "slug": "sourcing-radiesse-wholesale-a-buyer-s-guide-for-clinics-and-distributors",
+      "published_at": "2026-08-30T15:55:50.608646+00:00"
     },
     {
       "keyword": "buy helios body wholesale",
@@ -1700,6 +1702,11 @@
       "title": "A Procurement Guide to Wondertox 100U for Spas, Clinics and Resellers",
       "slug": "a-procurement-guide-to-wondertox-100u-for-spas-clinics-and-resellers",
       "published_at": "2026-08-30T11:44:29.042016+00:00"
+    },
+    {
+      "title": "Sourcing Radiesse Wholesale: A Buyer's Guide for Clinics and Distributors",
+      "slug": "sourcing-radiesse-wholesale-a-buyer-s-guide-for-clinics-and-distributors",
+      "published_at": "2026-08-30T15:55:50.608646+00:00"
     }
   ]
 }
