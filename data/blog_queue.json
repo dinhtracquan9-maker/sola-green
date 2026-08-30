@@ -418,8 +418,10 @@
       "keyword": "wholesale gtm 3% sourcing",
       "title": "Buying GTM 3% Wholesale: Documentation, Handling and Shipping Essentials",
       "category": "Exosome & Meso",
-      "image": "../assets/images/products/gtm3.png",
-      "status": "pending"
+      "image": "../assets/images/Luhilo snow and nomal.jfif",
+      "status": "published",
+      "slug": "buying-gtm-3-wholesale-documentation-handling-and-shipping-essentials",
+      "published_at": "2026-08-30T06:24:27.103030+00:00"
     },
     {
       "keyword": "wondertox 100u distributor",
@@ -1686,6 +1688,11 @@
       "title": "What to Check Before Ordering NCTF from a Wholesale Supplier",
       "slug": "what-to-check-before-ordering-nctf-from-a-wholesale-supplier",
       "published_at": "2026-08-29T16:06:13.135655+00:00"
+    },
+    {
+      "title": "Buying GTM 3% Wholesale: Documentation, Handling and Shipping Essentials",
+      "slug": "buying-gtm-3-wholesale-documentation-handling-and-shipping-essentials",
+      "published_at": "2026-08-30T06:24:27.103030+00:00"
     }
   ]
 }
