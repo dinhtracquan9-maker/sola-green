@@ -445,8 +445,10 @@
       "keyword": "buy helios body wholesale",
       "title": "How Professional Buyers Evaluate Helios Body Before Ordering Wholesale",
       "category": "Body Fillers",
-      "image": "../assets/images/products/heliosBody.png",
-      "status": "pending"
+      "image": "../assets/images/How to evaluate wholesale partners Image.jpg",
+      "status": "published",
+      "slug": "how-professional-buyers-evaluate-helios-body-before-ordering-wholesale",
+      "published_at": "2026-08-31T06:52:13.642669+00:00"
     },
     {
       "keyword": "slim queen wholesale supplier",
@@ -1707,6 +1709,11 @@
       "title": "Sourcing Radiesse Wholesale: A Buyer's Guide for Clinics and Distributors",
       "slug": "sourcing-radiesse-wholesale-a-buyer-s-guide-for-clinics-and-distributors",
       "published_at": "2026-08-30T15:55:50.608646+00:00"
+    },
+    {
+      "title": "How Professional Buyers Evaluate Helios Body Before Ordering Wholesale",
+      "slug": "how-professional-buyers-evaluate-helios-body-before-ordering-wholesale",
+      "published_at": "2026-08-31T06:52:13.642669+00:00"
     }
   ]
 }
