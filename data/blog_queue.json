@@ -490,8 +490,10 @@
       "keyword": "hyadew wholesale",
       "title": "Sourcing Hyadew Wholesale: A Buyer's Guide for Clinics and Distributors",
       "category": "Dermal Fillers",
-      "image": "../assets/images/products/hyadew.png",
-      "status": "pending"
+      "image": "../assets/images/Luhilo snow and nomal.jfif",
+      "status": "published",
+      "slug": "sourcing-hyadew-wholesale-a-buyer-s-guide-for-clinics-and-distributors",
+      "published_at": "2026-09-01T15:58:49.231150+00:00"
     },
     {
       "keyword": "buy profhilo wholesale",
@@ -1742,6 +1744,11 @@
       "title": "A Procurement Guide to J-Cain Numbing Cream 59.9% for Spas, Clinics and Resellers",
       "slug": "a-procurement-guide-to-j-cain-numbing-cream-59-9-for-spas-clinics-and-reseller",
       "published_at": "2026-09-01T11:30:12.430401+00:00"
+    },
+    {
+      "title": "Sourcing Hyadew Wholesale: A Buyer's Guide for Clinics and Distributors",
+      "slug": "sourcing-hyadew-wholesale-a-buyer-s-guide-for-clinics-and-distributors",
+      "published_at": "2026-09-01T15:58:49.231150+00:00"
     }
   ]
 }
