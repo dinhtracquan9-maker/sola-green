@@ -481,8 +481,10 @@
       "keyword": "j-cain numbing cream 59.9% distributor",
       "title": "A Procurement Guide to J-Cain Numbing Cream 59.9% for Spas, Clinics and Resellers",
       "category": "Numbing & Supplies",
-      "image": "../assets/images/products/jCainNumbingCream59.9.png",
-      "status": "pending"
+      "image": "../assets/images/Luhilo snow and nomal.jfif",
+      "status": "published",
+      "slug": "a-procurement-guide-to-j-cain-numbing-cream-59-9-for-spas-clinics-and-reseller",
+      "published_at": "2026-09-01T11:30:12.430401+00:00"
     },
     {
       "keyword": "hyadew wholesale",
@@ -1735,6 +1737,11 @@
       "title": "Buying Melsmon Wholesale: Documentation, Handling and Shipping Essentials",
       "slug": "buying-melsmon-wholesale-documentation-handling-and-shipping-essentials",
       "published_at": "2026-09-01T06:10:28.869606+00:00"
+    },
+    {
+      "title": "A Procurement Guide to J-Cain Numbing Cream 59.9% for Spas, Clinics and Resellers",
+      "slug": "a-procurement-guide-to-j-cain-numbing-cream-59-9-for-spas-clinics-and-reseller",
+      "published_at": "2026-09-01T11:30:12.430401+00:00"
     }
   ]
 }
