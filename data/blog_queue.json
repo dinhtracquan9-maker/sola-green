@@ -517,8 +517,10 @@
       "keyword": "xeomin for clinics",
       "title": "What to Check Before Ordering Xeomin from a Wholesale Supplier",
       "category": "Botulinum Toxin",
-      "image": "../assets/images/products/xeomin.png",
-      "status": "pending"
+      "image": "../assets/images/Botox Xeomin Image.jpg",
+      "status": "published",
+      "slug": "what-to-check-before-ordering-xeomin-from-a-wholesale-supplier",
+      "published_at": "2026-09-02T15:51:51.370548+00:00"
     },
     {
       "keyword": "wholesale sculptra 5ml sourcing",
@@ -1763,6 +1765,11 @@
       "title": "GTM 8% for Aesthetic Clinics: A Practical Wholesale Sourcing Guide",
       "slug": "gtm-8-for-aesthetic-clinics-a-practical-wholesale-sourcing-guide",
       "published_at": "2026-09-02T11:05:00.746177+00:00"
+    },
+    {
+      "title": "What to Check Before Ordering Xeomin from a Wholesale Supplier",
+      "slug": "what-to-check-before-ordering-xeomin-from-a-wholesale-supplier",
+      "published_at": "2026-09-02T15:51:51.370548+00:00"
     }
   ]
 }
