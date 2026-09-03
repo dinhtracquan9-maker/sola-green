@@ -544,8 +544,10 @@
       "keyword": "v line sol wholesale",
       "title": "Sourcing V Line Sol Wholesale: A Buyer's Guide for Clinics and Distributors",
       "category": "Lipolysis",
-      "image": "../assets/images/products/vlineSol.png",
-      "status": "pending"
+      "image": "../assets/images/Lipo Lab V - Line auth.jfif",
+      "status": "published",
+      "slug": "sourcing-v-line-sol-wholesale-a-buyer-s-guide-for-clinics-and-distributors",
+      "published_at": "2026-09-03T15:40:59.022433+00:00"
     },
     {
       "keyword": "buy semaglutide 10mg wholesale",
@@ -1784,6 +1786,11 @@
       "title": "A Procurement Guide to Helios VIP for Spas, Clinics and Resellers",
       "slug": "a-procurement-guide-to-helios-vip-for-spas-clinics-and-resellers",
       "published_at": "2026-09-03T11:02:31.116202+00:00"
+    },
+    {
+      "title": "Sourcing V Line Sol Wholesale: A Buyer's Guide for Clinics and Distributors",
+      "slug": "sourcing-v-line-sol-wholesale-a-buyer-s-guide-for-clinics-and-distributors",
+      "published_at": "2026-09-03T15:40:59.022433+00:00"
     }
   ]
 }
