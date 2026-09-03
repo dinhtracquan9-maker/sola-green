@@ -535,8 +535,10 @@
       "keyword": "helios vip distributor",
       "title": "A Procurement Guide to Helios VIP for Spas, Clinics and Resellers",
       "category": "Body Fillers",
-      "image": "../assets/images/products/heliosVip.png",
-      "status": "pending"
+      "image": "../assets/images/Luhilo snow and nomal.jfif",
+      "status": "published",
+      "slug": "a-procurement-guide-to-helios-vip-for-spas-clinics-and-resellers",
+      "published_at": "2026-09-03T11:02:31.116202+00:00"
     },
     {
       "keyword": "v line sol wholesale",
@@ -1777,6 +1779,11 @@
       "title": "Buying Sculptra 5ml Wholesale: Documentation, Handling and Shipping Essentials",
       "slug": "buying-sculptra-5ml-wholesale-documentation-handling-and-shipping-essentials",
       "published_at": "2026-09-03T05:36:20.043357+00:00"
+    },
+    {
+      "title": "A Procurement Guide to Helios VIP for Spas, Clinics and Resellers",
+      "slug": "a-procurement-guide-to-helios-vip-for-spas-clinics-and-resellers",
+      "published_at": "2026-09-03T11:02:31.116202+00:00"
     }
   ]
 }
