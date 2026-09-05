@@ -598,8 +598,10 @@
       "keyword": "meso jarrior wholesale",
       "title": "Sourcing Meso Jarrior Wholesale: A Buyer's Guide for Clinics and Distributors",
       "category": "Exosome & Meso",
-      "image": "../assets/images/products/mesoJarrior.png",
-      "status": "pending"
+      "image": "../assets/images/Luhilo snow and nomal.jfif",
+      "status": "published",
+      "slug": "sourcing-meso-jarrior-wholesale-a-buyer-s-guide-for-clinics-and-distributors",
+      "published_at": "2026-09-05T14:27:47.626685+00:00"
     },
     {
       "keyword": "buy neuronox 100u wholesale",
@@ -1826,6 +1828,11 @@
       "title": "A Procurement Guide to Profhilo Structura for Spas, Clinics and Resellers",
       "slug": "a-procurement-guide-to-profhilo-structura-for-spas-clinics-and-resellers",
       "published_at": "2026-09-05T10:25:13.203884+00:00"
+    },
+    {
+      "title": "Sourcing Meso Jarrior Wholesale: A Buyer's Guide for Clinics and Distributors",
+      "slug": "sourcing-meso-jarrior-wholesale-a-buyer-s-guide-for-clinics-and-distributors",
+      "published_at": "2026-09-05T14:27:47.626685+00:00"
     }
   ]
 }
