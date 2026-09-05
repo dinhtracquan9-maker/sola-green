@@ -580,8 +580,10 @@
       "keyword": "wholesale elasty sourcing",
       "title": "Buying Elasty Wholesale: Documentation, Handling and Shipping Essentials",
       "category": "Dermal Fillers",
-      "image": "../assets/images/products/elasty.png",
-      "status": "pending"
+      "image": "../assets/images/Luhilo snow and nomal.jfif",
+      "status": "published",
+      "slug": "buying-elasty-wholesale-documentation-handling-and-shipping-essentials",
+      "published_at": "2026-09-05T05:30:46.398121+00:00"
     },
     {
       "keyword": "profhilo structura distributor",
@@ -1812,6 +1814,11 @@
       "title": "What to Check Before Ordering Chaumcaine from a Wholesale Supplier",
       "slug": "what-to-check-before-ordering-chaumcaine-from-a-wholesale-supplier",
       "published_at": "2026-09-04T15:39:25.768626+00:00"
+    },
+    {
+      "title": "Buying Elasty Wholesale: Documentation, Handling and Shipping Essentials",
+      "slug": "buying-elasty-wholesale-documentation-handling-and-shipping-essentials",
+      "published_at": "2026-09-05T05:30:46.398121+00:00"
     }
   ]
 }
