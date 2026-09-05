@@ -589,8 +589,10 @@
       "keyword": "profhilo structura distributor",
       "title": "A Procurement Guide to Profhilo Structura for Spas, Clinics and Resellers",
       "category": "Skin Boosters",
-      "image": "../assets/images/bestSeller/profhiloStructura.png",
-      "status": "pending"
+      "image": "../assets/images/Luhilo snow and nomal.jfif",
+      "status": "published",
+      "slug": "a-procurement-guide-to-profhilo-structura-for-spas-clinics-and-resellers",
+      "published_at": "2026-09-05T10:25:13.203884+00:00"
     },
     {
       "keyword": "meso jarrior wholesale",
@@ -1819,6 +1821,11 @@
       "title": "Buying Elasty Wholesale: Documentation, Handling and Shipping Essentials",
       "slug": "buying-elasty-wholesale-documentation-handling-and-shipping-essentials",
       "published_at": "2026-09-05T05:30:46.398121+00:00"
+    },
+    {
+      "title": "A Procurement Guide to Profhilo Structura for Spas, Clinics and Resellers",
+      "slug": "a-procurement-guide-to-profhilo-structura-for-spas-clinics-and-resellers",
+      "published_at": "2026-09-05T10:25:13.203884+00:00"
     }
   ]
 }
