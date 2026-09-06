@@ -625,8 +625,10 @@
       "keyword": "pink fill body for clinics",
       "title": "What to Check Before Ordering Pink Fill Body from a Wholesale Supplier",
       "category": "Body Fillers",
-      "image": "../assets/images/products/pinkFillBody.png",
-      "status": "pending"
+      "image": "../assets/images/Maxi Fill Body Image.jpg",
+      "status": "published",
+      "slug": "what-to-check-before-ordering-pink-fill-body-from-a-wholesale-supplier",
+      "published_at": "2026-09-06T14:49:06.507072+00:00"
     },
     {
       "keyword": "wholesale kabelline sourcing",
@@ -1847,6 +1849,11 @@
       "title": "Sculptra for Aesthetic Clinics: A Practical Wholesale Sourcing Guide",
       "slug": "sculptra-for-aesthetic-clinics-a-practical-wholesale-sourcing-guide",
       "published_at": "2026-09-06T10:44:04.951927+00:00"
+    },
+    {
+      "title": "What to Check Before Ordering Pink Fill Body from a Wholesale Supplier",
+      "slug": "what-to-check-before-ordering-pink-fill-body-from-a-wholesale-supplier",
+      "published_at": "2026-09-06T14:49:06.507072+00:00"
     }
   ]
 }
