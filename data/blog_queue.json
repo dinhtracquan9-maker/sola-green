@@ -634,8 +634,10 @@
       "keyword": "wholesale kabelline sourcing",
       "title": "Buying Kabelline Wholesale: Documentation, Handling and Shipping Essentials",
       "category": "Lipolysis",
-      "image": "../assets/images/products/kabelline.png",
-      "status": "pending"
+      "image": "../assets/images/Luhilo snow and nomal.jfif",
+      "status": "published",
+      "slug": "buying-kabelline-wholesale-documentation-handling-and-shipping-essentials",
+      "published_at": "2026-09-07T05:53:47.226429+00:00"
     },
     {
       "keyword": "tirzepatide 30mg distributor",
@@ -1854,6 +1856,11 @@
       "title": "What to Check Before Ordering Pink Fill Body from a Wholesale Supplier",
       "slug": "what-to-check-before-ordering-pink-fill-body-from-a-wholesale-supplier",
       "published_at": "2026-09-06T14:49:06.507072+00:00"
+    },
+    {
+      "title": "Buying Kabelline Wholesale: Documentation, Handling and Shipping Essentials",
+      "slug": "buying-kabelline-wholesale-documentation-handling-and-shipping-essentials",
+      "published_at": "2026-09-07T05:53:47.226429+00:00"
     }
   ]
 }
