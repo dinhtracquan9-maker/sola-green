@@ -643,8 +643,10 @@
       "keyword": "tirzepatide 30mg distributor",
       "title": "A Procurement Guide to Tirzepatide 30mg for Spas, Clinics and Resellers",
       "category": "Weight Management",
-      "image": "../assets/images/products/tirzepatide30Mg.png",
-      "status": "pending"
+      "image": "../assets/images/Luhilo snow and nomal.jfif",
+      "status": "published",
+      "slug": "a-procurement-guide-to-tirzepatide-30mg-for-spas-clinics-and-resellers",
+      "published_at": "2026-09-07T12:13:33.471716+00:00"
     },
     {
       "keyword": "ruby luxury wholesale",
@@ -1861,6 +1863,11 @@
       "title": "Buying Kabelline Wholesale: Documentation, Handling and Shipping Essentials",
       "slug": "buying-kabelline-wholesale-documentation-handling-and-shipping-essentials",
       "published_at": "2026-09-07T05:53:47.226429+00:00"
+    },
+    {
+      "title": "A Procurement Guide to Tirzepatide 30mg for Spas, Clinics and Resellers",
+      "slug": "a-procurement-guide-to-tirzepatide-30mg-for-spas-clinics-and-resellers",
+      "published_at": "2026-09-07T12:13:33.471716+00:00"
     }
   ]
 }
