@@ -652,8 +652,10 @@
       "keyword": "ruby luxury wholesale",
       "title": "Sourcing Ruby Luxury Wholesale: A Buyer's Guide for Clinics and Distributors",
       "category": "IV & Wellness",
-      "image": "../assets/images/products/rubyluxury.png",
-      "status": "pending"
+      "image": "../assets/images/Luhilo snow and nomal.jfif",
+      "status": "published",
+      "slug": "sourcing-ruby-luxury-wholesale-a-buyer-s-guide-for-clinics-and-distributors",
+      "published_at": "2026-09-07T17:06:53.028243+00:00"
     },
     {
       "keyword": "buy mi-cain pro wholesale",
@@ -1868,6 +1870,11 @@
       "title": "A Procurement Guide to Tirzepatide 30mg for Spas, Clinics and Resellers",
       "slug": "a-procurement-guide-to-tirzepatide-30mg-for-spas-clinics-and-resellers",
       "published_at": "2026-09-07T12:13:33.471716+00:00"
+    },
+    {
+      "title": "Sourcing Ruby Luxury Wholesale: A Buyer's Guide for Clinics and Distributors",
+      "slug": "sourcing-ruby-luxury-wholesale-a-buyer-s-guide-for-clinics-and-distributors",
+      "published_at": "2026-09-07T17:06:53.028243+00:00"
     }
   ]
 }
