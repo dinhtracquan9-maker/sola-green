@@ -670,8 +670,10 @@
       "keyword": "restylane kysse wholesale supplier",
       "title": "Restylane Kysse for Aesthetic Clinics: A Practical Wholesale Sourcing Guide",
       "category": "Dermal Fillers",
-      "image": "../assets/images/products/restylaneKysse.png",
-      "status": "pending"
+      "image": "../assets/images/products/filler/restylane-kysse.jpg",
+      "status": "published",
+      "slug": "restylane-kysse-for-aesthetic-clinics-a-practical-wholesale-sourcing-guide",
+      "published_at": "2026-09-08T11:03:19.995334+00:00"
     },
     {
       "keyword": "rejuran hb for clinics",
@@ -1882,6 +1884,11 @@
       "title": "How Professional Buyers Evaluate Mi-Cain Pro Before Ordering Wholesale",
       "slug": "how-professional-buyers-evaluate-mi-cain-pro-before-ordering-wholesale",
       "published_at": "2026-09-08T05:46:36.298527+00:00"
+    },
+    {
+      "title": "Restylane Kysse for Aesthetic Clinics: A Practical Wholesale Sourcing Guide",
+      "slug": "restylane-kysse-for-aesthetic-clinics-a-practical-wholesale-sourcing-guide",
+      "published_at": "2026-09-08T11:03:19.995334+00:00"
     }
   ]
 }
