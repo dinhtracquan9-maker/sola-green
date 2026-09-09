@@ -688,8 +688,10 @@
       "keyword": "wholesale hutox 100u sourcing",
       "title": "Buying Hutox 100U Wholesale: Documentation, Handling and Shipping Essentials",
       "category": "Botulinum Toxin",
-      "image": "../assets/images/products/hutox100U.png",
-      "status": "pending"
+      "image": "../assets/images/Luhilo snow and nomal.jfif",
+      "status": "published",
+      "slug": "buying-hutox-100u-wholesale-documentation-handling-and-shipping-essentials",
+      "published_at": "2026-09-09T05:50:44.715729+00:00"
     },
     {
       "keyword": "maxxyfill body distributor",
@@ -1896,6 +1898,11 @@
       "title": "What to Check Before Ordering Rejuran HB from a Wholesale Supplier",
       "slug": "what-to-check-before-ordering-rejuran-hb-from-a-wholesale-supplier",
       "published_at": "2026-09-08T15:52:58.030204+00:00"
+    },
+    {
+      "title": "Buying Hutox 100U Wholesale: Documentation, Handling and Shipping Essentials",
+      "slug": "buying-hutox-100u-wholesale-documentation-handling-and-shipping-essentials",
+      "published_at": "2026-09-09T05:50:44.715729+00:00"
     }
   ]
 }
