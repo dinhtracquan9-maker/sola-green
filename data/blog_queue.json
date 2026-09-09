@@ -706,8 +706,10 @@
       "keyword": "lemon bottle wholesale",
       "title": "Sourcing Lemon Bottle Wholesale: A Buyer's Guide for Clinics and Distributors",
       "category": "Lipolysis",
-      "image": "../assets/images/products/lemonBottle.png",
-      "status": "pending"
+      "image": "../assets/images/FB10 - Lemon Bottle.jpg",
+      "status": "published",
+      "slug": "sourcing-lemon-bottle-wholesale-a-buyer-s-guide-for-clinics-and-distributors",
+      "published_at": "2026-09-09T15:48:50.628646+00:00"
     },
     {
       "keyword": "buy mounjaro 12.5mg wholesale",
@@ -1910,6 +1912,11 @@
       "title": "A Procurement Guide to Maxxyfill Body for Spas, Clinics and Resellers",
       "slug": "a-procurement-guide-to-maxxyfill-body-for-spas-clinics-and-resellers",
       "published_at": "2026-09-09T11:08:38.954273+00:00"
+    },
+    {
+      "title": "Sourcing Lemon Bottle Wholesale: A Buyer's Guide for Clinics and Distributors",
+      "slug": "sourcing-lemon-bottle-wholesale-a-buyer-s-guide-for-clinics-and-distributors",
+      "published_at": "2026-09-09T15:48:50.628646+00:00"
     }
   ]
 }
