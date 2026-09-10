@@ -733,8 +733,10 @@
       "keyword": "neuramis for clinics",
       "title": "What to Check Before Ordering Neuramis from a Wholesale Supplier",
       "category": "Dermal Fillers",
-      "image": "../assets/images/products/neuramis.png",
-      "status": "pending"
+      "image": "../assets/images/Neuramis Deep Image.jpg",
+      "status": "published",
+      "slug": "what-to-check-before-ordering-neuramis-from-a-wholesale-supplier",
+      "published_at": "2026-09-10T15:44:02.095513+00:00"
     },
     {
       "keyword": "wholesale rejuran healer sourcing",
@@ -1931,6 +1933,11 @@
       "title": "Glutax 5GS Micro for Aesthetic Clinics: A Practical Wholesale Sourcing Guide",
       "slug": "glutax-5gs-micro-for-aesthetic-clinics-a-practical-wholesale-sourcing-guide",
       "published_at": "2026-09-10T11:04:33.378515+00:00"
+    },
+    {
+      "title": "What to Check Before Ordering Neuramis from a Wholesale Supplier",
+      "slug": "what-to-check-before-ordering-neuramis-from-a-wholesale-supplier",
+      "published_at": "2026-09-10T15:44:02.095513+00:00"
     }
   ]
 }
