@@ -751,8 +751,10 @@
       "keyword": "neuronox 100u distributor",
       "title": "A Procurement Guide to Neuronox 100U for Spas, Clinics and Resellers",
       "category": "Botulinum Toxin",
-      "image": "../assets/images/products/neuronox100u.png",
-      "status": "pending"
+      "image": "../assets/images/Luhilo snow and nomal.jfif",
+      "status": "published",
+      "slug": "a-procurement-guide-to-neuronox-100u-for-spas-clinics-and-resellers",
+      "published_at": "2026-09-11T11:03:08.838392+00:00"
     },
     {
       "keyword": "jariot body wholesale",
@@ -1945,6 +1947,11 @@
       "title": "Buying Rejuran Healer Wholesale: Documentation, Handling and Shipping Essentials",
       "slug": "buying-rejuran-healer-wholesale-documentation-handling-and-shipping-essentials",
       "published_at": "2026-09-11T05:44:58.766721+00:00"
+    },
+    {
+      "title": "A Procurement Guide to Neuronox 100U for Spas, Clinics and Resellers",
+      "slug": "a-procurement-guide-to-neuronox-100u-for-spas-clinics-and-resellers",
+      "published_at": "2026-09-11T11:03:08.838392+00:00"
     }
   ]
 }
