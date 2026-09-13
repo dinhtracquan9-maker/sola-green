@@ -760,8 +760,10 @@
       "keyword": "jariot body wholesale",
       "title": "Sourcing Jariot Body Wholesale: A Buyer's Guide for Clinics and Distributors (Jariot Body)",
       "category": "Body Fillers",
-      "image": "../assets/images/products/jariotBody.png",
-      "status": "pending"
+      "image": "../assets/images/Doris Body Image.jfif",
+      "status": "published",
+      "slug": "sourcing-jariot-body-wholesale-a-buyer-s-guide-for-clinics-and-distributors-ja",
+      "published_at": "2026-09-13T05:52:34.803172+00:00"
     },
     {
       "keyword": "buy lipolab wholesale",
@@ -1952,6 +1954,11 @@
       "title": "A Procurement Guide to Neuronox 100U for Spas, Clinics and Resellers",
       "slug": "a-procurement-guide-to-neuronox-100u-for-spas-clinics-and-resellers",
       "published_at": "2026-09-11T11:03:08.838392+00:00"
+    },
+    {
+      "title": "Sourcing Jariot Body Wholesale: A Buyer's Guide for Clinics and Distributors (Jariot Body)",
+      "slug": "sourcing-jariot-body-wholesale-a-buyer-s-guide-for-clinics-and-distributors-ja",
+      "published_at": "2026-09-13T05:52:34.803172+00:00"
     }
   ]
 }
