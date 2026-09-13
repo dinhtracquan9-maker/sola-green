@@ -769,8 +769,10 @@
       "keyword": "buy lipolab wholesale",
       "title": "How Professional Buyers Evaluate Lipolab Before Ordering Wholesale",
       "category": "Lipolysis",
-      "image": "../assets/images/products/lipolab.png",
-      "status": "pending"
+      "image": "../assets/images/How to evaluate wholesale partners Image.jpg",
+      "status": "published",
+      "slug": "how-professional-buyers-evaluate-lipolab-before-ordering-wholesale",
+      "published_at": "2026-09-13T11:34:54.333424+00:00"
     },
     {
       "keyword": "mounjaro 15mg wholesale supplier",
@@ -1959,6 +1961,11 @@
       "title": "Sourcing Jariot Body Wholesale: A Buyer's Guide for Clinics and Distributors (Jariot Body)",
       "slug": "sourcing-jariot-body-wholesale-a-buyer-s-guide-for-clinics-and-distributors-ja",
       "published_at": "2026-09-13T05:52:34.803172+00:00"
+    },
+    {
+      "title": "How Professional Buyers Evaluate Lipolab Before Ordering Wholesale",
+      "slug": "how-professional-buyers-evaluate-lipolab-before-ordering-wholesale",
+      "published_at": "2026-09-13T11:34:54.333424+00:00"
     }
   ]
 }
