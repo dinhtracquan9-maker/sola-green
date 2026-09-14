@@ -805,8 +805,10 @@
       "keyword": "rejuran i distributor",
       "title": "A Procurement Guide to Rejuran I for Spas, Clinics and Resellers",
       "category": "Skin Boosters",
-      "image": "../assets/images/bestSeller/rejuranI.png",
-      "status": "pending"
+      "image": "../assets/images/Rejuran Healer, S, i and HB image.png",
+      "status": "published",
+      "slug": "a-procurement-guide-to-rejuran-i-for-spas-clinics-and-resellers",
+      "published_at": "2026-09-14T17:30:42.714925+00:00"
     },
     {
       "keyword": "kaimax 100 wholesale",
@@ -1987,6 +1989,11 @@
       "title": "Buying Revolax Wholesale: Documentation, Handling and Shipping Essentials",
       "slug": "buying-revolax-wholesale-documentation-handling-and-shipping-essentials",
       "published_at": "2026-09-14T12:29:02.338985+00:00"
+    },
+    {
+      "title": "A Procurement Guide to Rejuran I for Spas, Clinics and Resellers",
+      "slug": "a-procurement-guide-to-rejuran-i-for-spas-clinics-and-resellers",
+      "published_at": "2026-09-14T17:30:42.714925+00:00"
     }
   ]
 }
