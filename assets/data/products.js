@@ -116,9 +116,10 @@ window.SOLA_PRODUCTS = [
      BODY FILLERS
   ========================================== */
   { name: 'Sedy Fill Body', category: 'Body Filler', brand: 'Sedy Fill', origin: 'Korea', tag: 'Body Filler', image: 'assets/images/products/body-whitening-supplies/sedy-fill-body.jpg', featured: true },
-  { name: 'France Body', category: 'Body Filler', brand: 'France Body', origin: '', tag: 'Body Filler', image: 'assets/images/products/franceBody.png' },
-  { name: 'Jariot Body', category: 'Body Filler', brand: 'Jariot', origin: 'Korea', tag: 'Body Filler', image: 'assets/images/products/jariotBody.png' },
-  { name: 'Helios Body', category: 'Body Filler', brand: 'Helios', origin: 'Korea', tag: 'Body Filler', image: 'assets/images/products/heliosBody.png' },
+  { name: 'France Body', category: 'Body Filler', brand: 'France Body', origin: 'International', tag: 'Body Filler', image: 'assets/images/products/body-whitening-supplies/france-body.jpg' },
+  { name: 'Jariot Body', category: 'Body Filler', brand: 'Jariot', origin: 'Korea', tag: 'Body Filler', image: 'assets/images/products/body-whitening-supplies/jariot-body.jpg' },
+  { name: 'Restylane Hard Body', category: 'Body Filler', brand: 'Restylane', origin: 'Sweden', tag: 'Body Filler', image: 'assets/images/products/body-whitening-supplies/restylane-hard-body.jpg' },
+  { name: 'Helios Body', category: 'Body Filler', brand: 'Helios', origin: 'Korea', tag: 'Body Filler', image: 'assets/images/products/body-whitening-supplies/helios-body.jpg' },
   { name: 'Helios VIP', category: 'Body Filler', brand: 'Helios', origin: 'Korea', tag: 'Body Filler', image: 'assets/images/products/body-whitening-supplies/helios-vip.jpg' },
   { name: 'Pink Fill Body', category: 'Body Filler', brand: 'Pink Fill', origin: 'Korea', tag: 'Body Filler', image: 'assets/images/products/body-whitening-supplies/pink-fill-body.jpg' },
   { name: 'Maxy Fill Body', category: 'Body Filler', brand: 'Maxy Fill', origin: 'Korea', tag: 'Body Filler', image: 'assets/images/products/body-whitening-supplies/maxy-fill-body.jpg' },
@@ -174,7 +175,6 @@ window.SOLA_PRODUCTS = [
   ========================================== */
   { name: 'Laroscorbine Diamond E-UF', category: 'Whitening IV / Wellness', brand: 'Laroscorbine', origin: '', tag: 'Whitening', image: 'assets/images/products/body-whitening-supplies/laroscorbine-diamond-e-uf.jpg' },
   { name: 'Samsung Pharm Whitening', category: 'Whitening IV / Wellness', brand: 'Samsung Pharm', origin: 'Korea', tag: 'Whitening', image: 'assets/images/products/body-whitening-supplies/samsung-pharm-whitening.jpg' },
-  { name: 'Ruby Luxury', category: 'Whitening IV / Wellness', brand: 'Ruby Luxury', origin: '', tag: 'Wellness', image: 'assets/images/products/rubyluxury.png' },
   { name: 'Glutax 5GS Micro', category: 'Whitening IV / Wellness', brand: 'Glutax', origin: '', tag: 'Whitening', image: 'assets/images/products/body-whitening-supplies/glutax-5gs-micro.jpg' },
   { name: 'Glutaone inj 1200', category: 'Whitening IV / Wellness', brand: 'Glutaone', origin: '', tag: 'Whitening', image: 'assets/images/products/body-whitening-supplies/glutaone-inj-1200.jpg' },
   { name: 'Glutathione TAD - 600', category: 'Whitening IV / Wellness', brand: 'Glutathione TAD', origin: '', tag: 'Whitening', image: 'assets/images/products/body-whitening-supplies/glutathione-tad-600.jpg' },
@@ -194,7 +194,6 @@ window.SOLA_PRODUCTS = [
      HYALURONIDASE
   ========================================== */
   { name: 'Liporase', category: 'Dissolving / Hyaluronidase', brand: 'Liporase', origin: 'Korea', tag: 'Filler Dissolver', image: 'assets/images/products/body-whitening-supplies/liporase.jpg' },
-  { name: 'BM Hyrunidase', category: 'Dissolving / Hyaluronidase', brand: 'BM', origin: 'Korea', tag: 'Hyaluronidase', image: 'assets/images/products/body-whitening-supplies/bm-hyrunidase.jpg' },
   { name: 'Hyalaze', category: 'Dissolving / Hyaluronidase', brand: 'Hyalaze', origin: 'Korea', tag: 'Filler Dissolver', image: 'assets/images/products/body-whitening-supplies/hyalaze.jpg' },
 
   /* ==========================================
@@ -212,7 +211,7 @@ window.SOLA_PRODUCTS = [
   /* ==========================================
      INJECTION SUPPLIES
   ========================================== */
-  { name: 'Triamcinolo', category: 'Injection / Medicine', brand: 'Triamcinolo', origin: '', tag: 'Injection', image: 'assets/images/products/triamcinolo.png' },
+  { name: 'Triamcinolone 40mg', category: 'Injection / Medicine', brand: 'Triamcinolone', origin: 'Korea', tag: 'Injection', image: 'assets/images/products/body-whitening-supplies/triamcinolone-40mg.jpg' },
   { name: 'B.Braun Omnican 1ml', category: 'Injection Supplies', brand: 'B.Braun', origin: 'Germany', tag: 'Supplies', image: 'assets/images/products/body-whitening-supplies/b-braun-omnican-1ml.jpg' },
   { name: 'BAC Water', category: 'Injection Supplies', brand: 'BAC Water', origin: '', tag: 'Bacteriostatic Water', image: 'assets/images/products/body-whitening-supplies/bac-water.jpg' },
 
