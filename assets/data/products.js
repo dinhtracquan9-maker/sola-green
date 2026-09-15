@@ -148,7 +148,7 @@ window.SOLA_PRODUCTS = [
   { name: 'LRI V-Line', category: 'Body & Weight Care', brand: 'LRI', origin: 'Korea', tag: 'V-Line', image: 'assets/images/products/weight-loss/lri-vline.jpg' },
   { name: 'Mesocartin', category: 'Body & Weight Care', brand: 'Mesocartin', origin: 'Korea', tag: 'L-Carnitine', image: 'assets/images/products/weight-loss/mesocartin.jpg' },
   { name: 'Muscle Inhibitors', category: 'Body & Weight Care', brand: 'Muscle', origin: 'Korea', tag: 'Body Contouring', image: 'assets/images/products/weight-loss/muscle.jpg' },
-  { name: 'Ruby Luxury VIP', category: 'Body & Weight Care', brand: 'Ruby Luxury', origin: 'Korea', tag: 'Body Care', image: 'assets/images/products/weight-loss/ruby-luxury-vip.jpg' },
+  { name: 'Ruby Luxury VIP', category: 'Body & Weight Care', brand: 'Ruby Luxury', origin: 'Korea', tag: 'Body Care', image: 'assets/images/products/weight-loss/ruby-luxury-vip-fat-dissolving.jpg' },
   { name: 'Slim Queen', category: 'Body & Weight Care', brand: 'Slim Queen', origin: 'Korea', tag: 'Body Contouring', image: 'assets/images/products/weight-loss/slimqueen.jpg' },
   { name: 'Super V-Line Sol', category: 'Body & Weight Care', brand: 'Super V-Line', origin: 'Korea', tag: 'V-Line', image: 'assets/images/products/weight-loss/super-v-line-sol.jpg' },
   { name: 'Mounjaro 2.5mg (2 Pen)', category: 'Body & Weight Care', brand: 'Mounjaro', origin: 'International', tag: 'Weight Management', image: 'assets/images/products/weight-loss/mounjaro-2-5mg-2-pen.jpg', featured: true },
