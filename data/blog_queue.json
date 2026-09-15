@@ -814,8 +814,10 @@
       "keyword": "kaimax 100 wholesale",
       "title": "Sourcing Kaimax 100 Wholesale: A Buyer's Guide for Clinics and Distributors",
       "category": "Botulinum Toxin",
-      "image": "../assets/images/products/kaimax.png",
-      "status": "pending"
+      "image": "../assets/images/A Hung Allergan 100.jpg",
+      "status": "published",
+      "slug": "sourcing-kaimax-100-wholesale-a-buyer-s-guide-for-clinics-and-distributors",
+      "published_at": "2026-09-15T05:59:54.533076+00:00"
     },
     {
       "keyword": "buy jariot vip wholesale",
@@ -1994,6 +1996,11 @@
       "title": "A Procurement Guide to Rejuran I for Spas, Clinics and Resellers",
       "slug": "a-procurement-guide-to-rejuran-i-for-spas-clinics-and-resellers",
       "published_at": "2026-09-14T17:30:42.714925+00:00"
+    },
+    {
+      "title": "Sourcing Kaimax 100 Wholesale: A Buyer's Guide for Clinics and Distributors",
+      "slug": "sourcing-kaimax-100-wholesale-a-buyer-s-guide-for-clinics-and-distributors",
+      "published_at": "2026-09-15T05:59:54.533076+00:00"
     }
   ]
 }
