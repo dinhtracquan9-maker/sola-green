@@ -859,8 +859,10 @@
       "keyword": "restylane eyelight distributor",
       "title": "A Procurement Guide to Restylane Eyelight for Spas, Clinics and Resellers",
       "category": "Dermal Fillers",
-      "image": "../assets/images/products/RestylaneEyelight.png",
-      "status": "pending"
+      "image": "../assets/images/Luhilo snow and nomal.jfif",
+      "status": "published",
+      "slug": "a-procurement-guide-to-restylane-eyelight-for-spas-clinics-and-resellers",
+      "published_at": "2026-09-16T15:59:51.791955+00:00"
     },
     {
       "keyword": "rejuran s wholesale",
@@ -2029,6 +2031,11 @@
       "title": "Buying Glutax 22000000 Wholesale: Documentation, Handling and Shipping Essentials",
       "slug": "buying-glutax-22000000-wholesale-documentation-handling-and-shipping-essential",
       "published_at": "2026-09-16T11:18:52.916167+00:00"
+    },
+    {
+      "title": "A Procurement Guide to Restylane Eyelight for Spas, Clinics and Resellers",
+      "slug": "a-procurement-guide-to-restylane-eyelight-for-spas-clinics-and-resellers",
+      "published_at": "2026-09-16T15:59:51.791955+00:00"
     }
   ]
 }
