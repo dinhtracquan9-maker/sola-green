@@ -877,8 +877,10 @@
       "keyword": "buy kaimax 200u wholesale",
       "title": "How Professional Buyers Evaluate Kaimax 200U Before Ordering Wholesale",
       "category": "Botulinum Toxin",
-      "image": "../assets/images/products/kaimax200u.png",
-      "status": "pending"
+      "image": "../assets/images/How to evaluate wholesale partners Image.jpg",
+      "status": "published",
+      "slug": "how-professional-buyers-evaluate-kaimax-200u-before-ordering-wholesale",
+      "published_at": "2026-09-17T11:27:17.601470+00:00"
     },
     {
       "keyword": "lri v line wholesale supplier",
@@ -2043,6 +2045,11 @@
       "title": "Sourcing Rejuran S Wholesale: A Buyer's Guide for Clinics and Distributors",
       "slug": "sourcing-rejuran-s-wholesale-a-buyer-s-guide-for-clinics-and-distributors",
       "published_at": "2026-09-17T05:57:26.941961+00:00"
+    },
+    {
+      "title": "How Professional Buyers Evaluate Kaimax 200U Before Ordering Wholesale",
+      "slug": "how-professional-buyers-evaluate-kaimax-200u-before-ordering-wholesale",
+      "published_at": "2026-09-17T11:27:17.601470+00:00"
     }
   ]
 }
