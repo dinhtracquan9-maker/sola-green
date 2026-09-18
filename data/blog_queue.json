@@ -913,8 +913,10 @@
       "keyword": "luhilo distributor",
       "title": "A Procurement Guide to Luhilo for Spas, Clinics and Resellers",
       "category": "Skin Boosters",
-      "image": "../assets/images/bestSeller/luhilo.png",
-      "status": "pending"
+      "image": "../assets/images/Luhilo snow and nomal.jfif",
+      "status": "published",
+      "slug": "a-procurement-guide-to-luhilo-for-spas-clinics-and-resellers",
+      "published_at": "2026-09-18T15:43:08.757639+00:00"
     },
     {
       "keyword": "kingtox wholesale",
@@ -2071,6 +2073,11 @@
       "title": "Buying Dermalax Wholesale: Documentation, Handling and Shipping Essentials",
       "slug": "buying-dermalax-wholesale-documentation-handling-and-shipping-essentials",
       "published_at": "2026-09-18T11:00:34.246284+00:00"
+    },
+    {
+      "title": "A Procurement Guide to Luhilo for Spas, Clinics and Resellers",
+      "slug": "a-procurement-guide-to-luhilo-for-spas-clinics-and-resellers",
+      "published_at": "2026-09-18T15:43:08.757639+00:00"
     }
   ]
 }
