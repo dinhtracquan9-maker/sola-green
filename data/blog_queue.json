@@ -922,8 +922,10 @@
       "keyword": "kingtox wholesale",
       "title": "Sourcing Kingtox Wholesale: A Buyer's Guide for Clinics and Distributors",
       "category": "Botulinum Toxin",
-      "image": "../assets/images/products/kingTox.png",
-      "status": "pending"
+      "image": "../assets/images/Luhilo snow and nomal.jfif",
+      "status": "published",
+      "slug": "sourcing-kingtox-wholesale-a-buyer-s-guide-for-clinics-and-distributors",
+      "published_at": "2026-09-19T05:39:06.966883+00:00"
     },
     {
       "keyword": "buy muscle inhibitors wholesale",
@@ -2078,6 +2080,11 @@
       "title": "A Procurement Guide to Luhilo for Spas, Clinics and Resellers",
       "slug": "a-procurement-guide-to-luhilo-for-spas-clinics-and-resellers",
       "published_at": "2026-09-18T15:43:08.757639+00:00"
+    },
+    {
+      "title": "Sourcing Kingtox Wholesale: A Buyer's Guide for Clinics and Distributors",
+      "slug": "sourcing-kingtox-wholesale-a-buyer-s-guide-for-clinics-and-distributors",
+      "published_at": "2026-09-19T05:39:06.966883+00:00"
     }
   ]
 }
