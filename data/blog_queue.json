@@ -958,8 +958,10 @@
       "keyword": "wholesale karisma sourcing",
       "title": "Buying Karisma Wholesale: Documentation, Handling and Shipping Essentials",
       "category": "Skin Boosters",
-      "image": "../assets/images/bestSeller/karisma.png",
-      "status": "pending"
+      "image": "../assets/images/Luhilo snow and nomal.jfif",
+      "status": "published",
+      "slug": "buying-karisma-wholesale-documentation-handling-and-shipping-essentials",
+      "published_at": "2026-09-20T11:07:17.442758+00:00"
     },
     {
       "keyword": "blacktox distributor",
@@ -2106,6 +2108,11 @@
       "title": "What to Check Before Ordering White Fill Pro from a Wholesale Supplier",
       "slug": "what-to-check-before-ordering-white-fill-pro-from-a-wholesale-supplier",
       "published_at": "2026-09-20T05:58:05.158594+00:00"
+    },
+    {
+      "title": "Buying Karisma Wholesale: Documentation, Handling and Shipping Essentials",
+      "slug": "buying-karisma-wholesale-documentation-handling-and-shipping-essentials",
+      "published_at": "2026-09-20T11:07:17.442758+00:00"
     }
   ]
 }
