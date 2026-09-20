@@ -967,8 +967,10 @@
       "keyword": "blacktox distributor",
       "title": "A Procurement Guide to Blacktox for Spas, Clinics and Resellers",
       "category": "Botulinum Toxin",
-      "image": "../assets/images/products/blacktox.png",
-      "status": "pending"
+      "image": "../assets/images/Luhilo snow and nomal.jfif",
+      "status": "published",
+      "slug": "a-procurement-guide-to-blacktox-for-spas-clinics-and-resellers",
+      "published_at": "2026-09-20T15:19:03.189103+00:00"
     },
     {
       "keyword": "placenta wholesale",
@@ -2113,6 +2115,11 @@
       "title": "Buying Karisma Wholesale: Documentation, Handling and Shipping Essentials",
       "slug": "buying-karisma-wholesale-documentation-handling-and-shipping-essentials",
       "published_at": "2026-09-20T11:07:17.442758+00:00"
+    },
+    {
+      "title": "A Procurement Guide to Blacktox for Spas, Clinics and Resellers",
+      "slug": "a-procurement-guide-to-blacktox-for-spas-clinics-and-resellers",
+      "published_at": "2026-09-20T15:19:03.189103+00:00"
     }
   ]
 }
