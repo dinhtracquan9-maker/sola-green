@@ -976,8 +976,10 @@
       "keyword": "placenta wholesale",
       "title": "Sourcing Placenta Wholesale: A Buyer's Guide for Clinics and Distributors",
       "category": "IV & Wellness",
-      "image": "../assets/images/products/placenta.png",
-      "status": "pending"
+      "image": "../assets/images/Luhilo snow and nomal.jfif",
+      "status": "published",
+      "slug": "sourcing-placenta-wholesale-a-buyer-s-guide-for-clinics-and-distributors",
+      "published_at": "2026-09-21T06:03:40.475370+00:00"
     },
     {
       "keyword": "buy teoxane wholesale",
@@ -2120,6 +2122,11 @@
       "title": "A Procurement Guide to Blacktox for Spas, Clinics and Resellers",
       "slug": "a-procurement-guide-to-blacktox-for-spas-clinics-and-resellers",
       "published_at": "2026-09-20T15:19:03.189103+00:00"
+    },
+    {
+      "title": "Sourcing Placenta Wholesale: A Buyer's Guide for Clinics and Distributors",
+      "slug": "sourcing-placenta-wholesale-a-buyer-s-guide-for-clinics-and-distributors",
+      "published_at": "2026-09-21T06:03:40.475370+00:00"
     }
   ]
 }
