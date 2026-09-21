@@ -985,8 +985,10 @@
       "keyword": "buy teoxane wholesale",
       "title": "How Professional Buyers Evaluate Teoxane Before Ordering Wholesale",
       "category": "Dermal Fillers",
-      "image": "../assets/images/products/teoxane.png",
-      "status": "pending"
+      "image": "../assets/images/How to evaluate wholesale partners Image.jpg",
+      "status": "published",
+      "slug": "how-professional-buyers-evaluate-teoxane-before-ordering-wholesale",
+      "published_at": "2026-09-21T12:35:42.467979+00:00"
     },
     {
       "keyword": "jalupro wholesale supplier",
@@ -2127,6 +2129,11 @@
       "title": "Sourcing Placenta Wholesale: A Buyer's Guide for Clinics and Distributors",
       "slug": "sourcing-placenta-wholesale-a-buyer-s-guide-for-clinics-and-distributors",
       "published_at": "2026-09-21T06:03:40.475370+00:00"
+    },
+    {
+      "title": "How Professional Buyers Evaluate Teoxane Before Ordering Wholesale",
+      "slug": "how-professional-buyers-evaluate-teoxane-before-ordering-wholesale",
+      "published_at": "2026-09-21T12:35:42.467979+00:00"
     }
   ]
 }
