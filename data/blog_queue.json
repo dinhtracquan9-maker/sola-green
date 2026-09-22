@@ -1021,8 +1021,10 @@
       "keyword": "restylane lyft distributor",
       "title": "A Procurement Guide to Restylane Lyft for Spas, Clinics and Resellers",
       "category": "Dermal Fillers",
-      "image": "../assets/images/products/restylaneLyft.png",
-      "status": "pending"
+      "image": "../assets/images/Luhilo snow and nomal.jfif",
+      "status": "published",
+      "slug": "a-procurement-guide-to-restylane-lyft-for-spas-clinics-and-resellers",
+      "published_at": "2026-09-22T16:09:11.064967+00:00"
     },
     {
       "keyword": "jalupro classic wholesale",
@@ -2155,6 +2157,11 @@
       "title": "Buying Cindella Set Wholesale: Documentation, Handling and Shipping Essentials",
       "slug": "buying-cindella-set-wholesale-documentation-handling-and-shipping-essentials",
       "published_at": "2026-09-22T11:23:01.851953+00:00"
+    },
+    {
+      "title": "A Procurement Guide to Restylane Lyft for Spas, Clinics and Resellers",
+      "slug": "a-procurement-guide-to-restylane-lyft-for-spas-clinics-and-resellers",
+      "published_at": "2026-09-22T16:09:11.064967+00:00"
     }
   ]
 }
