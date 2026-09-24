@@ -1075,8 +1075,10 @@
       "keyword": "dysport chai to distributor",
       "title": "A Procurement Guide to Dysport Chai To for Spas, Clinics and Resellers",
       "category": "Botulinum Toxin",
-      "image": "../assets/images/products/Dysport.png",
-      "status": "pending"
+      "image": "../assets/images/Luhilo snow and nomal.jfif",
+      "status": "published",
+      "slug": "a-procurement-guide-to-dysport-chai-to-for-spas-clinics-and-resellers",
+      "published_at": "2026-09-24T16:22:52.565625+00:00"
     },
     {
       "keyword": "lucchini wholesale",
@@ -2197,6 +2199,11 @@
       "title": "Buying Luxer Wholesale: Documentation, Handling and Shipping Essentials",
       "slug": "buying-luxer-wholesale-documentation-handling-and-shipping-essentials",
       "published_at": "2026-09-24T11:32:19.744346+00:00"
+    },
+    {
+      "title": "A Procurement Guide to Dysport Chai To for Spas, Clinics and Resellers",
+      "slug": "a-procurement-guide-to-dysport-chai-to-for-spas-clinics-and-resellers",
+      "published_at": "2026-09-24T16:22:52.565625+00:00"
     }
   ]
 }
