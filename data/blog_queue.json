@@ -1066,8 +1066,10 @@
       "keyword": "wholesale luxer sourcing",
       "title": "Buying Luxer Wholesale: Documentation, Handling and Shipping Essentials",
       "category": "Skin Boosters",
-      "image": "../assets/images/products/luxer.png",
-      "status": "pending"
+      "image": "../assets/images/Luhilo snow and nomal.jfif",
+      "status": "published",
+      "slug": "buying-luxer-wholesale-documentation-handling-and-shipping-essentials",
+      "published_at": "2026-09-24T11:32:19.744346+00:00"
     },
     {
       "keyword": "dysport chai to distributor",
@@ -2190,6 +2192,11 @@
       "title": "What to Check Before Ordering Juvederm Volift from a Wholesale Supplier",
       "slug": "what-to-check-before-ordering-juvederm-volift-from-a-wholesale-supplier",
       "published_at": "2026-09-24T05:59:34.487890+00:00"
+    },
+    {
+      "title": "Buying Luxer Wholesale: Documentation, Handling and Shipping Essentials",
+      "slug": "buying-luxer-wholesale-documentation-handling-and-shipping-essentials",
+      "published_at": "2026-09-24T11:32:19.744346+00:00"
     }
   ]
 }
