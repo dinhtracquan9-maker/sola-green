@@ -1084,8 +1084,10 @@
       "keyword": "lucchini wholesale",
       "title": "Sourcing Lucchini Wholesale: A Buyer's Guide for Clinics and Distributors",
       "category": "IV & Wellness",
-      "image": "../assets/images/products/lucchini.png",
-      "status": "pending"
+      "image": "../assets/images/Luhilo snow and nomal.jfif",
+      "status": "published",
+      "slug": "sourcing-lucchini-wholesale-a-buyer-s-guide-for-clinics-and-distributors",
+      "published_at": "2026-09-25T06:01:03.662408+00:00"
     },
     {
       "keyword": "buy juvederm volux wholesale",
@@ -2204,6 +2206,11 @@
       "title": "A Procurement Guide to Dysport Chai To for Spas, Clinics and Resellers",
       "slug": "a-procurement-guide-to-dysport-chai-to-for-spas-clinics-and-resellers",
       "published_at": "2026-09-24T16:22:52.565625+00:00"
+    },
+    {
+      "title": "Sourcing Lucchini Wholesale: A Buyer's Guide for Clinics and Distributors",
+      "slug": "sourcing-lucchini-wholesale-a-buyer-s-guide-for-clinics-and-distributors",
+      "published_at": "2026-09-25T06:01:03.662408+00:00"
     }
   ]
 }
