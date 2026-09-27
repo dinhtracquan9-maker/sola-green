@@ -1156,8 +1156,10 @@
       "keyword": "jade cain cream 10,56% wholesale supplier",
       "title": "Jade Cain Cream 10,56% for Aesthetic Clinics: A Practical Wholesale Sourcing Guide",
       "category": "Skin Boosters",
-      "image": "../assets/images/products/jdibio.png",
-      "status": "pending"
+      "image": "../assets/images/products/body-whitening-supplies/j-cain-numbing-cream-10-56.jpg",
+      "status": "published",
+      "slug": "jade-cain-cream-10-56-for-aesthetic-clinics-a-practical-wholesale-sourcing-gui",
+      "published_at": "2026-09-27T16:16:56.428254+00:00"
     },
     {
       "keyword": "botulax 100 unit for clinics",
@@ -2260,6 +2262,11 @@
       "title": "How Professional Buyers Evaluate EPTQ Before Ordering Wholesale",
       "slug": "how-professional-buyers-evaluate-eptq-before-ordering-wholesale",
       "published_at": "2026-09-27T11:51:02.043372+00:00"
+    },
+    {
+      "title": "Jade Cain Cream 10,56% for Aesthetic Clinics: A Practical Wholesale Sourcing Guide",
+      "slug": "jade-cain-cream-10-56-for-aesthetic-clinics-a-practical-wholesale-sourcing-gui",
+      "published_at": "2026-09-27T16:16:56.428254+00:00"
     }
   ]
 }
