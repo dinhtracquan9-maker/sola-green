@@ -1147,8 +1147,10 @@
       "keyword": "buy eptq wholesale",
       "title": "How Professional Buyers Evaluate EPTQ Before Ordering Wholesale",
       "category": "Dermal Fillers",
-      "image": "../assets/images/products/eptq.png",
-      "status": "pending"
+      "image": "../assets/images/How to evaluate wholesale partners Image.jpg",
+      "status": "published",
+      "slug": "how-professional-buyers-evaluate-eptq-before-ordering-wholesale",
+      "published_at": "2026-09-27T11:51:02.043372+00:00"
     },
     {
       "keyword": "jade cain cream 10,56% wholesale supplier",
@@ -2253,6 +2255,11 @@
       "title": "Sourcing Rentox 200 Wholesale: A Buyer's Guide for Clinics and Distributors",
       "slug": "sourcing-rentox-200-wholesale-a-buyer-s-guide-for-clinics-and-distributors",
       "published_at": "2026-09-27T06:27:34.598937+00:00"
+    },
+    {
+      "title": "How Professional Buyers Evaluate EPTQ Before Ordering Wholesale",
+      "slug": "how-professional-buyers-evaluate-eptq-before-ordering-wholesale",
+      "published_at": "2026-09-27T11:51:02.043372+00:00"
     }
   ]
 }
