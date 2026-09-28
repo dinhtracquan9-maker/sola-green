@@ -1183,8 +1183,10 @@
       "keyword": "juvederm skinvive distributor",
       "title": "A Procurement Guide to Juvederm Skinvive for Spas, Clinics and Resellers",
       "category": "Skin Boosters",
-      "image": "../assets/images/products/juvedermSkinvive.png",
-      "status": "pending"
+      "image": "../assets/images/Juvederm anh dep 1.jpg",
+      "status": "published",
+      "slug": "a-procurement-guide-to-juvederm-skinvive-for-spas-clinics-and-resellers",
+      "published_at": "2026-09-28T19:09:04.599535+00:00"
     },
     {
       "keyword": "meditoxin 100 wholesale",
@@ -2281,6 +2283,11 @@
       "title": "Buying Celosome VIP Wholesale: Documentation, Handling and Shipping Essentials",
       "slug": "buying-celosome-vip-wholesale-documentation-handling-and-shipping-essentials",
       "published_at": "2026-09-28T13:35:44.240155+00:00"
+    },
+    {
+      "title": "A Procurement Guide to Juvederm Skinvive for Spas, Clinics and Resellers",
+      "slug": "a-procurement-guide-to-juvederm-skinvive-for-spas-clinics-and-resellers",
+      "published_at": "2026-09-28T19:09:04.599535+00:00"
     }
   ]
 }
