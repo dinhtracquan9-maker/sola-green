@@ -1211,7 +1211,9 @@
       "title": "Lumi Eyes for Aesthetic Clinics: A Practical Wholesale Sourcing Guide",
       "category": "Skin Boosters",
       "image": "../assets/images/products/lumieyes.png",
-      "status": "pending"
+      "status": "published",
+      "slug": "lumi-eyes-for-aesthetic-clinics-a-practical-wholesale-sourcing-guide",
+      "published_at": "2026-09-29T17:30:55.533330+00:00"
     },
     {
       "keyword": "bienox 100u for clinics",
@@ -2302,6 +2304,11 @@
       "title": "How Professional Buyers Evaluate Chaeum Before Ordering Wholesale",
       "slug": "how-professional-buyers-evaluate-chaeum-before-ordering-wholesale",
       "published_at": "2026-09-29T12:36:17.323431+00:00"
+    },
+    {
+      "title": "Lumi Eyes for Aesthetic Clinics: A Practical Wholesale Sourcing Guide",
+      "slug": "lumi-eyes-for-aesthetic-clinics-a-practical-wholesale-sourcing-guide",
+      "published_at": "2026-09-29T17:30:55.533330+00:00"
     }
   ]
 }
