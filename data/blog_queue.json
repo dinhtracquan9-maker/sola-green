@@ -1220,7 +1220,9 @@
       "title": "What to Check Before Ordering Bienox 100U from a Wholesale Supplier",
       "category": "Botulinum Toxin",
       "image": "../assets/images/products/bienox100U.png",
-      "status": "pending"
+      "status": "published",
+      "slug": "what-to-check-before-ordering-bienox-100u-from-a-wholesale-supplier",
+      "published_at": "2026-09-30T06:32:03.262715+00:00"
     },
     {
       "keyword": "wholesale dermacan sourcing",
@@ -2309,6 +2311,11 @@
       "title": "Lumi Eyes for Aesthetic Clinics: A Practical Wholesale Sourcing Guide",
       "slug": "lumi-eyes-for-aesthetic-clinics-a-practical-wholesale-sourcing-guide",
       "published_at": "2026-09-29T17:30:55.533330+00:00"
+    },
+    {
+      "title": "What to Check Before Ordering Bienox 100U from a Wholesale Supplier",
+      "slug": "what-to-check-before-ordering-bienox-100u-from-a-wholesale-supplier",
+      "published_at": "2026-09-30T06:32:03.262715+00:00"
     }
   ]
 }
