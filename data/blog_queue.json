@@ -1237,8 +1237,10 @@
       "keyword": "luna eyes distributor",
       "title": "A Procurement Guide to Luna Eyes for Spas, Clinics and Resellers",
       "category": "Skin Boosters",
-      "image": "../assets/images/products/lunaeyes.png",
-      "status": "pending"
+      "image": "../assets/images/Luhilo snow and nomal.jfif",
+      "status": "published",
+      "slug": "a-procurement-guide-to-luna-eyes-for-spas-clinics-and-resellers",
+      "published_at": "2026-09-30T17:29:43.642277+00:00"
     },
     {
       "keyword": "coretox 100u wholesale",
@@ -2323,6 +2325,11 @@
       "title": "Buying Dermacan Wholesale: Documentation, Handling and Shipping Essentials",
       "slug": "buying-dermacan-wholesale-documentation-handling-and-shipping-essentials",
       "published_at": "2026-09-30T12:21:41.836223+00:00"
+    },
+    {
+      "title": "A Procurement Guide to Luna Eyes for Spas, Clinics and Resellers",
+      "slug": "a-procurement-guide-to-luna-eyes-for-spas-clinics-and-resellers",
+      "published_at": "2026-09-30T17:29:43.642277+00:00"
     }
   ]
 }
