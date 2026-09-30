@@ -1228,8 +1228,10 @@
       "keyword": "wholesale dermacan sourcing",
       "title": "Buying Dermacan Wholesale: Documentation, Handling and Shipping Essentials",
       "category": "Dermal Fillers",
-      "image": "../assets/images/products/dermacan.png",
-      "status": "pending"
+      "image": "../assets/images/Luhilo snow and nomal.jfif",
+      "status": "published",
+      "slug": "buying-dermacan-wholesale-documentation-handling-and-shipping-essentials",
+      "published_at": "2026-09-30T12:21:41.836223+00:00"
     },
     {
       "keyword": "luna eyes distributor",
@@ -2316,6 +2318,11 @@
       "title": "What to Check Before Ordering Bienox 100U from a Wholesale Supplier",
       "slug": "what-to-check-before-ordering-bienox-100u-from-a-wholesale-supplier",
       "published_at": "2026-09-30T06:32:03.262715+00:00"
+    },
+    {
+      "title": "Buying Dermacan Wholesale: Documentation, Handling and Shipping Essentials",
+      "slug": "buying-dermacan-wholesale-documentation-handling-and-shipping-essentials",
+      "published_at": "2026-09-30T12:21:41.836223+00:00"
     }
   ]
 }
