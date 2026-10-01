@@ -1255,8 +1255,10 @@
       "keyword": "buy doris filler wholesale",
       "title": "How Professional Buyers Evaluate Doris Filler Before Ordering Wholesale",
       "category": "Dermal Fillers",
-      "image": "../assets/images/products/doris.png",
-      "status": "pending"
+      "image": "../assets/images/How to evaluate wholesale partners Image.jpg",
+      "status": "published",
+      "slug": "how-professional-buyers-evaluate-doris-filler-before-ordering-wholesale",
+      "published_at": "2026-10-01T12:57:03.007763+00:00"
     },
     {
       "keyword": "malinda wholesale supplier",
@@ -2337,6 +2339,11 @@
       "title": "Sourcing Coretox 100U Wholesale: A Buyer's Guide for Clinics and Distributors",
       "slug": "sourcing-coretox-100u-wholesale-a-buyer-s-guide-for-clinics-and-distributors",
       "published_at": "2026-10-01T07:04:33.298699+00:00"
+    },
+    {
+      "title": "How Professional Buyers Evaluate Doris Filler Before Ordering Wholesale",
+      "slug": "how-professional-buyers-evaluate-doris-filler-before-ordering-wholesale",
+      "published_at": "2026-10-01T12:57:03.007763+00:00"
     }
   ]
 }
