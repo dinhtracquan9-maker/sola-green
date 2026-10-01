@@ -1246,8 +1246,10 @@
       "keyword": "coretox 100u wholesale",
       "title": "Sourcing Coretox 100U Wholesale: A Buyer's Guide for Clinics and Distributors",
       "category": "Botulinum Toxin",
-      "image": "../assets/images/products/coretox100u.png",
-      "status": "pending"
+      "image": "../assets/images/Luhilo snow and nomal.jfif",
+      "status": "published",
+      "slug": "sourcing-coretox-100u-wholesale-a-buyer-s-guide-for-clinics-and-distributors",
+      "published_at": "2026-10-01T07:04:33.298699+00:00"
     },
     {
       "keyword": "buy doris filler wholesale",
@@ -2330,6 +2332,11 @@
       "title": "A Procurement Guide to Luna Eyes for Spas, Clinics and Resellers",
       "slug": "a-procurement-guide-to-luna-eyes-for-spas-clinics-and-resellers",
       "published_at": "2026-09-30T17:29:43.642277+00:00"
+    },
+    {
+      "title": "Sourcing Coretox 100U Wholesale: A Buyer's Guide for Clinics and Distributors",
+      "slug": "sourcing-coretox-100u-wholesale-a-buyer-s-guide-for-clinics-and-distributors",
+      "published_at": "2026-10-01T07:04:33.298699+00:00"
     }
   ]
 }
