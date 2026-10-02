@@ -1274,7 +1274,9 @@
       "title": "What to Check Before Ordering Dehantox from a Wholesale Supplier",
       "category": "Botulinum Toxin",
       "image": "../assets/images/products/dehantox.png",
-      "status": "pending"
+      "status": "published",
+      "slug": "what-to-check-before-ordering-dehantox-from-a-wholesale-supplier",
+      "published_at": "2026-10-02T06:52:36.356734+00:00"
     },
     {
       "keyword": "wholesale stylage l sourcing",
@@ -2351,6 +2353,11 @@
       "title": "Malinda for Aesthetic Clinics: A Practical Wholesale Sourcing Guide",
       "slug": "malinda-for-aesthetic-clinics-a-practical-wholesale-sourcing-guide",
       "published_at": "2026-10-01T17:54:52.804836+00:00"
+    },
+    {
+      "title": "What to Check Before Ordering Dehantox from a Wholesale Supplier",
+      "slug": "what-to-check-before-ordering-dehantox-from-a-wholesale-supplier",
+      "published_at": "2026-10-02T06:52:36.356734+00:00"
     }
   ]
 }
