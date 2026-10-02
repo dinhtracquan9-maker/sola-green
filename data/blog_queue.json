@@ -1282,8 +1282,10 @@
       "keyword": "wholesale stylage l sourcing",
       "title": "Buying Stylage L Wholesale: Documentation, Handling and Shipping Essentials",
       "category": "Dermal Fillers",
-      "image": "../assets/images/products/stylageL.png",
-      "status": "pending"
+      "image": "../assets/images/Luhilo snow and nomal.jfif",
+      "status": "published",
+      "slug": "buying-stylage-l-wholesale-documentation-handling-and-shipping-essentials",
+      "published_at": "2026-10-02T12:19:27.431172+00:00"
     },
     {
       "keyword": "juvelook distributor",
@@ -2358,6 +2360,11 @@
       "title": "What to Check Before Ordering Dehantox from a Wholesale Supplier",
       "slug": "what-to-check-before-ordering-dehantox-from-a-wholesale-supplier",
       "published_at": "2026-10-02T06:52:36.356734+00:00"
+    },
+    {
+      "title": "Buying Stylage L Wholesale: Documentation, Handling and Shipping Essentials",
+      "slug": "buying-stylage-l-wholesale-documentation-handling-and-shipping-essentials",
+      "published_at": "2026-10-02T12:19:27.431172+00:00"
     }
   ]
 }
