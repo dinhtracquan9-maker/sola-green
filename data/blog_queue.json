@@ -1291,8 +1291,10 @@
       "keyword": "juvelook distributor",
       "title": "A Procurement Guide to Juvelook for Spas, Clinics and Resellers",
       "category": "Skin Boosters",
-      "image": "../assets/images/products/juvelook.png",
-      "status": "pending"
+      "image": "../assets/images/Juvelook Image 2.jpg",
+      "status": "published",
+      "slug": "a-procurement-guide-to-juvelook-for-spas-clinics-and-resellers",
+      "published_at": "2026-10-02T17:20:11.658195+00:00"
     },
     {
       "keyword": "liztox 100 wholesale",
@@ -2365,6 +2367,11 @@
       "title": "Buying Stylage L Wholesale: Documentation, Handling and Shipping Essentials",
       "slug": "buying-stylage-l-wholesale-documentation-handling-and-shipping-essentials",
       "published_at": "2026-10-02T12:19:27.431172+00:00"
+    },
+    {
+      "title": "A Procurement Guide to Juvelook for Spas, Clinics and Resellers",
+      "slug": "a-procurement-guide-to-juvelook-for-spas-clinics-and-resellers",
+      "published_at": "2026-10-02T17:20:11.658195+00:00"
     }
   ]
 }
