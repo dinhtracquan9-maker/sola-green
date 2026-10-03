@@ -1309,8 +1309,10 @@
       "keyword": "buy stylage m wholesale",
       "title": "How Professional Buyers Evaluate Stylage M Before Ordering Wholesale",
       "category": "Dermal Fillers",
-      "image": "../assets/images/products/stylageM.png",
-      "status": "pending"
+      "image": "../assets/images/How to evaluate wholesale partners Image.jpg",
+      "status": "published",
+      "slug": "how-professional-buyers-evaluate-stylage-m-before-ordering-wholesale",
+      "published_at": "2026-10-03T11:29:15.795173+00:00"
     },
     {
       "keyword": "richesse eyes wholesale supplier",
@@ -2379,6 +2381,11 @@
       "title": "Sourcing Liztox 100 Wholesale: A Buyer's Guide for Clinics and Distributors",
       "slug": "sourcing-liztox-100-wholesale-a-buyer-s-guide-for-clinics-and-distributors",
       "published_at": "2026-10-03T06:17:44.637228+00:00"
+    },
+    {
+      "title": "How Professional Buyers Evaluate Stylage M Before Ordering Wholesale",
+      "slug": "how-professional-buyers-evaluate-stylage-m-before-ordering-wholesale",
+      "published_at": "2026-10-03T11:29:15.795173+00:00"
     }
   ]
 }
