@@ -1300,8 +1300,10 @@
       "keyword": "liztox 100 wholesale",
       "title": "Sourcing Liztox 100 Wholesale: A Buyer's Guide for Clinics and Distributors",
       "category": "Botulinum Toxin",
-      "image": "../assets/images/products/liztox100.png",
-      "status": "pending"
+      "image": "../assets/images/A Hung Allergan 100.jpg",
+      "status": "published",
+      "slug": "sourcing-liztox-100-wholesale-a-buyer-s-guide-for-clinics-and-distributors",
+      "published_at": "2026-10-03T06:17:44.637228+00:00"
     },
     {
       "keyword": "buy stylage m wholesale",
@@ -2372,6 +2374,11 @@
       "title": "A Procurement Guide to Juvelook for Spas, Clinics and Resellers",
       "slug": "a-procurement-guide-to-juvelook-for-spas-clinics-and-resellers",
       "published_at": "2026-10-02T17:20:11.658195+00:00"
+    },
+    {
+      "title": "Sourcing Liztox 100 Wholesale: A Buyer's Guide for Clinics and Distributors",
+      "slug": "sourcing-liztox-100-wholesale-a-buyer-s-guide-for-clinics-and-distributors",
+      "published_at": "2026-10-03T06:17:44.637228+00:00"
     }
   ]
 }
