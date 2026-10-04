@@ -1345,8 +1345,10 @@
       "keyword": "roya distributor",
       "title": "A Procurement Guide to Roya for Spas, Clinics and Resellers",
       "category": "Skin Boosters",
-      "image": "../assets/images/products/roya.png",
-      "status": "pending"
+      "image": "../assets/images/Luhilo snow and nomal.jfif",
+      "status": "published",
+      "slug": "a-procurement-guide-to-roya-for-spas-clinics-and-resellers",
+      "published_at": "2026-10-04T16:20:52.563251+00:00"
     },
     {
       "keyword": "onetox 100 wholesale",
@@ -2407,6 +2409,11 @@
       "title": "Buying Stylage S Wholesale: Documentation, Handling and Shipping Essentials",
       "slug": "buying-stylage-s-wholesale-documentation-handling-and-shipping-essentials",
       "published_at": "2026-10-04T12:10:59.774807+00:00"
+    },
+    {
+      "title": "A Procurement Guide to Roya for Spas, Clinics and Resellers",
+      "slug": "a-procurement-guide-to-roya-for-spas-clinics-and-resellers",
+      "published_at": "2026-10-04T16:20:52.563251+00:00"
     }
   ]
 }
