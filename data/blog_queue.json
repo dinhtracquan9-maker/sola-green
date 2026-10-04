@@ -1328,7 +1328,9 @@
       "title": "What to Check Before Ordering Neuronox 100U from a Wholesale Supplier",
       "category": "Botulinum Toxin",
       "image": "../assets/images/products/Neuronox100U.png",
-      "status": "pending"
+      "status": "published",
+      "slug": "what-to-check-before-ordering-neuronox-100u-from-a-wholesale-supplier",
+      "published_at": "2026-10-04T06:42:30.639856+00:00"
     },
     {
       "keyword": "wholesale stylage s sourcing",
@@ -2393,6 +2395,11 @@
       "title": "Richesse Eyes for Aesthetic Clinics: A Practical Wholesale Sourcing Guide",
       "slug": "richesse-eyes-for-aesthetic-clinics-a-practical-wholesale-sourcing-guide",
       "published_at": "2026-10-03T15:36:55.190995+00:00"
+    },
+    {
+      "title": "What to Check Before Ordering Neuronox 100U from a Wholesale Supplier",
+      "slug": "what-to-check-before-ordering-neuronox-100u-from-a-wholesale-supplier",
+      "published_at": "2026-10-04T06:42:30.639856+00:00"
     }
   ]
 }
