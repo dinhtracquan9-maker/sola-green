@@ -1336,8 +1336,10 @@
       "keyword": "wholesale stylage s sourcing",
       "title": "Buying Stylage S Wholesale: Documentation, Handling and Shipping Essentials",
       "category": "Dermal Fillers",
-      "image": "../assets/images/products/stylageS.png",
-      "status": "pending"
+      "image": "../assets/images/Luhilo snow and nomal.jfif",
+      "status": "published",
+      "slug": "buying-stylage-s-wholesale-documentation-handling-and-shipping-essentials",
+      "published_at": "2026-10-04T12:10:59.774807+00:00"
     },
     {
       "keyword": "roya distributor",
@@ -2400,6 +2402,11 @@
       "title": "What to Check Before Ordering Neuronox 100U from a Wholesale Supplier",
       "slug": "what-to-check-before-ordering-neuronox-100u-from-a-wholesale-supplier",
       "published_at": "2026-10-04T06:42:30.639856+00:00"
+    },
+    {
+      "title": "Buying Stylage S Wholesale: Documentation, Handling and Shipping Essentials",
+      "slug": "buying-stylage-s-wholesale-documentation-handling-and-shipping-essentials",
+      "published_at": "2026-10-04T12:10:59.774807+00:00"
     }
   ]
 }
