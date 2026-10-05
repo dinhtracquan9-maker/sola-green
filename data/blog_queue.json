@@ -1354,8 +1354,10 @@
       "keyword": "onetox 100 wholesale",
       "title": "Sourcing Onetox 100 Wholesale: A Buyer's Guide for Clinics and Distributors",
       "category": "Botulinum Toxin",
-      "image": "../assets/images/products/onetox100.png",
-      "status": "pending"
+      "image": "../assets/images/A Hung Allergan 100.jpg",
+      "status": "published",
+      "slug": "sourcing-onetox-100-wholesale-a-buyer-s-guide-for-clinics-and-distributors",
+      "published_at": "2026-10-05T06:45:59.571111+00:00"
     },
     {
       "keyword": "buy stylage xxl wholesale",
@@ -2414,6 +2416,11 @@
       "title": "A Procurement Guide to Roya for Spas, Clinics and Resellers",
       "slug": "a-procurement-guide-to-roya-for-spas-clinics-and-resellers",
       "published_at": "2026-10-04T16:20:52.563251+00:00"
+    },
+    {
+      "title": "Sourcing Onetox 100 Wholesale: A Buyer's Guide for Clinics and Distributors",
+      "slug": "sourcing-onetox-100-wholesale-a-buyer-s-guide-for-clinics-and-distributors",
+      "published_at": "2026-10-05T06:45:59.571111+00:00"
     }
   ]
 }
