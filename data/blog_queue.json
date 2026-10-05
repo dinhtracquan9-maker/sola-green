@@ -1373,7 +1373,9 @@
       "title": "RRS HA Eyes for Aesthetic Clinics: A Practical Wholesale Sourcing Guide",
       "category": "Skin Boosters",
       "image": "../assets/images/products/rrshaeyes.png",
-      "status": "pending"
+      "status": "published",
+      "slug": "rrs-ha-eyes-for-aesthetic-clinics-a-practical-wholesale-sourcing-guide",
+      "published_at": "2026-10-05T20:12:31.660435+00:00"
     },
     {
       "keyword": "onetox 200 for clinics",
@@ -2428,6 +2430,11 @@
       "title": "How Professional Buyers Evaluate Stylage XXL Before Ordering Wholesale",
       "slug": "how-professional-buyers-evaluate-stylage-xxl-before-ordering-wholesale",
       "published_at": "2026-10-05T14:19:45.066138+00:00"
+    },
+    {
+      "title": "RRS HA Eyes for Aesthetic Clinics: A Practical Wholesale Sourcing Guide",
+      "slug": "rrs-ha-eyes-for-aesthetic-clinics-a-practical-wholesale-sourcing-guide",
+      "published_at": "2026-10-05T20:12:31.660435+00:00"
     }
   ]
 }
