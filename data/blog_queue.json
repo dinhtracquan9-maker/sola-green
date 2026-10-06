@@ -1399,8 +1399,10 @@
       "keyword": "aqua pn distributor",
       "title": "A Procurement Guide to Aqua PN for Spas, Clinics and Resellers",
       "category": "Skin Boosters",
-      "image": "../assets/images/products/aquapn.png",
-      "status": "pending"
+      "image": "../assets/images/Luhilo snow and nomal.jfif",
+      "status": "published",
+      "slug": "a-procurement-guide-to-aqua-pn-for-spas-clinics-and-resellers",
+      "published_at": "2026-10-06T17:49:23.780887+00:00"
     },
     {
       "keyword": "evetox wholesale",
@@ -2449,6 +2451,11 @@
       "title": "Buying Restylane Contour Wholesale: Documentation, Handling and Shipping Essentials",
       "slug": "buying-restylane-contour-wholesale-documentation-handling-and-shipping-essenti",
       "published_at": "2026-10-06T13:11:21.208766+00:00"
+    },
+    {
+      "title": "A Procurement Guide to Aqua PN for Spas, Clinics and Resellers",
+      "slug": "a-procurement-guide-to-aqua-pn-for-spas-clinics-and-resellers",
+      "published_at": "2026-10-06T17:49:23.780887+00:00"
     }
   ]
 }
