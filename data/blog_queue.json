@@ -1408,8 +1408,10 @@
       "keyword": "evetox wholesale",
       "title": "Sourcing Evetox Wholesale: A Buyer's Guide for Clinics and Distributors",
       "category": "Botulinum Toxin",
-      "image": "../assets/images/products/evetox.png",
-      "status": "pending"
+      "image": "../assets/images/Luhilo snow and nomal.jfif",
+      "status": "published",
+      "slug": "sourcing-evetox-wholesale-a-buyer-s-guide-for-clinics-and-distributors",
+      "published_at": "2026-10-07T07:03:32.613269+00:00"
     },
     {
       "keyword": "buy restylane fynesse wholesale",
@@ -2456,6 +2458,11 @@
       "title": "A Procurement Guide to Aqua PN for Spas, Clinics and Resellers",
       "slug": "a-procurement-guide-to-aqua-pn-for-spas-clinics-and-resellers",
       "published_at": "2026-10-06T17:49:23.780887+00:00"
+    },
+    {
+      "title": "Sourcing Evetox Wholesale: A Buyer's Guide for Clinics and Distributors",
+      "slug": "sourcing-evetox-wholesale-a-buyer-s-guide-for-clinics-and-distributors",
+      "published_at": "2026-10-07T07:03:32.613269+00:00"
     }
   ]
 }
