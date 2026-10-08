@@ -1453,8 +1453,10 @@
       "keyword": "kiara reju distributor",
       "title": "A Procurement Guide to Kiara Reju for Spas, Clinics and Resellers",
       "category": "Skin Boosters",
-      "image": "../assets/images/products/kiaraReju.png",
-      "status": "pending"
+      "image": "../assets/images/Luhilo snow and nomal.jfif",
+      "status": "published",
+      "slug": "a-procurement-guide-to-kiara-reju-for-spas-clinics-and-resellers",
+      "published_at": "2026-10-08T18:20:24.483176+00:00"
     },
     {
       "keyword": "toxta 100 wholesale",
@@ -2491,6 +2493,11 @@
       "title": "Buying Restylane Lidocaine Wholesale: Documentation, Handling and Shipping Essentials",
       "slug": "buying-restylane-lidocaine-wholesale-documentation-handling-and-shipping-essen",
       "published_at": "2026-10-08T13:14:30.957519+00:00"
+    },
+    {
+      "title": "A Procurement Guide to Kiara Reju for Spas, Clinics and Resellers",
+      "slug": "a-procurement-guide-to-kiara-reju-for-spas-clinics-and-resellers",
+      "published_at": "2026-10-08T18:20:24.483176+00:00"
     }
   ]
 }
