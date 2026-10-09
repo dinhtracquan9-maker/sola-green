@@ -1462,8 +1462,10 @@
       "keyword": "toxta 100 wholesale",
       "title": "Sourcing Toxta 100 Wholesale: A Buyer's Guide for Clinics and Distributors",
       "category": "Botulinum Toxin",
-      "image": "../assets/images/products/toxta100.png",
-      "status": "pending"
+      "image": "../assets/images/A Hung Allergan 100.jpg",
+      "status": "published",
+      "slug": "sourcing-toxta-100-wholesale-a-buyer-s-guide-for-clinics-and-distributors",
+      "published_at": "2026-10-09T07:16:33.202325+00:00"
     },
     {
       "keyword": "buy restylane refyne wholesale",
@@ -2498,6 +2500,11 @@
       "title": "A Procurement Guide to Kiara Reju for Spas, Clinics and Resellers",
       "slug": "a-procurement-guide-to-kiara-reju-for-spas-clinics-and-resellers",
       "published_at": "2026-10-08T18:20:24.483176+00:00"
+    },
+    {
+      "title": "Sourcing Toxta 100 Wholesale: A Buyer's Guide for Clinics and Distributors",
+      "slug": "sourcing-toxta-100-wholesale-a-buyer-s-guide-for-clinics-and-distributors",
+      "published_at": "2026-10-09T07:16:33.202325+00:00"
     }
   ]
 }
