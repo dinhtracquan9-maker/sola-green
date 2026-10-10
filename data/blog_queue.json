@@ -1507,8 +1507,10 @@
       "keyword": "evehilo distributor",
       "title": "A Procurement Guide to Evehilo for Spas, Clinics and Resellers",
       "category": "Skin Boosters",
-      "image": "../assets/images/products/evehilo.png",
-      "status": "pending"
+      "image": "../assets/images/Luhilo snow and nomal.jfif",
+      "status": "published",
+      "slug": "a-procurement-guide-to-evehilo-for-spas-clinics-and-resellers",
+      "published_at": "2026-10-10T16:51:02.342468+00:00"
     },
     {
       "keyword": "innotox 100 wholesale",
@@ -2533,6 +2535,11 @@
       "title": "Buying Restylane Volyme Wholesale: Documentation, Handling and Shipping Essentials",
       "slug": "buying-restylane-volyme-wholesale-documentation-handling-and-shipping-essentia",
       "published_at": "2026-10-10T12:18:02.137299+00:00"
+    },
+    {
+      "title": "A Procurement Guide to Evehilo for Spas, Clinics and Resellers",
+      "slug": "a-procurement-guide-to-evehilo-for-spas-clinics-and-resellers",
+      "published_at": "2026-10-10T16:51:02.342468+00:00"
     }
   ]
 }
