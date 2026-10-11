@@ -1516,8 +1516,10 @@
       "keyword": "innotox 100 wholesale",
       "title": "Sourcing Innotox 100 Wholesale: A Buyer's Guide for Clinics and Distributors",
       "category": "Botulinum Toxin",
-      "image": "../assets/images/products/innotox100.png",
-      "status": "pending"
+      "image": "../assets/images/A Hung Allergan 100.jpg",
+      "status": "published",
+      "slug": "sourcing-innotox-100-wholesale-a-buyer-s-guide-for-clinics-and-distributors",
+      "published_at": "2026-10-11T06:57:52.559160+00:00"
     },
     {
       "keyword": "buy teoxane redensity ii wholesale",
@@ -2540,6 +2542,11 @@
       "title": "A Procurement Guide to Evehilo for Spas, Clinics and Resellers",
       "slug": "a-procurement-guide-to-evehilo-for-spas-clinics-and-resellers",
       "published_at": "2026-10-10T16:51:02.342468+00:00"
+    },
+    {
+      "title": "Sourcing Innotox 100 Wholesale: A Buyer's Guide for Clinics and Distributors",
+      "slug": "sourcing-innotox-100-wholesale-a-buyer-s-guide-for-clinics-and-distributors",
+      "published_at": "2026-10-11T06:57:52.559160+00:00"
     }
   ]
 }
