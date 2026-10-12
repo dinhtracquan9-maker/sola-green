@@ -1561,8 +1561,10 @@
       "keyword": "jalupro young eye distributor",
       "title": "A Procurement Guide to Jalupro Young Eye for Spas, Clinics and Resellers",
       "category": "Skin Boosters",
-      "image": "../assets/images/products/jalupro.png",
-      "status": "pending"
+      "image": "../assets/images/Luhilo snow and nomal.jfif",
+      "status": "published",
+      "slug": "a-procurement-guide-to-jalupro-young-eye-for-spas-clinics-and-resellers",
+      "published_at": "2026-10-12T20:49:14.167470+00:00"
     },
     {
       "keyword": "rubytoxin 100u wholesale",
@@ -2575,6 +2577,11 @@
       "title": "Buying Rejeunesse Wholesale: Documentation, Handling and Shipping Essentials",
       "slug": "buying-rejeunesse-wholesale-documentation-handling-and-shipping-essentials",
       "published_at": "2026-10-12T15:07:06.205059+00:00"
+    },
+    {
+      "title": "A Procurement Guide to Jalupro Young Eye for Spas, Clinics and Resellers",
+      "slug": "a-procurement-guide-to-jalupro-young-eye-for-spas-clinics-and-resellers",
+      "published_at": "2026-10-12T20:49:14.167470+00:00"
     }
   ]
 }
