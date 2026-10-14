@@ -1615,8 +1615,10 @@
       "keyword": "ammi eyes distributor",
       "title": "A Procurement Guide to Ammi Eyes for Spas, Clinics and Resellers",
       "category": "Skin Boosters",
-      "image": "../assets/images/products/ammiEyes.png",
-      "status": "pending"
+      "image": "../assets/images/Luhilo snow and nomal.jfif",
+      "status": "published",
+      "slug": "a-procurement-guide-to-ammi-eyes-for-spas-clinics-and-resellers",
+      "published_at": "2026-10-14T16:23:18.535081+00:00"
     },
     {
       "keyword": "nabota 100 wholesale",
@@ -2617,6 +2619,11 @@
       "title": "Buying Juvederm Voluma Wholesale: Documentation, Handling and Shipping Essentials",
       "slug": "buying-juvederm-voluma-wholesale-documentation-handling-and-shipping-essential",
       "published_at": "2026-10-14T11:36:58.079830+00:00"
+    },
+    {
+      "title": "A Procurement Guide to Ammi Eyes for Spas, Clinics and Resellers",
+      "slug": "a-procurement-guide-to-ammi-eyes-for-spas-clinics-and-resellers",
+      "published_at": "2026-10-14T16:23:18.535081+00:00"
     }
   ]
 }
