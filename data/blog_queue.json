@@ -1624,8 +1624,10 @@
       "keyword": "nabota 100 wholesale",
       "title": "Sourcing Nabota 100 Wholesale: A Buyer's Guide for Clinics and Distributors",
       "category": "Botulinum Toxin",
-      "image": "../assets/images/products/nabota100.png",
-      "status": "pending"
+      "image": "../assets/images/A Hung Allergan 100.jpg",
+      "status": "published",
+      "slug": "sourcing-nabota-100-wholesale-a-buyer-s-guide-for-clinics-and-distributors",
+      "published_at": "2026-10-15T05:44:21.002946+00:00"
     },
     {
       "keyword": "buy juvederm xc plus wholesale",
@@ -2624,6 +2626,11 @@
       "title": "A Procurement Guide to Ammi Eyes for Spas, Clinics and Resellers",
       "slug": "a-procurement-guide-to-ammi-eyes-for-spas-clinics-and-resellers",
       "published_at": "2026-10-14T16:23:18.535081+00:00"
+    },
+    {
+      "title": "Sourcing Nabota 100 Wholesale: A Buyer's Guide for Clinics and Distributors",
+      "slug": "sourcing-nabota-100-wholesale-a-buyer-s-guide-for-clinics-and-distributors",
+      "published_at": "2026-10-15T05:44:21.002946+00:00"
     }
   ]
 }
