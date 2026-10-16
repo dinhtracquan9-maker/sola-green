@@ -1669,8 +1669,10 @@
       "keyword": "fabi distributor",
       "title": "A Procurement Guide to Fabi for Spas, Clinics and Resellers",
       "category": "Skin Boosters",
-      "image": "../assets/images/products/fabi.png",
-      "status": "pending"
+      "image": "../assets/images/Luhilo snow and nomal.jfif",
+      "status": "published",
+      "slug": "a-procurement-guide-to-fabi-for-spas-clinics-and-resellers",
+      "published_at": "2026-10-16T15:58:10.464567+00:00"
     },
     {
       "keyword": "rentox 100 wholesale",
@@ -2659,6 +2661,11 @@
       "title": "Buying Restylane Kysse Wholesale: Documentation, Handling and Shipping Essentials",
       "slug": "buying-restylane-kysse-wholesale-documentation-handling-and-shipping-essential",
       "published_at": "2026-10-16T11:09:50.021481+00:00"
+    },
+    {
+      "title": "A Procurement Guide to Fabi for Spas, Clinics and Resellers",
+      "slug": "a-procurement-guide-to-fabi-for-spas-clinics-and-resellers",
+      "published_at": "2026-10-16T15:58:10.464567+00:00"
     }
   ]
 }
