@@ -1678,8 +1678,10 @@
       "keyword": "rentox 100 wholesale",
       "title": "Sourcing Rentox 100 Wholesale: A Buyer's Guide for Clinics and Distributors",
       "category": "Botulinum Toxin",
-      "image": "../assets/images/products/rentox100.png",
-      "status": "pending"
+      "image": "../assets/images/Rentox 100.jfif",
+      "status": "published",
+      "slug": "sourcing-rentox-100-wholesale-a-buyer-s-guide-for-clinics-and-distributors",
+      "published_at": "2026-10-17T05:26:50.723766+00:00"
     },
     {
       "keyword": "buy restylane defyne wholesale",
@@ -2666,6 +2668,11 @@
       "title": "A Procurement Guide to Fabi for Spas, Clinics and Resellers",
       "slug": "a-procurement-guide-to-fabi-for-spas-clinics-and-resellers",
       "published_at": "2026-10-16T15:58:10.464567+00:00"
+    },
+    {
+      "title": "Sourcing Rentox 100 Wholesale: A Buyer's Guide for Clinics and Distributors",
+      "slug": "sourcing-rentox-100-wholesale-a-buyer-s-guide-for-clinics-and-distributors",
+      "published_at": "2026-10-17T05:26:50.723766+00:00"
     }
   ]
 }
