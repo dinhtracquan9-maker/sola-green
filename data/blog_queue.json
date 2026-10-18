@@ -1714,8 +1714,10 @@
       "keyword": "wholesale pink glow sourcing",
       "title": "Buying Pink Glow Wholesale: Documentation, Handling and Shipping Essentials",
       "category": "Skin Boosters",
-      "image": "../assets/images/products/pinkglow.png",
-      "status": "pending"
+      "image": "../assets/images/Luhilo snow and nomal.jfif",
+      "status": "published",
+      "slug": "buying-pink-glow-wholesale-documentation-handling-and-shipping-essentials",
+      "published_at": "2026-10-18T10:49:14.643465+00:00"
     },
     {
       "keyword": "placentex distributor",
@@ -2694,6 +2696,11 @@
       "title": "What to Check Before Ordering Rentox 200 from a Wholesale Supplier",
       "slug": "what-to-check-before-ordering-rentox-200-from-a-wholesale-supplier",
       "published_at": "2026-10-18T05:38:40.776462+00:00"
+    },
+    {
+      "title": "Buying Pink Glow Wholesale: Documentation, Handling and Shipping Essentials",
+      "slug": "buying-pink-glow-wholesale-documentation-handling-and-shipping-essentials",
+      "published_at": "2026-10-18T10:49:14.643465+00:00"
     }
   ]
 }
