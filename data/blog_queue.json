@@ -1732,8 +1732,10 @@
       "keyword": "jalupro hmw wholesale",
       "title": "Sourcing Jalupro HMW Wholesale: A Buyer's Guide for Clinics and Distributors",
       "category": "Skin Boosters",
-      "image": "../assets/images/products/jaluproHMW.png",
-      "status": "pending"
+      "image": "../assets/images/Luhilo snow and nomal.jfif",
+      "status": "published",
+      "slug": "sourcing-jalupro-hmw-wholesale-a-buyer-s-guide-for-clinics-and-distributors",
+      "published_at": "2026-10-19T05:56:19.445186+00:00"
     },
     {
       "keyword": "buy jalupro super hydro wholesale",
@@ -2708,6 +2710,11 @@
       "title": "A Procurement Guide to Placentex for Spas, Clinics and Resellers",
       "slug": "a-procurement-guide-to-placentex-for-spas-clinics-and-resellers",
       "published_at": "2026-10-18T15:16:58.936141+00:00"
+    },
+    {
+      "title": "Sourcing Jalupro HMW Wholesale: A Buyer's Guide for Clinics and Distributors",
+      "slug": "sourcing-jalupro-hmw-wholesale-a-buyer-s-guide-for-clinics-and-distributors",
+      "published_at": "2026-10-19T05:56:19.445186+00:00"
     }
   ]
 }
