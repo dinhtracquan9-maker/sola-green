@@ -82,10 +82,12 @@ def page(p, a):
     return f'''<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>{name} Wholesale | HANSEONG BEAUTY GLOBAL</title><meta name="description" content="{desc}"><link rel="canonical" href="{url}"><meta property="og:type" content="product"><meta property="og:title" content="{name} Wholesale | HANSEONG BEAUTY GLOBAL"><meta property="og:description" content="{desc}"><meta property="og:image" content="{img_abs}"><link rel="icon" href="../assets/icons/logo.png"><link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Manrope:wght@600;700&family=Plus+Jakarta+Sans:wght@600;700;800&display=swap" rel="stylesheet"><link rel="stylesheet" href="../assets/css/style.css"><script type="application/ld+json">{ld}</script></head><body class="article-page">{nav}<main><header class="article-hero"><div class="wrap article-wrap"><span>{html.escape(p["category"].upper())} · WHOLESALE</span><h1>{name}</h1><p>{desc}</p><div class="article-meta"><a href="../index.html">Home</a> › <a href="../products.html">Products</a> › {name}</div></div></header><div class="article-cover wrap"><img src="{img}" alt="{name}" loading="lazy"></div><article class="article-body article-wrap"><p class="article-intro">{html.escape(a["intro"])}</p>{a["body_html"]}<div class="article-callout"><b>Product at a glance</b><ul><li><strong>Brand:</strong> {brand}</li><li><strong>Origin:</strong> {origin}</li><li><strong>Category:</strong> {cat}</li></ul></div><div class="article-end"><h2>Request a wholesale quote for {name}</h2><p>Send your destination country and quantity. Our team will help you check current availability and shipping options.</p><a class="btn primary" href="{wa_link}">Request quotation on WhatsApp →</a></div><p class="disclaimer">General procurement information for professional buyers. Not medical, legal, regulatory or import advice. Product availability varies by market.</p></article></main>{footer}<script src="../assets/js/main.js"></script></body></html>'''
 
 def build_sitemap():
+    from build_category_pages import build_categories
+    build_categories()
     urls = []
     for f in ["index.html", "products.html", "brands.html", "catalogue.html", "shipping.html", "about.html", "faq.html", "contact.html"]:
         if (ROOT / f).exists(): urls.append(f"{SITE}/{f}")
-    for d in ["blog", "products"]:
+    for d in ["blog", "products", "categories"]:
         p = ROOT / d
         if p.exists():
             for f in sorted(p.glob("*.html")): urls.append(f"{SITE}/{d}/{f.name}")

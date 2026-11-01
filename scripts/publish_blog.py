@@ -439,6 +439,11 @@ def select_cover(topic):
 
 def related_links(topic):
     category_url = CATEGORY_LINKS.get(topic["category"], "../products.html")
+    aliases = {"Botulinum Toxin": "Toxin", "Skin Boosters": "Skin Boosters / PN", "Exosome & Meso": "Exosome / Meso", "Biostimulators": "Biostimulator", "Body Fillers": "Body Filler", "Lipolysis": "Body & Weight Care", "Weight Management": "Body & Weight Care", "IV & Wellness": "Whitening IV / Wellness", "Numbing & Supplies": "Numbing / Anesthetic"}
+    from build_product_pages import slugify as category_slug
+    category_path = "categories/" + category_slug(aliases.get(topic["category"], topic["category"])) + ".html"
+    if (ROOT / category_path).exists():
+        category_url = "../" + category_path
     product_name = topic["keyword"].replace(" wholesale", "").replace(" supplier", "").replace(" sourcing", "").replace(" for clinics", "").strip()
     product_query = quote(product_name)
     refs = "".join(

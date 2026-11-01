@@ -37,7 +37,7 @@ jobs:
         run: |
           git config user.name "HANSEONG Journal Bot"
           git config user.email "bot@hanseongbeauty.com"
-          git add products/ sitemap.xml robots.txt
+          git add products/ categories/ products.html sitemap.xml robots.txt
           if git diff --cached --quiet; then
             echo "No new product pages."
           else
