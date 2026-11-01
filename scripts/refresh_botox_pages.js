@@ -110,7 +110,7 @@ function rebuildSitemap() {
   });
   const today = new Date().toISOString().slice(0, 10);
   const urls = [...fixed, ...dynamic].map((loc) => `<url><loc>${loc}</loc><lastmod>${today}</lastmod></url>`).join('');
-  fs.writeFileSync(path.join(ROOT, 'sitemap.xml'), `<xml version="1.0" encoding="UTF-8"><urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">${urls}</urlset>\n`, 'utf8');
+  fs.writeFileSync(path.join(ROOT, 'sitemap.xml'), `<?xml version="1.0" encoding="UTF-8"?><urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">${urls}</urlset>\n`, 'utf8');
 }
 
 fs.mkdirSync(PRODUCTS_DIR, { recursive: true });

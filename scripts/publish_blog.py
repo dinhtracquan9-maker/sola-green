@@ -481,9 +481,10 @@ def main():
         return
     topic = next((x for x in data["topics"] if x.get("status") == "pending"), None)
     if not topic:
-        print("No pending topics.")
-        return
+        raise RuntimeError("Editorial queue exhausted: add researched topics before publishing")
     article, used_fallback = generate_article(topic)
+    if used_fallback:
+        raise RuntimeError("Fallback content requires editorial review; nothing published")
     slug = slugify(article["title"])
     target = BLOG / f"{slug}.html"
     if target.exists():
@@ -495,6 +496,8 @@ def main():
     topic.update({"status": "published", "slug": slug, "published_at": now.isoformat(), "image": cover})
     data["published"].append({"title": article["title"], "slug": slug, "published_at": now.isoformat()})
     QUEUE.write_text(json.dumps(data, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
+    from build_product_pages import build_sitemap
+    build_sitemap()
     mode = "fallback content" if used_fallback else "OpenAI content"
     print(f"Published {target.name} ({mode})")
 

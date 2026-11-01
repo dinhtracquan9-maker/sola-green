@@ -89,10 +89,9 @@ def build_sitemap():
         p = ROOT / d
         if p.exists():
             for f in sorted(p.glob("*.html")): urls.append(f"{SITE}/{d}/{f.name}")
-    today = datetime.now(timezone.utc).strftime("%Y-%m-%d")
-    body = "".join(f"<url><loc>{u}</loc><lastmod>{today}</lastmod></url>" for u in urls)
+    body = "".join(f"<url><loc>{html.escape(u)}</loc></url>" for u in urls)
     (ROOT / "sitemap.xml").write_text(
-        f'<xml version="1.0" encoding="UTF-8"><urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">{body}</urlset>\n',
+        f'<?xml version="1.0" encoding="UTF-8"?><urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">{body}</urlset>\n',
         encoding="utf-8")
     (ROOT / "robots.txt").write_text(f"User-agent: *\nAllow: /\nSitemap: {SITE}/sitemap.xml\n", encoding="utf-8")
     return len(urls)

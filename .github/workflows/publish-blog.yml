@@ -37,7 +37,7 @@ jobs:
         run: |
           git config user.name "HANSEONG Journal Bot"
           git config user.email "bot@hanseongbeauty.com"
-          git add blog/ data/blog_queue.json
+          git add blog/ data/blog_queue.json sitemap.xml robots.txt
           if git diff --cached --quiet; then
             echo "No article generated."
           else
