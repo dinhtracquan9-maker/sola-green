@@ -2,6 +2,7 @@ import argparse, html, json, os, re, sys, unicodedata, urllib.error, urllib.requ
 from datetime import datetime, timezone
 from pathlib import Path
 from urllib.parse import quote
+from html.parser import HTMLParser
 
 ROOT = Path(__file__).resolve().parents[1]
 QUEUE, BLOG = ROOT / "data" / "blog_queue.json", ROOT / "blog"
@@ -171,7 +172,7 @@ def load_queue():
 def slugify(value):
     return re.sub(r"[^a-z0-9]+", "-", value.lower()).strip("-")[:78]
 
-def generate(topic):
+def generate(topic, feedback=""):
     category_url = CATEGORY_LINKS.get(topic["category"], "../products.html")
     prompt = f'''Write an original English article for HANSEONG BEAUTY GLOBAL's professional buyer journal.
 Title brief: {topic['title']}
@@ -180,6 +181,8 @@ Write 650-1000 useful words without padding. Buyer role: {topic.get('buyer_role'
 Internal link context to naturally mention in plain text: product catalogue {category_url}, quote/contact page ../contact.html, shipping support ../shipping.html, brand overview ../brands.html.
 Do not cite FDA or other agencies as evidence for a product unless an applicable source is explicitly supplied. Do not imply approval or authenticity from a general agency page.
 Return JSON only: title, meta_description (max 155 chars), excerpt (35-50 words), read_time, html_body. html_body may use only h2, h3, p, ul, li, strong and em tags. Do not output a tags; links are added by the website automation.'''
+    if feedback:
+        prompt += "\nPrevious attempt was rejected: " + feedback + ". Correct this error. Include at least 650 words of substantive body text and return the complete JSON article."
     payload = json.dumps({"model": env_optional("BLOG_MODEL", DEFAULT_BLOG_MODEL), "temperature": 0.5, "max_tokens": 4000, "messages": [{"role": "system", "content": "You are a careful B2B editor. Return valid JSON only."}, {"role": "user", "content": prompt}]}).encode()
     request = urllib.request.Request(env_optional("BLOG_API_URL", DEFAULT_BLOG_API_URL), data=payload, headers={"Authorization": f"Bearer {env_required('BLOG_API_KEY')}", "Content-Type": "application/json"}, method="POST")
     try:
@@ -257,11 +260,39 @@ def fallback_article(topic):
         "html_body": html_body,
     }
 
-def generate_article(topic, attempts=2):
+class UnwrapGeneratedLinks(HTMLParser):
+    def __init__(self):
+        super().__init__(convert_charrefs=False)
+        self.parts = []
+
+    def handle_starttag(self, tag, attrs):
+        if tag != 'a':
+            self.parts.append(self.get_starttag_text())
+
+    def handle_endtag(self, tag):
+        if tag != 'a':
+            self.parts.append('</' + tag + '>')
+
+    def handle_data(self, data):
+        self.parts.append(data)
+
+    def handle_entityref(self, name):
+        self.parts.append('&' + name + ';')
+
+    def handle_charref(self, name):
+        self.parts.append('&#' + name + ';')
+
+
+def generate_article(topic, attempts=3):
     errors = []
     for attempt in range(1, attempts + 1):
         try:
-            article = generate(topic)
+            article = generate(topic, errors[-1] if errors else '')
+            if isinstance(article.get('html_body'), str):
+                cleaner = UnwrapGeneratedLinks()
+                cleaner.feed(article['html_body'])
+                cleaner.close()
+                article['html_body'] = ''.join(cleaner.parts)
             validate(article)
             return article, False
         except Exception as exc:

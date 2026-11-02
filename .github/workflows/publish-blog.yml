@@ -4,6 +4,7 @@ on:
     branches: [main]
     paths:
       - data/blog_queue.json
+      - scripts/publish_blog.py
       - .github/workflows/publish-blog.yml
   workflow_dispatch:
   schedule:
