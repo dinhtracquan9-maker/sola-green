@@ -4,284 +4,210 @@
   "results": [
     {
       "url": "https://www.hanseongbeauty.com/blog/a-procurement-guide-to-admedic-for-spas-clinics-and-resellers.html",
-      "words": 843,
-      "flags": [
-        "check_FDA_reference_applicability"
-      ],
+      "words": 825,
+      "flags": [],
       "repeated_long_paragraphs": 0
     },
     {
       "url": "https://www.hanseongbeauty.com/blog/a-procurement-guide-to-ammi-eyes-for-spas-clinics-and-resellers.html",
-      "words": 999,
-      "flags": [
-        "product_claim_requires_source_review",
-        "check_FDA_reference_applicability"
-      ],
+      "words": 920,
+      "flags": [],
       "repeated_long_paragraphs": 0
     },
     {
       "url": "https://www.hanseongbeauty.com/blog/a-procurement-guide-to-ammi-for-spas-clinics-and-resellers.html",
-      "words": 873,
-      "flags": [
-        "check_FDA_reference_applicability"
-      ],
+      "words": 855,
+      "flags": [],
       "repeated_long_paragraphs": 0
     },
     {
       "url": "https://www.hanseongbeauty.com/blog/a-procurement-guide-to-aqua-pn-for-spas-clinics-and-resellers.html",
-      "words": 906,
-      "flags": [
-        "check_FDA_reference_applicability"
-      ],
+      "words": 888,
+      "flags": [],
       "repeated_long_paragraphs": 0
     },
     {
       "url": "https://www.hanseongbeauty.com/blog/a-procurement-guide-to-aqualyx-for-spas-clinics-and-resellers.html",
-      "words": 911,
-      "flags": [
-        "check_FDA_reference_applicability"
-      ],
+      "words": 893,
+      "flags": [],
       "repeated_long_paragraphs": 0
     },
     {
       "url": "https://www.hanseongbeauty.com/blog/a-procurement-guide-to-blacktox-for-spas-clinics-and-resellers.html",
-      "words": 901,
-      "flags": [
-        "check_FDA_reference_applicability"
-      ],
+      "words": 883,
+      "flags": [],
       "repeated_long_paragraphs": 0
     },
     {
       "url": "https://www.hanseongbeauty.com/blog/a-procurement-guide-to-dysport-chai-to-for-spas-clinics-and-resellers.html",
-      "words": 890,
-      "flags": [
-        "check_FDA_reference_applicability"
-      ],
+      "words": 872,
+      "flags": [],
       "repeated_long_paragraphs": 0
     },
     {
       "url": "https://www.hanseongbeauty.com/blog/a-procurement-guide-to-evehilo-for-spas-clinics-and-resellers.html",
-      "words": 908,
-      "flags": [
-        "check_FDA_reference_applicability"
-      ],
+      "words": 890,
+      "flags": [],
       "repeated_long_paragraphs": 0
     },
     {
       "url": "https://www.hanseongbeauty.com/blog/a-procurement-guide-to-fabi-for-spas-clinics-and-resellers.html",
-      "words": 893,
-      "flags": [
-        "check_FDA_reference_applicability"
-      ],
+      "words": 875,
+      "flags": [],
       "repeated_long_paragraphs": 0
     },
     {
       "url": "https://www.hanseongbeauty.com/blog/a-procurement-guide-to-helios-vip-for-spas-clinics-and-resellers.html",
-      "words": 778,
-      "flags": [
-        "check_FDA_reference_applicability"
-      ],
+      "words": 760,
+      "flags": [],
       "repeated_long_paragraphs": 0
     },
     {
       "url": "https://www.hanseongbeauty.com/blog/a-procurement-guide-to-huons-water-numb-for-spas-clinics-and-resellers.html",
-      "words": 879,
-      "flags": [
-        "check_FDA_reference_applicability"
-      ],
+      "words": 861,
+      "flags": [],
       "repeated_long_paragraphs": 0
     },
     {
       "url": "https://www.hanseongbeauty.com/blog/a-procurement-guide-to-j-cain-numbing-cream-29-9-for-spas-clinics-and-reseller.html",
-      "words": 907,
-      "flags": [
-        "check_FDA_reference_applicability"
-      ],
+      "words": 889,
+      "flags": [],
       "repeated_long_paragraphs": 0
     },
     {
       "url": "https://www.hanseongbeauty.com/blog/a-procurement-guide-to-j-cain-numbing-cream-59-9-for-spas-clinics-and-reseller.html",
-      "words": 941,
-      "flags": [
-        "check_FDA_reference_applicability"
-      ],
+      "words": 923,
+      "flags": [],
       "repeated_long_paragraphs": 0
     },
     {
       "url": "https://www.hanseongbeauty.com/blog/a-procurement-guide-to-jalupro-young-eye-for-spas-clinics-and-resellers.html",
-      "words": 927,
-      "flags": [
-        "product_claim_requires_source_review",
-        "check_FDA_reference_applicability"
-      ],
+      "words": 858,
+      "flags": [],
       "repeated_long_paragraphs": 0
     },
     {
       "url": "https://www.hanseongbeauty.com/blog/a-procurement-guide-to-juvederm-skinvive-for-spas-clinics-and-resellers.html",
-      "words": 930,
-      "flags": [
-        "check_FDA_reference_applicability"
-      ],
+      "words": 912,
+      "flags": [],
       "repeated_long_paragraphs": 0
     },
     {
       "url": "https://www.hanseongbeauty.com/blog/a-procurement-guide-to-juvelook-for-spas-clinics-and-resellers.html",
-      "words": 801,
-      "flags": [
-        "product_claim_requires_source_review",
-        "check_FDA_reference_applicability"
-      ],
+      "words": 732,
+      "flags": [],
       "repeated_long_paragraphs": 0
     },
     {
       "url": "https://www.hanseongbeauty.com/blog/a-procurement-guide-to-kiara-reju-for-spas-clinics-and-resellers.html",
-      "words": 974,
-      "flags": [
-        "product_claim_requires_source_review",
-        "check_FDA_reference_applicability"
-      ],
+      "words": 899,
+      "flags": [],
       "repeated_long_paragraphs": 0
     },
     {
       "url": "https://www.hanseongbeauty.com/blog/a-procurement-guide-to-luhilo-for-spas-clinics-and-resellers.html",
-      "words": 877,
-      "flags": [
-        "product_claim_requires_source_review",
-        "check_FDA_reference_applicability"
-      ],
+      "words": 802,
+      "flags": [],
       "repeated_long_paragraphs": 0
     },
     {
       "url": "https://www.hanseongbeauty.com/blog/a-procurement-guide-to-luna-eyes-for-spas-clinics-and-resellers.html",
-      "words": 838,
+      "words": 820,
       "flags": [
-        "check_FDA_reference_applicability",
         "shared_paragraphs_review_context"
       ],
       "repeated_long_paragraphs": 10
     },
     {
       "url": "https://www.hanseongbeauty.com/blog/a-procurement-guide-to-maxxyfill-body-for-spas-clinics-and-resellers.html",
-      "words": 1025,
-      "flags": [
-        "check_FDA_reference_applicability"
-      ],
+      "words": 1007,
+      "flags": [],
       "repeated_long_paragraphs": 0
     },
     {
       "url": "https://www.hanseongbeauty.com/blog/a-procurement-guide-to-neuronox-100u-for-spas-clinics-and-resellers.html",
-      "words": 848,
-      "flags": [
-        "check_FDA_reference_applicability"
-      ],
+      "words": 830,
+      "flags": [],
       "repeated_long_paragraphs": 0
     },
     {
       "url": "https://www.hanseongbeauty.com/blog/a-procurement-guide-to-olidia-for-spas-clinics-and-resellers.html",
-      "words": 928,
-      "flags": [
-        "product_claim_requires_source_review",
-        "check_FDA_reference_applicability"
-      ],
+      "words": 850,
+      "flags": [],
       "repeated_long_paragraphs": 0
     },
     {
       "url": "https://www.hanseongbeauty.com/blog/a-procurement-guide-to-placentex-for-spas-clinics-and-resellers.html",
-      "words": 892,
-      "flags": [
-        "check_FDA_reference_applicability"
-      ],
+      "words": 874,
+      "flags": [],
       "repeated_long_paragraphs": 0
     },
     {
       "url": "https://www.hanseongbeauty.com/blog/a-procurement-guide-to-profhilo-structura-for-spas-clinics-and-resellers.html",
-      "words": 911,
-      "flags": [
-        "check_FDA_reference_applicability"
-      ],
+      "words": 893,
+      "flags": [],
       "repeated_long_paragraphs": 0
     },
     {
       "url": "https://www.hanseongbeauty.com/blog/a-procurement-guide-to-rejuran-i-for-spas-clinics-and-resellers.html",
-      "words": 934,
-      "flags": [
-        "product_claim_requires_source_review",
-        "check_FDA_reference_applicability"
-      ],
+      "words": 858,
+      "flags": [],
       "repeated_long_paragraphs": 0
     },
     {
       "url": "https://www.hanseongbeauty.com/blog/a-procurement-guide-to-restylane-eyelight-for-spas-clinics-and-resellers.html",
-      "words": 872,
-      "flags": [
-        "check_FDA_reference_applicability"
-      ],
+      "words": 854,
+      "flags": [],
       "repeated_long_paragraphs": 0
     },
     {
       "url": "https://www.hanseongbeauty.com/blog/a-procurement-guide-to-restylane-lyft-for-spas-clinics-and-resellers.html",
-      "words": 838,
+      "words": 820,
       "flags": [
-        "check_FDA_reference_applicability",
         "shared_paragraphs_review_context"
       ],
       "repeated_long_paragraphs": 10
     },
     {
       "url": "https://www.hanseongbeauty.com/blog/a-procurement-guide-to-roya-for-spas-clinics-and-resellers.html",
-      "words": 1024,
-      "flags": [
-        "check_FDA_reference_applicability"
-      ],
+      "words": 1006,
+      "flags": [],
       "repeated_long_paragraphs": 0
     },
     {
       "url": "https://www.hanseongbeauty.com/blog/a-procurement-guide-to-sardenya-for-spas-clinics-and-resellers.html",
-      "words": 854,
-      "flags": [
-        "check_FDA_reference_applicability"
-      ],
+      "words": 836,
+      "flags": [],
       "repeated_long_paragraphs": 0
     },
     {
       "url": "https://www.hanseongbeauty.com/blog/a-procurement-guide-to-sculptra-for-spas-clinics-and-resellers.html",
-      "words": 887,
-      "flags": [
-        "product_claim_requires_source_review",
-        "check_FDA_reference_applicability"
-      ],
+      "words": 768,
+      "flags": [],
       "repeated_long_paragraphs": 0
     },
     {
       "url": "https://www.hanseongbeauty.com/blog/a-procurement-guide-to-tirzepatide-30mg-for-spas-clinics-and-resellers.html",
-      "words": 984,
-      "flags": [
-        "check_FDA_reference_applicability"
-      ],
+      "words": 966,
+      "flags": [],
       "repeated_long_paragraphs": 0
     },
     {
       "url": "https://www.hanseongbeauty.com/blog/a-procurement-guide-to-wondertox-100u-for-spas-clinics-and-resellers.html",
-      "words": 913,
-      "flags": [
-        "check_FDA_reference_applicability"
-      ],
+      "words": 895,
+      "flags": [],
       "repeated_long_paragraphs": 0
     },
     {
       "url": "https://www.hanseongbeauty.com/blog/allergan-100u-for-aesthetic-clinics-a-practical-wholesale-sourcing-guide.html",
-      "words": 914,
-      "flags": [
-        "check_FDA_reference_applicability"
-      ],
+      "words": 896,
+      "flags": [],
       "repeated_long_paragraphs": 0
     },
     {
       "url": "https://www.hanseongbeauty.com/blog/arista-for-aesthetic-clinics-a-practical-wholesale-sourcing-guide.html",
-      "words": 894,
-      "flags": [
-        "check_FDA_reference_applicability"
-      ],
+      "words": 876,
+      "flags": [],
       "repeated_long_paragraphs": 0
     },
     {
@@ -292,18 +218,14 @@
     },
     {
       "url": "https://www.hanseongbeauty.com/blog/b-braun-omnican-1ml-for-aesthetic-clinics-a-practical-wholesale-sourcing-guide.html",
-      "words": 1005,
-      "flags": [
-        "check_FDA_reference_applicability"
-      ],
+      "words": 987,
+      "flags": [],
       "repeated_long_paragraphs": 0
     },
     {
       "url": "https://www.hanseongbeauty.com/blog/bm-hyrunidase-for-aesthetic-clinics-a-practical-wholesale-sourcing-guide.html",
-      "words": 882,
-      "flags": [
-        "check_FDA_reference_applicability"
-      ],
+      "words": 864,
+      "flags": [],
       "repeated_long_paragraphs": 0
     },
     {
@@ -322,531 +244,416 @@
     },
     {
       "url": "https://www.hanseongbeauty.com/blog/buying-celosome-vip-wholesale-documentation-handling-and-shipping-essentials.html",
-      "words": 841,
+      "words": 823,
       "flags": [
-        "check_FDA_reference_applicability",
         "shared_paragraphs_review_context"
       ],
       "repeated_long_paragraphs": 10
     },
     {
       "url": "https://www.hanseongbeauty.com/blog/buying-cindella-set-wholesale-documentation-handling-and-shipping-essentials.html",
-      "words": 890,
-      "flags": [
-        "check_FDA_reference_applicability"
-      ],
+      "words": 872,
+      "flags": [],
       "repeated_long_paragraphs": 0
     },
     {
       "url": "https://www.hanseongbeauty.com/blog/buying-dermacan-wholesale-documentation-handling-and-shipping-essentials.html",
-      "words": 946,
-      "flags": [
-        "check_FDA_reference_applicability"
-      ],
+      "words": 928,
+      "flags": [],
       "repeated_long_paragraphs": 0
     },
     {
       "url": "https://www.hanseongbeauty.com/blog/buying-dermalax-wholesale-documentation-handling-and-shipping-essentials.html",
-      "words": 883,
-      "flags": [
-        "check_FDA_reference_applicability"
-      ],
+      "words": 865,
+      "flags": [],
       "repeated_long_paragraphs": 0
     },
     {
       "url": "https://www.hanseongbeauty.com/blog/buying-elasty-wholesale-documentation-handling-and-shipping-essentials.html",
-      "words": 837,
+      "words": 819,
       "flags": [
-        "check_FDA_reference_applicability",
         "shared_paragraphs_review_context"
       ],
       "repeated_long_paragraphs": 10
     },
     {
       "url": "https://www.hanseongbeauty.com/blog/buying-france-body-wholesale-documentation-handling-and-shipping-essentials.html",
-      "words": 1032,
-      "flags": [
-        "check_FDA_reference_applicability"
-      ],
+      "words": 1014,
+      "flags": [],
       "repeated_long_paragraphs": 0
     },
     {
       "url": "https://www.hanseongbeauty.com/blog/buying-glutax-22000000-wholesale-documentation-handling-and-shipping-essential.html",
-      "words": 841,
-      "flags": [
-        "check_FDA_reference_applicability"
-      ],
+      "words": 823,
+      "flags": [],
       "repeated_long_paragraphs": 0
     },
     {
       "url": "https://www.hanseongbeauty.com/blog/buying-gtm-3-wholesale-documentation-handling-and-shipping-essentials.html",
-      "words": 842,
+      "words": 824,
       "flags": [
-        "check_FDA_reference_applicability",
         "shared_paragraphs_review_context"
       ],
       "repeated_long_paragraphs": 10
     },
     {
       "url": "https://www.hanseongbeauty.com/blog/buying-hutox-100u-wholesale-documentation-handling-and-shipping-essentials.html",
-      "words": 841,
+      "words": 823,
       "flags": [
-        "check_FDA_reference_applicability",
         "shared_paragraphs_review_context"
       ],
       "repeated_long_paragraphs": 10
     },
     {
       "url": "https://www.hanseongbeauty.com/blog/buying-hyalaze-wholesale-documentation-handling-and-shipping-essentials.html",
-      "words": 871,
-      "flags": [
-        "check_FDA_reference_applicability"
-      ],
+      "words": 853,
+      "flags": [],
       "repeated_long_paragraphs": 0
     },
     {
       "url": "https://www.hanseongbeauty.com/blog/buying-j-cain-numbing-cream-15-6-wholesale-documentation-handling-and-shipping.html",
-      "words": 826,
-      "flags": [
-        "check_FDA_reference_applicability"
-      ],
+      "words": 808,
+      "flags": [],
       "repeated_long_paragraphs": 0
     },
     {
       "url": "https://www.hanseongbeauty.com/blog/buying-juvederm-voluma-wholesale-documentation-handling-and-shipping-essential.html",
-      "words": 820,
-      "flags": [
-        "check_FDA_reference_applicability"
-      ],
+      "words": 802,
+      "flags": [],
       "repeated_long_paragraphs": 0
     },
     {
       "url": "https://www.hanseongbeauty.com/blog/buying-juvederm-xc-wholesale-documentation-handling-and-shipping-essentials.html",
-      "words": 841,
+      "words": 823,
       "flags": [
-        "check_FDA_reference_applicability",
         "shared_paragraphs_review_context"
       ],
       "repeated_long_paragraphs": 10
     },
     {
       "url": "https://www.hanseongbeauty.com/blog/buying-kabelline-wholesale-documentation-handling-and-shipping-essentials.html",
-      "words": 844,
-      "flags": [
-        "check_FDA_reference_applicability"
-      ],
+      "words": 826,
+      "flags": [],
       "repeated_long_paragraphs": 0
     },
     {
       "url": "https://www.hanseongbeauty.com/blog/buying-karisma-wholesale-documentation-handling-and-shipping-essentials.html",
-      "words": 885,
-      "flags": [
-        "check_FDA_reference_applicability"
-      ],
+      "words": 867,
+      "flags": [],
       "repeated_long_paragraphs": 0
     },
     {
       "url": "https://www.hanseongbeauty.com/blog/buying-linospan-wholesale-documentation-handling-and-shipping-essentials.html",
-      "words": 837,
+      "words": 819,
       "flags": [
-        "check_FDA_reference_applicability",
         "shared_paragraphs_review_context"
       ],
       "repeated_long_paragraphs": 10
     },
     {
       "url": "https://www.hanseongbeauty.com/blog/buying-liporase-wholesale-documentation-handling-and-shipping-essentials.html",
-      "words": 967,
-      "flags": [
-        "check_FDA_reference_applicability"
-      ],
+      "words": 949,
+      "flags": [],
       "repeated_long_paragraphs": 0
     },
     {
       "url": "https://www.hanseongbeauty.com/blog/buying-luxer-wholesale-documentation-handling-and-shipping-essentials.html",
-      "words": 937,
-      "flags": [
-        "check_FDA_reference_applicability"
-      ],
+      "words": 919,
+      "flags": [],
       "repeated_long_paragraphs": 0
     },
     {
       "url": "https://www.hanseongbeauty.com/blog/buying-melsmon-wholesale-documentation-handling-and-shipping-essentials.html",
-      "words": 838,
+      "words": 820,
       "flags": [
-        "check_FDA_reference_applicability",
         "shared_paragraphs_review_context"
       ],
       "repeated_long_paragraphs": 10
     },
     {
       "url": "https://www.hanseongbeauty.com/blog/buying-pink-glow-wholesale-documentation-handling-and-shipping-essentials.html",
-      "words": 889,
-      "flags": [
-        "check_FDA_reference_applicability"
-      ],
+      "words": 871,
+      "flags": [],
       "repeated_long_paragraphs": 0
     },
     {
       "url": "https://www.hanseongbeauty.com/blog/buying-rejeunesse-wholesale-documentation-handling-and-shipping-essentials.html",
-      "words": 935,
-      "flags": [
-        "check_FDA_reference_applicability"
-      ],
+      "words": 917,
+      "flags": [],
       "repeated_long_paragraphs": 0
     },
     {
       "url": "https://www.hanseongbeauty.com/blog/buying-rejuran-healer-wholesale-documentation-handling-and-shipping-essentials.html",
-      "words": 918,
-      "flags": [
-        "check_FDA_reference_applicability"
-      ],
+      "words": 900,
+      "flags": [],
       "repeated_long_paragraphs": 0
     },
     {
       "url": "https://www.hanseongbeauty.com/blog/buying-restylane-contour-wholesale-documentation-handling-and-shipping-essenti.html",
-      "words": 987,
-      "flags": [
-        "check_FDA_reference_applicability"
-      ],
+      "words": 969,
+      "flags": [],
       "repeated_long_paragraphs": 0
     },
     {
       "url": "https://www.hanseongbeauty.com/blog/buying-restylane-kysse-wholesale-documentation-handling-and-shipping-essential.html",
-      "words": 868,
-      "flags": [
-        "check_FDA_reference_applicability"
-      ],
+      "words": 850,
+      "flags": [],
       "repeated_long_paragraphs": 0
     },
     {
       "url": "https://www.hanseongbeauty.com/blog/buying-restylane-lidocaine-wholesale-documentation-handling-and-shipping-essen.html",
-      "words": 841,
+      "words": 823,
       "flags": [
-        "check_FDA_reference_applicability",
         "shared_paragraphs_review_context"
       ],
       "repeated_long_paragraphs": 10
     },
     {
       "url": "https://www.hanseongbeauty.com/blog/buying-restylane-volyme-wholesale-documentation-handling-and-shipping-essentia.html",
-      "words": 877,
-      "flags": [
-        "check_FDA_reference_applicability"
-      ],
+      "words": 859,
+      "flags": [],
       "repeated_long_paragraphs": 0
     },
     {
       "url": "https://www.hanseongbeauty.com/blog/buying-revolax-wholesale-documentation-handling-and-shipping-essentials.html",
-      "words": 837,
+      "words": 819,
       "flags": [
-        "check_FDA_reference_applicability",
         "shared_paragraphs_review_context"
       ],
       "repeated_long_paragraphs": 10
     },
     {
       "url": "https://www.hanseongbeauty.com/blog/buying-sculptra-5ml-wholesale-documentation-handling-and-shipping-essentials.html",
-      "words": 855,
-      "flags": [
-        "product_claim_requires_source_review",
-        "check_FDA_reference_applicability"
-      ],
+      "words": 775,
+      "flags": [],
       "repeated_long_paragraphs": 0
     },
     {
       "url": "https://www.hanseongbeauty.com/blog/buying-stylage-l-wholesale-documentation-handling-and-shipping-essentials.html",
-      "words": 967,
-      "flags": [
-        "check_FDA_reference_applicability"
-      ],
+      "words": 949,
+      "flags": [],
       "repeated_long_paragraphs": 0
     },
     {
       "url": "https://www.hanseongbeauty.com/blog/buying-stylage-s-wholesale-documentation-handling-and-shipping-essentials.html",
-      "words": 881,
-      "flags": [
-        "check_FDA_reference_applicability"
-      ],
+      "words": 863,
+      "flags": [],
       "repeated_long_paragraphs": 0
     },
     {
       "url": "https://www.hanseongbeauty.com/blog/buying-wondertox-200u-wholesale-documentation-handling-and-shipping-essentials.html",
-      "words": 886,
-      "flags": [
-        "check_FDA_reference_applicability"
-      ],
+      "words": 868,
+      "flags": [],
       "repeated_long_paragraphs": 0
     },
     {
       "url": "https://www.hanseongbeauty.com/blog/ceres-for-aesthetic-clinics-a-practical-wholesale-sourcing-guide.html",
-      "words": 833,
+      "words": 815,
       "flags": [
-        "check_FDA_reference_applicability",
         "shared_paragraphs_review_context"
       ],
       "repeated_long_paragraphs": 10
     },
     {
       "url": "https://www.hanseongbeauty.com/blog/dr-lacir-for-aesthetic-clinics-a-practical-wholesale-sourcing-guide.html",
-      "words": 837,
+      "words": 819,
       "flags": [
-        "check_FDA_reference_applicability",
         "shared_paragraphs_review_context"
       ],
       "repeated_long_paragraphs": 10
     },
     {
       "url": "https://www.hanseongbeauty.com/blog/eve-eyes-for-aesthetic-clinics-a-practical-wholesale-sourcing-guide.html",
-      "words": 894,
-      "flags": [
-        "check_FDA_reference_applicability"
-      ],
+      "words": 876,
+      "flags": [],
       "repeated_long_paragraphs": 0
     },
     {
       "url": "https://www.hanseongbeauty.com/blog/glutax-5gs-micro-for-aesthetic-clinics-a-practical-wholesale-sourcing-guide.html",
-      "words": 911,
-      "flags": [
-        "check_FDA_reference_applicability"
-      ],
+      "words": 893,
+      "flags": [],
       "repeated_long_paragraphs": 0
     },
     {
       "url": "https://www.hanseongbeauty.com/blog/gluthione-1200mg-for-aesthetic-clinics-a-practical-wholesale-sourcing-guide.html",
-      "words": 855,
-      "flags": [
-        "check_FDA_reference_applicability"
-      ],
+      "words": 837,
+      "flags": [],
       "repeated_long_paragraphs": 0
     },
     {
       "url": "https://www.hanseongbeauty.com/blog/gtm-8-for-aesthetic-clinics-a-practical-wholesale-sourcing-guide.html",
-      "words": 929,
-      "flags": [
-        "check_FDA_reference_applicability"
-      ],
+      "words": 911,
+      "flags": [],
       "repeated_long_paragraphs": 0
     },
     {
       "url": "https://www.hanseongbeauty.com/blog/how-professional-buyers-evaluate-chaeum-before-ordering-wholesale.html",
-      "words": 842,
-      "flags": [
-        "check_FDA_reference_applicability"
-      ],
+      "words": 824,
+      "flags": [],
       "repeated_long_paragraphs": 0
     },
     {
       "url": "https://www.hanseongbeauty.com/blog/how-professional-buyers-evaluate-daxxify-before-ordering-wholesale.html",
-      "words": 832,
-      "flags": [
-        "check_FDA_reference_applicability"
-      ],
+      "words": 814,
+      "flags": [],
       "repeated_long_paragraphs": 0
     },
     {
       "url": "https://www.hanseongbeauty.com/blog/how-professional-buyers-evaluate-doris-filler-before-ordering-wholesale.html",
-      "words": 961,
-      "flags": [
-        "check_FDA_reference_applicability"
-      ],
+      "words": 943,
+      "flags": [],
       "repeated_long_paragraphs": 0
     },
     {
       "url": "https://www.hanseongbeauty.com/blog/how-professional-buyers-evaluate-eptq-before-ordering-wholesale.html",
-      "words": 928,
-      "flags": [
-        "check_FDA_reference_applicability"
-      ],
+      "words": 910,
+      "flags": [],
       "repeated_long_paragraphs": 0
     },
     {
       "url": "https://www.hanseongbeauty.com/blog/how-professional-buyers-evaluate-exocode-before-ordering-wholesale.html",
-      "words": 838,
+      "words": 820,
       "flags": [
-        "check_FDA_reference_applicability",
         "shared_paragraphs_review_context"
       ],
       "repeated_long_paragraphs": 10
     },
     {
       "url": "https://www.hanseongbeauty.com/blog/how-professional-buyers-evaluate-gana-v-line-before-ordering-wholesale.html",
-      "words": 989,
-      "flags": [
-        "check_FDA_reference_applicability"
-      ],
+      "words": 971,
+      "flags": [],
       "repeated_long_paragraphs": 0
     },
     {
       "url": "https://www.hanseongbeauty.com/blog/how-professional-buyers-evaluate-helios-body-before-ordering-wholesale.html",
-      "words": 792,
-      "flags": [
-        "check_FDA_reference_applicability"
-      ],
+      "words": 774,
+      "flags": [],
       "repeated_long_paragraphs": 0
     },
     {
       "url": "https://www.hanseongbeauty.com/blog/how-professional-buyers-evaluate-jalupro-super-hydro-before-ordering-wholesale.html",
-      "words": 915,
-      "flags": [
-        "product_claim_requires_source_review",
-        "check_FDA_reference_applicability"
-      ],
+      "words": 777,
+      "flags": [],
       "repeated_long_paragraphs": 0
     },
     {
       "url": "https://www.hanseongbeauty.com/blog/how-professional-buyers-evaluate-jariot-vip-before-ordering-wholesale.html",
-      "words": 881,
-      "flags": [
-        "check_FDA_reference_applicability"
-      ],
+      "words": 863,
+      "flags": [],
       "repeated_long_paragraphs": 0
     },
     {
       "url": "https://www.hanseongbeauty.com/blog/how-professional-buyers-evaluate-juvederm-ultra-3-before-ordering-wholesale.html",
-      "words": 845,
+      "words": 827,
       "flags": [
-        "check_FDA_reference_applicability",
         "shared_paragraphs_review_context"
       ],
       "repeated_long_paragraphs": 10
     },
     {
       "url": "https://www.hanseongbeauty.com/blog/how-professional-buyers-evaluate-juvederm-volux-before-ordering-wholesale.html",
-      "words": 1021,
-      "flags": [
-        "check_FDA_reference_applicability"
-      ],
+      "words": 1003,
+      "flags": [],
       "repeated_long_paragraphs": 0
     },
     {
       "url": "https://www.hanseongbeauty.com/blog/how-professional-buyers-evaluate-juvederm-xc-plus-before-ordering-wholesale.html",
-      "words": 1013,
-      "flags": [
-        "check_FDA_reference_applicability"
-      ],
+      "words": 995,
+      "flags": [],
       "repeated_long_paragraphs": 0
     },
     {
       "url": "https://www.hanseongbeauty.com/blog/how-professional-buyers-evaluate-kaimax-200u-before-ordering-wholesale.html",
-      "words": 838,
-      "flags": [
-        "check_FDA_reference_applicability"
-      ],
+      "words": 820,
+      "flags": [],
       "repeated_long_paragraphs": 0
     },
     {
       "url": "https://www.hanseongbeauty.com/blog/how-professional-buyers-evaluate-lemon-bottle-before-ordering-wholesale.html",
-      "words": 1002,
-      "flags": [
-        "check_FDA_reference_applicability"
-      ],
+      "words": 984,
+      "flags": [],
       "repeated_long_paragraphs": 0
     },
     {
       "url": "https://www.hanseongbeauty.com/blog/how-professional-buyers-evaluate-lipolab-before-ordering-wholesale.html",
-      "words": 865,
-      "flags": [
-        "check_FDA_reference_applicability"
-      ],
+      "words": 847,
+      "flags": [],
       "repeated_long_paragraphs": 0
     },
     {
       "url": "https://www.hanseongbeauty.com/blog/how-professional-buyers-evaluate-meso-30g-sungshim-before-ordering-wholesale.html",
-      "words": 933,
-      "flags": [
-        "check_FDA_reference_applicability"
-      ],
+      "words": 915,
+      "flags": [],
       "repeated_long_paragraphs": 0
     },
     {
       "url": "https://www.hanseongbeauty.com/blog/how-professional-buyers-evaluate-mi-cain-pro-before-ordering-wholesale.html",
-      "words": 923,
-      "flags": [
-        "check_FDA_reference_applicability"
-      ],
+      "words": 905,
+      "flags": [],
       "repeated_long_paragraphs": 0
     },
     {
       "url": "https://www.hanseongbeauty.com/blog/how-professional-buyers-evaluate-milanie-before-ordering-wholesale.html",
-      "words": 951,
-      "flags": [
-        "check_FDA_reference_applicability"
-      ],
+      "words": 933,
+      "flags": [],
       "repeated_long_paragraphs": 0
     },
     {
       "url": "https://www.hanseongbeauty.com/blog/how-professional-buyers-evaluate-mounjaro-12-5mg-before-ordering-wholesale.html",
-      "words": 960,
-      "flags": [
-        "check_FDA_reference_applicability"
-      ],
+      "words": 942,
+      "flags": [],
       "repeated_long_paragraphs": 0
     },
     {
       "url": "https://www.hanseongbeauty.com/blog/how-professional-buyers-evaluate-muscle-inhibitors-before-ordering-wholesale.html",
-      "words": 869,
-      "flags": [
-        "check_FDA_reference_applicability"
-      ],
+      "words": 851,
+      "flags": [],
       "repeated_long_paragraphs": 0
     },
     {
       "url": "https://www.hanseongbeauty.com/blog/how-professional-buyers-evaluate-neuronox-100u-before-ordering-wholesale.html",
-      "words": 848,
-      "flags": [
-        "check_FDA_reference_applicability"
-      ],
+      "words": 830,
+      "flags": [],
       "repeated_long_paragraphs": 0
     },
     {
       "url": "https://www.hanseongbeauty.com/blog/how-professional-buyers-evaluate-profhilo-before-ordering-wholesale.html",
-      "words": 887,
-      "flags": [
-        "check_FDA_reference_applicability"
-      ],
+      "words": 869,
+      "flags": [],
       "repeated_long_paragraphs": 0
     },
     {
       "url": "https://www.hanseongbeauty.com/blog/how-professional-buyers-evaluate-restylane-defyne-before-ordering-wholesale.html",
-      "words": 879,
-      "flags": [
-        "check_FDA_reference_applicability"
-      ],
+      "words": 861,
+      "flags": [],
       "repeated_long_paragraphs": 0
     },
     {
       "url": "https://www.hanseongbeauty.com/blog/how-professional-buyers-evaluate-restylane-fynesse-before-ordering-wholesale.html",
-      "words": 841,
+      "words": 823,
       "flags": [
-        "check_FDA_reference_applicability",
         "shared_paragraphs_review_context"
       ],
       "repeated_long_paragraphs": 10
     },
     {
       "url": "https://www.hanseongbeauty.com/blog/how-professional-buyers-evaluate-restylane-refyne-before-ordering-wholesale.html",
-      "words": 841,
+      "words": 823,
       "flags": [
-        "check_FDA_reference_applicability",
         "shared_paragraphs_review_context"
       ],
       "repeated_long_paragraphs": 10
     },
     {
       "url": "https://www.hanseongbeauty.com/blog/how-professional-buyers-evaluate-samsung-pharm-whitening-before-ordering-whole.html",
-      "words": 940,
-      "flags": [
-        "check_FDA_reference_applicability"
-      ],
+      "words": 922,
+      "flags": [],
       "repeated_long_paragraphs": 0
     },
     {
       "url": "https://www.hanseongbeauty.com/blog/how-professional-buyers-evaluate-semaglutide-10mg-before-ordering-wholesale.html",
-      "words": 915,
-      "flags": [
-        "check_FDA_reference_applicability"
-      ],
+      "words": 897,
+      "flags": [],
       "repeated_long_paragraphs": 0
     },
     {
@@ -857,42 +664,34 @@
     },
     {
       "url": "https://www.hanseongbeauty.com/blog/how-professional-buyers-evaluate-stylage-m-before-ordering-wholesale.html",
-      "words": 867,
-      "flags": [
-        "check_FDA_reference_applicability"
-      ],
+      "words": 849,
+      "flags": [],
       "repeated_long_paragraphs": 0
     },
     {
       "url": "https://www.hanseongbeauty.com/blog/how-professional-buyers-evaluate-stylage-xxl-before-ordering-wholesale.html",
-      "words": 841,
+      "words": 823,
       "flags": [
-        "check_FDA_reference_applicability",
         "shared_paragraphs_review_context"
       ],
       "repeated_long_paragraphs": 10
     },
     {
       "url": "https://www.hanseongbeauty.com/blog/how-professional-buyers-evaluate-teoxane-before-ordering-wholesale.html",
-      "words": 917,
-      "flags": [
-        "check_FDA_reference_applicability"
-      ],
+      "words": 899,
+      "flags": [],
       "repeated_long_paragraphs": 0
     },
     {
       "url": "https://www.hanseongbeauty.com/blog/how-professional-buyers-evaluate-teoxane-redensity-ii-before-ordering-wholesal.html",
-      "words": 967,
-      "flags": [
-        "check_FDA_reference_applicability"
-      ],
+      "words": 949,
+      "flags": [],
       "repeated_long_paragraphs": 0
     },
     {
       "url": "https://www.hanseongbeauty.com/blog/how-professional-buyers-evaluate-triamcinolo-before-ordering-wholesale.html",
-      "words": 836,
+      "words": 818,
       "flags": [
-        "check_FDA_reference_applicability",
         "shared_paragraphs_review_context"
       ],
       "repeated_long_paragraphs": 10
@@ -905,161 +704,124 @@
     },
     {
       "url": "https://www.hanseongbeauty.com/blog/hyaron-for-aesthetic-clinics-a-practical-wholesale-sourcing-guide.html",
-      "words": 936,
-      "flags": [
-        "check_FDA_reference_applicability"
-      ],
+      "words": 918,
+      "flags": [],
       "repeated_long_paragraphs": 0
     },
     {
       "url": "https://www.hanseongbeauty.com/blog/jade-cain-cream-10-56-for-aesthetic-clinics-a-practical-wholesale-sourcing-gui.html",
-      "words": 845,
+      "words": 827,
       "flags": [
-        "check_FDA_reference_applicability",
         "shared_paragraphs_review_context"
       ],
       "repeated_long_paragraphs": 10
     },
     {
       "url": "https://www.hanseongbeauty.com/blog/jalupro-for-aesthetic-clinics-a-practical-wholesale-sourcing-guide.html",
-      "words": 974,
-      "flags": [
-        "check_FDA_reference_applicability"
-      ],
+      "words": 956,
+      "flags": [],
       "repeated_long_paragraphs": 0
     },
     {
       "url": "https://www.hanseongbeauty.com/blog/lips-for-aesthetic-clinics-a-practical-wholesale-sourcing-guide.html",
-      "words": 833,
+      "words": 815,
       "flags": [
-        "check_FDA_reference_applicability",
         "shared_paragraphs_review_context"
       ],
       "repeated_long_paragraphs": 10
     },
     {
       "url": "https://www.hanseongbeauty.com/blog/lri-pro-for-aesthetic-clinics-a-practical-wholesale-sourcing-guide.html",
-      "words": 853,
-      "flags": [
-        "check_FDA_reference_applicability"
-      ],
+      "words": 835,
+      "flags": [],
       "repeated_long_paragraphs": 0
     },
     {
       "url": "https://www.hanseongbeauty.com/blog/lri-v-line-for-aesthetic-clinics-a-practical-wholesale-sourcing-guide.html",
-      "words": 858,
-      "flags": [
-        "check_FDA_reference_applicability"
-      ],
+      "words": 840,
+      "flags": [],
       "repeated_long_paragraphs": 0
     },
     {
       "url": "https://www.hanseongbeauty.com/blog/lumi-eyes-for-aesthetic-clinics-a-practical-wholesale-sourcing-guide.html",
-      "words": 904,
-      "flags": [
-        "product_claim_requires_source_review",
-        "check_FDA_reference_applicability"
-      ],
+      "words": 829,
+      "flags": [],
       "repeated_long_paragraphs": 0
     },
     {
       "url": "https://www.hanseongbeauty.com/blog/malinda-for-aesthetic-clinics-a-practical-wholesale-sourcing-guide.html",
-      "words": 887,
-      "flags": [
-        "check_FDA_reference_applicability"
-      ],
+      "words": 869,
+      "flags": [],
       "repeated_long_paragraphs": 0
     },
     {
       "url": "https://www.hanseongbeauty.com/blog/mounjaro-15mg-for-aesthetic-clinics-a-practical-wholesale-sourcing-guide.html",
-      "words": 837,
+      "words": 819,
       "flags": [
-        "check_FDA_reference_applicability",
         "shared_paragraphs_review_context"
       ],
       "repeated_long_paragraphs": 10
     },
     {
       "url": "https://www.hanseongbeauty.com/blog/mounjaro-2-5mg-for-aesthetic-clinics-a-practical-wholesale-sourcing-guide.html",
-      "words": 850,
-      "flags": [
-        "check_FDA_reference_applicability"
-      ],
+      "words": 832,
+      "flags": [],
       "repeated_long_paragraphs": 0
     },
     {
       "url": "https://www.hanseongbeauty.com/blog/mounjaro-7-5mg-for-aesthetic-clinics-a-practical-wholesale-sourcing-guide.html",
-      "words": 918,
-      "flags": [
-        "check_FDA_reference_applicability"
-      ],
+      "words": 900,
+      "flags": [],
       "repeated_long_paragraphs": 0
     },
     {
       "url": "https://www.hanseongbeauty.com/blog/nad-for-aesthetic-clinics-a-practical-wholesale-sourcing-guide.html",
-      "words": 951,
-      "flags": [
-        "check_FDA_reference_applicability"
-      ],
+      "words": 933,
+      "flags": [],
       "repeated_long_paragraphs": 0
     },
     {
       "url": "https://www.hanseongbeauty.com/blog/oxyx-for-aesthetic-clinics-a-practical-wholesale-sourcing-guide.html",
-      "words": 901,
-      "flags": [
-        "check_FDA_reference_applicability"
-      ],
+      "words": 883,
+      "flags": [],
       "repeated_long_paragraphs": 0
     },
     {
       "url": "https://www.hanseongbeauty.com/blog/priere-for-aesthetic-clinics-a-practical-wholesale-sourcing-guide.html",
-      "words": 833,
+      "words": 815,
       "flags": [
-        "check_FDA_reference_applicability",
         "shared_paragraphs_review_context"
       ],
       "repeated_long_paragraphs": 10
     },
     {
       "url": "https://www.hanseongbeauty.com/blog/restylane-kysse-for-aesthetic-clinics-a-practical-wholesale-sourcing-guide.html",
-      "words": 943,
-      "flags": [
-        "check_FDA_reference_applicability"
-      ],
+      "words": 925,
+      "flags": [],
       "repeated_long_paragraphs": 0
     },
     {
       "url": "https://www.hanseongbeauty.com/blog/restylane-skinbooster-for-aesthetic-clinics-a-practical-wholesale-sourcing-gui.html",
-      "words": 899,
-      "flags": [
-        "check_FDA_reference_applicability"
-      ],
+      "words": 881,
+      "flags": [],
       "repeated_long_paragraphs": 0
     },
     {
       "url": "https://www.hanseongbeauty.com/blog/richesse-eyes-for-aesthetic-clinics-a-practical-wholesale-sourcing-guide.html",
-      "words": 920,
-      "flags": [
-        "check_FDA_reference_applicability"
-      ],
+      "words": 902,
+      "flags": [],
       "repeated_long_paragraphs": 0
     },
     {
       "url": "https://www.hanseongbeauty.com/blog/rrs-ha-eyes-for-aesthetic-clinics-a-practical-wholesale-sourcing-guide.html",
-      "words": 947,
-      "flags": [
-        "product_claim_requires_source_review",
-        "check_FDA_reference_applicability"
-      ],
+      "words": 876,
+      "flags": [],
       "repeated_long_paragraphs": 0
     },
     {
       "url": "https://www.hanseongbeauty.com/blog/sculptra-for-aesthetic-clinics-a-practical-wholesale-sourcing-guide.html",
-      "words": 833,
-      "flags": [
-        "product_claim_requires_source_review",
-        "check_FDA_reference_applicability"
-      ],
+      "words": 714,
+      "flags": [],
       "repeated_long_paragraphs": 0
     },
     {
@@ -1072,264 +834,204 @@
     },
     {
       "url": "https://www.hanseongbeauty.com/blog/slim-queen-for-aesthetic-clinics-a-practical-wholesale-sourcing-guide.html",
-      "words": 936,
-      "flags": [
-        "check_FDA_reference_applicability"
-      ],
+      "words": 918,
+      "flags": [],
       "repeated_long_paragraphs": 0
     },
     {
       "url": "https://www.hanseongbeauty.com/blog/sourcing-34g-meso-needle-wholesale-a-buyer-s-guide-for-clinics-and-distributor.html",
-      "words": 993,
-      "flags": [
-        "check_FDA_reference_applicability"
-      ],
+      "words": 975,
+      "flags": [],
       "repeated_long_paragraphs": 0
     },
     {
       "url": "https://www.hanseongbeauty.com/blog/sourcing-bac-water-wholesale-a-buyer-s-guide-for-clinics-and-distributors.html",
-      "words": 906,
-      "flags": [
-        "check_FDA_reference_applicability"
-      ],
+      "words": 888,
+      "flags": [],
       "repeated_long_paragraphs": 0
     },
     {
       "url": "https://www.hanseongbeauty.com/blog/sourcing-coretox-100u-wholesale-a-buyer-s-guide-for-clinics-and-distributors.html",
-      "words": 861,
-      "flags": [
-        "check_FDA_reference_applicability"
-      ],
+      "words": 843,
+      "flags": [],
       "repeated_long_paragraphs": 0
     },
     {
       "url": "https://www.hanseongbeauty.com/blog/sourcing-evetox-wholesale-a-buyer-s-guide-for-clinics-and-distributors.html",
-      "words": 821,
-      "flags": [
-        "check_FDA_reference_applicability"
-      ],
+      "words": 803,
+      "flags": [],
       "repeated_long_paragraphs": 0
     },
     {
       "url": "https://www.hanseongbeauty.com/blog/sourcing-hyadew-wholesale-a-buyer-s-guide-for-clinics-and-distributors.html",
-      "words": 833,
+      "words": 815,
       "flags": [
-        "check_FDA_reference_applicability",
         "shared_paragraphs_review_context"
       ],
       "repeated_long_paragraphs": 10
     },
     {
       "url": "https://www.hanseongbeauty.com/blog/sourcing-innotox-100-wholesale-a-buyer-s-guide-for-clinics-and-distributors.html",
-      "words": 862,
-      "flags": [
-        "check_FDA_reference_applicability"
-      ],
+      "words": 844,
+      "flags": [],
       "repeated_long_paragraphs": 0
     },
     {
       "url": "https://www.hanseongbeauty.com/blog/sourcing-j-cain-numbing-cream-10-56-wholesale-a-buyer-s-guide-for-clinics-and-.html",
-      "words": 962,
-      "flags": [
-        "check_FDA_reference_applicability"
-      ],
+      "words": 944,
+      "flags": [],
       "repeated_long_paragraphs": 0
     },
     {
       "url": "https://www.hanseongbeauty.com/blog/sourcing-jalupro-classic-wholesale-a-buyer-s-guide-for-clinics-and-distributor.html",
-      "words": 994,
-      "flags": [
-        "product_claim_requires_source_review",
-        "check_FDA_reference_applicability"
-      ],
+      "words": 920,
+      "flags": [],
       "repeated_long_paragraphs": 0
     },
     {
       "url": "https://www.hanseongbeauty.com/blog/sourcing-jalupro-hmw-wholesale-a-buyer-s-guide-for-clinics-and-distributors.html",
-      "words": 997,
-      "flags": [
-        "check_FDA_reference_applicability"
-      ],
+      "words": 979,
+      "flags": [],
       "repeated_long_paragraphs": 0
     },
     {
       "url": "https://www.hanseongbeauty.com/blog/sourcing-jariot-body-wholesale-a-buyer-s-guide-for-clinics-and-distributors-ja.html",
-      "words": 837,
+      "words": 819,
       "flags": [
-        "check_FDA_reference_applicability",
         "shared_paragraphs_review_context"
       ],
       "repeated_long_paragraphs": 10
     },
     {
       "url": "https://www.hanseongbeauty.com/blog/sourcing-jariot-body-wholesale-a-buyer-s-guide-for-clinics-and-distributors.html",
-      "words": 863,
-      "flags": [
-        "check_FDA_reference_applicability"
-      ],
+      "words": 845,
+      "flags": [],
       "repeated_long_paragraphs": 0
     },
     {
       "url": "https://www.hanseongbeauty.com/blog/sourcing-kaimax-100-wholesale-a-buyer-s-guide-for-clinics-and-distributors.html",
-      "words": 894,
-      "flags": [
-        "check_FDA_reference_applicability"
-      ],
+      "words": 876,
+      "flags": [],
       "repeated_long_paragraphs": 0
     },
     {
       "url": "https://www.hanseongbeauty.com/blog/sourcing-kingtox-wholesale-a-buyer-s-guide-for-clinics-and-distributors.html",
-      "words": 940,
-      "flags": [
-        "check_FDA_reference_applicability"
-      ],
+      "words": 922,
+      "flags": [],
       "repeated_long_paragraphs": 0
     },
     {
       "url": "https://www.hanseongbeauty.com/blog/sourcing-lemon-bottle-wholesale-a-buyer-s-guide-for-clinics-and-distributors.html",
-      "words": 815,
-      "flags": [
-        "check_FDA_reference_applicability"
-      ],
+      "words": 797,
+      "flags": [],
       "repeated_long_paragraphs": 0
     },
     {
       "url": "https://www.hanseongbeauty.com/blog/sourcing-liztox-100-wholesale-a-buyer-s-guide-for-clinics-and-distributors.html",
-      "words": 837,
+      "words": 819,
       "flags": [
-        "check_FDA_reference_applicability",
         "shared_paragraphs_review_context"
       ],
       "repeated_long_paragraphs": 10
     },
     {
       "url": "https://www.hanseongbeauty.com/blog/sourcing-lucchini-wholesale-a-buyer-s-guide-for-clinics-and-distributors.html",
-      "words": 875,
-      "flags": [
-        "check_FDA_reference_applicability"
-      ],
+      "words": 857,
+      "flags": [],
       "repeated_long_paragraphs": 0
     },
     {
       "url": "https://www.hanseongbeauty.com/blog/sourcing-meditoxin-100-wholesale-a-buyer-s-guide-for-clinics-and-distributors.html",
-      "words": 997,
-      "flags": [
-        "check_FDA_reference_applicability"
-      ],
+      "words": 979,
+      "flags": [],
       "repeated_long_paragraphs": 0
     },
     {
       "url": "https://www.hanseongbeauty.com/blog/sourcing-meso-jarrior-wholesale-a-buyer-s-guide-for-clinics-and-distributors.html",
-      "words": 838,
+      "words": 820,
       "flags": [
-        "check_FDA_reference_applicability",
         "shared_paragraphs_review_context"
       ],
       "repeated_long_paragraphs": 10
     },
     {
       "url": "https://www.hanseongbeauty.com/blog/sourcing-mounjaro-5mg-wholesale-a-buyer-s-guide-for-clinics-and-distributors.html",
-      "words": 932,
-      "flags": [
-        "check_FDA_reference_applicability"
-      ],
+      "words": 914,
+      "flags": [],
       "repeated_long_paragraphs": 0
     },
     {
       "url": "https://www.hanseongbeauty.com/blog/sourcing-nabota-100-wholesale-a-buyer-s-guide-for-clinics-and-distributors.html",
-      "words": 901,
-      "flags": [
-        "check_FDA_reference_applicability"
-      ],
+      "words": 883,
+      "flags": [],
       "repeated_long_paragraphs": 0
     },
     {
       "url": "https://www.hanseongbeauty.com/blog/sourcing-onetox-100-wholesale-a-buyer-s-guide-for-clinics-and-distributors.html",
-      "words": 913,
-      "flags": [
-        "check_FDA_reference_applicability"
-      ],
+      "words": 895,
+      "flags": [],
       "repeated_long_paragraphs": 0
     },
     {
       "url": "https://www.hanseongbeauty.com/blog/sourcing-placenta-wholesale-a-buyer-s-guide-for-clinics-and-distributors.html",
-      "words": 838,
-      "flags": [
-        "check_FDA_reference_applicability"
-      ],
+      "words": 820,
+      "flags": [],
       "repeated_long_paragraphs": 0
     },
     {
       "url": "https://www.hanseongbeauty.com/blog/sourcing-radiesse-wholesale-a-buyer-s-guide-for-clinics-and-distributors.html",
-      "words": 832,
+      "words": 814,
       "flags": [
-        "check_FDA_reference_applicability",
         "shared_paragraphs_review_context"
       ],
       "repeated_long_paragraphs": 10
     },
     {
       "url": "https://www.hanseongbeauty.com/blog/sourcing-rejuran-s-wholesale-a-buyer-s-guide-for-clinics-and-distributors.html",
-      "words": 911,
-      "flags": [
-        "check_FDA_reference_applicability"
-      ],
+      "words": 893,
+      "flags": [],
       "repeated_long_paragraphs": 0
     },
     {
       "url": "https://www.hanseongbeauty.com/blog/sourcing-rentox-100-wholesale-a-buyer-s-guide-for-clinics-and-distributors.html",
-      "words": 911,
-      "flags": [
-        "check_FDA_reference_applicability"
-      ],
+      "words": 893,
+      "flags": [],
       "repeated_long_paragraphs": 0
     },
     {
       "url": "https://www.hanseongbeauty.com/blog/sourcing-rentox-200-wholesale-a-buyer-s-guide-for-clinics-and-distributors.html",
-      "words": 916,
-      "flags": [
-        "check_FDA_reference_applicability"
-      ],
+      "words": 898,
+      "flags": [],
       "repeated_long_paragraphs": 0
     },
     {
       "url": "https://www.hanseongbeauty.com/blog/sourcing-ruby-luxury-wholesale-a-buyer-s-guide-for-clinics-and-distributors.html",
-      "words": 897,
-      "flags": [
-        "check_FDA_reference_applicability"
-      ],
+      "words": 879,
+      "flags": [],
       "repeated_long_paragraphs": 0
     },
     {
       "url": "https://www.hanseongbeauty.com/blog/sourcing-rubytoxin-100u-wholesale-a-buyer-s-guide-for-clinics-and-distributors.html",
-      "words": 983,
-      "flags": [
-        "check_FDA_reference_applicability"
-      ],
+      "words": 965,
+      "flags": [],
       "repeated_long_paragraphs": 0
     },
     {
       "url": "https://www.hanseongbeauty.com/blog/sourcing-sedy-fill-wholesale-a-buyer-s-guide-for-clinics-and-distributors.html",
-      "words": 847,
-      "flags": [
-        "check_FDA_reference_applicability"
-      ],
+      "words": 829,
+      "flags": [],
       "repeated_long_paragraphs": 0
     },
     {
       "url": "https://www.hanseongbeauty.com/blog/sourcing-tmie-vip-wholesale-a-buyer-s-guide-for-clinics-and-distributors.html",
-      "words": 969,
-      "flags": [
-        "check_FDA_reference_applicability"
-      ],
+      "words": 951,
+      "flags": [],
       "repeated_long_paragraphs": 0
     },
     {
       "url": "https://www.hanseongbeauty.com/blog/sourcing-toxta-100-wholesale-a-buyer-s-guide-for-clinics-and-distributors.html",
-      "words": 886,
-      "flags": [
-        "check_FDA_reference_applicability"
-      ],
+      "words": 868,
+      "flags": [],
       "repeated_long_paragraphs": 0
     },
     {
@@ -1340,126 +1042,102 @@
     },
     {
       "url": "https://www.hanseongbeauty.com/blog/sourcing-v-line-sol-wholesale-a-buyer-s-guide-for-clinics-and-distributors.html",
-      "words": 840,
+      "words": 822,
       "flags": [
-        "check_FDA_reference_applicability",
         "shared_paragraphs_review_context"
       ],
       "repeated_long_paragraphs": 10
     },
     {
       "url": "https://www.hanseongbeauty.com/blog/vitarium-for-aesthetic-clinics-a-practical-wholesale-sourcing-guide.html",
-      "words": 908,
-      "flags": [
-        "check_FDA_reference_applicability"
-      ],
+      "words": 890,
+      "flags": [],
       "repeated_long_paragraphs": 0
     },
     {
       "url": "https://www.hanseongbeauty.com/blog/what-to-check-before-ordering-32g-meso-needle-from-a-wholesale-supplier.html",
-      "words": 842,
+      "words": 824,
       "flags": [
-        "check_FDA_reference_applicability",
         "shared_paragraphs_review_context"
       ],
       "repeated_long_paragraphs": 10
     },
     {
       "url": "https://www.hanseongbeauty.com/blog/what-to-check-before-ordering-bienox-100u-from-a-wholesale-supplier.html",
-      "words": 859,
-      "flags": [
-        "check_FDA_reference_applicability"
-      ],
+      "words": 841,
+      "flags": [],
       "repeated_long_paragraphs": 0
     },
     {
       "url": "https://www.hanseongbeauty.com/blog/what-to-check-before-ordering-botulax-100-from-a-wholesale-supplier.html",
-      "words": 837,
+      "words": 819,
       "flags": [
-        "check_FDA_reference_applicability",
         "shared_paragraphs_review_context"
       ],
       "repeated_long_paragraphs": 10
     },
     {
       "url": "https://www.hanseongbeauty.com/blog/what-to-check-before-ordering-botulax-100-unit-from-a-wholesale-supplier.html",
-      "words": 840,
-      "flags": [
-        "check_FDA_reference_applicability"
-      ],
+      "words": 822,
+      "flags": [],
       "repeated_long_paragraphs": 0
     },
     {
       "url": "https://www.hanseongbeauty.com/blog/what-to-check-before-ordering-botulax-200u-from-a-wholesale-supplier.html",
-      "words": 837,
+      "words": 819,
       "flags": [
-        "check_FDA_reference_applicability",
         "shared_paragraphs_review_context"
       ],
       "repeated_long_paragraphs": 10
     },
     {
       "url": "https://www.hanseongbeauty.com/blog/what-to-check-before-ordering-botulax-300u-from-a-wholesale-supplier.html",
-      "words": 886,
-      "flags": [
-        "check_FDA_reference_applicability"
-      ],
+      "words": 868,
+      "flags": [],
       "repeated_long_paragraphs": 0
     },
     {
       "url": "https://www.hanseongbeauty.com/blog/what-to-check-before-ordering-chaumcaine-from-a-wholesale-supplier.html",
-      "words": 916,
-      "flags": [
-        "check_FDA_reference_applicability"
-      ],
+      "words": 898,
+      "flags": [],
       "repeated_long_paragraphs": 0
     },
     {
       "url": "https://www.hanseongbeauty.com/blog/what-to-check-before-ordering-dehantox-from-a-wholesale-supplier.html",
-      "words": 1049,
-      "flags": [
-        "check_FDA_reference_applicability"
-      ],
+      "words": 1031,
+      "flags": [],
       "repeated_long_paragraphs": 0
     },
     {
       "url": "https://www.hanseongbeauty.com/blog/what-to-check-before-ordering-exoten-from-a-wholesale-supplier.html",
-      "words": 834,
+      "words": 816,
       "flags": [
-        "check_FDA_reference_applicability",
         "shared_paragraphs_review_context"
       ],
       "repeated_long_paragraphs": 10
     },
     {
       "url": "https://www.hanseongbeauty.com/blog/what-to-check-before-ordering-extox-100u-from-a-wholesale-supplier.html",
-      "words": 969,
-      "flags": [
-        "check_FDA_reference_applicability"
-      ],
+      "words": 951,
+      "flags": [],
       "repeated_long_paragraphs": 0
     },
     {
       "url": "https://www.hanseongbeauty.com/blog/what-to-check-before-ordering-glutax-10000000-from-a-wholesale-supplier.html",
-      "words": 901,
-      "flags": [
-        "check_FDA_reference_applicability"
-      ],
+      "words": 883,
+      "flags": [],
       "repeated_long_paragraphs": 0
     },
     {
       "url": "https://www.hanseongbeauty.com/blog/what-to-check-before-ordering-glutax-35000000-from-a-wholesale-supplier.html",
-      "words": 905,
-      "flags": [
-        "check_FDA_reference_applicability"
-      ],
+      "words": 887,
+      "flags": [],
       "repeated_long_paragraphs": 0
     },
     {
       "url": "https://www.hanseongbeauty.com/blog/what-to-check-before-ordering-gouri-from-a-wholesale-supplier.html",
-      "words": 832,
+      "words": 814,
       "flags": [
-        "check_FDA_reference_applicability",
         "shared_paragraphs_review_context"
       ],
       "repeated_long_paragraphs": 10
@@ -1472,152 +1150,122 @@
     },
     {
       "url": "https://www.hanseongbeauty.com/blog/what-to-check-before-ordering-innotox-50-from-a-wholesale-supplier.html",
-      "words": 915,
-      "flags": [
-        "check_FDA_reference_applicability"
-      ],
+      "words": 897,
+      "flags": [],
       "repeated_long_paragraphs": 0
     },
     {
       "url": "https://www.hanseongbeauty.com/blog/what-to-check-before-ordering-juvederm-volift-from-a-wholesale-supplier.html",
-      "words": 837,
+      "words": 819,
       "flags": [
-        "check_FDA_reference_applicability",
         "shared_paragraphs_review_context"
       ],
       "repeated_long_paragraphs": 10
     },
     {
       "url": "https://www.hanseongbeauty.com/blog/what-to-check-before-ordering-laennec-from-a-wholesale-supplier.html",
-      "words": 834,
+      "words": 816,
       "flags": [
-        "check_FDA_reference_applicability",
         "shared_paragraphs_review_context"
       ],
       "repeated_long_paragraphs": 10
     },
     {
       "url": "https://www.hanseongbeauty.com/blog/what-to-check-before-ordering-laroscorbine-diamond-e-uf-from-a-wholesale-suppl.html",
-      "words": 895,
-      "flags": [
-        "check_FDA_reference_applicability"
-      ],
+      "words": 877,
+      "flags": [],
       "repeated_long_paragraphs": 0
     },
     {
       "url": "https://www.hanseongbeauty.com/blog/what-to-check-before-ordering-medicain-2-from-a-wholesale-supplier.html",
-      "words": 875,
-      "flags": [
-        "check_FDA_reference_applicability"
-      ],
+      "words": 857,
+      "flags": [],
       "repeated_long_paragraphs": 0
     },
     {
       "url": "https://www.hanseongbeauty.com/blog/what-to-check-before-ordering-meditoxin-200-from-a-wholesale-supplier.html",
-      "words": 888,
-      "flags": [
-        "check_FDA_reference_applicability"
-      ],
+      "words": 870,
+      "flags": [],
       "repeated_long_paragraphs": 0
     },
     {
       "url": "https://www.hanseongbeauty.com/blog/what-to-check-before-ordering-mounjaro-10mg-from-a-wholesale-supplier.html",
-      "words": 837,
+      "words": 819,
       "flags": [
-        "check_FDA_reference_applicability",
         "shared_paragraphs_review_context"
       ],
       "repeated_long_paragraphs": 10
     },
     {
       "url": "https://www.hanseongbeauty.com/blog/what-to-check-before-ordering-nabota-200-from-a-wholesale-supplier.html",
-      "words": 837,
+      "words": 819,
       "flags": [
-        "check_FDA_reference_applicability",
         "shared_paragraphs_review_context"
       ],
       "repeated_long_paragraphs": 10
     },
     {
       "url": "https://www.hanseongbeauty.com/blog/what-to-check-before-ordering-nctf-from-a-wholesale-supplier.html",
-      "words": 939,
-      "flags": [
-        "check_FDA_reference_applicability"
-      ],
+      "words": 921,
+      "flags": [],
       "repeated_long_paragraphs": 0
     },
     {
       "url": "https://www.hanseongbeauty.com/blog/what-to-check-before-ordering-neuramis-from-a-wholesale-supplier.html",
-      "words": 1003,
-      "flags": [
-        "check_FDA_reference_applicability"
-      ],
+      "words": 985,
+      "flags": [],
       "repeated_long_paragraphs": 0
     },
     {
       "url": "https://www.hanseongbeauty.com/blog/what-to-check-before-ordering-neuronox-100u-from-a-wholesale-supplier.html",
-      "words": 838,
-      "flags": [
-        "check_FDA_reference_applicability"
-      ],
+      "words": 820,
+      "flags": [],
       "repeated_long_paragraphs": 0
     },
     {
       "url": "https://www.hanseongbeauty.com/blog/what-to-check-before-ordering-onetox-200-from-a-wholesale-supplier.html",
-      "words": 837,
+      "words": 819,
       "flags": [
-        "check_FDA_reference_applicability",
         "shared_paragraphs_review_context"
       ],
       "repeated_long_paragraphs": 10
     },
     {
       "url": "https://www.hanseongbeauty.com/blog/what-to-check-before-ordering-ozempic-from-a-wholesale-supplier.html",
-      "words": 917,
-      "flags": [
-        "check_FDA_reference_applicability"
-      ],
+      "words": 899,
+      "flags": [],
       "repeated_long_paragraphs": 0
     },
     {
       "url": "https://www.hanseongbeauty.com/blog/what-to-check-before-ordering-pink-fill-body-from-a-wholesale-supplier.html",
-      "words": 931,
-      "flags": [
-        "check_FDA_reference_applicability"
-      ],
+      "words": 913,
+      "flags": [],
       "repeated_long_paragraphs": 0
     },
     {
       "url": "https://www.hanseongbeauty.com/blog/what-to-check-before-ordering-rejuran-hb-from-a-wholesale-supplier.html",
-      "words": 968,
-      "flags": [
-        "check_FDA_reference_applicability"
-      ],
+      "words": 950,
+      "flags": [],
       "repeated_long_paragraphs": 0
     },
     {
       "url": "https://www.hanseongbeauty.com/blog/what-to-check-before-ordering-rentox-200-from-a-wholesale-supplier.html",
-      "words": 1005,
-      "flags": [
-        "check_FDA_reference_applicability"
-      ],
+      "words": 987,
+      "flags": [],
       "repeated_long_paragraphs": 0
     },
     {
       "url": "https://www.hanseongbeauty.com/blog/what-to-check-before-ordering-white-fill-pro-from-a-wholesale-supplier.html",
-      "words": 841,
+      "words": 823,
       "flags": [
-        "check_FDA_reference_applicability",
         "shared_paragraphs_review_context"
       ],
       "repeated_long_paragraphs": 10
     },
     {
       "url": "https://www.hanseongbeauty.com/blog/what-to-check-before-ordering-xeomin-from-a-wholesale-supplier.html",
-      "words": 900,
-      "flags": [
-        "check_FDA_reference_applicability"
-      ],
+      "words": 882,
+      "flags": [],
       "repeated_long_paragraphs": 0
     },
     {

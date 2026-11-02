@@ -1,0 +1,950 @@
+{
+  "scope": "Known reference boilerplate and 14 manually inspected claim-containing articles. Remaining copy still requires source review.",
+  "changes": [
+    {
+      "file": "blog/a-procurement-guide-to-admedic-for-spas-clinics-and-resellers.html",
+      "template_references_removed": 2,
+      "reviewed_claim_paragraphs_removed": 0
+    },
+    {
+      "file": "blog/a-procurement-guide-to-ammi-eyes-for-spas-clinics-and-resellers.html",
+      "template_references_removed": 2,
+      "reviewed_claim_paragraphs_removed": 1
+    },
+    {
+      "file": "blog/a-procurement-guide-to-ammi-for-spas-clinics-and-resellers.html",
+      "template_references_removed": 2,
+      "reviewed_claim_paragraphs_removed": 0
+    },
+    {
+      "file": "blog/a-procurement-guide-to-aqua-pn-for-spas-clinics-and-resellers.html",
+      "template_references_removed": 2,
+      "reviewed_claim_paragraphs_removed": 0
+    },
+    {
+      "file": "blog/a-procurement-guide-to-aqualyx-for-spas-clinics-and-resellers.html",
+      "template_references_removed": 2,
+      "reviewed_claim_paragraphs_removed": 0
+    },
+    {
+      "file": "blog/a-procurement-guide-to-blacktox-for-spas-clinics-and-resellers.html",
+      "template_references_removed": 2,
+      "reviewed_claim_paragraphs_removed": 0
+    },
+    {
+      "file": "blog/a-procurement-guide-to-dysport-chai-to-for-spas-clinics-and-resellers.html",
+      "template_references_removed": 2,
+      "reviewed_claim_paragraphs_removed": 0
+    },
+    {
+      "file": "blog/a-procurement-guide-to-evehilo-for-spas-clinics-and-resellers.html",
+      "template_references_removed": 2,
+      "reviewed_claim_paragraphs_removed": 0
+    },
+    {
+      "file": "blog/a-procurement-guide-to-fabi-for-spas-clinics-and-resellers.html",
+      "template_references_removed": 2,
+      "reviewed_claim_paragraphs_removed": 0
+    },
+    {
+      "file": "blog/a-procurement-guide-to-helios-vip-for-spas-clinics-and-resellers.html",
+      "template_references_removed": 2,
+      "reviewed_claim_paragraphs_removed": 0
+    },
+    {
+      "file": "blog/a-procurement-guide-to-huons-water-numb-for-spas-clinics-and-resellers.html",
+      "template_references_removed": 2,
+      "reviewed_claim_paragraphs_removed": 0
+    },
+    {
+      "file": "blog/a-procurement-guide-to-j-cain-numbing-cream-29-9-for-spas-clinics-and-reseller.html",
+      "template_references_removed": 2,
+      "reviewed_claim_paragraphs_removed": 0
+    },
+    {
+      "file": "blog/a-procurement-guide-to-j-cain-numbing-cream-59-9-for-spas-clinics-and-reseller.html",
+      "template_references_removed": 2,
+      "reviewed_claim_paragraphs_removed": 0
+    },
+    {
+      "file": "blog/a-procurement-guide-to-jalupro-young-eye-for-spas-clinics-and-resellers.html",
+      "template_references_removed": 2,
+      "reviewed_claim_paragraphs_removed": 1
+    },
+    {
+      "file": "blog/a-procurement-guide-to-juvederm-skinvive-for-spas-clinics-and-resellers.html",
+      "template_references_removed": 2,
+      "reviewed_claim_paragraphs_removed": 0
+    },
+    {
+      "file": "blog/a-procurement-guide-to-juvelook-for-spas-clinics-and-resellers.html",
+      "template_references_removed": 2,
+      "reviewed_claim_paragraphs_removed": 1
+    },
+    {
+      "file": "blog/a-procurement-guide-to-kiara-reju-for-spas-clinics-and-resellers.html",
+      "template_references_removed": 2,
+      "reviewed_claim_paragraphs_removed": 1
+    },
+    {
+      "file": "blog/a-procurement-guide-to-luhilo-for-spas-clinics-and-resellers.html",
+      "template_references_removed": 2,
+      "reviewed_claim_paragraphs_removed": 1
+    },
+    {
+      "file": "blog/a-procurement-guide-to-luna-eyes-for-spas-clinics-and-resellers.html",
+      "template_references_removed": 2,
+      "reviewed_claim_paragraphs_removed": 0
+    },
+    {
+      "file": "blog/a-procurement-guide-to-maxxyfill-body-for-spas-clinics-and-resellers.html",
+      "template_references_removed": 2,
+      "reviewed_claim_paragraphs_removed": 0
+    },
+    {
+      "file": "blog/a-procurement-guide-to-neuronox-100u-for-spas-clinics-and-resellers.html",
+      "template_references_removed": 2,
+      "reviewed_claim_paragraphs_removed": 0
+    },
+    {
+      "file": "blog/a-procurement-guide-to-olidia-for-spas-clinics-and-resellers.html",
+      "template_references_removed": 2,
+      "reviewed_claim_paragraphs_removed": 1
+    },
+    {
+      "file": "blog/a-procurement-guide-to-placentex-for-spas-clinics-and-resellers.html",
+      "template_references_removed": 2,
+      "reviewed_claim_paragraphs_removed": 0
+    },
+    {
+      "file": "blog/a-procurement-guide-to-profhilo-structura-for-spas-clinics-and-resellers.html",
+      "template_references_removed": 2,
+      "reviewed_claim_paragraphs_removed": 0
+    },
+    {
+      "file": "blog/a-procurement-guide-to-rejuran-i-for-spas-clinics-and-resellers.html",
+      "template_references_removed": 2,
+      "reviewed_claim_paragraphs_removed": 1
+    },
+    {
+      "file": "blog/a-procurement-guide-to-restylane-eyelight-for-spas-clinics-and-resellers.html",
+      "template_references_removed": 2,
+      "reviewed_claim_paragraphs_removed": 0
+    },
+    {
+      "file": "blog/a-procurement-guide-to-restylane-lyft-for-spas-clinics-and-resellers.html",
+      "template_references_removed": 2,
+      "reviewed_claim_paragraphs_removed": 0
+    },
+    {
+      "file": "blog/a-procurement-guide-to-roya-for-spas-clinics-and-resellers.html",
+      "template_references_removed": 2,
+      "reviewed_claim_paragraphs_removed": 0
+    },
+    {
+      "file": "blog/a-procurement-guide-to-sardenya-for-spas-clinics-and-resellers.html",
+      "template_references_removed": 2,
+      "reviewed_claim_paragraphs_removed": 0
+    },
+    {
+      "file": "blog/a-procurement-guide-to-sculptra-for-spas-clinics-and-resellers.html",
+      "template_references_removed": 2,
+      "reviewed_claim_paragraphs_removed": 2
+    },
+    {
+      "file": "blog/a-procurement-guide-to-tirzepatide-30mg-for-spas-clinics-and-resellers.html",
+      "template_references_removed": 2,
+      "reviewed_claim_paragraphs_removed": 0
+    },
+    {
+      "file": "blog/a-procurement-guide-to-wondertox-100u-for-spas-clinics-and-resellers.html",
+      "template_references_removed": 2,
+      "reviewed_claim_paragraphs_removed": 0
+    },
+    {
+      "file": "blog/allergan-100u-for-aesthetic-clinics-a-practical-wholesale-sourcing-guide.html",
+      "template_references_removed": 2,
+      "reviewed_claim_paragraphs_removed": 0
+    },
+    {
+      "file": "blog/arista-for-aesthetic-clinics-a-practical-wholesale-sourcing-guide.html",
+      "template_references_removed": 2,
+      "reviewed_claim_paragraphs_removed": 0
+    },
+    {
+      "file": "blog/b-braun-omnican-1ml-for-aesthetic-clinics-a-practical-wholesale-sourcing-guide.html",
+      "template_references_removed": 2,
+      "reviewed_claim_paragraphs_removed": 0
+    },
+    {
+      "file": "blog/bm-hyrunidase-for-aesthetic-clinics-a-practical-wholesale-sourcing-guide.html",
+      "template_references_removed": 2,
+      "reviewed_claim_paragraphs_removed": 0
+    },
+    {
+      "file": "blog/buying-celosome-vip-wholesale-documentation-handling-and-shipping-essentials.html",
+      "template_references_removed": 2,
+      "reviewed_claim_paragraphs_removed": 0
+    },
+    {
+      "file": "blog/buying-cindella-set-wholesale-documentation-handling-and-shipping-essentials.html",
+      "template_references_removed": 2,
+      "reviewed_claim_paragraphs_removed": 0
+    },
+    {
+      "file": "blog/buying-dermacan-wholesale-documentation-handling-and-shipping-essentials.html",
+      "template_references_removed": 2,
+      "reviewed_claim_paragraphs_removed": 0
+    },
+    {
+      "file": "blog/buying-dermalax-wholesale-documentation-handling-and-shipping-essentials.html",
+      "template_references_removed": 2,
+      "reviewed_claim_paragraphs_removed": 0
+    },
+    {
+      "file": "blog/buying-elasty-wholesale-documentation-handling-and-shipping-essentials.html",
+      "template_references_removed": 2,
+      "reviewed_claim_paragraphs_removed": 0
+    },
+    {
+      "file": "blog/buying-france-body-wholesale-documentation-handling-and-shipping-essentials.html",
+      "template_references_removed": 2,
+      "reviewed_claim_paragraphs_removed": 0
+    },
+    {
+      "file": "blog/buying-glutax-22000000-wholesale-documentation-handling-and-shipping-essential.html",
+      "template_references_removed": 2,
+      "reviewed_claim_paragraphs_removed": 0
+    },
+    {
+      "file": "blog/buying-gtm-3-wholesale-documentation-handling-and-shipping-essentials.html",
+      "template_references_removed": 2,
+      "reviewed_claim_paragraphs_removed": 0
+    },
+    {
+      "file": "blog/buying-hutox-100u-wholesale-documentation-handling-and-shipping-essentials.html",
+      "template_references_removed": 2,
+      "reviewed_claim_paragraphs_removed": 0
+    },
+    {
+      "file": "blog/buying-hyalaze-wholesale-documentation-handling-and-shipping-essentials.html",
+      "template_references_removed": 2,
+      "reviewed_claim_paragraphs_removed": 0
+    },
+    {
+      "file": "blog/buying-j-cain-numbing-cream-15-6-wholesale-documentation-handling-and-shipping.html",
+      "template_references_removed": 2,
+      "reviewed_claim_paragraphs_removed": 0
+    },
+    {
+      "file": "blog/buying-juvederm-voluma-wholesale-documentation-handling-and-shipping-essential.html",
+      "template_references_removed": 2,
+      "reviewed_claim_paragraphs_removed": 0
+    },
+    {
+      "file": "blog/buying-juvederm-xc-wholesale-documentation-handling-and-shipping-essentials.html",
+      "template_references_removed": 2,
+      "reviewed_claim_paragraphs_removed": 0
+    },
+    {
+      "file": "blog/buying-kabelline-wholesale-documentation-handling-and-shipping-essentials.html",
+      "template_references_removed": 2,
+      "reviewed_claim_paragraphs_removed": 0
+    },
+    {
+      "file": "blog/buying-karisma-wholesale-documentation-handling-and-shipping-essentials.html",
+      "template_references_removed": 2,
+      "reviewed_claim_paragraphs_removed": 0
+    },
+    {
+      "file": "blog/buying-linospan-wholesale-documentation-handling-and-shipping-essentials.html",
+      "template_references_removed": 2,
+      "reviewed_claim_paragraphs_removed": 0
+    },
+    {
+      "file": "blog/buying-liporase-wholesale-documentation-handling-and-shipping-essentials.html",
+      "template_references_removed": 2,
+      "reviewed_claim_paragraphs_removed": 0
+    },
+    {
+      "file": "blog/buying-luxer-wholesale-documentation-handling-and-shipping-essentials.html",
+      "template_references_removed": 2,
+      "reviewed_claim_paragraphs_removed": 0
+    },
+    {
+      "file": "blog/buying-melsmon-wholesale-documentation-handling-and-shipping-essentials.html",
+      "template_references_removed": 2,
+      "reviewed_claim_paragraphs_removed": 0
+    },
+    {
+      "file": "blog/buying-pink-glow-wholesale-documentation-handling-and-shipping-essentials.html",
+      "template_references_removed": 2,
+      "reviewed_claim_paragraphs_removed": 0
+    },
+    {
+      "file": "blog/buying-rejeunesse-wholesale-documentation-handling-and-shipping-essentials.html",
+      "template_references_removed": 2,
+      "reviewed_claim_paragraphs_removed": 0
+    },
+    {
+      "file": "blog/buying-rejuran-healer-wholesale-documentation-handling-and-shipping-essentials.html",
+      "template_references_removed": 2,
+      "reviewed_claim_paragraphs_removed": 0
+    },
+    {
+      "file": "blog/buying-restylane-contour-wholesale-documentation-handling-and-shipping-essenti.html",
+      "template_references_removed": 2,
+      "reviewed_claim_paragraphs_removed": 0
+    },
+    {
+      "file": "blog/buying-restylane-kysse-wholesale-documentation-handling-and-shipping-essential.html",
+      "template_references_removed": 2,
+      "reviewed_claim_paragraphs_removed": 0
+    },
+    {
+      "file": "blog/buying-restylane-lidocaine-wholesale-documentation-handling-and-shipping-essen.html",
+      "template_references_removed": 2,
+      "reviewed_claim_paragraphs_removed": 0
+    },
+    {
+      "file": "blog/buying-restylane-volyme-wholesale-documentation-handling-and-shipping-essentia.html",
+      "template_references_removed": 2,
+      "reviewed_claim_paragraphs_removed": 0
+    },
+    {
+      "file": "blog/buying-revolax-wholesale-documentation-handling-and-shipping-essentials.html",
+      "template_references_removed": 2,
+      "reviewed_claim_paragraphs_removed": 0
+    },
+    {
+      "file": "blog/buying-sculptra-5ml-wholesale-documentation-handling-and-shipping-essentials.html",
+      "template_references_removed": 2,
+      "reviewed_claim_paragraphs_removed": 1
+    },
+    {
+      "file": "blog/buying-stylage-l-wholesale-documentation-handling-and-shipping-essentials.html",
+      "template_references_removed": 2,
+      "reviewed_claim_paragraphs_removed": 0
+    },
+    {
+      "file": "blog/buying-stylage-s-wholesale-documentation-handling-and-shipping-essentials.html",
+      "template_references_removed": 2,
+      "reviewed_claim_paragraphs_removed": 0
+    },
+    {
+      "file": "blog/buying-wondertox-200u-wholesale-documentation-handling-and-shipping-essentials.html",
+      "template_references_removed": 2,
+      "reviewed_claim_paragraphs_removed": 0
+    },
+    {
+      "file": "blog/ceres-for-aesthetic-clinics-a-practical-wholesale-sourcing-guide.html",
+      "template_references_removed": 2,
+      "reviewed_claim_paragraphs_removed": 0
+    },
+    {
+      "file": "blog/dr-lacir-for-aesthetic-clinics-a-practical-wholesale-sourcing-guide.html",
+      "template_references_removed": 2,
+      "reviewed_claim_paragraphs_removed": 0
+    },
+    {
+      "file": "blog/eve-eyes-for-aesthetic-clinics-a-practical-wholesale-sourcing-guide.html",
+      "template_references_removed": 2,
+      "reviewed_claim_paragraphs_removed": 0
+    },
+    {
+      "file": "blog/glutax-5gs-micro-for-aesthetic-clinics-a-practical-wholesale-sourcing-guide.html",
+      "template_references_removed": 2,
+      "reviewed_claim_paragraphs_removed": 0
+    },
+    {
+      "file": "blog/gluthione-1200mg-for-aesthetic-clinics-a-practical-wholesale-sourcing-guide.html",
+      "template_references_removed": 2,
+      "reviewed_claim_paragraphs_removed": 0
+    },
+    {
+      "file": "blog/gtm-8-for-aesthetic-clinics-a-practical-wholesale-sourcing-guide.html",
+      "template_references_removed": 2,
+      "reviewed_claim_paragraphs_removed": 0
+    },
+    {
+      "file": "blog/how-professional-buyers-evaluate-chaeum-before-ordering-wholesale.html",
+      "template_references_removed": 2,
+      "reviewed_claim_paragraphs_removed": 0
+    },
+    {
+      "file": "blog/how-professional-buyers-evaluate-daxxify-before-ordering-wholesale.html",
+      "template_references_removed": 2,
+      "reviewed_claim_paragraphs_removed": 0
+    },
+    {
+      "file": "blog/how-professional-buyers-evaluate-doris-filler-before-ordering-wholesale.html",
+      "template_references_removed": 2,
+      "reviewed_claim_paragraphs_removed": 0
+    },
+    {
+      "file": "blog/how-professional-buyers-evaluate-eptq-before-ordering-wholesale.html",
+      "template_references_removed": 2,
+      "reviewed_claim_paragraphs_removed": 0
+    },
+    {
+      "file": "blog/how-professional-buyers-evaluate-exocode-before-ordering-wholesale.html",
+      "template_references_removed": 2,
+      "reviewed_claim_paragraphs_removed": 0
+    },
+    {
+      "file": "blog/how-professional-buyers-evaluate-gana-v-line-before-ordering-wholesale.html",
+      "template_references_removed": 2,
+      "reviewed_claim_paragraphs_removed": 0
+    },
+    {
+      "file": "blog/how-professional-buyers-evaluate-helios-body-before-ordering-wholesale.html",
+      "template_references_removed": 2,
+      "reviewed_claim_paragraphs_removed": 0
+    },
+    {
+      "file": "blog/how-professional-buyers-evaluate-jalupro-super-hydro-before-ordering-wholesale.html",
+      "template_references_removed": 2,
+      "reviewed_claim_paragraphs_removed": 2
+    },
+    {
+      "file": "blog/how-professional-buyers-evaluate-jariot-vip-before-ordering-wholesale.html",
+      "template_references_removed": 2,
+      "reviewed_claim_paragraphs_removed": 0
+    },
+    {
+      "file": "blog/how-professional-buyers-evaluate-juvederm-ultra-3-before-ordering-wholesale.html",
+      "template_references_removed": 2,
+      "reviewed_claim_paragraphs_removed": 0
+    },
+    {
+      "file": "blog/how-professional-buyers-evaluate-juvederm-volux-before-ordering-wholesale.html",
+      "template_references_removed": 2,
+      "reviewed_claim_paragraphs_removed": 0
+    },
+    {
+      "file": "blog/how-professional-buyers-evaluate-juvederm-xc-plus-before-ordering-wholesale.html",
+      "template_references_removed": 2,
+      "reviewed_claim_paragraphs_removed": 0
+    },
+    {
+      "file": "blog/how-professional-buyers-evaluate-kaimax-200u-before-ordering-wholesale.html",
+      "template_references_removed": 2,
+      "reviewed_claim_paragraphs_removed": 0
+    },
+    {
+      "file": "blog/how-professional-buyers-evaluate-lemon-bottle-before-ordering-wholesale.html",
+      "template_references_removed": 2,
+      "reviewed_claim_paragraphs_removed": 0
+    },
+    {
+      "file": "blog/how-professional-buyers-evaluate-lipolab-before-ordering-wholesale.html",
+      "template_references_removed": 2,
+      "reviewed_claim_paragraphs_removed": 0
+    },
+    {
+      "file": "blog/how-professional-buyers-evaluate-meso-30g-sungshim-before-ordering-wholesale.html",
+      "template_references_removed": 2,
+      "reviewed_claim_paragraphs_removed": 0
+    },
+    {
+      "file": "blog/how-professional-buyers-evaluate-mi-cain-pro-before-ordering-wholesale.html",
+      "template_references_removed": 2,
+      "reviewed_claim_paragraphs_removed": 0
+    },
+    {
+      "file": "blog/how-professional-buyers-evaluate-milanie-before-ordering-wholesale.html",
+      "template_references_removed": 2,
+      "reviewed_claim_paragraphs_removed": 0
+    },
+    {
+      "file": "blog/how-professional-buyers-evaluate-mounjaro-12-5mg-before-ordering-wholesale.html",
+      "template_references_removed": 2,
+      "reviewed_claim_paragraphs_removed": 0
+    },
+    {
+      "file": "blog/how-professional-buyers-evaluate-muscle-inhibitors-before-ordering-wholesale.html",
+      "template_references_removed": 2,
+      "reviewed_claim_paragraphs_removed": 0
+    },
+    {
+      "file": "blog/how-professional-buyers-evaluate-neuronox-100u-before-ordering-wholesale.html",
+      "template_references_removed": 2,
+      "reviewed_claim_paragraphs_removed": 0
+    },
+    {
+      "file": "blog/how-professional-buyers-evaluate-profhilo-before-ordering-wholesale.html",
+      "template_references_removed": 2,
+      "reviewed_claim_paragraphs_removed": 0
+    },
+    {
+      "file": "blog/how-professional-buyers-evaluate-restylane-defyne-before-ordering-wholesale.html",
+      "template_references_removed": 2,
+      "reviewed_claim_paragraphs_removed": 0
+    },
+    {
+      "file": "blog/how-professional-buyers-evaluate-restylane-fynesse-before-ordering-wholesale.html",
+      "template_references_removed": 2,
+      "reviewed_claim_paragraphs_removed": 0
+    },
+    {
+      "file": "blog/how-professional-buyers-evaluate-restylane-refyne-before-ordering-wholesale.html",
+      "template_references_removed": 2,
+      "reviewed_claim_paragraphs_removed": 0
+    },
+    {
+      "file": "blog/how-professional-buyers-evaluate-samsung-pharm-whitening-before-ordering-whole.html",
+      "template_references_removed": 2,
+      "reviewed_claim_paragraphs_removed": 0
+    },
+    {
+      "file": "blog/how-professional-buyers-evaluate-semaglutide-10mg-before-ordering-wholesale.html",
+      "template_references_removed": 2,
+      "reviewed_claim_paragraphs_removed": 0
+    },
+    {
+      "file": "blog/how-professional-buyers-evaluate-stylage-m-before-ordering-wholesale.html",
+      "template_references_removed": 2,
+      "reviewed_claim_paragraphs_removed": 0
+    },
+    {
+      "file": "blog/how-professional-buyers-evaluate-stylage-xxl-before-ordering-wholesale.html",
+      "template_references_removed": 2,
+      "reviewed_claim_paragraphs_removed": 0
+    },
+    {
+      "file": "blog/how-professional-buyers-evaluate-teoxane-before-ordering-wholesale.html",
+      "template_references_removed": 2,
+      "reviewed_claim_paragraphs_removed": 0
+    },
+    {
+      "file": "blog/how-professional-buyers-evaluate-teoxane-redensity-ii-before-ordering-wholesal.html",
+      "template_references_removed": 2,
+      "reviewed_claim_paragraphs_removed": 0
+    },
+    {
+      "file": "blog/how-professional-buyers-evaluate-triamcinolo-before-ordering-wholesale.html",
+      "template_references_removed": 2,
+      "reviewed_claim_paragraphs_removed": 0
+    },
+    {
+      "file": "blog/hyaron-for-aesthetic-clinics-a-practical-wholesale-sourcing-guide.html",
+      "template_references_removed": 2,
+      "reviewed_claim_paragraphs_removed": 0
+    },
+    {
+      "file": "blog/jade-cain-cream-10-56-for-aesthetic-clinics-a-practical-wholesale-sourcing-gui.html",
+      "template_references_removed": 2,
+      "reviewed_claim_paragraphs_removed": 0
+    },
+    {
+      "file": "blog/jalupro-for-aesthetic-clinics-a-practical-wholesale-sourcing-guide.html",
+      "template_references_removed": 2,
+      "reviewed_claim_paragraphs_removed": 0
+    },
+    {
+      "file": "blog/lips-for-aesthetic-clinics-a-practical-wholesale-sourcing-guide.html",
+      "template_references_removed": 2,
+      "reviewed_claim_paragraphs_removed": 0
+    },
+    {
+      "file": "blog/lri-pro-for-aesthetic-clinics-a-practical-wholesale-sourcing-guide.html",
+      "template_references_removed": 2,
+      "reviewed_claim_paragraphs_removed": 0
+    },
+    {
+      "file": "blog/lri-v-line-for-aesthetic-clinics-a-practical-wholesale-sourcing-guide.html",
+      "template_references_removed": 2,
+      "reviewed_claim_paragraphs_removed": 0
+    },
+    {
+      "file": "blog/lumi-eyes-for-aesthetic-clinics-a-practical-wholesale-sourcing-guide.html",
+      "template_references_removed": 2,
+      "reviewed_claim_paragraphs_removed": 1
+    },
+    {
+      "file": "blog/malinda-for-aesthetic-clinics-a-practical-wholesale-sourcing-guide.html",
+      "template_references_removed": 2,
+      "reviewed_claim_paragraphs_removed": 0
+    },
+    {
+      "file": "blog/mounjaro-15mg-for-aesthetic-clinics-a-practical-wholesale-sourcing-guide.html",
+      "template_references_removed": 2,
+      "reviewed_claim_paragraphs_removed": 0
+    },
+    {
+      "file": "blog/mounjaro-2-5mg-for-aesthetic-clinics-a-practical-wholesale-sourcing-guide.html",
+      "template_references_removed": 2,
+      "reviewed_claim_paragraphs_removed": 0
+    },
+    {
+      "file": "blog/mounjaro-7-5mg-for-aesthetic-clinics-a-practical-wholesale-sourcing-guide.html",
+      "template_references_removed": 2,
+      "reviewed_claim_paragraphs_removed": 0
+    },
+    {
+      "file": "blog/nad-for-aesthetic-clinics-a-practical-wholesale-sourcing-guide.html",
+      "template_references_removed": 2,
+      "reviewed_claim_paragraphs_removed": 0
+    },
+    {
+      "file": "blog/oxyx-for-aesthetic-clinics-a-practical-wholesale-sourcing-guide.html",
+      "template_references_removed": 2,
+      "reviewed_claim_paragraphs_removed": 0
+    },
+    {
+      "file": "blog/priere-for-aesthetic-clinics-a-practical-wholesale-sourcing-guide.html",
+      "template_references_removed": 2,
+      "reviewed_claim_paragraphs_removed": 0
+    },
+    {
+      "file": "blog/restylane-kysse-for-aesthetic-clinics-a-practical-wholesale-sourcing-guide.html",
+      "template_references_removed": 2,
+      "reviewed_claim_paragraphs_removed": 0
+    },
+    {
+      "file": "blog/restylane-skinbooster-for-aesthetic-clinics-a-practical-wholesale-sourcing-gui.html",
+      "template_references_removed": 2,
+      "reviewed_claim_paragraphs_removed": 0
+    },
+    {
+      "file": "blog/richesse-eyes-for-aesthetic-clinics-a-practical-wholesale-sourcing-guide.html",
+      "template_references_removed": 2,
+      "reviewed_claim_paragraphs_removed": 0
+    },
+    {
+      "file": "blog/rrs-ha-eyes-for-aesthetic-clinics-a-practical-wholesale-sourcing-guide.html",
+      "template_references_removed": 2,
+      "reviewed_claim_paragraphs_removed": 1
+    },
+    {
+      "file": "blog/sculptra-for-aesthetic-clinics-a-practical-wholesale-sourcing-guide.html",
+      "template_references_removed": 2,
+      "reviewed_claim_paragraphs_removed": 2
+    },
+    {
+      "file": "blog/slim-queen-for-aesthetic-clinics-a-practical-wholesale-sourcing-guide.html",
+      "template_references_removed": 2,
+      "reviewed_claim_paragraphs_removed": 0
+    },
+    {
+      "file": "blog/sourcing-34g-meso-needle-wholesale-a-buyer-s-guide-for-clinics-and-distributor.html",
+      "template_references_removed": 2,
+      "reviewed_claim_paragraphs_removed": 0
+    },
+    {
+      "file": "blog/sourcing-bac-water-wholesale-a-buyer-s-guide-for-clinics-and-distributors.html",
+      "template_references_removed": 2,
+      "reviewed_claim_paragraphs_removed": 0
+    },
+    {
+      "file": "blog/sourcing-coretox-100u-wholesale-a-buyer-s-guide-for-clinics-and-distributors.html",
+      "template_references_removed": 2,
+      "reviewed_claim_paragraphs_removed": 0
+    },
+    {
+      "file": "blog/sourcing-evetox-wholesale-a-buyer-s-guide-for-clinics-and-distributors.html",
+      "template_references_removed": 2,
+      "reviewed_claim_paragraphs_removed": 0
+    },
+    {
+      "file": "blog/sourcing-hyadew-wholesale-a-buyer-s-guide-for-clinics-and-distributors.html",
+      "template_references_removed": 2,
+      "reviewed_claim_paragraphs_removed": 0
+    },
+    {
+      "file": "blog/sourcing-innotox-100-wholesale-a-buyer-s-guide-for-clinics-and-distributors.html",
+      "template_references_removed": 2,
+      "reviewed_claim_paragraphs_removed": 0
+    },
+    {
+      "file": "blog/sourcing-j-cain-numbing-cream-10-56-wholesale-a-buyer-s-guide-for-clinics-and-.html",
+      "template_references_removed": 2,
+      "reviewed_claim_paragraphs_removed": 0
+    },
+    {
+      "file": "blog/sourcing-jalupro-classic-wholesale-a-buyer-s-guide-for-clinics-and-distributor.html",
+      "template_references_removed": 2,
+      "reviewed_claim_paragraphs_removed": 1
+    },
+    {
+      "file": "blog/sourcing-jalupro-hmw-wholesale-a-buyer-s-guide-for-clinics-and-distributors.html",
+      "template_references_removed": 2,
+      "reviewed_claim_paragraphs_removed": 0
+    },
+    {
+      "file": "blog/sourcing-jariot-body-wholesale-a-buyer-s-guide-for-clinics-and-distributors-ja.html",
+      "template_references_removed": 2,
+      "reviewed_claim_paragraphs_removed": 0
+    },
+    {
+      "file": "blog/sourcing-jariot-body-wholesale-a-buyer-s-guide-for-clinics-and-distributors.html",
+      "template_references_removed": 2,
+      "reviewed_claim_paragraphs_removed": 0
+    },
+    {
+      "file": "blog/sourcing-kaimax-100-wholesale-a-buyer-s-guide-for-clinics-and-distributors.html",
+      "template_references_removed": 2,
+      "reviewed_claim_paragraphs_removed": 0
+    },
+    {
+      "file": "blog/sourcing-kingtox-wholesale-a-buyer-s-guide-for-clinics-and-distributors.html",
+      "template_references_removed": 2,
+      "reviewed_claim_paragraphs_removed": 0
+    },
+    {
+      "file": "blog/sourcing-lemon-bottle-wholesale-a-buyer-s-guide-for-clinics-and-distributors.html",
+      "template_references_removed": 2,
+      "reviewed_claim_paragraphs_removed": 0
+    },
+    {
+      "file": "blog/sourcing-liztox-100-wholesale-a-buyer-s-guide-for-clinics-and-distributors.html",
+      "template_references_removed": 2,
+      "reviewed_claim_paragraphs_removed": 0
+    },
+    {
+      "file": "blog/sourcing-lucchini-wholesale-a-buyer-s-guide-for-clinics-and-distributors.html",
+      "template_references_removed": 2,
+      "reviewed_claim_paragraphs_removed": 0
+    },
+    {
+      "file": "blog/sourcing-meditoxin-100-wholesale-a-buyer-s-guide-for-clinics-and-distributors.html",
+      "template_references_removed": 2,
+      "reviewed_claim_paragraphs_removed": 0
+    },
+    {
+      "file": "blog/sourcing-meso-jarrior-wholesale-a-buyer-s-guide-for-clinics-and-distributors.html",
+      "template_references_removed": 2,
+      "reviewed_claim_paragraphs_removed": 0
+    },
+    {
+      "file": "blog/sourcing-mounjaro-5mg-wholesale-a-buyer-s-guide-for-clinics-and-distributors.html",
+      "template_references_removed": 2,
+      "reviewed_claim_paragraphs_removed": 0
+    },
+    {
+      "file": "blog/sourcing-nabota-100-wholesale-a-buyer-s-guide-for-clinics-and-distributors.html",
+      "template_references_removed": 2,
+      "reviewed_claim_paragraphs_removed": 0
+    },
+    {
+      "file": "blog/sourcing-onetox-100-wholesale-a-buyer-s-guide-for-clinics-and-distributors.html",
+      "template_references_removed": 2,
+      "reviewed_claim_paragraphs_removed": 0
+    },
+    {
+      "file": "blog/sourcing-placenta-wholesale-a-buyer-s-guide-for-clinics-and-distributors.html",
+      "template_references_removed": 2,
+      "reviewed_claim_paragraphs_removed": 0
+    },
+    {
+      "file": "blog/sourcing-radiesse-wholesale-a-buyer-s-guide-for-clinics-and-distributors.html",
+      "template_references_removed": 2,
+      "reviewed_claim_paragraphs_removed": 0
+    },
+    {
+      "file": "blog/sourcing-rejuran-s-wholesale-a-buyer-s-guide-for-clinics-and-distributors.html",
+      "template_references_removed": 2,
+      "reviewed_claim_paragraphs_removed": 0
+    },
+    {
+      "file": "blog/sourcing-rentox-100-wholesale-a-buyer-s-guide-for-clinics-and-distributors.html",
+      "template_references_removed": 2,
+      "reviewed_claim_paragraphs_removed": 0
+    },
+    {
+      "file": "blog/sourcing-rentox-200-wholesale-a-buyer-s-guide-for-clinics-and-distributors.html",
+      "template_references_removed": 2,
+      "reviewed_claim_paragraphs_removed": 0
+    },
+    {
+      "file": "blog/sourcing-ruby-luxury-wholesale-a-buyer-s-guide-for-clinics-and-distributors.html",
+      "template_references_removed": 2,
+      "reviewed_claim_paragraphs_removed": 0
+    },
+    {
+      "file": "blog/sourcing-rubytoxin-100u-wholesale-a-buyer-s-guide-for-clinics-and-distributors.html",
+      "template_references_removed": 2,
+      "reviewed_claim_paragraphs_removed": 0
+    },
+    {
+      "file": "blog/sourcing-sedy-fill-wholesale-a-buyer-s-guide-for-clinics-and-distributors.html",
+      "template_references_removed": 2,
+      "reviewed_claim_paragraphs_removed": 0
+    },
+    {
+      "file": "blog/sourcing-tmie-vip-wholesale-a-buyer-s-guide-for-clinics-and-distributors.html",
+      "template_references_removed": 2,
+      "reviewed_claim_paragraphs_removed": 0
+    },
+    {
+      "file": "blog/sourcing-toxta-100-wholesale-a-buyer-s-guide-for-clinics-and-distributors.html",
+      "template_references_removed": 2,
+      "reviewed_claim_paragraphs_removed": 0
+    },
+    {
+      "file": "blog/sourcing-v-line-sol-wholesale-a-buyer-s-guide-for-clinics-and-distributors.html",
+      "template_references_removed": 2,
+      "reviewed_claim_paragraphs_removed": 0
+    },
+    {
+      "file": "blog/vitarium-for-aesthetic-clinics-a-practical-wholesale-sourcing-guide.html",
+      "template_references_removed": 2,
+      "reviewed_claim_paragraphs_removed": 0
+    },
+    {
+      "file": "blog/what-to-check-before-ordering-32g-meso-needle-from-a-wholesale-supplier.html",
+      "template_references_removed": 2,
+      "reviewed_claim_paragraphs_removed": 0
+    },
+    {
+      "file": "blog/what-to-check-before-ordering-bienox-100u-from-a-wholesale-supplier.html",
+      "template_references_removed": 2,
+      "reviewed_claim_paragraphs_removed": 0
+    },
+    {
+      "file": "blog/what-to-check-before-ordering-botulax-100-from-a-wholesale-supplier.html",
+      "template_references_removed": 2,
+      "reviewed_claim_paragraphs_removed": 0
+    },
+    {
+      "file": "blog/what-to-check-before-ordering-botulax-100-unit-from-a-wholesale-supplier.html",
+      "template_references_removed": 2,
+      "reviewed_claim_paragraphs_removed": 0
+    },
+    {
+      "file": "blog/what-to-check-before-ordering-botulax-200u-from-a-wholesale-supplier.html",
+      "template_references_removed": 2,
+      "reviewed_claim_paragraphs_removed": 0
+    },
+    {
+      "file": "blog/what-to-check-before-ordering-botulax-300u-from-a-wholesale-supplier.html",
+      "template_references_removed": 2,
+      "reviewed_claim_paragraphs_removed": 0
+    },
+    {
+      "file": "blog/what-to-check-before-ordering-chaumcaine-from-a-wholesale-supplier.html",
+      "template_references_removed": 2,
+      "reviewed_claim_paragraphs_removed": 0
+    },
+    {
+      "file": "blog/what-to-check-before-ordering-dehantox-from-a-wholesale-supplier.html",
+      "template_references_removed": 2,
+      "reviewed_claim_paragraphs_removed": 0
+    },
+    {
+      "file": "blog/what-to-check-before-ordering-exoten-from-a-wholesale-supplier.html",
+      "template_references_removed": 2,
+      "reviewed_claim_paragraphs_removed": 0
+    },
+    {
+      "file": "blog/what-to-check-before-ordering-extox-100u-from-a-wholesale-supplier.html",
+      "template_references_removed": 2,
+      "reviewed_claim_paragraphs_removed": 0
+    },
+    {
+      "file": "blog/what-to-check-before-ordering-glutax-10000000-from-a-wholesale-supplier.html",
+      "template_references_removed": 2,
+      "reviewed_claim_paragraphs_removed": 0
+    },
+    {
+      "file": "blog/what-to-check-before-ordering-glutax-35000000-from-a-wholesale-supplier.html",
+      "template_references_removed": 2,
+      "reviewed_claim_paragraphs_removed": 0
+    },
+    {
+      "file": "blog/what-to-check-before-ordering-gouri-from-a-wholesale-supplier.html",
+      "template_references_removed": 2,
+      "reviewed_claim_paragraphs_removed": 0
+    },
+    {
+      "file": "blog/what-to-check-before-ordering-innotox-50-from-a-wholesale-supplier.html",
+      "template_references_removed": 2,
+      "reviewed_claim_paragraphs_removed": 0
+    },
+    {
+      "file": "blog/what-to-check-before-ordering-juvederm-volift-from-a-wholesale-supplier.html",
+      "template_references_removed": 2,
+      "reviewed_claim_paragraphs_removed": 0
+    },
+    {
+      "file": "blog/what-to-check-before-ordering-laennec-from-a-wholesale-supplier.html",
+      "template_references_removed": 2,
+      "reviewed_claim_paragraphs_removed": 0
+    },
+    {
+      "file": "blog/what-to-check-before-ordering-laroscorbine-diamond-e-uf-from-a-wholesale-suppl.html",
+      "template_references_removed": 2,
+      "reviewed_claim_paragraphs_removed": 0
+    },
+    {
+      "file": "blog/what-to-check-before-ordering-medicain-2-from-a-wholesale-supplier.html",
+      "template_references_removed": 2,
+      "reviewed_claim_paragraphs_removed": 0
+    },
+    {
+      "file": "blog/what-to-check-before-ordering-meditoxin-200-from-a-wholesale-supplier.html",
+      "template_references_removed": 2,
+      "reviewed_claim_paragraphs_removed": 0
+    },
+    {
+      "file": "blog/what-to-check-before-ordering-mounjaro-10mg-from-a-wholesale-supplier.html",
+      "template_references_removed": 2,
+      "reviewed_claim_paragraphs_removed": 0
+    },
+    {
+      "file": "blog/what-to-check-before-ordering-nabota-200-from-a-wholesale-supplier.html",
+      "template_references_removed": 2,
+      "reviewed_claim_paragraphs_removed": 0
+    },
+    {
+      "file": "blog/what-to-check-before-ordering-nctf-from-a-wholesale-supplier.html",
+      "template_references_removed": 2,
+      "reviewed_claim_paragraphs_removed": 0
+    },
+    {
+      "file": "blog/what-to-check-before-ordering-neuramis-from-a-wholesale-supplier.html",
+      "template_references_removed": 2,
+      "reviewed_claim_paragraphs_removed": 0
+    },
+    {
+      "file": "blog/what-to-check-before-ordering-neuronox-100u-from-a-wholesale-supplier.html",
+      "template_references_removed": 2,
+      "reviewed_claim_paragraphs_removed": 0
+    },
+    {
+      "file": "blog/what-to-check-before-ordering-onetox-200-from-a-wholesale-supplier.html",
+      "template_references_removed": 2,
+      "reviewed_claim_paragraphs_removed": 0
+    },
+    {
+      "file": "blog/what-to-check-before-ordering-ozempic-from-a-wholesale-supplier.html",
+      "template_references_removed": 2,
+      "reviewed_claim_paragraphs_removed": 0
+    },
+    {
+      "file": "blog/what-to-check-before-ordering-pink-fill-body-from-a-wholesale-supplier.html",
+      "template_references_removed": 2,
+      "reviewed_claim_paragraphs_removed": 0
+    },
+    {
+      "file": "blog/what-to-check-before-ordering-rejuran-hb-from-a-wholesale-supplier.html",
+      "template_references_removed": 2,
+      "reviewed_claim_paragraphs_removed": 0
+    },
+    {
+      "file": "blog/what-to-check-before-ordering-rentox-200-from-a-wholesale-supplier.html",
+      "template_references_removed": 2,
+      "reviewed_claim_paragraphs_removed": 0
+    },
+    {
+      "file": "blog/what-to-check-before-ordering-white-fill-pro-from-a-wholesale-supplier.html",
+      "template_references_removed": 2,
+      "reviewed_claim_paragraphs_removed": 0
+    },
+    {
+      "file": "blog/what-to-check-before-ordering-xeomin-from-a-wholesale-supplier.html",
+      "template_references_removed": 2,
+      "reviewed_claim_paragraphs_removed": 0
+    }
+  ]
+}
