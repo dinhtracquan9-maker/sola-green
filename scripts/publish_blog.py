@@ -446,6 +446,8 @@ def related_links(topic):
         category_url = "../" + category_path
     product_name = topic["keyword"].replace(" wholesale", "").replace(" supplier", "").replace(" sourcing", "").replace(" for clinics", "").strip()
     product_query = quote(product_name)
+    if topic.get('product_url', '').startswith('../products/'):
+        category_url = html.escape(topic['product_url'], quote=True)
     references = topic.get("sources", [])
     refs = "".join(
         f'<li><a href="{html.escape(url, quote=True)}" target="_blank" rel="noopener noreferrer">{html.escape(label)}</a></li>'

@@ -24,6 +24,20 @@ def seed():
         if keyword not in existing:
             data['topics'].append(dict(title=title, keyword=keyword, category='Procurement', buyer_role=role, decision=decision, deliverable=deliverable, verified_facts=[], status='pending', image='../assets/images/How to evaluate wholesale partners Image.jpg'))
             added += 1
+    from build_product_pages import parse_products
+    catalogue = {p['name']: p for p in parse_products()}
+    names = ['Revolax', 'Neuramis', 'Juvederm Voluma', 'Restylane Kysse', 'Sculptra', 'Profhilo', 'Rejuran Healer', 'Jalupro Super Hydro', 'Jalupro HMW', 'Botulax', 'Nabota', 'Xeomin']
+    angles = [('RFQ Specification', 'prepare an exact product request', 'a supplier-ready RFQ form distinguishing confirmed catalogue facts from questions'), ('Receiving and Reorder Records', 'document receipt and plan repeat purchasing', 'a receiving record and hypothetical reorder example; no storage or expiry assumptions')]
+    for name in names:
+        product = catalogue.get(name)
+        if not product:
+            continue
+        for angle, decision, deliverable in angles:
+            keyword = f'{name.lower()} wholesale {angle.lower()}'
+            if keyword in existing:
+                continue
+            data['topics'].append(dict(title=f'{name} Wholesale: {angle} for Professional Buyers', keyword=keyword, category=product['category'], buyer_role='clinic or reseller purchasing manager', decision=decision, deliverable=deliverable, verified_facts=[f'Catalogue product name: {name}', f'Catalogue category: {product["category"]}'], sources=[], status='pending', image='../' + product['image'], product_url='../products/' + product['slug'] + '.html'))
+            added += 1
     path.write_text(json.dumps(data, ensure_ascii=False, indent=2) + '\n', encoding='utf-8')
     print(f'Added {added} briefs')
 

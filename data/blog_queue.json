@@ -1844,6 +1844,358 @@
       "verified_facts": [],
       "status": "pending",
       "image": "../assets/images/How to evaluate wholesale partners Image.jpg"
+    },
+    {
+      "title": "Revolax Wholesale: RFQ Specification for Professional Buyers",
+      "keyword": "revolax wholesale rfq specification",
+      "category": "Dermal Fillers",
+      "buyer_role": "clinic or reseller purchasing manager",
+      "decision": "prepare an exact product request",
+      "deliverable": "a supplier-ready RFQ form distinguishing confirmed catalogue facts from questions",
+      "verified_facts": [
+        "Catalogue product name: Revolax",
+        "Catalogue category: Dermal Fillers"
+      ],
+      "sources": [],
+      "status": "pending",
+      "image": "../assets/images/products/filler/revolax.jpg",
+      "product_url": "../products/revolax.html"
+    },
+    {
+      "title": "Revolax Wholesale: Receiving and Reorder Records for Professional Buyers",
+      "keyword": "revolax wholesale receiving and reorder records",
+      "category": "Dermal Fillers",
+      "buyer_role": "clinic or reseller purchasing manager",
+      "decision": "document receipt and plan repeat purchasing",
+      "deliverable": "a receiving record and hypothetical reorder example; no storage or expiry assumptions",
+      "verified_facts": [
+        "Catalogue product name: Revolax",
+        "Catalogue category: Dermal Fillers"
+      ],
+      "sources": [],
+      "status": "pending",
+      "image": "../assets/images/products/filler/revolax.jpg",
+      "product_url": "../products/revolax.html"
+    },
+    {
+      "title": "Neuramis Wholesale: RFQ Specification for Professional Buyers",
+      "keyword": "neuramis wholesale rfq specification",
+      "category": "Dermal Fillers",
+      "buyer_role": "clinic or reseller purchasing manager",
+      "decision": "prepare an exact product request",
+      "deliverable": "a supplier-ready RFQ form distinguishing confirmed catalogue facts from questions",
+      "verified_facts": [
+        "Catalogue product name: Neuramis",
+        "Catalogue category: Dermal Fillers"
+      ],
+      "sources": [],
+      "status": "pending",
+      "image": "../assets/images/products/filler/neuramis.jpg",
+      "product_url": "../products/neuramis.html"
+    },
+    {
+      "title": "Neuramis Wholesale: Receiving and Reorder Records for Professional Buyers",
+      "keyword": "neuramis wholesale receiving and reorder records",
+      "category": "Dermal Fillers",
+      "buyer_role": "clinic or reseller purchasing manager",
+      "decision": "document receipt and plan repeat purchasing",
+      "deliverable": "a receiving record and hypothetical reorder example; no storage or expiry assumptions",
+      "verified_facts": [
+        "Catalogue product name: Neuramis",
+        "Catalogue category: Dermal Fillers"
+      ],
+      "sources": [],
+      "status": "pending",
+      "image": "../assets/images/products/filler/neuramis.jpg",
+      "product_url": "../products/neuramis.html"
+    },
+    {
+      "title": "Juvederm Voluma Wholesale: RFQ Specification for Professional Buyers",
+      "keyword": "juvederm voluma wholesale rfq specification",
+      "category": "Dermal Fillers",
+      "buyer_role": "clinic or reseller purchasing manager",
+      "decision": "prepare an exact product request",
+      "deliverable": "a supplier-ready RFQ form distinguishing confirmed catalogue facts from questions",
+      "verified_facts": [
+        "Catalogue product name: Juvederm Voluma",
+        "Catalogue category: Dermal Fillers"
+      ],
+      "sources": [],
+      "status": "pending",
+      "image": "../assets/images/products/filler/juvederm-voluma.jpg",
+      "product_url": "../products/juvederm-voluma.html"
+    },
+    {
+      "title": "Juvederm Voluma Wholesale: Receiving and Reorder Records for Professional Buyers",
+      "keyword": "juvederm voluma wholesale receiving and reorder records",
+      "category": "Dermal Fillers",
+      "buyer_role": "clinic or reseller purchasing manager",
+      "decision": "document receipt and plan repeat purchasing",
+      "deliverable": "a receiving record and hypothetical reorder example; no storage or expiry assumptions",
+      "verified_facts": [
+        "Catalogue product name: Juvederm Voluma",
+        "Catalogue category: Dermal Fillers"
+      ],
+      "sources": [],
+      "status": "pending",
+      "image": "../assets/images/products/filler/juvederm-voluma.jpg",
+      "product_url": "../products/juvederm-voluma.html"
+    },
+    {
+      "title": "Restylane Kysse Wholesale: RFQ Specification for Professional Buyers",
+      "keyword": "restylane kysse wholesale rfq specification",
+      "category": "Dermal Fillers",
+      "buyer_role": "clinic or reseller purchasing manager",
+      "decision": "prepare an exact product request",
+      "deliverable": "a supplier-ready RFQ form distinguishing confirmed catalogue facts from questions",
+      "verified_facts": [
+        "Catalogue product name: Restylane Kysse",
+        "Catalogue category: Dermal Fillers"
+      ],
+      "sources": [],
+      "status": "pending",
+      "image": "../assets/images/products/filler/restylane-kysse.jpg",
+      "product_url": "../products/restylane-kysse.html"
+    },
+    {
+      "title": "Restylane Kysse Wholesale: Receiving and Reorder Records for Professional Buyers",
+      "keyword": "restylane kysse wholesale receiving and reorder records",
+      "category": "Dermal Fillers",
+      "buyer_role": "clinic or reseller purchasing manager",
+      "decision": "document receipt and plan repeat purchasing",
+      "deliverable": "a receiving record and hypothetical reorder example; no storage or expiry assumptions",
+      "verified_facts": [
+        "Catalogue product name: Restylane Kysse",
+        "Catalogue category: Dermal Fillers"
+      ],
+      "sources": [],
+      "status": "pending",
+      "image": "../assets/images/products/filler/restylane-kysse.jpg",
+      "product_url": "../products/restylane-kysse.html"
+    },
+    {
+      "title": "Sculptra Wholesale: RFQ Specification for Professional Buyers",
+      "keyword": "sculptra wholesale rfq specification",
+      "category": "Biostimulator",
+      "buyer_role": "clinic or reseller purchasing manager",
+      "decision": "prepare an exact product request",
+      "deliverable": "a supplier-ready RFQ form distinguishing confirmed catalogue facts from questions",
+      "verified_facts": [
+        "Catalogue product name: Sculptra",
+        "Catalogue category: Biostimulator"
+      ],
+      "sources": [],
+      "status": "pending",
+      "image": "../assets/images/products/filler/sculptra.jpg",
+      "product_url": "../products/sculptra.html"
+    },
+    {
+      "title": "Sculptra Wholesale: Receiving and Reorder Records for Professional Buyers",
+      "keyword": "sculptra wholesale receiving and reorder records",
+      "category": "Biostimulator",
+      "buyer_role": "clinic or reseller purchasing manager",
+      "decision": "document receipt and plan repeat purchasing",
+      "deliverable": "a receiving record and hypothetical reorder example; no storage or expiry assumptions",
+      "verified_facts": [
+        "Catalogue product name: Sculptra",
+        "Catalogue category: Biostimulator"
+      ],
+      "sources": [],
+      "status": "pending",
+      "image": "../assets/images/products/filler/sculptra.jpg",
+      "product_url": "../products/sculptra.html"
+    },
+    {
+      "title": "Profhilo Wholesale: RFQ Specification for Professional Buyers",
+      "keyword": "profhilo wholesale rfq specification",
+      "category": "Skin Boosters / PN",
+      "buyer_role": "clinic or reseller purchasing manager",
+      "decision": "prepare an exact product request",
+      "deliverable": "a supplier-ready RFQ form distinguishing confirmed catalogue facts from questions",
+      "verified_facts": [
+        "Catalogue product name: Profhilo",
+        "Catalogue category: Skin Boosters / PN"
+      ],
+      "sources": [],
+      "status": "pending",
+      "image": "../assets/images/products/skin-booster-meso/profhilo.jpg",
+      "product_url": "../products/profhilo.html"
+    },
+    {
+      "title": "Profhilo Wholesale: Receiving and Reorder Records for Professional Buyers",
+      "keyword": "profhilo wholesale receiving and reorder records",
+      "category": "Skin Boosters / PN",
+      "buyer_role": "clinic or reseller purchasing manager",
+      "decision": "document receipt and plan repeat purchasing",
+      "deliverable": "a receiving record and hypothetical reorder example; no storage or expiry assumptions",
+      "verified_facts": [
+        "Catalogue product name: Profhilo",
+        "Catalogue category: Skin Boosters / PN"
+      ],
+      "sources": [],
+      "status": "pending",
+      "image": "../assets/images/products/skin-booster-meso/profhilo.jpg",
+      "product_url": "../products/profhilo.html"
+    },
+    {
+      "title": "Rejuran Healer Wholesale: RFQ Specification for Professional Buyers",
+      "keyword": "rejuran healer wholesale rfq specification",
+      "category": "Skin Boosters / PN",
+      "buyer_role": "clinic or reseller purchasing manager",
+      "decision": "prepare an exact product request",
+      "deliverable": "a supplier-ready RFQ form distinguishing confirmed catalogue facts from questions",
+      "verified_facts": [
+        "Catalogue product name: Rejuran Healer",
+        "Catalogue category: Skin Boosters / PN"
+      ],
+      "sources": [],
+      "status": "pending",
+      "image": "../assets/images/products/skin-booster-meso/rejuran-healer.jpg",
+      "product_url": "../products/rejuran-healer.html"
+    },
+    {
+      "title": "Rejuran Healer Wholesale: Receiving and Reorder Records for Professional Buyers",
+      "keyword": "rejuran healer wholesale receiving and reorder records",
+      "category": "Skin Boosters / PN",
+      "buyer_role": "clinic or reseller purchasing manager",
+      "decision": "document receipt and plan repeat purchasing",
+      "deliverable": "a receiving record and hypothetical reorder example; no storage or expiry assumptions",
+      "verified_facts": [
+        "Catalogue product name: Rejuran Healer",
+        "Catalogue category: Skin Boosters / PN"
+      ],
+      "sources": [],
+      "status": "pending",
+      "image": "../assets/images/products/skin-booster-meso/rejuran-healer.jpg",
+      "product_url": "../products/rejuran-healer.html"
+    },
+    {
+      "title": "Jalupro HMW Wholesale: RFQ Specification for Professional Buyers",
+      "keyword": "jalupro hmw wholesale rfq specification",
+      "category": "Skin Boosters / PN",
+      "buyer_role": "clinic or reseller purchasing manager",
+      "decision": "prepare an exact product request",
+      "deliverable": "a supplier-ready RFQ form distinguishing confirmed catalogue facts from questions",
+      "verified_facts": [
+        "Catalogue product name: Jalupro HMW",
+        "Catalogue category: Skin Boosters / PN"
+      ],
+      "sources": [],
+      "status": "pending",
+      "image": "../assets/images/products/skin-booster-meso/jalupro-hmw.jpg",
+      "product_url": "../products/jalupro-hmw.html"
+    },
+    {
+      "title": "Jalupro HMW Wholesale: Receiving and Reorder Records for Professional Buyers",
+      "keyword": "jalupro hmw wholesale receiving and reorder records",
+      "category": "Skin Boosters / PN",
+      "buyer_role": "clinic or reseller purchasing manager",
+      "decision": "document receipt and plan repeat purchasing",
+      "deliverable": "a receiving record and hypothetical reorder example; no storage or expiry assumptions",
+      "verified_facts": [
+        "Catalogue product name: Jalupro HMW",
+        "Catalogue category: Skin Boosters / PN"
+      ],
+      "sources": [],
+      "status": "pending",
+      "image": "../assets/images/products/skin-booster-meso/jalupro-hmw.jpg",
+      "product_url": "../products/jalupro-hmw.html"
+    },
+    {
+      "title": "Botulax Wholesale: RFQ Specification for Professional Buyers",
+      "keyword": "botulax wholesale rfq specification",
+      "category": "Toxin",
+      "buyer_role": "clinic or reseller purchasing manager",
+      "decision": "prepare an exact product request",
+      "deliverable": "a supplier-ready RFQ form distinguishing confirmed catalogue facts from questions",
+      "verified_facts": [
+        "Catalogue product name: Botulax",
+        "Catalogue category: Toxin"
+      ],
+      "sources": [],
+      "status": "pending",
+      "image": "../assets/images/products/botox/botulax.jpg",
+      "product_url": "../products/botulax.html"
+    },
+    {
+      "title": "Botulax Wholesale: Receiving and Reorder Records for Professional Buyers",
+      "keyword": "botulax wholesale receiving and reorder records",
+      "category": "Toxin",
+      "buyer_role": "clinic or reseller purchasing manager",
+      "decision": "document receipt and plan repeat purchasing",
+      "deliverable": "a receiving record and hypothetical reorder example; no storage or expiry assumptions",
+      "verified_facts": [
+        "Catalogue product name: Botulax",
+        "Catalogue category: Toxin"
+      ],
+      "sources": [],
+      "status": "pending",
+      "image": "../assets/images/products/botox/botulax.jpg",
+      "product_url": "../products/botulax.html"
+    },
+    {
+      "title": "Nabota Wholesale: RFQ Specification for Professional Buyers",
+      "keyword": "nabota wholesale rfq specification",
+      "category": "Toxin",
+      "buyer_role": "clinic or reseller purchasing manager",
+      "decision": "prepare an exact product request",
+      "deliverable": "a supplier-ready RFQ form distinguishing confirmed catalogue facts from questions",
+      "verified_facts": [
+        "Catalogue product name: Nabota",
+        "Catalogue category: Toxin"
+      ],
+      "sources": [],
+      "status": "pending",
+      "image": "../assets/images/products/botox/nabota.jpg",
+      "product_url": "../products/nabota.html"
+    },
+    {
+      "title": "Nabota Wholesale: Receiving and Reorder Records for Professional Buyers",
+      "keyword": "nabota wholesale receiving and reorder records",
+      "category": "Toxin",
+      "buyer_role": "clinic or reseller purchasing manager",
+      "decision": "document receipt and plan repeat purchasing",
+      "deliverable": "a receiving record and hypothetical reorder example; no storage or expiry assumptions",
+      "verified_facts": [
+        "Catalogue product name: Nabota",
+        "Catalogue category: Toxin"
+      ],
+      "sources": [],
+      "status": "pending",
+      "image": "../assets/images/products/botox/nabota.jpg",
+      "product_url": "../products/nabota.html"
+    },
+    {
+      "title": "Xeomin Wholesale: RFQ Specification for Professional Buyers",
+      "keyword": "xeomin wholesale rfq specification",
+      "category": "Toxin",
+      "buyer_role": "clinic or reseller purchasing manager",
+      "decision": "prepare an exact product request",
+      "deliverable": "a supplier-ready RFQ form distinguishing confirmed catalogue facts from questions",
+      "verified_facts": [
+        "Catalogue product name: Xeomin",
+        "Catalogue category: Toxin"
+      ],
+      "sources": [],
+      "status": "pending",
+      "image": "../assets/images/products/botox/xeomin.jpg",
+      "product_url": "../products/xeomin.html"
+    },
+    {
+      "title": "Xeomin Wholesale: Receiving and Reorder Records for Professional Buyers",
+      "keyword": "xeomin wholesale receiving and reorder records",
+      "category": "Toxin",
+      "buyer_role": "clinic or reseller purchasing manager",
+      "decision": "document receipt and plan repeat purchasing",
+      "deliverable": "a receiving record and hypothetical reorder example; no storage or expiry assumptions",
+      "verified_facts": [
+        "Catalogue product name: Xeomin",
+        "Catalogue category: Toxin"
+      ],
+      "sources": [],
+      "status": "pending",
+      "image": "../assets/images/products/botox/xeomin.jpg",
+      "product_url": "../products/xeomin.html"
     }
   ],
   "published": [
