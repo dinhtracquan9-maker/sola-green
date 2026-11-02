@@ -1,5 +1,10 @@
 name: Publish HANSEONG Journal article
 on:
+  push:
+    branches: [main]
+    paths:
+      - data/blog_queue.json
+      - .github/workflows/publish-blog.yml
   workflow_dispatch:
   schedule:
   - cron: "0 1 * * *"
