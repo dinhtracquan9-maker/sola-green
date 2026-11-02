@@ -176,9 +176,9 @@ def generate(topic):
     prompt = f'''Write an original English article for HANSEONG BEAUTY GLOBAL's professional buyer journal.
 Title brief: {topic['title']}
 Keyword: {topic['keyword']}; Category: {topic['category']}.
-CRITICAL LENGTH REQUIREMENT: html_body must contain AT LEAST 950 words of body text (excluding HTML tags). Write 6 to 8 H2 sections, each with 2-3 full paragraphs of 3-5 sentences, plus one checklist (ul/li). Do not summarise, do not stop early, do not write a short article. Aim for 1000-1200 words. Audience: clinics, spas, resellers and distributors. This is procurement education, not medical advice. Never invent certifications, partnerships, prices, stock, approvals or customer results. Do not claim HANSEONG BEAUTY GLOBAL is an authorised distributor. Mention HANSEONG BEAUTY GLOBAL only in the closing CTA.
+Write 650-1000 useful words without padding. Buyer role: {topic.get('buyer_role', 'clinic procurement manager')}. Purchase decision: {topic.get('decision', topic['title'])}. Required deliverable: {topic.get('deliverable', 'a practical RFQ checklist and acceptance criteria')}. Use 4-6 focused H2 sections. Include a worked hypothetical example clearly labelled as hypothetical, a checklist, and questions that a buyer can send to a supplier. Distinguish clinic, reseller and importer responsibilities where relevant. Avoid generic supplier-reliability introductions and interchangeable product descriptions. Never invent product composition, medical efficacy, certifications, prices, stock, regulatory approvals, shipping routes or authorisation. Country names describe the reader, not confirmed supply eligibility. Use only these supplied facts for product-specific claims: {json.dumps(topic.get('verified_facts', []))}. If facts are absent, discuss procurement decisions only. Do not claim HANSEONG is an authorised distributor.
 Internal link context to naturally mention in plain text: product catalogue {category_url}, quote/contact page ../contact.html, shipping support ../shipping.html, brand overview ../brands.html.
-External source context to mention only as general reference topics, not as claims about this product: FDA pages for dermal fillers/botulinum toxin and general export documentation resources.
+Do not cite FDA or other agencies as evidence for a product unless an applicable source is explicitly supplied. Do not imply approval or authenticity from a general agency page.
 Return JSON only: title, meta_description (max 155 chars), excerpt (35-50 words), read_time, html_body. html_body may use only h2, h3, p, ul, li, strong and em tags. Do not output a tags; links are added by the website automation.'''
     payload = json.dumps({"model": env_optional("BLOG_MODEL", DEFAULT_BLOG_MODEL), "temperature": 0.5, "max_tokens": 4000, "messages": [{"role": "system", "content": "You are a careful B2B editor. Return valid JSON only."}, {"role": "user", "content": prompt}]}).encode()
     request = urllib.request.Request(env_optional("BLOG_API_URL", DEFAULT_BLOG_API_URL), data=payload, headers={"Authorization": f"Bearer {env_required('BLOG_API_KEY')}", "Content-Type": "application/json"}, method="POST")
@@ -446,9 +446,10 @@ def related_links(topic):
         category_url = "../" + category_path
     product_name = topic["keyword"].replace(" wholesale", "").replace(" supplier", "").replace(" sourcing", "").replace(" for clinics", "").strip()
     product_query = quote(product_name)
+    references = topic.get("sources", [])
     refs = "".join(
         f'<li><a href="{html.escape(url, quote=True)}" target="_blank" rel="noopener noreferrer">{html.escape(label)}</a></li>'
-        for label, url in EXTERNAL_REFERENCES
+        for label, url in references
     )
     return f'''<section class="article-links"><h2>Buyer research links</h2><div class="article-link-grid"><div><h3>Internal HANSEONG links</h3><ul><li><a href="{category_url}">Browse this product category</a></li><li><a href="../products.html?q={product_query}">Search {html.escape(product_name)} in the catalogue</a></li><li><a href="../brands.html">Compare related brands</a></li><li><a href="../shipping.html">Check international shipping support</a></li><li><a href="../contact.html">Request a wholesale quote</a></li></ul></div><div><h3>External reference links</h3><ul>{refs}</ul></div></div></section>'''
 

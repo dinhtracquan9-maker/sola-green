@@ -1745,6 +1745,105 @@
       "status": "published",
       "slug": "how-professional-buyers-evaluate-jalupro-super-hydro-before-ordering-wholesale",
       "published_at": "2026-10-19T12:50:20.578506+00:00"
+    },
+    {
+      "title": "Clinic Wholesale RFQ: How to Specify Products, Quantities and Acceptance Criteria",
+      "keyword": "clinic wholesale RFQ checklist",
+      "category": "Procurement",
+      "buyer_role": "clinic procurement manager",
+      "decision": "prepare a quote request",
+      "deliverable": "a copyable RFQ checklist with required and optional fields",
+      "verified_facts": [],
+      "status": "pending",
+      "image": "../assets/images/How to evaluate wholesale partners Image.jpg"
+    },
+    {
+      "title": "Comparing Aesthetic Wholesale Quotes: Unit Cost, Freight and Unconfirmed Charges",
+      "keyword": "compare aesthetic wholesale quotations",
+      "category": "Procurement",
+      "buyer_role": "reseller purchasing manager",
+      "decision": "compare two supplier quotations",
+      "deliverable": "a hypothetical two-quote comparison with unknown costs marked explicitly",
+      "verified_facts": [],
+      "status": "pending",
+      "image": "../assets/images/How to evaluate wholesale partners Image.jpg"
+    },
+    {
+      "title": "Batch and Expiry Records: A Receiving Checklist for Aesthetic Clinic Buyers",
+      "keyword": "aesthetic product batch expiry receiving checklist",
+      "category": "Procurement",
+      "buyer_role": "clinic inventory manager",
+      "decision": "accept or hold an incoming delivery",
+      "deliverable": "a receiving checklist separating document checks from physical inspection",
+      "verified_facts": [],
+      "status": "pending",
+      "image": "../assets/images/How to evaluate wholesale partners Image.jpg"
+    },
+    {
+      "title": "Mixed Product Wholesale Orders: Building a Clear Packing and Reconciliation List",
+      "keyword": "mixed product wholesale packing reconciliation",
+      "category": "Procurement",
+      "buyer_role": "multi-brand reseller",
+      "decision": "reconcile a mixed order",
+      "deliverable": "a line-item reconciliation workflow and discrepancy report template",
+      "verified_facts": [],
+      "status": "pending",
+      "image": "../assets/images/How to evaluate wholesale partners Image.jpg"
+    },
+    {
+      "title": "Clinic Reordering: Planning Stock Coverage Without Overbuying Short-Dated Items",
+      "keyword": "clinic inventory reorder planning",
+      "category": "Procurement",
+      "buyer_role": "clinic operations manager",
+      "decision": "choose reorder quantities",
+      "deliverable": "a hypothetical stock-coverage calculation with stated assumptions",
+      "verified_facts": [],
+      "status": "pending",
+      "image": "../assets/images/How to evaluate wholesale partners Image.jpg"
+    },
+    {
+      "title": "First Wholesale Order: A Pilot Purchase Scorecard for Professional Buyers",
+      "keyword": "first wholesale order supplier scorecard",
+      "category": "Procurement",
+      "buyer_role": "new distributor",
+      "decision": "evaluate a pilot order",
+      "deliverable": "a weighted scorecard covering communication, documents and order accuracy",
+      "verified_facts": [],
+      "status": "pending",
+      "image": "../assets/images/How to evaluate wholesale partners Image.jpg"
+    },
+    {
+      "title": "Product Variant Verification: Preventing Name and Pack-Size Errors in Wholesale Orders",
+      "keyword": "wholesale product variant verification",
+      "category": "Procurement",
+      "buyer_role": "procurement coordinator",
+      "decision": "confirm the exact SKU before payment",
+      "deliverable": "a product-identity confirmation form without invented specifications",
+      "verified_facts": [],
+      "status": "pending",
+      "image": "../assets/images/How to evaluate wholesale partners Image.jpg"
+    },
+    {
+      "title": "Shipment Handover Records: Questions to Resolve Before Wholesale Dispatch",
+      "keyword": "wholesale shipment handover checklist",
+      "category": "Procurement",
+      "buyer_role": "importer purchasing coordinator",
+      "decision": "clarify responsibilities before dispatch",
+      "deliverable": "a checklist of responsibilities, tracking and exception handling without delivery promises",
+      "verified_facts": [],
+      "status": "pending",
+      "image": "../assets/images/How to evaluate wholesale partners Image.jpg"
+    },
+    {
+      "title": "Wholesale Delivery Discrepancies: Recording Missing, Damaged or Incorrect Items",
+      "keyword": "wholesale delivery discrepancy documentation",
+      "category": "Procurement",
+      "buyer_role": "reseller operations manager",
+      "decision": "document an order discrepancy",
+      "deliverable": "a discrepancy report and evidence checklist without promising remedies",
+      "verified_facts": [],
+      "status": "pending",
+      "image": "../assets/images/How to evaluate wholesale partners Image.jpg"
     }
   ],
   "published": [
