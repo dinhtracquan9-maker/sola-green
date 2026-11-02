@@ -64,5 +64,31 @@
     "Keep PN/PDRN, toxin, filler, biostimulator and weight-management distinctions",
     "Resolve NCTF catalogue match; PDRN is not a single SKU",
     "Split Europe and Americas into named countries before publication"
-  ]
+  ],
+  "current_focus": {
+    "Philippines": [
+      "Lemon Bottle",
+      "Aqualyx"
+    ],
+    "Malaysia": [
+      "NCTF",
+      "Rejuran Healer",
+      "Rejuran S",
+      "Rejuran I",
+      "Rejuran HB"
+    ],
+    "Southeast Asia research": [
+      "Mounjaro"
+    ],
+    "Europe and Americas countries": [
+      "USA",
+      "Mexico",
+      "Colombia",
+      "UK",
+      "Poland",
+      "Italy",
+      "Germany",
+      "Spain"
+    ]
+  }
 }

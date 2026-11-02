@@ -1,6 +1,76 @@
 {
   "topics": [
     {
+      "title": "Lemon Bottle: Product Identity and Supplier Evidence Before a Philippine Wholesale Enquiry for Philippines Buyers",
+      "keyword": "lemon bottle philippines product identity and supplier evidence before a philippine wholesale enquiry",
+      "category": "Procurement",
+      "market": "Philippines",
+      "priority": 1,
+      "buyer_role": "professional buyer in Philippines",
+      "decision": "request product identity and intended-use documents; distinguish a brand name from verified composition, status or clinical use",
+      "deliverable": "a practical evidence checklist, unresolved questions and a clearly labelled hypothetical purchasing example",
+      "verified_facts": [
+        "Commercial priority supplied by Hanseong; demand and supply eligibility are not verified. No product composition or medical claims have been verified.",
+        "Discuss the authority warning within its jurisdiction. Do not call this a proven fat-dissolving or skin-hydration treatment. Philippine status remains unverified."
+      ],
+      "sources": [
+        [
+          "Finnish authority warning; applies to its stated jurisdiction, not proof of Philippine status",
+          "https://tukes.fi/-/fimea-ja-tukes-varoittavat-rasvanpoistoon-kaytettavasta-lemon-bottle-valmisteesta?languageId=en_US"
+        ]
+      ],
+      "status": "pending",
+      "image": "../assets/images/How to evaluate wholesale partners Image.jpg"
+    },
+    {
+      "title": "NCTF: Confirming the Exact Presentation Before Requesting a Wholesale Quote for Malaysia Buyers",
+      "keyword": "nctf malaysia confirming the exact presentation before requesting a wholesale quote",
+      "category": "Procurement",
+      "market": "Malaysia",
+      "priority": 2,
+      "buyer_role": "professional buyer in Malaysia",
+      "decision": "request exact manufacturer, presentation and product identity; NCTF is not yet matched to an exact catalogue SKU",
+      "deliverable": "a practical evidence checklist, unresolved questions and a clearly labelled hypothetical purchasing example",
+      "verified_facts": [
+        "Commercial priority supplied by Hanseong; demand and supply eligibility are not verified. No product composition or medical claims have been verified."
+      ],
+      "sources": [],
+      "status": "pending",
+      "image": "../assets/images/How to evaluate wholesale partners Image.jpg"
+    },
+    {
+      "title": "Aqualyx: A Buyer Worksheet for Quotation Exclusions and Receiving Records for Philippines Buyers",
+      "keyword": "aqualyx philippines a buyer worksheet for quotation exclusions and receiving records",
+      "category": "Procurement",
+      "market": "Philippines",
+      "priority": 3,
+      "buyer_role": "professional buyer in Philippines",
+      "decision": "separate quoted product units, excluded charges and receiving evidence without implying local eligibility",
+      "deliverable": "a practical evidence checklist, unresolved questions and a clearly labelled hypothetical purchasing example",
+      "verified_facts": [
+        "Commercial priority supplied by Hanseong; demand and supply eligibility are not verified. No product composition or medical claims have been verified."
+      ],
+      "sources": [],
+      "status": "pending",
+      "image": "../assets/images/How to evaluate wholesale partners Image.jpg"
+    },
+    {
+      "title": "Rejuran Healer, S, I and HB: Building a Mixed-Variant RFQ Without Assuming Interchangeability for Malaysia Buyers",
+      "keyword": "rejuran healer, s, i and hb malaysia building a mixed-variant rfq without assuming interchangeability",
+      "category": "Procurement",
+      "market": "Malaysia",
+      "priority": 4,
+      "buyer_role": "professional buyer in Malaysia",
+      "decision": "create separate order lines and a substitution approval process, with no ingredient or efficacy assumptions",
+      "deliverable": "a practical evidence checklist, unresolved questions and a clearly labelled hypothetical purchasing example",
+      "verified_facts": [
+        "Commercial priority supplied by Hanseong; demand and supply eligibility are not verified. No product composition or medical claims have been verified."
+      ],
+      "sources": [],
+      "status": "pending",
+      "image": "../assets/images/How to evaluate wholesale partners Image.jpg"
+    },
+    {
       "keyword": "ultrafill wholesale",
       "title": "Sourcing Ultrafill Wholesale: A Buyer's Guide for Clinics and Distributors",
       "category": "Dermal Fillers",
@@ -2255,6 +2325,182 @@
         ]
       ],
       "status": "pending",
+      "image": "../assets/images/How to evaluate wholesale partners Image.jpg"
+    },
+    {
+      "title": "Filler and Toxin: Product-Specific Importer Questions Before Wholesale Sourcing for USA Buyers",
+      "keyword": "filler and toxin usa product-specific importer questions before wholesale sourcing",
+      "category": "Procurement",
+      "market": "USA",
+      "priority": 5,
+      "buyer_role": "professional buyer in USA",
+      "decision": "research local product-specific requirements, actual supply eligibility and distinct buyer needs before drafting",
+      "deliverable": "a practical evidence checklist, unresolved questions and a clearly labelled hypothetical purchasing example",
+      "verified_facts": [
+        "Commercial priority supplied by Hanseong; demand and supply eligibility are not verified. No product composition or medical claims have been verified."
+      ],
+      "sources": [],
+      "status": "research_required",
+      "image": "../assets/images/How to evaluate wholesale partners Image.jpg"
+    },
+    {
+      "title": "Filler and Toxin: Product-Specific Importer Questions Before Wholesale Sourcing for Mexico Buyers",
+      "keyword": "filler and toxin mexico product-specific importer questions before wholesale sourcing",
+      "category": "Procurement",
+      "market": "Mexico",
+      "priority": 6,
+      "buyer_role": "professional buyer in Mexico",
+      "decision": "research local product-specific requirements, actual supply eligibility and distinct buyer needs before drafting",
+      "deliverable": "a practical evidence checklist, unresolved questions and a clearly labelled hypothetical purchasing example",
+      "verified_facts": [
+        "Commercial priority supplied by Hanseong; demand and supply eligibility are not verified. No product composition or medical claims have been verified."
+      ],
+      "sources": [],
+      "status": "research_required",
+      "image": "../assets/images/How to evaluate wholesale partners Image.jpg"
+    },
+    {
+      "title": "Filler and Toxin: Product-Specific Importer Questions Before Wholesale Sourcing for Colombia Buyers",
+      "keyword": "filler and toxin colombia product-specific importer questions before wholesale sourcing",
+      "category": "Procurement",
+      "market": "Colombia",
+      "priority": 7,
+      "buyer_role": "professional buyer in Colombia",
+      "decision": "research local product-specific requirements, actual supply eligibility and distinct buyer needs before drafting",
+      "deliverable": "a practical evidence checklist, unresolved questions and a clearly labelled hypothetical purchasing example",
+      "verified_facts": [
+        "Commercial priority supplied by Hanseong; demand and supply eligibility are not verified. No product composition or medical claims have been verified."
+      ],
+      "sources": [],
+      "status": "research_required",
+      "image": "../assets/images/How to evaluate wholesale partners Image.jpg"
+    },
+    {
+      "title": "Filler and Toxin: Product-Specific Importer Questions Before Wholesale Sourcing for UK Buyers",
+      "keyword": "filler and toxin uk product-specific importer questions before wholesale sourcing",
+      "category": "Procurement",
+      "market": "UK",
+      "priority": 8,
+      "buyer_role": "professional buyer in UK",
+      "decision": "research local product-specific requirements, actual supply eligibility and distinct buyer needs before drafting",
+      "deliverable": "a practical evidence checklist, unresolved questions and a clearly labelled hypothetical purchasing example",
+      "verified_facts": [
+        "Commercial priority supplied by Hanseong; demand and supply eligibility are not verified. No product composition or medical claims have been verified."
+      ],
+      "sources": [],
+      "status": "research_required",
+      "image": "../assets/images/How to evaluate wholesale partners Image.jpg"
+    },
+    {
+      "title": "Filler and Toxin: Product-Specific Importer Questions Before Wholesale Sourcing for Poland Buyers",
+      "keyword": "filler and toxin poland product-specific importer questions before wholesale sourcing",
+      "category": "Procurement",
+      "market": "Poland",
+      "priority": 9,
+      "buyer_role": "professional buyer in Poland",
+      "decision": "research local product-specific requirements, actual supply eligibility and distinct buyer needs before drafting",
+      "deliverable": "a practical evidence checklist, unresolved questions and a clearly labelled hypothetical purchasing example",
+      "verified_facts": [
+        "Commercial priority supplied by Hanseong; demand and supply eligibility are not verified. No product composition or medical claims have been verified."
+      ],
+      "sources": [],
+      "status": "research_required",
+      "image": "../assets/images/How to evaluate wholesale partners Image.jpg"
+    },
+    {
+      "title": "Filler and Toxin: Product-Specific Importer Questions Before Wholesale Sourcing for Italy Buyers",
+      "keyword": "filler and toxin italy product-specific importer questions before wholesale sourcing",
+      "category": "Procurement",
+      "market": "Italy",
+      "priority": 10,
+      "buyer_role": "professional buyer in Italy",
+      "decision": "research local product-specific requirements, actual supply eligibility and distinct buyer needs before drafting",
+      "deliverable": "a practical evidence checklist, unresolved questions and a clearly labelled hypothetical purchasing example",
+      "verified_facts": [
+        "Commercial priority supplied by Hanseong; demand and supply eligibility are not verified. No product composition or medical claims have been verified."
+      ],
+      "sources": [],
+      "status": "research_required",
+      "image": "../assets/images/How to evaluate wholesale partners Image.jpg"
+    },
+    {
+      "title": "Filler and Toxin: Product-Specific Importer Questions Before Wholesale Sourcing for Germany Buyers",
+      "keyword": "filler and toxin germany product-specific importer questions before wholesale sourcing",
+      "category": "Procurement",
+      "market": "Germany",
+      "priority": 11,
+      "buyer_role": "professional buyer in Germany",
+      "decision": "research local product-specific requirements, actual supply eligibility and distinct buyer needs before drafting",
+      "deliverable": "a practical evidence checklist, unresolved questions and a clearly labelled hypothetical purchasing example",
+      "verified_facts": [
+        "Commercial priority supplied by Hanseong; demand and supply eligibility are not verified. No product composition or medical claims have been verified."
+      ],
+      "sources": [],
+      "status": "research_required",
+      "image": "../assets/images/How to evaluate wholesale partners Image.jpg"
+    },
+    {
+      "title": "Filler and Toxin: Product-Specific Importer Questions Before Wholesale Sourcing for Spain Buyers",
+      "keyword": "filler and toxin spain product-specific importer questions before wholesale sourcing",
+      "category": "Procurement",
+      "market": "Spain",
+      "priority": 12,
+      "buyer_role": "professional buyer in Spain",
+      "decision": "research local product-specific requirements, actual supply eligibility and distinct buyer needs before drafting",
+      "deliverable": "a practical evidence checklist, unresolved questions and a clearly labelled hypothetical purchasing example",
+      "verified_facts": [
+        "Commercial priority supplied by Hanseong; demand and supply eligibility are not verified. No product composition or medical claims have been verified."
+      ],
+      "sources": [],
+      "status": "research_required",
+      "image": "../assets/images/How to evaluate wholesale partners Image.jpg"
+    },
+    {
+      "title": "Mounjaro: Professional Procurement and Product Verification Research for Philippines Buyers",
+      "keyword": "mounjaro philippines professional procurement and product verification research",
+      "category": "Procurement",
+      "market": "Philippines",
+      "priority": 13,
+      "buyer_role": "professional buyer in Philippines",
+      "decision": "verify exact presentation, manufacturer information and local professional supply requirements; no patient targeting, dosing, outcome promises or platform evasion",
+      "deliverable": "a practical evidence checklist, unresolved questions and a clearly labelled hypothetical purchasing example",
+      "verified_facts": [
+        "Commercial priority supplied by Hanseong; demand and supply eligibility are not verified. No product composition or medical claims have been verified."
+      ],
+      "sources": [],
+      "status": "research_required",
+      "image": "../assets/images/How to evaluate wholesale partners Image.jpg"
+    },
+    {
+      "title": "Mounjaro: Professional Procurement and Product Verification Research for Malaysia Buyers",
+      "keyword": "mounjaro malaysia professional procurement and product verification research",
+      "category": "Procurement",
+      "market": "Malaysia",
+      "priority": 14,
+      "buyer_role": "professional buyer in Malaysia",
+      "decision": "verify exact presentation, manufacturer information and local professional supply requirements; no patient targeting, dosing, outcome promises or platform evasion",
+      "deliverable": "a practical evidence checklist, unresolved questions and a clearly labelled hypothetical purchasing example",
+      "verified_facts": [
+        "Commercial priority supplied by Hanseong; demand and supply eligibility are not verified. No product composition or medical claims have been verified."
+      ],
+      "sources": [],
+      "status": "research_required",
+      "image": "../assets/images/How to evaluate wholesale partners Image.jpg"
+    },
+    {
+      "title": "Mounjaro: Professional Procurement and Product Verification Research for Indonesia Buyers",
+      "keyword": "mounjaro indonesia professional procurement and product verification research",
+      "category": "Procurement",
+      "market": "Indonesia",
+      "priority": 15,
+      "buyer_role": "professional buyer in Indonesia",
+      "decision": "verify exact presentation, manufacturer information and local professional supply requirements; no patient targeting, dosing, outcome promises or platform evasion",
+      "deliverable": "a practical evidence checklist, unresolved questions and a clearly labelled hypothetical purchasing example",
+      "verified_facts": [
+        "Commercial priority supplied by Hanseong; demand and supply eligibility are not verified. No product composition or medical claims have been verified."
+      ],
+      "sources": [],
+      "status": "research_required",
       "image": "../assets/images/How to evaluate wholesale partners Image.jpg"
     }
   ],
