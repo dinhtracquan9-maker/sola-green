@@ -2196,6 +2196,66 @@
       "status": "pending",
       "image": "../assets/images/products/botox/xeomin.jpg",
       "product_url": "../products/xeomin.html"
+    },
+    {
+      "title": "Rejuran Healer, S, I and HB: A Variant-Confirmation Worksheet for Philippine Buyers",
+      "keyword": "rejuran variant RFQ philippines",
+      "category": "Procurement",
+      "market": "Philippines",
+      "buyer_role": "professional purchasing coordinator in Philippines",
+      "decision": "separate four named presentations in a quotation request without asserting composition or interchangeability",
+      "deliverable": "a four-line variant confirmation worksheet and unresolved-document checklist",
+      "verified_facts": [
+        "Market is reader location, not verified supply eligibility. No product-specific registration findings have been verified."
+      ],
+      "sources": [
+        [
+          "Official destination verification information; not proof of any named product approval",
+          "https://www.fda.gov.ph/fda-advisory-no-2023-2238-utilization-of-the-food-and-drug-administration-fda-verification-portal/"
+        ]
+      ],
+      "status": "pending",
+      "image": "../assets/images/How to evaluate wholesale partners Image.jpg"
+    },
+    {
+      "title": "Lipo Vela and Lipo Vela V: Avoiding Product-Name Errors in Malaysian Buyer RFQs",
+      "keyword": "lipo vela v RFQ malaysia",
+      "category": "Procurement",
+      "market": "Malaysia",
+      "buyer_role": "professional purchasing coordinator in Malaysia",
+      "decision": "prevent confusion between two catalogue names without claiming equivalent formulation or clinical use",
+      "deliverable": "a side-by-side identification request with manufacturer, presentation and documentation questions",
+      "verified_facts": [
+        "Market is reader location, not verified supply eligibility. No product-specific registration findings have been verified."
+      ],
+      "sources": [
+        [
+          "Official destination verification information; not proof of any named product approval",
+          "https://www.npra.gov.my/index.php/en/consumers/reporting/quality-reporting-on-registered-product.html"
+        ]
+      ],
+      "status": "pending",
+      "image": "../assets/images/How to evaluate wholesale partners Image.jpg"
+    },
+    {
+      "title": "Botulax, Nabota and Rentox: Keeping Supplier Quotations Separate by Product",
+      "keyword": "toxin wholesale quote comparison philippines",
+      "category": "Procurement",
+      "market": "Philippines",
+      "buyer_role": "professional purchasing coordinator in Philippines",
+      "decision": "compare commercial quote fields without implying equal potency, dosing or substitutability",
+      "deliverable": "a quotation comparison checklist that keeps strength, pack and eligibility unconfirmed until verified",
+      "verified_facts": [
+        "Market is reader location, not verified supply eligibility. No product-specific registration findings have been verified."
+      ],
+      "sources": [
+        [
+          "Official destination verification information; not proof of any named product approval",
+          "https://www.fda.gov.ph/fda-advisory-no-2023-2238-utilization-of-the-food-and-drug-administration-fda-verification-portal/"
+        ]
+      ],
+      "status": "pending",
+      "image": "../assets/images/How to evaluate wholesale partners Image.jpg"
     }
   ],
   "published": [

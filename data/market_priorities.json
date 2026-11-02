@@ -1,0 +1,68 @@
+{
+  "basis": "User commercial priorities, not verified market-demand data or supply eligibility.",
+  "priorities": {
+    "Philippines": [
+      "Lemon Bottle",
+      "Lipo Vela",
+      "Lipo Vela V",
+      "Botulax",
+      "Nabota",
+      "Rentox",
+      "ASCE Plus",
+      "Aqualyx",
+      "Mounjaro",
+      "Lipo Lab V-Line",
+      "Rejuran Healer",
+      "Rejuran S",
+      "Rejuran I",
+      "Rejuran HB",
+      "NCTF",
+      "Xeomin",
+      "Sculptra",
+      "Dysport"
+    ],
+    "Malaysia": [
+      "Lemon Bottle",
+      "Lipo Vela",
+      "Lipo Vela V",
+      "Botulax",
+      "Nabota",
+      "Rentox",
+      "ASCE Plus",
+      "Aqualyx",
+      "Mounjaro",
+      "Lipo Lab V-Line",
+      "Rejuran Healer",
+      "Rejuran S",
+      "Rejuran I",
+      "Rejuran HB",
+      "NCTF",
+      "Xeomin",
+      "Sculptra",
+      "Dysport"
+    ],
+    "Europe and Americas": [
+      "Innotox",
+      "Xeomin",
+      "Dysport",
+      "Sculptra",
+      "Radiesse",
+      "PDRN",
+      "Rejuran",
+      "Botulax",
+      "Nabota",
+      "Rentox",
+      "Juvederm",
+      "Elasty",
+      "Celosome"
+    ]
+  },
+  "research_required": [
+    "Confirm exact SKU and manufacturer documentation",
+    "Verify product-specific local status using applicable authority",
+    "Confirm actual supply route with Hanseong",
+    "Keep PN/PDRN, toxin, filler, biostimulator and weight-management distinctions",
+    "Resolve NCTF catalogue match; PDRN is not a single SKU",
+    "Split Europe and Americas into named countries before publication"
+  ]
+}
