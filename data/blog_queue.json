@@ -19,8 +19,10 @@
           "https://tukes.fi/-/fimea-ja-tukes-varoittavat-rasvanpoistoon-kaytettavasta-lemon-bottle-valmisteesta?languageId=en_US"
         ]
       ],
-      "status": "pending",
-      "image": "../assets/images/How to evaluate wholesale partners Image.jpg"
+      "status": "published",
+      "image": "../assets/images/FB10 - Lemon Bottle.jpg",
+      "slug": "lemon-bottle-product-identity-and-supplier-evidence-before-a-philippine-wholes",
+      "published_at": "2026-11-02T09:45:00.938118+00:00"
     },
     {
       "title": "NCTF: Confirming the Exact Presentation Before Requesting a Wholesale Quote for Malaysia Buyers",
@@ -3479,6 +3481,11 @@
       "title": "How Professional Buyers Evaluate Jalupro Super Hydro Before Ordering Wholesale",
       "slug": "how-professional-buyers-evaluate-jalupro-super-hydro-before-ordering-wholesale",
       "published_at": "2026-10-19T12:50:20.578506+00:00"
+    },
+    {
+      "title": "Lemon Bottle: Product Identity and Supplier Evidence Before a Philippine Wholesale Enquiry for Philippines Buyers",
+      "slug": "lemon-bottle-product-identity-and-supplier-evidence-before-a-philippine-wholes",
+      "published_at": "2026-11-02T09:45:00.938118+00:00"
     }
   ]
 }
