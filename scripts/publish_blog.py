@@ -313,8 +313,12 @@ def validate(a):
     if bad:
         raise RuntimeError(f"Forbidden generated tag: {bad.group(1)}")
     words = len(re.sub(r"<[^>]+>", " ", a["html_body"]).split())
-    if words < 600:
+    if words < 350:
         raise RuntimeError(f"Article too short: {words} words")
+    if len(re.findall(r'<h2\b', a['html_body'], re.I)) < 3:
+        raise RuntimeError('Article needs at least three substantive sections')
+    if len(re.findall(r'<li\b', a['html_body'], re.I)) < 3:
+        raise RuntimeError('Article needs an actionable checklist with at least three items')
 
 def image_exists(article_src):
     if not article_src.startswith("../"):

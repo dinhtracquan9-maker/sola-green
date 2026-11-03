@@ -12,6 +12,7 @@ def build_categories():
             groups.setdefault(product['category'], []).append(product)
     output = ROOT / 'categories'
     output.mkdir(exist_ok=True)
+    editorial = json.loads((ROOT / 'data/category_editorial.json').read_text(encoding='utf-8'))
     for category, products in groups.items():
         title = html.escape(category + ' Wholesale')
         slug = slugify(category)
@@ -21,6 +22,10 @@ def build_categories():
         related = ' '.join(f'<a href="{slugify(c)}.html">{html.escape(c)}</a>' for c in groups if c != category)
         schema = json.dumps({'@context': 'https://schema.org', '@type': 'CollectionPage', 'name': category + ' Wholesale', 'url': url, 'mainEntity': {'@type': 'ItemList', 'itemListElement': [{'@type': 'ListItem', 'position': i, 'url': f'{SITE}/products/{p["slug"]}.html', 'name': p['name']} for i, p in enumerate(products, 1)]}}).replace('<', '\\u003c')
         page = f'''<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>{title} | HANSEONG BEAUTY GLOBAL</title><meta name="description" content="{description}"><link rel="canonical" href="{url}"><link rel="stylesheet" href="../assets/css/style.css"><script type="application/ld+json">{schema}</script></head><body class="article-page"><nav class="nav"><div class="wrap nav-inner"><a href="../index.html">HANSEONG BEAUTY GLOBAL</a><a href="../products.html">Product catalogue</a></div></nav><main><header class="article-hero"><div class="wrap article-wrap"><p><a href="../index.html">Home</a> / <a href="../products.html">Products</a> / {html.escape(category)}</p><h1>{title}</h1><p>{description}</p></div></header><article class="article-body article-wrap"><h2>Products in this category</h2><p>Open a product page to review its catalogue details. A catalogue listing does not confirm current stock or availability in every market.</p><ul>{links}</ul><h2>Prepare a wholesale request</h2><p>Include the exact product name and presentation, quantity and destination country. Ask for current packaging information, batch and expiry details, available documentation and handling requirements before confirming an order.</p><h2>Destination and shipping checks</h2><p>Product eligibility and documentation depend on the item and destination. Confirm the available supply route with our team and applicable requirements with your local importer before purchase.</p><p><a href="../shipping.html">Review shipping support</a> &bull; <a href="../contact.html">Request a product-specific quotation</a> &bull; <a href="../blog/index.html">Read the buyer journal</a></p><h2>Explore other categories</h2><p>{related}</p></article></main></body></html>'''
+        if category in editorial:
+            entry = editorial[category]
+            extra = '<h2>' + html.escape(entry['heading']) + '</h2><p>' + html.escape(entry['copy']) + '</p><ul>' + ''.join('<li>' + html.escape(c) + '</li>' for c in entry['checks']) + '</ul><p><a href="../blog/' + entry['related'] + '">Read the related buyer checklist</a></p>'
+            page = page.replace('<h2>Products in this category</h2>', extra + '<h2>Products in this category</h2>', 1)
         (output / f'{slug}.html').write_text(page, encoding='utf-8')
     catalogue = ROOT / 'products.html'
     source = catalogue.read_text(encoding='utf-8')
