@@ -176,13 +176,16 @@ def generate(topic, feedback=""):
     category_url = CATEGORY_LINKS.get(topic["category"], "../products.html")
     prompt = f'''Write an original English article for HANSEONG BEAUTY GLOBAL's professional buyer journal.
 Title brief: {topic['title']}
-Keyword: {topic['keyword']}; Category: {topic['category']}.
+Primary keyword: {topic.get('primary_keyword', topic['keyword'])}; Category: {topic['category']}.
+Long-tail supporting queries: {json.dumps(topic.get('secondary_keywords', []))}.
+Search intent: {topic.get('search_intent', 'professional procurement research')}.
+Use the primary phrase naturally in the title and opening, and supporting terms only where useful. Do not repeat keywords mechanically. Target 800-1200 substantive words, at least 600 body words. Include product-specific purchasing questions without inventing technical facts. Cover one buying decision in depth instead of broad supplier advice.
 Write 650-1000 useful words without padding. Buyer role: {topic.get('buyer_role', 'clinic procurement manager')}. Purchase decision: {topic.get('decision', topic['title'])}. Required deliverable: {topic.get('deliverable', 'a practical RFQ checklist and acceptance criteria')}. Use 4-6 focused H2 sections. Include a worked hypothetical example clearly labelled as hypothetical, a checklist, and questions that a buyer can send to a supplier. Distinguish clinic, reseller and importer responsibilities where relevant. Avoid generic supplier-reliability introductions and interchangeable product descriptions. Never invent product composition, medical efficacy, certifications, prices, stock, regulatory approvals, shipping routes or authorisation. Country names describe the reader, not confirmed supply eligibility. Use only these supplied facts for product-specific claims: {json.dumps(topic.get('verified_facts', []))}. If facts are absent, discuss procurement decisions only. Do not claim HANSEONG is an authorised distributor.
 Internal link context to naturally mention in plain text: product catalogue {category_url}, quote/contact page ../contact.html, shipping support ../shipping.html, brand overview ../brands.html.
 Do not cite FDA or other agencies as evidence for a product unless an applicable source is explicitly supplied. Do not imply approval or authenticity from a general agency page.
 Return JSON only: title, meta_description (max 155 chars), excerpt (35-50 words), read_time, html_body. html_body may use only h2, h3, p, ul, li, strong and em tags. Do not output a tags; links are added by the website automation.'''
     if feedback:
-        prompt += "\nPrevious attempt was rejected: " + feedback + ". Correct this error. Include at least 650 words of substantive body text and return the complete JSON article."
+        prompt += "\nPrevious attempt was rejected: " + feedback + ". Preserve useful draft content and expand missing decision details, evidence questions and a worked example. Target 900-1200 words; do not pad with repeated advice. Return the complete revised JSON article."
     payload = json.dumps({"model": env_optional("BLOG_MODEL", DEFAULT_BLOG_MODEL), "temperature": 0.5, "max_tokens": 4000, "messages": [{"role": "system", "content": "You are a careful B2B editor. Return valid JSON only."}, {"role": "user", "content": prompt}]}).encode()
     request = urllib.request.Request(env_optional("BLOG_API_URL", DEFAULT_BLOG_API_URL), data=payload, headers={"Authorization": f"Bearer {env_required('BLOG_API_KEY')}", "Content-Type": "application/json"}, method="POST")
     try:
@@ -285,9 +288,13 @@ class UnwrapGeneratedLinks(HTMLParser):
 
 def generate_article(topic, attempts=3):
     errors = []
+    article = None
     for attempt in range(1, attempts + 1):
         try:
-            article = generate(topic, errors[-1] if errors else '')
+            feedback = errors[-1] if errors else ''
+            if errors and article:
+                feedback += '\nDraft to revise: ' + json.dumps(article, ensure_ascii=True)
+            article = generate(topic, feedback)
             if isinstance(article.get('html_body'), str):
                 cleaner = UnwrapGeneratedLinks()
                 cleaner.feed(article['html_body'])
@@ -313,7 +320,7 @@ def validate(a):
     if bad:
         raise RuntimeError(f"Forbidden generated tag: {bad.group(1)}")
     words = len(re.sub(r"<[^>]+>", " ", a["html_body"]).split())
-    if words < 350:
+    if words < 600:
         raise RuntimeError(f"Article too short: {words} words")
     if len(re.findall(r'<h2\b', a['html_body'], re.I)) < 3:
         raise RuntimeError('Article needs at least three substantive sections')
