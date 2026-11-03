@@ -37,8 +37,10 @@
         "Commercial priority supplied by Hanseong; demand and supply eligibility are not verified. No product composition or medical claims have been verified."
       ],
       "sources": [],
-      "status": "pending",
-      "image": "../assets/images/How to evaluate wholesale partners Image.jpg"
+      "status": "published",
+      "image": "../assets/images/NCTF 5 vial  Image.jpg",
+      "slug": "nctf-confirming-the-exact-presentation-before-requesting-a-wholesale-quote-for",
+      "published_at": "2026-11-03T10:21:26.568329+00:00"
     },
     {
       "title": "Aqualyx: A Buyer Worksheet for Quotation Exclusions and Receiving Records for Philippines Buyers",
@@ -3486,6 +3488,11 @@
       "title": "Lemon Bottle: Product Identity and Supplier Evidence Before a Philippine Wholesale Enquiry for Philippines Buyers",
       "slug": "lemon-bottle-product-identity-and-supplier-evidence-before-a-philippine-wholes",
       "published_at": "2026-11-02T09:45:00.938118+00:00"
+    },
+    {
+      "title": "NCTF: Confirming the Exact Presentation Before Requesting a Wholesale Quote for Malaysia Buyers",
+      "slug": "nctf-confirming-the-exact-presentation-before-requesting-a-wholesale-quote-for",
+      "published_at": "2026-11-03T10:21:26.568329+00:00"
     }
   ]
 }
