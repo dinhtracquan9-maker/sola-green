@@ -80,15 +80,17 @@
         "Commercial priority supplied by Hanseong; demand and supply eligibility are not verified. No product composition or medical claims have been verified."
       ],
       "sources": [],
-      "status": "pending",
-      "image": "../assets/images/How to evaluate wholesale partners Image.jpg",
+      "status": "published",
+      "image": "../assets/images/Rejuran Healer, S, i and HB image.png",
       "primary_keyword": "Rejuran Wholesale Malaysia wholesale Malaysia",
       "secondary_keywords": [
         "Rejuran Wholesale Malaysia supplier documentation Malaysia",
         "Rejuran Wholesale Malaysia wholesale quotation checklist",
         "Rejuran Wholesale Malaysia product verification before ordering"
       ],
-      "search_intent": "commercial investigation by a professional buyer; eligibility and specifications require verification"
+      "search_intent": "commercial investigation by a professional buyer; eligibility and specifications require verification",
+      "slug": "rejuran-wholesale-malaysia-confirming-variants-in-a-mixed-order",
+      "published_at": "2026-11-03T13:58:53.809109+00:00"
     },
     {
       "keyword": "ultrafill wholesale",
@@ -3721,6 +3723,11 @@
       "title": "Aqualyx Wholesale Philippines: Quote and Receiving Checklist",
       "slug": "aqualyx-wholesale-philippines-quote-and-receiving-checklist",
       "published_at": "2026-11-03T10:32:29.162632+00:00"
+    },
+    {
+      "title": "Rejuran Wholesale Malaysia: Confirming Variants in a Mixed Order",
+      "slug": "rejuran-wholesale-malaysia-confirming-variants-in-a-mixed-order",
+      "published_at": "2026-11-03T13:58:53.809109+00:00"
     }
   ]
 }
