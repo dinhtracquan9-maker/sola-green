@@ -1846,14 +1846,16 @@
       "decision": "prepare a quote request",
       "deliverable": "a copyable RFQ checklist with required and optional fields",
       "verified_facts": [],
-      "status": "pending",
+      "status": "published",
       "image": "../assets/images/How to evaluate wholesale partners Image.jpg",
       "primary_keyword": "Clinic Wholesale RFQ wholesale",
       "secondary_keywords": [
         "Clinic Wholesale RFQ quotation requirements",
         "Clinic Wholesale RFQ receiving checklist"
       ],
-      "search_intent": "prepare a quote request"
+      "search_intent": "prepare a quote request",
+      "slug": "clinic-wholesale-rfq-how-to-specify-products-quantities-and-acceptance-criteri",
+      "published_at": "2026-11-03T19:02:43.690343+00:00"
     },
     {
       "title": "Comparing Aesthetic Wholesale Quotes: Unit Cost, Freight and Unconfirmed Charges",
@@ -3728,6 +3730,11 @@
       "title": "Rejuran Wholesale Malaysia: Confirming Variants in a Mixed Order",
       "slug": "rejuran-wholesale-malaysia-confirming-variants-in-a-mixed-order",
       "published_at": "2026-11-03T13:58:53.809109+00:00"
+    },
+    {
+      "title": "Clinic Wholesale RFQ: How to Specify Products, Quantities and Acceptance Criteria",
+      "slug": "clinic-wholesale-rfq-how-to-specify-products-quantities-and-acceptance-criteri",
+      "published_at": "2026-11-03T19:02:43.690343+00:00"
     }
   ]
 }
