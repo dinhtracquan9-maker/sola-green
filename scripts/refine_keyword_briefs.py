@@ -19,7 +19,9 @@ def refine():
             topic['primary_keyword'] = f'{product} wholesale {market}'
             topic['secondary_keywords'] = [f'{product} supplier documentation {market}', f'{product} wholesale quotation checklist', f'{product} product verification before ordering']
             angle = topic.get('decision', '')
-            if product == 'Aqualyx':
+            if product.startswith('Rejuran') and market == 'Philippines':
+                topic['title'] = 'Rejuran Wholesale Philippines: A Variant Confirmation Worksheet'
+            elif product == 'Aqualyx':
                 topic['title'] = 'Aqualyx Wholesale Philippines: Quote and Receiving Checklist'
             elif product.startswith('Rejuran') and market == 'Malaysia':
                 topic['title'] = 'Rejuran Wholesale Malaysia: Confirming Variants in a Mixed Order'
