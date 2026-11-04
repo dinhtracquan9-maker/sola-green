@@ -170,3 +170,16 @@
 .hs-price-copy small{display:block;color:#64786a;font-size:11px;line-height:1.6}
 @media(max-width:760px){.hs-price-panel{grid-template-columns:1fr;border-radius:24px}.hs-price-photo{min-height:0;aspect-ratio:16/10}.hs-price-photo:after{background:linear-gradient(180deg,rgba(102,148,116,.12) 0%,rgba(160,188,166,.12) 58%,#e8f0e9 100%)}.hs-price-photo img{object-position:66% 38%}.hs-price-copy{padding:20px 22px 28px}.new-home .hs-price-copy h2{font-size:27px}.hs-price-actions a{flex:1 1 180px}}
 @media(prefers-reduced-motion:reduce){.hs-price-photo img,.hs-price-actions a,.hs-price-actions a span{transition:none}.hs-price-panel:hover .hs-price-photo img,.hs-price-actions a:hover,.hs-price-actions a:hover span{transform:none}}
+.new-home .hs-final-enquiry{padding:48px 0 72px;background:#fff}
+.hs-final-enquiry .cta-panel{display:flex;align-items:center;justify-content:space-between;gap:40px;padding:34px 36px;background:#f1f6f2;border:1px solid #d7e2d9;border-radius:20px;box-shadow:none}
+.hs-final-enquiry .cta-panel>div{max-width:640px;min-width:0}
+.hs-final-enquiry .cta-panel>div>span{display:flex;align-items:center;gap:10px;font-size:10px;color:#55735f;letter-spacing:0}
+.hs-final-enquiry .cta-panel>div>span:before{content:'';width:22px;height:1px;background:#7b9984}
+.new-home .hs-final-enquiry .cta-panel h2{font-size:26px;line-height:1.25;letter-spacing:0;margin:12px 0 10px;color:#173d2a}
+.hs-final-enquiry .cta-panel p{font-size:13px;line-height:1.7;color:#587061;margin:0;max-width:590px}
+.hs-final-enquiry .cta-panel .cta-btn{display:inline-flex;align-items:center;justify-content:center;gap:16px;flex-shrink:0;width:auto;min-height:44px;padding:12px 20px;border-radius:8px;background:#174d32;color:#fff;font-size:12px;white-space:normal;text-align:center;transition:background .2s,transform .2s}
+.hs-final-enquiry .cta-btn:hover{background:#0c6539;transform:translateY(-2px)}
+.hs-final-enquiry .cta-btn span{transition:transform .2s}
+.hs-final-enquiry .cta-btn:hover span{transform:translateX(3px)}
+@media(max-width:760px){.new-home .hs-final-enquiry{padding:28px 0 48px}.hs-final-enquiry .cta-panel{flex-direction:column;align-items:flex-start;gap:22px;padding:28px 24px;border-radius:20px}.new-home .hs-final-enquiry .cta-panel h2{font-size:24px;margin-bottom:10px}.hs-final-enquiry .cta-panel .cta-btn{width:auto;max-width:100%}}
+@media(prefers-reduced-motion:reduce){.hs-final-enquiry .cta-panel .cta-btn,.hs-final-enquiry .cta-btn span{transition:none}.hs-final-enquiry .cta-btn:hover,.hs-final-enquiry .cta-btn:hover span{transform:none}}
