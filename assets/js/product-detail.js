@@ -9,6 +9,7 @@
     });
   };
   form.addEventListener('input', update);
+  update();
   form.addEventListener('submit', event => {
     event.preventDefault();
     if (!form.reportValidity()) return;
