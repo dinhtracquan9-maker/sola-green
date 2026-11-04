@@ -62,7 +62,7 @@ def validate(a):
     if bad: raise RuntimeError(f"Forbidden tag: {bad.group(1)}")
     if len(re.sub(r"<[^>]+>", " ", a["body_html"]).split()) < 150: raise RuntimeError("body too short")
 
-def page(p, a):
+def legacy_page(p, a):
     name = html.escape(p["name"]); desc = html.escape(a["meta_description"], quote=True)
     cat = html.escape(p["category"]); brand = html.escape(p["brand"] or "International")
     origin = html.escape(p["origin"] or "International"); img = "../" + p["image"]
@@ -80,6 +80,12 @@ def page(p, a):
     nav = '<nav class="nav"><div class="wrap nav-inner"><a class="brand brand-logo" href="../index.html"><img src="../assets/icons/logoHeader.png" alt="HANSEONG BEAUTY GLOBAL"></a><div class="article-nav"><a href="../products.html">← All products</a><a class="btn primary" href="../products.html">Build a quote list</a></div></div></nav>'
     footer = '<footer class="footer new-footer"><div class="wrap"><div class="footer-top"><div><img src="../assets/icons/logoHeader.png" alt="HANSEONG BEAUTY GLOBAL"><p>Professional aesthetic wholesale supply for clinics, spas, resellers and distributors worldwide.</p></div><div><b>Explore</b><a href="../products.html">Products</a><a href="../brands.html">Brands</a><a href="../blog/index.html">Journal</a></div><div><b>Company</b><a href="../about.html">About HANSEONG</a><a href="../faq.html">FAQ</a><a href="../contact.html">Contact</a></div><div><b>Connect</b><a href="https://wa.me/84921909928?text=Hi!%20I%27m%20interested%20in%20your%20products%20and%20would%20like%20a%20wholesale%20quotation.">WhatsApp</a><a href="mailto:hanseongbeauty@gmail.com">Email sales</a></div></div><div class="footer-bottom"><span>© 2026 HANSEONG BEAUTY GLOBAL</span><span>Professional buyers only · Availability varies by market</span></div></div></footer>'
     return f'''<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>{name} Wholesale | HANSEONG BEAUTY GLOBAL</title><meta name="description" content="{desc}"><link rel="canonical" href="{url}"><meta property="og:type" content="product"><meta property="og:title" content="{name} Wholesale | HANSEONG BEAUTY GLOBAL"><meta property="og:description" content="{desc}"><meta property="og:image" content="{img_abs}"><link rel="icon" href="../assets/icons/logo.png"><link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Manrope:wght@600;700&family=Plus+Jakarta+Sans:wght@600;700;800&display=swap" rel="stylesheet"><link rel="stylesheet" href="../assets/css/style.css"><script type="application/ld+json">{ld}</script></head><body class="article-page">{nav}<main><header class="article-hero"><div class="wrap article-wrap"><span>{html.escape(p["category"].upper())} · WHOLESALE</span><h1>{name}</h1><p>{desc}</p><div class="article-meta"><a href="../index.html">Home</a> › <a href="../products.html">Products</a> › {name}</div></div></header><div class="article-cover wrap"><img src="{img}" alt="{name}" loading="lazy"></div><article class="article-body article-wrap"><p class="article-intro">{html.escape(a["intro"])}</p>{a["body_html"]}<div class="article-callout"><b>Product at a glance</b><ul><li><strong>Brand:</strong> {brand}</li><li><strong>Origin:</strong> {origin}</li><li><strong>Category:</strong> {cat}</li></ul></div><div class="article-end"><h2>Request a wholesale quote for {name}</h2><p>Send your destination country and quantity. Our team will help you check current availability and shipping options.</p><a class="btn primary" href="{wa_link}">Request quotation on WhatsApp →</a></div><p class="disclaimer">General procurement information for professional buyers. Not medical, legal, regulatory or import advice. Product availability varies by market.</p></article></main>{footer}<script src="../assets/js/main.js"></script></body></html>'''
+
+def page(p, a):
+    from product_layout import render
+    related = [item for item in parse_products() if item['category'] == p['category'] and item['slug'] != p['slug'] and (OUT / (item['slug'] + '.html')).exists()][:4]
+    return render(legacy_page(p, a), p, related)
+
 
 def build_sitemap():
     from build_category_pages import build_categories
