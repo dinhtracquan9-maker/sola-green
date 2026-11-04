@@ -38,3 +38,21 @@
 .contact-page .cta-panel>div>span{letter-spacing:0;color:#60765f}
 .contact-page .cta-panel .btn{background:#ddcdb3;color:#263b2b;border-radius:6px;white-space:normal}
 @media(max-width:760px){.contact-page .contact-hero{padding:40px 0 28px}.contact-page .contact-hero h1{font-size:34px}.contact-page .pricelist-panel{grid-template-columns:1fr;padding:26px 22px;gap:28px;border-radius:20px}.contact-page .pricelist-left h2{font-size:29px}.contact-page .pricelist-right{padding:22px 18px}.contact-page .contact-channel-grid{grid-template-columns:1fr}.contact-page .contact-form-section{padding:26px 20px}.contact-page .cta-panel h2{font-size:25px}}
+body.contact-page .pricelist-panel{background:#155533;border-color:#24683f}
+body.contact-page .pricelist-left h2{color:#fff}
+body.contact-page .pricelist-left>p,body.contact-page .pricelist-perks li{color:#e0ece2}
+body.contact-page .pricelist-perks li span{color:#e6c88e}
+body.contact-page .pricelist-badge{background:#e5d2ae;color:#3b4933}
+body.contact-page .pricelist-right{background:#fcfbf7;border-color:#e6e2d6}
+.contact-page .channel-actions .btn{transition:transform .22s,box-shadow .22s,background .22s;gap:9px;position:relative;overflow:hidden;text-decoration:none}
+.contact-page .channel-actions .contact-korea{background:#125c36;color:#fff;box-shadow:0 5px 15px #15553325;border:1px solid #29764a}
+.contact-page .contact-korea:before{content:'';position:absolute;inset:0;transform:translateX(-130%) skewX(-20deg);background:linear-gradient(90deg,transparent,#ffffff35,transparent);transition:transform .65s;pointer-events:none}
+.contact-page .contact-korea:hover:before{transform:translateX(130%) skewX(-20deg)}
+.contact-page .channel-actions .btn:hover{transform:translateY(-3px);box-shadow:0 8px 20px #15553325}
+.contact-page .channel-actions .btn:active{transform:scale(.97)}
+.contact-page .channel-actions .btn span{transition:transform .22s}
+.contact-page .channel-actions .btn:hover span{transform:translateX(4px)}
+.contact-page .channel-actions .contact-vietnam{background:#f3ecdf;color:#214c33;border:1px solid #d6c9b0}
+.contact-platform-icon{display:inline-grid;place-items:center;width:19px;height:19px;margin-right:7px;font-size:18px;flex-shrink:0}
+.contact-platform-icon svg{width:19px;height:19px;fill:currentColor}
+@media(prefers-reduced-motion:reduce){.contact-page .channel-actions .btn,.contact-page .contact-korea:before,.contact-page .channel-actions .btn span{transition:none}.contact-page .channel-actions .btn:hover,.contact-page .channel-actions .btn:active,.contact-page .channel-actions .btn:hover span{transform:none}}

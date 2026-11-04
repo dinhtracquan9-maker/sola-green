@@ -1,4 +1,4 @@
-const WHATSAPP_NUMBER = '84921909928';
+const WHATSAPP_NUMBER = document.body.classList.contains('contact-page') ? '821021892675' : '84921909928';
 const WHATSAPP_KOREA = '821021892675';
 const DEFAULT_WHATSAPP_MESSAGE = "Hi! I'm interested in your products and would like a wholesale quotation.";
 const $ = (s, r = document) => r.querySelector(s);

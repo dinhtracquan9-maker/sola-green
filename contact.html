@@ -12,7 +12,7 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Manrope:wght@600;700&family=Plus+Jakarta+Sans:wght@600;700;800&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="assets/css/style.css?v=20260809-searchdrawer1">
-  <link rel="stylesheet" href="assets/css/contact-refined.css?v=20261105">
+  <link rel="stylesheet" href="assets/css/contact-refined.css?v=20261105-korea">
 <link rel="canonical" href="https://www.hanseongbeauty.com/contact.html"></head>
 <body class="contact-page">
   <div class="topbar"><div class="wrap"><span>Professional aesthetic wholesale &middot; Worldwide shipping support</span><a data-wa>Talk to a specialist &rarr;</a></div></div>
@@ -64,8 +64,8 @@
       <div class="channel-card">
         <div class="channel-icon wa" aria-hidden="true">&#9742;</div>
         <h3>WhatsApp</h3>
-        <p><b>Vietnam (primary):</b> +84 92 190 99 28<br><b>Korea:</b> +82 10-2189-2675</p>
-        <div class="channel-actions"><a class="btn primary" data-wa>Vietnam &rarr;</a><a class="btn wa-korea">Korea &rarr;</a></div>
+        <p><b>Korea (primary):</b> +82 10-2189-2675<br><b>Vietnam:</b> +84 92 190 99 28</p>
+        <div class="channel-actions"><a class="btn primary wa-korea contact-korea">&#127472;&#127479; Korea <span aria-hidden="true">&rarr;</span></a><a class="btn contact-vietnam" href="https://wa.me/84921909928">&#127483;&#127475; Vietnam <span aria-hidden="true">&rarr;</span></a></div>
       </div>
       <div class="channel-card">
         <div class="channel-icon em" aria-hidden="true">&#9993;</div>
@@ -74,12 +74,12 @@
         <div class="channel-links"><a href="mailto:hanseongbeauty@gmail.com">Email</a><a href="https://www.instagram.com/hanseong_beauty_global/" target="_blank" rel="noopener">Instagram</a><a href="https://www.facebook.com/hanseongbeautyglobal/" target="_blank" rel="noopener">Facebook</a></div>
       </div>
       <div class="channel-card office-card">
-        <div class="channel-icon" aria-hidden="true">KR</div>
+        <div class="channel-icon" aria-hidden="true">&#127472;&#127479;</div>
         <h3>Korea Headquarters</h3>
         <p>Seoul Finance Center, 36 Sejong-daero, Jung-gu, Seoul 04520, South Korea</p>
       </div>
       <div class="channel-card office-card">
-        <div class="channel-icon" aria-hidden="true">VN</div>
+        <div class="channel-icon" aria-hidden="true">&#127483;&#127475;</div>
         <h3>Vietnam Office</h3>
         <p>Kim Hoan Building, 19 Duy Tan, Cau Giay District, Hanoi 113000, Vietnam</p>
       </div>
@@ -130,8 +130,18 @@
 
   <script type="application/ld+json">{"@context":"https://schema.org","@type":"Organization","name":"HANSEONG BEAUTY GLOBAL","url":"https://www.hanseongbeauty.com","email":"hanseongbeauty@gmail.com","sameAs":["https://www.instagram.com/hanseong_beauty_global/","https://www.facebook.com/hanseongbeautyglobal/"],"contactPoint":[{"@type":"ContactPoint","telephone":"+821021892675","contactType":"sales","availableLanguage":"English"},{"@type":"ContactPoint","telephone":"+84921909928","contactType":"sales","availableLanguage":["English","Vietnamese"]}],"location":[{"@type":"Place","name":"Korea Headquarters","address":"Seoul Finance Center, 36 Sejong-daero, Jung-gu, Seoul 04520, South Korea"},{"@type":"Place","name":"Vietnam Office","address":"Kim Hoan Building, 19 Duy Tan, Cau Giay District, Hanoi 113000, Vietnam"}]}</script>
   <script src="assets/data/products.js?v=20260809-searchdrawer1"></script>
-  <script src="assets/js/main.js?v=20260809-searchdrawer1"></script>
+  <script src="assets/js/main.js?v=20261105-contact-korea"></script>
   <script>
+    document.querySelectorAll('.contact-page .channel-links a').forEach(link => {
+      const icon = document.createElement('span');
+      icon.className = 'contact-platform-icon';
+      icon.setAttribute('aria-hidden', 'true');
+      if (link.href.includes('instagram.com')) icon.innerHTML = instagramIcon;
+      else if (link.href.includes('facebook.com')) icon.innerHTML = facebookIcon;
+      else icon.textContent = '\u2709';
+      link.prepend(icon);
+    });
+    document.querySelectorAll('.contact-page .top-wa span').forEach(label => label.textContent = 'WhatsApp +82 10-2189-2675');
     // Tab switcher
     document.querySelectorAll('.contact-tab').forEach(tab => {
       tab.addEventListener('click', () => {
@@ -188,7 +198,7 @@
         // Update WhatsApp button with pre-filled message so owner gets a ping too
         if (plWaBtn) {
           var msg = "Hi! I'm interested in your products and would like a wholesale quotation.\n\nI just requested the wholesale price list.\nName: " + name + '\nEmail: ' + email + '\nWhatsApp: ' + whatsapp;
-          plWaBtn.href = 'https://wa.me/84921909928?text=' + encodeURIComponent(msg);
+          plWaBtn.href = 'https://wa.me/821021892675?text=' + encodeURIComponent(msg);
         }
 
         // Show success immediately (don't wait for network response)
