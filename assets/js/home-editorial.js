@@ -1,4 +1,25 @@
 (() => {
+  const journal = document.querySelector('.hs-journal-track');
+  if (journal) {
+    const prev = document.querySelector('[data-journal-prev]');
+    const next = document.querySelector('[data-journal-next]');
+    const bar = document.querySelector('.hs-journal-progress span');
+    const syncJournal = () => {
+      const max = journal.scrollWidth - journal.clientWidth;
+      prev.disabled = journal.scrollLeft < 2;
+      next.disabled = journal.scrollLeft >= max - 2;
+      bar.style.width = `${max > 0 ? 33 + 67 * journal.scrollLeft / max : 100}%`;
+    };
+    const moveJournal = direction => journal.scrollBy({left: direction * (journal.firstElementChild.getBoundingClientRect().width + 20), behavior: matchMedia('(prefers-reduced-motion: reduce)').matches ? 'instant' : 'smooth'});
+    prev.addEventListener('click', () => moveJournal(-1));
+    next.addEventListener('click', () => moveJournal(1));
+    journal.addEventListener('scroll', syncJournal, {passive:true});
+    journal.addEventListener('keydown', event => {
+      if (event.key === 'ArrowRight' || event.key === 'ArrowLeft') {event.preventDefault();moveJournal(event.key === 'ArrowRight' ? 1 : -1);}
+    });
+    window.addEventListener('resize', syncJournal);
+    syncJournal();
+  }
   const buyerTrack = document.querySelector('.hs-buyer-track');
   if (buyerTrack) {
     const previous = document.querySelector('[data-buyer-prev]');
