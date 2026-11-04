@@ -50,6 +50,41 @@
   }
   if (window.matchMedia('(prefers-reduced-motion: reduce)').matches || !('IntersectionObserver' in window)) return;
   document.documentElement.classList.add('hs-motion-ready');
+  const stats = document.querySelector('.trust-stats');
+  if (stats) {
+    const counterObserver = new IntersectionObserver(entries => {
+      if (!entries.some(entry => entry.isIntersecting)) return;
+      counterObserver.disconnect();
+      stats.querySelectorAll('b').forEach((element, index) => {
+        const finalText = element.textContent.trim();
+        const match = finalText.match(/^(\d+)(.*)$/);
+        element.setAttribute('aria-label', finalText);
+        const visual = document.createElement('span');
+        visual.className = 'hs-stat-value';
+        visual.setAttribute('aria-hidden', 'true');
+        element.replaceChildren(visual);
+        if (match) {
+          const target = Number(match[1]);
+          const start = performance.now() + index * 100;
+          const tick = now => {
+            const progress = Math.max(0, Math.min(1, (now - start) / 1400));
+            visual.textContent = `${Math.round(target * (1 - Math.pow(1 - progress, 3)))}${match[2]}`;
+            if (progress < 1) requestAnimationFrame(tick);
+          };
+          requestAnimationFrame(tick);
+        } else {
+          [...finalText].forEach((character, characterIndex) => {
+            const letter = document.createElement('span');
+            letter.className = 'hs-stat-letter';
+            letter.style.animationDelay = `${index * 100 + characterIndex * 110}ms`;
+            letter.textContent = character;
+            visual.append(letter);
+          });
+        }
+      });
+    }, { threshold: 0.35 });
+    counterObserver.observe(stats);
+  }
   const observer = new IntersectionObserver(entries => entries.forEach(entry => {
     if (entry.isIntersecting) { entry.target.classList.add('is-visible'); observer.unobserve(entry.target); }
   }), { threshold: 0.08 });
