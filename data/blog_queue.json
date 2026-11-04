@@ -1884,14 +1884,16 @@
       "decision": "accept or hold an incoming delivery",
       "deliverable": "a receiving checklist separating document checks from physical inspection",
       "verified_facts": [],
-      "status": "pending",
-      "image": "../assets/images/How to evaluate wholesale partners Image.jpg",
+      "status": "published",
+      "image": "../assets/images/Luhilo snow and nomal.jfif",
       "primary_keyword": "Batch and Expiry Records wholesale",
       "secondary_keywords": [
         "Batch and Expiry Records quotation requirements",
         "Batch and Expiry Records receiving checklist"
       ],
-      "search_intent": "accept or hold an incoming delivery"
+      "search_intent": "accept or hold an incoming delivery",
+      "slug": "batch-and-expiry-records-a-receiving-checklist-for-aesthetic-clinic-buyers",
+      "published_at": "2026-11-04T19:16:03.459310+00:00"
     },
     {
       "title": "Mixed Product Wholesale Orders: Building a Clear Packing and Reconciliation List",
@@ -3742,6 +3744,11 @@
       "title": "Comparing Aesthetic Wholesale Quotes: Unit Cost, Freight and Unconfirmed Charges",
       "slug": "comparing-aesthetic-wholesale-quotes-unit-cost-freight-and-unconfirmed-charges",
       "published_at": "2026-11-04T14:14:37.282661+00:00"
+    },
+    {
+      "title": "Batch and Expiry Records: A Receiving Checklist for Aesthetic Clinic Buyers",
+      "slug": "batch-and-expiry-records-a-receiving-checklist-for-aesthetic-clinic-buyers",
+      "published_at": "2026-11-04T19:16:03.459310+00:00"
     }
   ]
 }
