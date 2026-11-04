@@ -12,6 +12,7 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Manrope:wght@600;700&family=Plus+Jakarta+Sans:wght@600;700;800&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="assets/css/style.css?v=20260809-searchdrawer1">
+  <link rel="stylesheet" href="assets/css/contact-refined.css?v=20261105">
 <link rel="canonical" href="https://www.hanseongbeauty.com/contact.html"></head>
 <body class="contact-page">
   <div class="topbar"><div class="wrap"><span>Professional aesthetic wholesale &middot; Worldwide shipping support</span><a data-wa>Talk to a specialist &rarr;</a></div></div>
@@ -61,7 +62,7 @@
     <!-- Channel Cards -->
     <div class="contact-channel-grid">
       <div class="channel-card">
-        <div class="channel-icon wa">ðŸ’¬</div>
+        <div class="channel-icon wa" aria-hidden="true">&#9742;</div>
         <h3>WhatsApp</h3>
         <p><b>Vietnam (primary):</b> +84 92 190 99 28<br><b>Korea:</b> +82 10-2189-2675</p>
         <div class="channel-actions"><a class="btn primary" data-wa>Vietnam &rarr;</a><a class="btn wa-korea">Korea &rarr;</a></div>
@@ -73,12 +74,12 @@
         <div class="channel-links"><a href="mailto:hanseongbeauty@gmail.com">Email</a><a href="https://www.instagram.com/hanseong_beauty_global/" target="_blank" rel="noopener">Instagram</a><a href="https://www.facebook.com/hanseongbeautyglobal/" target="_blank" rel="noopener">Facebook</a></div>
       </div>
       <div class="channel-card office-card">
-        <div class="channel-icon">ðŸ‡°ðŸ‡·</div>
+        <div class="channel-icon" aria-hidden="true">KR</div>
         <h3>Korea Headquarters</h3>
         <p>Seoul Finance Center, 36 Sejong-daero, Jung-gu, Seoul 04520, South Korea</p>
       </div>
       <div class="channel-card office-card">
-        <div class="channel-icon">ðŸ‡»ðŸ‡³</div>
+        <div class="channel-icon" aria-hidden="true">VN</div>
         <h3>Vietnam Office</h3>
         <p>Kim Hoan Building, 19 Duy Tan, Cau Giay District, Hanoi 113000, Vietnam</p>
       </div>
@@ -148,7 +149,7 @@
         e.preventDefault();
         const d = new FormData(emailForm);
         const body = `Hello HANSEONG BEAUTY GLOBAL,\n\nCompany/Name: ${d.get('name') || ''}\nDestination country: ${d.get('country') || ''}\nProducts needed: ${d.get('products') || ''}\nQuantity: ${d.get('quantity') || ''}\nAdditional notes: ${d.get('message') || ''}`;
-        window.location.href = `mailto:hanseongbeauty@gmail.comsubject=Wholesale%20Quotation%20Request&body=${encodeURIComponent(body)}`;
+        window.location.href = `mailto:hanseongbeauty@gmail.com?subject=Wholesale%20Quotation%20Request&body=${encodeURIComponent(body)}`;
       });
     }
 
@@ -187,7 +188,7 @@
         // Update WhatsApp button with pre-filled message so owner gets a ping too
         if (plWaBtn) {
           var msg = "Hi! I'm interested in your products and would like a wholesale quotation.\n\nI just requested the wholesale price list.\nName: " + name + '\nEmail: ' + email + '\nWhatsApp: ' + whatsapp;
-          plWaBtn.href = 'https://wa.me/84921909928?text=Hi!%20I%27m%20interested%20in%20your%20products%20and%20would%20like%20a%20wholesale%20quotation.text=' + encodeURIComponent(msg);
+          plWaBtn.href = 'https://wa.me/84921909928?text=' + encodeURIComponent(msg);
         }
 
         // Show success immediately (don't wait for network response)

@@ -1,0 +1,40 @@
+.contact-page{background:#fff}
+.contact-page .contact-hero{background:#fff;padding:64px 0 40px}
+.contact-page .contact-hero h1{font-size:46px;line-height:1.15;letter-spacing:0}
+.contact-page .pricelist-panel{background:#eef3ef;border:1px solid #dae3dc;border-radius:24px;padding:44px;gap:40px;align-items:start}
+.contact-page .pricelist-panel:before{display:none}
+.contact-page .pricelist-badge{background:#e6d9c3;color:#5c503b;border-radius:5px;letter-spacing:0}
+.contact-page .pricelist-left h2{color:#183f2b;font-size:36px;line-height:1.2;letter-spacing:0}
+.contact-page .pricelist-left>p{color:#52675a;font-size:14px}
+.contact-page .pricelist-perks li{color:#405a49;font-size:13px;align-items:flex-start}
+.contact-page .pricelist-perks li span{color:#866e44}
+.contact-page .pricelist-right{background:#fff;border:1px solid #d7e0d9;border-radius:16px;padding:28px;box-shadow:0 12px 28px #203e2a08}
+.contact-page .pricelist-form-label{color:#647260;letter-spacing:0;font-size:10px;line-height:1.6}
+.contact-page .pricelist-form .input{background:#fafbf9;border:1px solid #ccd7ce;color:#1f3929;min-height:46px;border-radius:6px}
+.contact-page .pricelist-form .input::placeholder{color:#69766c}
+.contact-page .pricelist-form .input:focus{background:#fff;border-color:#387b51;outline:2px solid #dceade;outline-offset:1px}
+.contact-page .pricelist-submit{background:#194d33;border-radius:6px}
+.contact-page .pricelist-disclaimer{color:#6b766d;line-height:1.6}
+.contact-page [hidden]{display:none!important}
+.contact-page .pricelist-success{background:#eff6ef;border-color:#c8ddcd;color:#254d32}
+.contact-page .contact-channel-grid{gap:20px;grid-template-columns:repeat(2,minmax(0,1fr))}
+.contact-page .contact-channel-grid .channel-card{display:flex;flex-direction:column;align-items:flex-start;gap:0;min-width:0;padding:28px;border-radius:16px;background:#fff;border:1px solid #dedfd7;box-shadow:none}
+.contact-page .contact-channel-grid .channel-card:nth-child(2){background:#f5f6f8}
+.contact-page .contact-channel-grid .office-card{background:#faf7f1}
+.contact-page .contact-channel-grid .channel-icon{flex:none;background:#edf2ec;color:#355d43;font-family:Inter,sans-serif;font-size:15px;font-weight:600;width:44px;height:44px;border-radius:10px;margin-bottom:18px}
+.contact-page .contact-channel-grid .channel-card h3{font-size:21px;line-height:1.3;letter-spacing:0}
+.contact-page .contact-channel-grid .channel-card p{overflow-wrap:anywhere;font-size:14px;line-height:1.75}
+.contact-page .channel-actions,.contact-page .channel-links{width:100%;gap:12px;margin-top:auto}
+.contact-page .channel-actions .btn{width:auto;min-height:44px;border-radius:6px}
+.contact-page .channel-links a{display:inline-flex;padding:8px 0;min-height:40px}
+.contact-page .contact-form-section{background:#fff;border-color:#dedfd7;border-radius:20px;padding:36px}
+.contact-page .contact-form-section h2{font-size:30px;letter-spacing:0}
+.contact-page .contact-tabs{gap:8px;overflow-x:auto}
+.contact-page .contact-tab{white-space:nowrap;border-radius:6px 6px 0 0}
+.contact-page .contact-tab.active{background:#edf3ed;color:#204d32}
+.contact-page .input,.contact-page textarea{border-radius:6px}
+.contact-page .cta-panel{background:#f0f4ef;border:1px solid #d9e2d8;border-radius:20px;padding:32px;gap:24px}
+.contact-page .cta-panel h2{font-size:28px;line-height:1.3;letter-spacing:0}
+.contact-page .cta-panel>div>span{letter-spacing:0;color:#60765f}
+.contact-page .cta-panel .btn{background:#ddcdb3;color:#263b2b;border-radius:6px;white-space:normal}
+@media(max-width:760px){.contact-page .contact-hero{padding:40px 0 28px}.contact-page .contact-hero h1{font-size:34px}.contact-page .pricelist-panel{grid-template-columns:1fr;padding:26px 22px;gap:28px;border-radius:20px}.contact-page .pricelist-left h2{font-size:29px}.contact-page .pricelist-right{padding:22px 18px}.contact-page .contact-channel-grid{grid-template-columns:1fr}.contact-page .contact-form-section{padding:26px 20px}.contact-page .cta-panel h2{font-size:25px}}
