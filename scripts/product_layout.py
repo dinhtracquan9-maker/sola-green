@@ -32,7 +32,19 @@ def render(source, product, related):
     channels = '''<section class="consultation" id="consultation"><div><p class="eyebrow">YOUR NEXT ORDER, ONE CONVERSATION AWAY</p><h2>Talk to the HANSEONG team.</h2><p>Share your product list and destination. Ask about current availability, product details and quotation options.</p><div class="consult-buttons"><a class="channel-primary" data-sales="84921909928" href="https://wa.me/84921909928">Consult Vietnam &rarr;</a><a data-sales="821021892675" href="https://wa.me/821021892675">Consult Korea &rarr;</a></div></div><div class="community-links"><a href="https://t.me/+3aZiyqL7GRQyMDBl" target="_blank" rel="noopener noreferrer"><b>Telegram community &nearr;</b><span>Follow product and wholesale updates</span></a><a href="https://www.instagram.com/hanseong_beauty_global/" target="_blank" rel="noopener noreferrer"><b>Instagram &nearr;</b><span>See products and company activity</span></a><a href="https://www.facebook.com/hanseongbeautyglobal/" target="_blank" rel="noopener noreferrer"><b>Facebook &nearr;</b><span>Stay connected with HANSEONG</span></a></div></section>'''
     page = page.replace('<section id="related"', channels + '<section id="related"', 1)
     page = page.replace('</footer>', '</footer><a class="floating-consult" href="#product-quote" aria-label="Request a product quotation">Talk to a specialist &rarr;</a>', 1)
-    return page.replace('product-detail.css?v=1', 'product-detail.css?v=2').replace('product-detail.js?v=1', 'product-detail.js?v=2')
+    page = page.replace('</head>', '<link rel="stylesheet" href="/assets/css/product-storefront.css?v=1"></head>', 1)
+    page = page.replace('<nav class="section-nav" aria-label="Product sections">', '<nav class="section-nav" aria-label="Product sections">', 1)
+    page = page.replace('<a href="#details">Product details</a>', '<a href="#details" data-product-tab="details">Description</a>')
+    page = page.replace('<a href="#ordering">Ordering</a>', '<a href="#ordering" data-product-tab="ordering">Ordering &amp; shipping</a>')
+    page = page.replace('<label>Quantity<input', '<label>Quantity<span class="quantity-control"><button type="button" data-quantity="-1" aria-label="Decrease quantity">&minus;</button><input', 1)
+    page = page.replace('value="1" required></label>', 'value="1" required><button type="button" data-quantity="1" aria-label="Increase quantity">+</button></span></label>', 1)
+    name = html.escape(product['name'])
+    image = html.escape('/' + product['image'], quote=True)
+    utilities = '<div class="product-utilities"><button type="button" id="copy-product-link">Copy product link</button><a href="#consultation">Ask about this product &rarr;</a><span id="copy-status" role="status"></span></div>'
+    page = page.replace('<p class="fine">Professional buyers only.', utilities + '<p class="fine">Professional buyers only.', 1)
+    sticky = f'<aside class="sticky-product" aria-label="Product consultation"><div class="sticky-product-name"><img src="{image}" width="44" height="44" loading="lazy" alt=""><div><b>{name}</b><span>Wholesale quotation on request</span></div></div><a href="#product-quote">Choose quantity &amp; destination &uarr;</a><a class="sticky-whatsapp" data-sales="84921909928" href="https://wa.me/84921909928">WhatsApp consultation &rarr;</a></aside>'
+    page = re.sub(r'<a class="floating-consult".*?</a>', lambda _: sticky, page, count=1, flags=re.S)
+    return page.replace('product-detail.css?v=1', 'product-detail.css?v=3').replace('product-detail.js?v=1', 'product-detail.js?v=3')
 
 
 def migrate():
