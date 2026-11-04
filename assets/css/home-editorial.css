@@ -33,3 +33,4 @@
 @keyframes hs-banner-arrive{from{opacity:.3}to{opacity:1}}
 @media(max-width:760px){.hs-intro-heading{font-size:27px}.hs-service-points{grid-template-columns:repeat(2,minmax(0,1fr));gap:20px 0}.hs-service-points>div{padding:0 12px}.hs-service-points>div:nth-child(2){border-right:0}.new-home .hs-introduction .hs-banner-description{font-size:13px}.new-home .hs-introduction .hs-banner-content h1{font-size:12px}}
 @media(prefers-reduced-motion:reduce){.new-home .hs-editorial-hero .hs-banner-image{animation:none}.hs-banner-actions a span{transition:none;transform:none}}
+@media(max-width:760px){.new-home .hs-editorial-hero{margin-top:78px}}
