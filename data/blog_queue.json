@@ -1865,14 +1865,16 @@
       "decision": "compare two supplier quotations",
       "deliverable": "a hypothetical two-quote comparison with unknown costs marked explicitly",
       "verified_facts": [],
-      "status": "pending",
-      "image": "../assets/images/How to evaluate wholesale partners Image.jpg",
+      "status": "published",
+      "image": "../assets/images/Allergan 50 unit lọ bên trong.jfif",
       "primary_keyword": "Comparing Aesthetic Wholesale Quotes wholesale",
       "secondary_keywords": [
         "Comparing Aesthetic Wholesale Quotes quotation requirements",
         "Comparing Aesthetic Wholesale Quotes receiving checklist"
       ],
-      "search_intent": "compare two supplier quotations"
+      "search_intent": "compare two supplier quotations",
+      "slug": "comparing-aesthetic-wholesale-quotes-unit-cost-freight-and-unconfirmed-charges",
+      "published_at": "2026-11-04T14:14:37.282661+00:00"
     },
     {
       "title": "Batch and Expiry Records: A Receiving Checklist for Aesthetic Clinic Buyers",
@@ -3735,6 +3737,11 @@
       "title": "Clinic Wholesale RFQ: How to Specify Products, Quantities and Acceptance Criteria",
       "slug": "clinic-wholesale-rfq-how-to-specify-products-quantities-and-acceptance-criteri",
       "published_at": "2026-11-03T19:02:43.690343+00:00"
+    },
+    {
+      "title": "Comparing Aesthetic Wholesale Quotes: Unit Cost, Freight and Unconfirmed Charges",
+      "slug": "comparing-aesthetic-wholesale-quotes-unit-cost-freight-and-unconfirmed-charges",
+      "published_at": "2026-11-04T14:14:37.282661+00:00"
     }
   ]
 }
