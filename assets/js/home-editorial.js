@@ -8,7 +8,8 @@
       const max = journal.scrollWidth - journal.clientWidth;
       prev.disabled = journal.scrollLeft < 2;
       next.disabled = journal.scrollLeft >= max - 2;
-      bar.style.width = `${max > 0 ? 33 + 67 * journal.scrollLeft / max : 100}%`;
+      const visible = Math.min(100, 100 * journal.clientWidth / journal.scrollWidth);
+      bar.style.width = `${max > 0 ? visible + (100 - visible) * journal.scrollLeft / max : 100}%`;
     };
     const moveJournal = direction => journal.scrollBy({left: direction * (journal.firstElementChild.getBoundingClientRect().width + 20), behavior: matchMedia('(prefers-reduced-motion: reduce)').matches ? 'instant' : 'smooth'});
     prev.addEventListener('click', () => moveJournal(-1));
