@@ -48,8 +48,8 @@
     window.addEventListener('resize', schedule);
     updateStep();
   }
-  if (window.matchMedia('(prefers-reduced-motion: reduce)').matches || !('IntersectionObserver' in window)) return;
-  document.documentElement.classList.add('hs-motion-ready');
+  if (!('IntersectionObserver' in window)) return;
+  const reducedMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
   const stats = document.querySelector('.trust-stats');
   if (stats) {
     const counterObserver = new IntersectionObserver(entries => {
@@ -67,7 +67,7 @@
           const target = Number(match[1]);
           const start = performance.now() + index * 100;
           const tick = now => {
-            const progress = Math.max(0, Math.min(1, (now - start) / 1400));
+            const progress = Math.max(0, Math.min(1, (now - start) / (reducedMotion ? 900 : 1800)));
             visual.textContent = `${Math.round(target * (1 - Math.pow(1 - progress, 3)))}${match[2]}`;
             if (progress < 1) requestAnimationFrame(tick);
           };
@@ -85,6 +85,8 @@
     }, { threshold: 0.35 });
     counterObserver.observe(stats);
   }
+  if (reducedMotion) return;
+  document.documentElement.classList.add('hs-motion-ready');
   const observer = new IntersectionObserver(entries => entries.forEach(entry => {
     if (entry.isIntersecting) { entry.target.classList.add('is-visible'); observer.unobserve(entry.target); }
   }), { threshold: 0.08 });
