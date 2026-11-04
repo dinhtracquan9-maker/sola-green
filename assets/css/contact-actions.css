@@ -1,10 +1,13 @@
-.contact-page .pricelist-help{margin-top:20px;padding:20px;background:#f2ecdf;border:1px solid #ded1ba;border-radius:12px;color:#294631}
+body.contact-page .pricelist-right{background:#efe5d4;border-color:#dccbb0}
+body.contact-page .contact-channel-grid .channel-card{background:#fff;border-color:#d7e1d9}
+.contact-page .pricelist-help{margin-top:20px;padding:20px;background:#f6faf6;border:1px solid #bad1bf;border-left:3px solid #287c4c;border-radius:12px;color:#294631}
 .contact-page .pricelist-help b{display:block;font-size:14px;margin:10px 0 6px}
 .contact-page .pricelist-help p{font-size:12px;line-height:1.7;margin:0 0 14px;color:#626951}
-.contact-page .contact-help-icon{display:grid;place-items:center;width:30px;height:30px;background:#e2d4ba;border-radius:50%;font-size:18px}
-.contact-page .pricelist-help .btn{background:#dfcaa5;color:#26402c;border:1px solid #ccb58e;border-radius:6px;font-size:12px;gap:10px;min-height:40px;transition:transform .2s,box-shadow .2s}
-body.contact-page .channel-actions .contact-korea{background:#dfcaa5;color:#203e2b;border-color:#c8af85;box-shadow:0 5px 14px #7c67451a}
-body.contact-page .channel-actions .contact-vietnam{background:#f2eadc;color:#294a35;border-color:#dac9ac}
+.contact-page .contact-help-icon{display:grid;place-items:center;width:30px;height:30px;background:#dcecdf;border-radius:50%;font-size:18px}
+.contact-page .pricelist-help .btn{background:#195c37;color:#fff;border:1px solid #195c37;border-radius:6px;font-size:12px;gap:10px;min-height:40px;transition:transform .2s,box-shadow .2s}
+body.contact-page .channel-actions .contact-korea{background:#125c36;color:#fff;border-color:#125c36;box-shadow:0 5px 14px #15553320}
+body.contact-page .channel-actions .contact-vietnam{background:#33734e;color:#fff;border-color:#33734e}
+body.contact-page .contact-korea:before{display:none}
 .contact-page .channel-actions .btn:hover,.contact-page .pricelist-help .btn:hover{transform:scale(1.035);box-shadow:0 8px 18px #6c5a3820}
 .contact-page .channel-actions .btn:active,.contact-page .pricelist-help .btn:active{transform:scale(.97)}
 body.contact-page .contact-platform-icon{display:inline-flex;align-items:center;justify-content:center;width:20px;height:20px;min-width:20px;flex:0 0 20px;margin:0 8px 0 0;line-height:1;font-size:18px;transition:transform .2s}
@@ -12,6 +15,8 @@ body.contact-page .contact-platform-icon svg{display:block;width:20px!important;
 body.contact-page .channel-links a{display:inline-flex;align-items:center;min-height:44px;transition:transform .2s,color .2s;transform-origin:left center}
 .contact-page .channel-links a:hover{transform:scale(1.06);color:#125b35}
 .contact-page .channel-links a:hover .contact-platform-icon{transform:scale(1.12)}
+.contact-page .channel-links a:active{transform:scale(.97)}
+.contact-page .channel-links a:active .contact-platform-icon{transform:scale(.94)}
 .contact-page .contact-channel-grid .channel-icon{transition:transform .2s}
 .contact-page .contact-channel-grid .channel-card:hover>.channel-icon{transform:scale(1.08)}
 @media(prefers-reduced-motion:reduce){body.contact-page .channel-links a,body.contact-page .contact-platform-icon,.contact-page .contact-channel-grid .channel-icon,.contact-page .pricelist-help .btn{transition:none}.contact-page .channel-actions .btn:hover,.contact-page .pricelist-help .btn:hover,.contact-page .channel-links a:hover,.contact-page .channel-links a:hover .contact-platform-icon,.contact-page .contact-channel-grid .channel-card:hover>.channel-icon{transform:none}}
