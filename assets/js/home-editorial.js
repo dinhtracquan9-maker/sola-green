@@ -4,7 +4,12 @@
     const previous = document.querySelector('[data-buyer-prev]');
     const next = document.querySelector('[data-buyer-next]');
     const progress = document.querySelector('.hs-buyer-progress span');
-    const move = direction => buyerTrack.scrollBy({ left: direction * (buyerTrack.firstElementChild.offsetWidth + 16), behavior: window.matchMedia('(prefers-reduced-motion: reduce)').matches ? 'instant' : 'smooth' });
+    const move = direction => {
+      const cards = [...buyerTrack.children];
+      const current = cards.reduce((best, card, i) => Math.abs(card.offsetLeft - buyerTrack.offsetLeft - buyerTrack.scrollLeft) < Math.abs(cards[best].offsetLeft - buyerTrack.offsetLeft - buyerTrack.scrollLeft) ? i : best, 0);
+      const target = cards[Math.max(0, Math.min(cards.length - 1, current + direction))];
+      buyerTrack.scrollTo({ left: target.offsetLeft - buyerTrack.offsetLeft, behavior: window.matchMedia('(prefers-reduced-motion: reduce)').matches ? 'instant' : 'smooth' });
+    };
     const sync = () => {
       const max = buyerTrack.scrollWidth - buyerTrack.clientWidth;
       previous.disabled = buyerTrack.scrollLeft < 2;
