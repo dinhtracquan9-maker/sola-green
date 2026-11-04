@@ -6,7 +6,7 @@
     const updateStep = () => {
       pending = false;
       let active = 0;
-      const line = Math.min(window.innerHeight * 0.45, 360);
+      const line = window.innerWidth > 760 ? 220 : 180;
       stories.forEach((story, index) => {
         if (story.getBoundingClientRect().top <= line) active = index;
       });
