@@ -1,4 +1,25 @@
 (() => {
+  const buyerTrack = document.querySelector('.hs-buyer-track');
+  if (buyerTrack) {
+    const previous = document.querySelector('[data-buyer-prev]');
+    const next = document.querySelector('[data-buyer-next]');
+    const progress = document.querySelector('.hs-buyer-progress span');
+    const move = direction => buyerTrack.scrollBy({ left: direction * (buyerTrack.firstElementChild.offsetWidth + 16), behavior: window.matchMedia('(prefers-reduced-motion: reduce)').matches ? 'instant' : 'smooth' });
+    const sync = () => {
+      const max = buyerTrack.scrollWidth - buyerTrack.clientWidth;
+      previous.disabled = buyerTrack.scrollLeft < 2;
+      next.disabled = buyerTrack.scrollLeft >= max - 2;
+      progress.style.width = `${max > 0 ? 25 + 75 * buyerTrack.scrollLeft / max : 100}%`;
+    };
+    previous.addEventListener('click', () => move(-1));
+    next.addEventListener('click', () => move(1));
+    buyerTrack.addEventListener('scroll', sync, { passive: true });
+    buyerTrack.addEventListener('keydown', event => {
+      if (event.key === 'ArrowRight' || event.key === 'ArrowLeft') { event.preventDefault(); move(event.key === 'ArrowRight' ? 1 : -1); }
+    });
+    window.addEventListener('resize', sync);
+    sync();
+  }
   const stories = [...document.querySelectorAll('.hs-story')];
   const steps = [...document.querySelectorAll('.hs-story-steps a')];
   if (stories.length && steps.length) {
