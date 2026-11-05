@@ -1922,14 +1922,16 @@
       "decision": "choose reorder quantities",
       "deliverable": "a hypothetical stock-coverage calculation with stated assumptions",
       "verified_facts": [],
-      "status": "pending",
-      "image": "../assets/images/How to evaluate wholesale partners Image.jpg",
+      "status": "published",
+      "image": "../assets/images/about/operations/bulk-inventory.jpg",
       "primary_keyword": "Clinic Reordering wholesale",
       "secondary_keywords": [
         "Clinic Reordering quotation requirements",
         "Clinic Reordering receiving checklist"
       ],
-      "search_intent": "choose reorder quantities"
+      "search_intent": "choose reorder quantities",
+      "slug": "clinic-reordering-planning-stock-coverage-without-overbuying-short-dated-items",
+      "published_at": "2026-11-05T14:28:11.294453+00:00"
     },
     {
       "title": "First Wholesale Order: A Pilot Purchase Scorecard for Professional Buyers",
@@ -3756,6 +3758,11 @@
       "title": "Mixed Product Wholesale Orders: Building a Clear Packing and Reconciliation List",
       "slug": "mixed-product-wholesale-orders-building-a-clear-packing-and-reconciliation-lis",
       "published_at": "2026-11-05T07:50:07.964896+00:00"
+    },
+    {
+      "title": "Clinic Reordering: Planning Stock Coverage Without Overbuying Short-Dated Items",
+      "slug": "clinic-reordering-planning-stock-coverage-without-overbuying-short-dated-items",
+      "published_at": "2026-11-05T14:28:11.294453+00:00"
     }
   ]
 }
