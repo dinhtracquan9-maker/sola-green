@@ -1941,14 +1941,16 @@
       "decision": "evaluate a pilot order",
       "deliverable": "a weighted scorecard covering communication, documents and order accuracy",
       "verified_facts": [],
-      "status": "pending",
-      "image": "../assets/images/How to evaluate wholesale partners Image.jpg",
+      "status": "published",
+      "image": "../assets/images/about/operations/order-detail.jpg",
       "primary_keyword": "First Wholesale Order wholesale",
       "secondary_keywords": [
         "First Wholesale Order quotation requirements",
         "First Wholesale Order receiving checklist"
       ],
-      "search_intent": "evaluate a pilot order"
+      "search_intent": "evaluate a pilot order",
+      "slug": "first-wholesale-order-a-pilot-purchase-scorecard-for-professional-buyers",
+      "published_at": "2026-11-05T19:24:44.485193+00:00"
     },
     {
       "title": "Product Variant Verification: Preventing Name and Pack-Size Errors in Wholesale Orders",
@@ -3763,6 +3765,11 @@
       "title": "Clinic Reordering: Planning Stock Coverage Without Overbuying Short-Dated Items",
       "slug": "clinic-reordering-planning-stock-coverage-without-overbuying-short-dated-items",
       "published_at": "2026-11-05T14:28:11.294453+00:00"
+    },
+    {
+      "title": "First Wholesale Order: A Pilot Purchase Scorecard for Professional Buyers",
+      "slug": "first-wholesale-order-a-pilot-purchase-scorecard-for-professional-buyers",
+      "published_at": "2026-11-05T19:24:44.485193+00:00"
     }
   ]
 }
