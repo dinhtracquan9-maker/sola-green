@@ -1903,14 +1903,16 @@
       "decision": "reconcile a mixed order",
       "deliverable": "a line-item reconciliation workflow and discrepancy report template",
       "verified_facts": [],
-      "status": "pending",
-      "image": "../assets/images/How to evaluate wholesale partners Image.jpg",
+      "status": "published",
+      "image": "../assets/images/about/operations/packing-team.jpg",
       "primary_keyword": "Mixed Product Wholesale Orders wholesale",
       "secondary_keywords": [
         "Mixed Product Wholesale Orders quotation requirements",
         "Mixed Product Wholesale Orders receiving checklist"
       ],
-      "search_intent": "reconcile a mixed order"
+      "search_intent": "reconcile a mixed order",
+      "slug": "mixed-product-wholesale-orders-building-a-clear-packing-and-reconciliation-lis",
+      "published_at": "2026-11-05T07:50:07.964896+00:00"
     },
     {
       "title": "Clinic Reordering: Planning Stock Coverage Without Overbuying Short-Dated Items",
@@ -3749,6 +3751,11 @@
       "title": "Batch and Expiry Records: A Receiving Checklist for Aesthetic Clinic Buyers",
       "slug": "batch-and-expiry-records-a-receiving-checklist-for-aesthetic-clinic-buyers",
       "published_at": "2026-11-04T19:16:03.459310+00:00"
+    },
+    {
+      "title": "Mixed Product Wholesale Orders: Building a Clear Packing and Reconciliation List",
+      "slug": "mixed-product-wholesale-orders-building-a-clear-packing-and-reconciliation-lis",
+      "published_at": "2026-11-05T07:50:07.964896+00:00"
     }
   ]
 }
