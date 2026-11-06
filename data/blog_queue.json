@@ -1979,14 +1979,16 @@
       "decision": "clarify responsibilities before dispatch",
       "deliverable": "a checklist of responsibilities, tracking and exception handling without delivery promises",
       "verified_facts": [],
-      "status": "pending",
-      "image": "../assets/images/How to evaluate wholesale partners Image.jpg",
+      "status": "published",
+      "image": "../assets/images/hanseong-guide-questions.jpg",
       "primary_keyword": "Shipment Handover Records wholesale",
       "secondary_keywords": [
         "Shipment Handover Records quotation requirements",
         "Shipment Handover Records receiving checklist"
       ],
-      "search_intent": "clarify responsibilities before dispatch"
+      "search_intent": "clarify responsibilities before dispatch",
+      "slug": "shipment-handover-records-questions-to-resolve-before-wholesale-dispatch",
+      "published_at": "2026-11-06T14:05:56.117236+00:00"
     },
     {
       "title": "Wholesale Delivery Discrepancies: Recording Missing, Damaged or Incorrect Items",
@@ -3777,6 +3779,11 @@
       "title": "Product Variant Verification: Preventing Name and Pack-Size Errors in Wholesale Orders",
       "slug": "product-variant-verification-preventing-name-and-pack-size-errors-in-wholesale",
       "published_at": "2026-11-06T07:50:51.679035+00:00"
+    },
+    {
+      "title": "Shipment Handover Records: Questions to Resolve Before Wholesale Dispatch",
+      "slug": "shipment-handover-records-questions-to-resolve-before-wholesale-dispatch",
+      "published_at": "2026-11-06T14:05:56.117236+00:00"
     }
   ]
 }
