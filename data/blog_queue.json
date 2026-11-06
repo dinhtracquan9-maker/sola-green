@@ -1998,14 +1998,16 @@
       "decision": "document an order discrepancy",
       "deliverable": "a discrepancy report and evidence checklist without promising remedies",
       "verified_facts": [],
-      "status": "pending",
+      "status": "published",
       "image": "../assets/images/How to evaluate wholesale partners Image.jpg",
       "primary_keyword": "Wholesale Delivery Discrepancies wholesale",
       "secondary_keywords": [
         "Wholesale Delivery Discrepancies quotation requirements",
         "Wholesale Delivery Discrepancies receiving checklist"
       ],
-      "search_intent": "document an order discrepancy"
+      "search_intent": "document an order discrepancy",
+      "slug": "wholesale-delivery-discrepancies-recording-missing-damaged-or-incorrect-items",
+      "published_at": "2026-11-06T18:48:24.710748+00:00"
     },
     {
       "title": "Revolax Wholesale: RFQ Specification for Professional Buyers",
@@ -3784,6 +3786,11 @@
       "title": "Shipment Handover Records: Questions to Resolve Before Wholesale Dispatch",
       "slug": "shipment-handover-records-questions-to-resolve-before-wholesale-dispatch",
       "published_at": "2026-11-06T14:05:56.117236+00:00"
+    },
+    {
+      "title": "Wholesale Delivery Discrepancies: Recording Missing, Damaged or Incorrect Items",
+      "slug": "wholesale-delivery-discrepancies-recording-missing-damaged-or-incorrect-items",
+      "published_at": "2026-11-06T18:48:24.710748+00:00"
     }
   ]
 }
