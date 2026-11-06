@@ -1960,14 +1960,16 @@
       "decision": "confirm the exact SKU before payment",
       "deliverable": "a product-identity confirmation form without invented specifications",
       "verified_facts": [],
-      "status": "pending",
-      "image": "../assets/images/How to evaluate wholesale partners Image.jpg",
+      "status": "published",
+      "image": "../assets/images/journal-shipping-orders.jpg",
       "primary_keyword": "Product Variant Verification wholesale",
       "secondary_keywords": [
         "Product Variant Verification quotation requirements",
         "Product Variant Verification receiving checklist"
       ],
-      "search_intent": "confirm the exact SKU before payment"
+      "search_intent": "confirm the exact SKU before payment",
+      "slug": "product-variant-verification-preventing-name-and-pack-size-errors-in-wholesale",
+      "published_at": "2026-11-06T07:50:51.679035+00:00"
     },
     {
       "title": "Shipment Handover Records: Questions to Resolve Before Wholesale Dispatch",
@@ -3770,6 +3772,11 @@
       "title": "First Wholesale Order: A Pilot Purchase Scorecard for Professional Buyers",
       "slug": "first-wholesale-order-a-pilot-purchase-scorecard-for-professional-buyers",
       "published_at": "2026-11-05T19:24:44.485193+00:00"
+    },
+    {
+      "title": "Product Variant Verification: Preventing Name and Pack-Size Errors in Wholesale Orders",
+      "slug": "product-variant-verification-preventing-name-and-pack-size-errors-in-wholesale",
+      "published_at": "2026-11-06T07:50:51.679035+00:00"
     }
   ]
 }
