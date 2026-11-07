@@ -2045,15 +2045,17 @@
         "Catalogue category: Dermal Fillers"
       ],
       "sources": [],
-      "status": "pending",
-      "image": "../assets/images/products/filler/revolax.jpg",
+      "status": "published",
+      "image": "../assets/images/Luhilo snow and nomal.jfif",
       "product_url": "../products/revolax.html",
       "primary_keyword": "Revolax Wholesale wholesale",
       "secondary_keywords": [
         "Revolax Wholesale quotation requirements",
         "Revolax Wholesale receiving checklist"
       ],
-      "search_intent": "document receipt and plan repeat purchasing"
+      "search_intent": "document receipt and plan repeat purchasing",
+      "slug": "revolax-wholesale-receiving-and-reorder-records-for-professional-buyers",
+      "published_at": "2026-11-07T12:49:07.302535+00:00"
     },
     {
       "title": "Neuramis Wholesale: RFQ Specification for Professional Buyers",
@@ -3798,6 +3800,11 @@
       "title": "Revolax Wholesale: RFQ Specification for Professional Buyers",
       "slug": "revolax-wholesale-rfq-specification-for-professional-buyers",
       "published_at": "2026-11-07T06:58:13.044022+00:00"
+    },
+    {
+      "title": "Revolax Wholesale: Receiving and Reorder Records for Professional Buyers",
+      "slug": "revolax-wholesale-receiving-and-reorder-records-for-professional-buyers",
+      "published_at": "2026-11-07T12:49:07.302535+00:00"
     }
   ]
 }
