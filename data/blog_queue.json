@@ -2021,7 +2021,7 @@
         "Catalogue category: Dermal Fillers"
       ],
       "sources": [],
-      "status": "pending",
+      "status": "published",
       "image": "../assets/images/products/filler/revolax.jpg",
       "product_url": "../products/revolax.html",
       "primary_keyword": "Revolax Wholesale wholesale",
@@ -2029,7 +2029,9 @@
         "Revolax Wholesale quotation requirements",
         "Revolax Wholesale receiving checklist"
       ],
-      "search_intent": "prepare an exact product request"
+      "search_intent": "prepare an exact product request",
+      "slug": "revolax-wholesale-rfq-specification-for-professional-buyers",
+      "published_at": "2026-11-07T06:58:13.044022+00:00"
     },
     {
       "title": "Revolax Wholesale: Receiving and Reorder Records for Professional Buyers",
@@ -3791,6 +3793,11 @@
       "title": "Wholesale Delivery Discrepancies: Recording Missing, Damaged or Incorrect Items",
       "slug": "wholesale-delivery-discrepancies-recording-missing-damaged-or-incorrect-items",
       "published_at": "2026-11-06T18:48:24.710748+00:00"
+    },
+    {
+      "title": "Revolax Wholesale: RFQ Specification for Professional Buyers",
+      "slug": "revolax-wholesale-rfq-specification-for-professional-buyers",
+      "published_at": "2026-11-07T06:58:13.044022+00:00"
     }
   ]
 }
