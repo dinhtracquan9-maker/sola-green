@@ -2093,15 +2093,17 @@
         "Catalogue category: Dermal Fillers"
       ],
       "sources": [],
-      "status": "pending",
-      "image": "../assets/images/products/filler/neuramis.jpg",
+      "status": "published",
+      "image": "../assets/images/Luhilo snow and nomal.jfif",
       "product_url": "../products/neuramis.html",
       "primary_keyword": "Neuramis Wholesale wholesale",
       "secondary_keywords": [
         "Neuramis Wholesale quotation requirements",
         "Neuramis Wholesale receiving checklist"
       ],
-      "search_intent": "document receipt and plan repeat purchasing"
+      "search_intent": "document receipt and plan repeat purchasing",
+      "slug": "neuramis-wholesale-receiving-and-reorder-records-for-professional-buyers",
+      "published_at": "2026-11-08T07:05:29.066609+00:00"
     },
     {
       "title": "Juvederm Voluma Wholesale: RFQ Specification for Professional Buyers",
@@ -3812,6 +3814,11 @@
       "title": "Neuramis Wholesale: RFQ Specification for Professional Buyers",
       "slug": "neuramis-wholesale-rfq-specification-for-professional-buyers",
       "published_at": "2026-11-07T17:20:09.407011+00:00"
+    },
+    {
+      "title": "Neuramis Wholesale: Receiving and Reorder Records for Professional Buyers",
+      "slug": "neuramis-wholesale-receiving-and-reorder-records-for-professional-buyers",
+      "published_at": "2026-11-08T07:05:29.066609+00:00"
     }
   ]
 }
