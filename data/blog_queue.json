@@ -2165,7 +2165,7 @@
         "Catalogue category: Dermal Fillers"
       ],
       "sources": [],
-      "status": "pending",
+      "status": "published",
       "image": "../assets/images/products/filler/restylane-kysse.jpg",
       "product_url": "../products/restylane-kysse.html",
       "primary_keyword": "Restylane Kysse Wholesale wholesale",
@@ -2173,7 +2173,9 @@
         "Restylane Kysse Wholesale quotation requirements",
         "Restylane Kysse Wholesale receiving checklist"
       ],
-      "search_intent": "prepare an exact product request"
+      "search_intent": "prepare an exact product request",
+      "slug": "restylane-kysse-wholesale-rfq-specification-for-professional-buyers",
+      "published_at": "2026-11-09T21:52:40.505968+00:00"
     },
     {
       "title": "Restylane Kysse Wholesale: Receiving and Reorder Records for Professional Buyers",
@@ -3833,6 +3835,11 @@
       "title": "Juvederm Voluma Wholesale: Receiving and Reorder Records for Professional Buyers",
       "slug": "juvederm-voluma-wholesale-receiving-and-reorder-records-for-professional-buyer",
       "published_at": "2026-11-09T15:55:05.409798+00:00"
+    },
+    {
+      "title": "Restylane Kysse Wholesale: RFQ Specification for Professional Buyers",
+      "slug": "restylane-kysse-wholesale-rfq-specification-for-professional-buyers",
+      "published_at": "2026-11-09T21:52:40.505968+00:00"
     }
   ]
 }
