@@ -2117,15 +2117,17 @@
         "Catalogue category: Dermal Fillers"
       ],
       "sources": [],
-      "status": "pending",
-      "image": "../assets/images/products/filler/juvederm-voluma.jpg",
+      "status": "published",
+      "image": "../assets/images/Juvederm anh dep 1.jpg",
       "product_url": "../products/juvederm-voluma.html",
       "primary_keyword": "Juvederm Voluma Wholesale wholesale",
       "secondary_keywords": [
         "Juvederm Voluma Wholesale quotation requirements",
         "Juvederm Voluma Wholesale receiving checklist"
       ],
-      "search_intent": "prepare an exact product request"
+      "search_intent": "prepare an exact product request",
+      "slug": "juvederm-voluma-wholesale-rfq-specification-for-professional-buyers",
+      "published_at": "2026-11-09T07:49:41.855744+00:00"
     },
     {
       "title": "Juvederm Voluma Wholesale: Receiving and Reorder Records for Professional Buyers",
@@ -3819,6 +3821,11 @@
       "title": "Neuramis Wholesale: Receiving and Reorder Records for Professional Buyers",
       "slug": "neuramis-wholesale-receiving-and-reorder-records-for-professional-buyers",
       "published_at": "2026-11-08T07:05:29.066609+00:00"
+    },
+    {
+      "title": "Juvederm Voluma Wholesale: RFQ Specification for Professional Buyers",
+      "slug": "juvederm-voluma-wholesale-rfq-specification-for-professional-buyers",
+      "published_at": "2026-11-09T07:49:41.855744+00:00"
     }
   ]
 }
