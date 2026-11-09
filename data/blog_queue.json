@@ -2141,15 +2141,17 @@
         "Catalogue category: Dermal Fillers"
       ],
       "sources": [],
-      "status": "pending",
-      "image": "../assets/images/products/filler/juvederm-voluma.jpg",
+      "status": "published",
+      "image": "../assets/images/Juvederm anh dep 1.jpg",
       "product_url": "../products/juvederm-voluma.html",
       "primary_keyword": "Juvederm Voluma Wholesale wholesale",
       "secondary_keywords": [
         "Juvederm Voluma Wholesale quotation requirements",
         "Juvederm Voluma Wholesale receiving checklist"
       ],
-      "search_intent": "document receipt and plan repeat purchasing"
+      "search_intent": "document receipt and plan repeat purchasing",
+      "slug": "juvederm-voluma-wholesale-receiving-and-reorder-records-for-professional-buyer",
+      "published_at": "2026-11-09T15:55:05.409798+00:00"
     },
     {
       "title": "Restylane Kysse Wholesale: RFQ Specification for Professional Buyers",
@@ -3826,6 +3828,11 @@
       "title": "Juvederm Voluma Wholesale: RFQ Specification for Professional Buyers",
       "slug": "juvederm-voluma-wholesale-rfq-specification-for-professional-buyers",
       "published_at": "2026-11-09T07:49:41.855744+00:00"
+    },
+    {
+      "title": "Juvederm Voluma Wholesale: Receiving and Reorder Records for Professional Buyers",
+      "slug": "juvederm-voluma-wholesale-receiving-and-reorder-records-for-professional-buyer",
+      "published_at": "2026-11-09T15:55:05.409798+00:00"
     }
   ]
 }
