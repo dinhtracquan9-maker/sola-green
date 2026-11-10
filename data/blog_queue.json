@@ -2213,15 +2213,17 @@
         "Catalogue category: Biostimulator"
       ],
       "sources": [],
-      "status": "pending",
-      "image": "../assets/images/products/filler/sculptra.jpg",
+      "status": "published",
+      "image": "../assets/images/Sculptra Image 1.jpg",
       "product_url": "../products/sculptra.html",
       "primary_keyword": "Sculptra Wholesale wholesale",
       "secondary_keywords": [
         "Sculptra Wholesale quotation requirements",
         "Sculptra Wholesale receiving checklist"
       ],
-      "search_intent": "prepare an exact product request"
+      "search_intent": "prepare an exact product request",
+      "slug": "sculptra-wholesale-rfq-specification-for-professional-buyers",
+      "published_at": "2026-11-10T14:43:22.225676+00:00"
     },
     {
       "title": "Sculptra Wholesale: Receiving and Reorder Records for Professional Buyers",
@@ -3847,6 +3849,11 @@
       "title": "Restylane Kysse Wholesale: Receiving and Reorder Records for Professional Buyers",
       "slug": "restylane-kysse-wholesale-receiving-and-reorder-records-for-professional-buyer",
       "published_at": "2026-11-10T08:10:48.942284+00:00"
+    },
+    {
+      "title": "Sculptra Wholesale: RFQ Specification for Professional Buyers",
+      "slug": "sculptra-wholesale-rfq-specification-for-professional-buyers",
+      "published_at": "2026-11-10T14:43:22.225676+00:00"
     }
   ]
 }
