@@ -2261,15 +2261,17 @@
         "Catalogue category: Skin Boosters / PN"
       ],
       "sources": [],
-      "status": "pending",
-      "image": "../assets/images/products/skin-booster-meso/profhilo.jpg",
+      "status": "published",
+      "image": "../assets/images/Profhilo Image 2.jpg",
       "product_url": "../products/profhilo.html",
       "primary_keyword": "Profhilo Wholesale wholesale",
       "secondary_keywords": [
         "Profhilo Wholesale quotation requirements",
         "Profhilo Wholesale receiving checklist"
       ],
-      "search_intent": "prepare an exact product request"
+      "search_intent": "prepare an exact product request",
+      "slug": "profhilo-wholesale-rfq-specification-for-professional-buyers",
+      "published_at": "2026-11-11T07:39:09.650537+00:00"
     },
     {
       "title": "Profhilo Wholesale: Receiving and Reorder Records for Professional Buyers",
@@ -3861,6 +3863,11 @@
       "title": "Sculptra Wholesale: Receiving and Reorder Records for Professional Buyers",
       "slug": "sculptra-wholesale-receiving-and-reorder-records-for-professional-buyers",
       "published_at": "2026-11-10T19:14:17.090895+00:00"
+    },
+    {
+      "title": "Profhilo Wholesale: RFQ Specification for Professional Buyers",
+      "slug": "profhilo-wholesale-rfq-specification-for-professional-buyers",
+      "published_at": "2026-11-11T07:39:09.650537+00:00"
     }
   ]
 }
