@@ -2309,15 +2309,17 @@
         "Catalogue category: Skin Boosters / PN"
       ],
       "sources": [],
-      "status": "pending",
-      "image": "../assets/images/products/skin-booster-meso/rejuran-healer.jpg",
+      "status": "published",
+      "image": "../assets/images/Rejuran Healer 1.png",
       "product_url": "../products/rejuran-healer.html",
       "primary_keyword": "Rejuran Healer Wholesale wholesale",
       "secondary_keywords": [
         "Rejuran Healer Wholesale quotation requirements",
         "Rejuran Healer Wholesale receiving checklist"
       ],
-      "search_intent": "prepare an exact product request"
+      "search_intent": "prepare an exact product request",
+      "slug": "rejuran-healer-wholesale-rfq-specification-for-professional-buyers",
+      "published_at": "2026-11-11T19:10:48.310470+00:00"
     },
     {
       "title": "Rejuran Healer Wholesale: Receiving and Reorder Records for Professional Buyers",
@@ -3875,6 +3877,11 @@
       "title": "Profhilo Wholesale: Receiving and Reorder Records for Professional Buyers",
       "slug": "profhilo-wholesale-receiving-and-reorder-records-for-professional-buyers",
       "published_at": "2026-11-11T13:58:16.023353+00:00"
+    },
+    {
+      "title": "Rejuran Healer Wholesale: RFQ Specification for Professional Buyers",
+      "slug": "rejuran-healer-wholesale-rfq-specification-for-professional-buyers",
+      "published_at": "2026-11-11T19:10:48.310470+00:00"
     }
   ]
 }
