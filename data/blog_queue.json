@@ -2357,7 +2357,7 @@
         "Catalogue category: Skin Boosters / PN"
       ],
       "sources": [],
-      "status": "pending",
+      "status": "published",
       "image": "../assets/images/products/skin-booster-meso/jalupro-hmw.jpg",
       "product_url": "../products/jalupro-hmw.html",
       "primary_keyword": "Jalupro HMW Wholesale wholesale",
@@ -2365,7 +2365,9 @@
         "Jalupro HMW Wholesale quotation requirements",
         "Jalupro HMW Wholesale receiving checklist"
       ],
-      "search_intent": "prepare an exact product request"
+      "search_intent": "prepare an exact product request",
+      "slug": "jalupro-hmw-wholesale-rfq-specification-for-professional-buyers",
+      "published_at": "2026-11-12T14:59:22.345745+00:00"
     },
     {
       "title": "Jalupro HMW Wholesale: Receiving and Reorder Records for Professional Buyers",
@@ -3889,6 +3891,11 @@
       "title": "Rejuran Healer Wholesale: Receiving and Reorder Records for Professional Buyers",
       "slug": "rejuran-healer-wholesale-receiving-and-reorder-records-for-professional-buyers",
       "published_at": "2026-11-12T08:07:44.812711+00:00"
+    },
+    {
+      "title": "Jalupro HMW Wholesale: RFQ Specification for Professional Buyers",
+      "slug": "jalupro-hmw-wholesale-rfq-specification-for-professional-buyers",
+      "published_at": "2026-11-12T14:59:22.345745+00:00"
     }
   ]
 }
