@@ -2381,15 +2381,17 @@
         "Catalogue category: Skin Boosters / PN"
       ],
       "sources": [],
-      "status": "pending",
-      "image": "../assets/images/products/skin-booster-meso/jalupro-hmw.jpg",
+      "status": "published",
+      "image": "../assets/images/Luhilo snow and nomal.jfif",
       "product_url": "../products/jalupro-hmw.html",
       "primary_keyword": "Jalupro HMW Wholesale wholesale",
       "secondary_keywords": [
         "Jalupro HMW Wholesale quotation requirements",
         "Jalupro HMW Wholesale receiving checklist"
       ],
-      "search_intent": "document receipt and plan repeat purchasing"
+      "search_intent": "document receipt and plan repeat purchasing",
+      "slug": "jalupro-hmw-wholesale-receiving-and-reorder-records-for-professional-buyers",
+      "published_at": "2026-11-12T19:28:54.070888+00:00"
     },
     {
       "title": "Botulax Wholesale: RFQ Specification for Professional Buyers",
@@ -3896,6 +3898,11 @@
       "title": "Jalupro HMW Wholesale: RFQ Specification for Professional Buyers",
       "slug": "jalupro-hmw-wholesale-rfq-specification-for-professional-buyers",
       "published_at": "2026-11-12T14:59:22.345745+00:00"
+    },
+    {
+      "title": "Jalupro HMW Wholesale: Receiving and Reorder Records for Professional Buyers",
+      "slug": "jalupro-hmw-wholesale-receiving-and-reorder-records-for-professional-buyers",
+      "published_at": "2026-11-12T19:28:54.070888+00:00"
     }
   ]
 }
