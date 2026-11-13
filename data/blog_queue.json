@@ -2453,15 +2453,17 @@
         "Catalogue category: Toxin"
       ],
       "sources": [],
-      "status": "pending",
-      "image": "../assets/images/products/botox/nabota.jpg",
+      "status": "published",
+      "image": "../assets/images/Nabota ảnh gốc 1.jpg",
       "product_url": "../products/nabota.html",
       "primary_keyword": "Nabota Wholesale wholesale",
       "secondary_keywords": [
         "Nabota Wholesale quotation requirements",
         "Nabota Wholesale receiving checklist"
       ],
-      "search_intent": "prepare an exact product request"
+      "search_intent": "prepare an exact product request",
+      "slug": "nabota-wholesale-rfq-specification-for-professional-buyers",
+      "published_at": "2026-11-13T19:06:59.790353+00:00"
     },
     {
       "title": "Nabota Wholesale: Receiving and Reorder Records for Professional Buyers",
@@ -3917,6 +3919,11 @@
       "title": "Botulax Wholesale: Receiving and Reorder Records for Professional Buyers",
       "slug": "botulax-wholesale-receiving-and-reorder-records-for-professional-buyers",
       "published_at": "2026-11-13T14:25:08.348815+00:00"
+    },
+    {
+      "title": "Nabota Wholesale: RFQ Specification for Professional Buyers",
+      "slug": "nabota-wholesale-rfq-specification-for-professional-buyers",
+      "published_at": "2026-11-13T19:06:59.790353+00:00"
     }
   ]
 }
