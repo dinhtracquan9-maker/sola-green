@@ -2429,15 +2429,17 @@
         "Catalogue category: Toxin"
       ],
       "sources": [],
-      "status": "pending",
-      "image": "../assets/images/products/botox/botulax.jpg",
+      "status": "published",
+      "image": "../assets/images/Botulax full Image.jpg",
       "product_url": "../products/botulax.html",
       "primary_keyword": "Botulax Wholesale wholesale",
       "secondary_keywords": [
         "Botulax Wholesale quotation requirements",
         "Botulax Wholesale receiving checklist"
       ],
-      "search_intent": "document receipt and plan repeat purchasing"
+      "search_intent": "document receipt and plan repeat purchasing",
+      "slug": "botulax-wholesale-receiving-and-reorder-records-for-professional-buyers",
+      "published_at": "2026-11-13T14:25:08.348815+00:00"
     },
     {
       "title": "Nabota Wholesale: RFQ Specification for Professional Buyers",
@@ -3910,6 +3912,11 @@
       "title": "Botulax Wholesale: RFQ Specification for Professional Buyers",
       "slug": "botulax-wholesale-rfq-specification-for-professional-buyers",
       "published_at": "2026-11-13T07:44:17.868583+00:00"
+    },
+    {
+      "title": "Botulax Wholesale: Receiving and Reorder Records for Professional Buyers",
+      "slug": "botulax-wholesale-receiving-and-reorder-records-for-professional-buyers",
+      "published_at": "2026-11-13T14:25:08.348815+00:00"
     }
   ]
 }
