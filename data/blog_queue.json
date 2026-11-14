@@ -2477,15 +2477,17 @@
         "Catalogue category: Toxin"
       ],
       "sources": [],
-      "status": "pending",
-      "image": "../assets/images/products/botox/nabota.jpg",
+      "status": "published",
+      "image": "../assets/images/Luhilo snow and nomal.jfif",
       "product_url": "../products/nabota.html",
       "primary_keyword": "Nabota Wholesale wholesale",
       "secondary_keywords": [
         "Nabota Wholesale quotation requirements",
         "Nabota Wholesale receiving checklist"
       ],
-      "search_intent": "document receipt and plan repeat purchasing"
+      "search_intent": "document receipt and plan repeat purchasing",
+      "slug": "nabota-wholesale-receiving-and-reorder-records-for-professional-buyers",
+      "published_at": "2026-11-14T13:21:30.059957+00:00"
     },
     {
       "title": "Xeomin Wholesale: RFQ Specification for Professional Buyers",
@@ -3924,6 +3926,11 @@
       "title": "Nabota Wholesale: RFQ Specification for Professional Buyers",
       "slug": "nabota-wholesale-rfq-specification-for-professional-buyers",
       "published_at": "2026-11-13T19:06:59.790353+00:00"
+    },
+    {
+      "title": "Nabota Wholesale: Receiving and Reorder Records for Professional Buyers",
+      "slug": "nabota-wholesale-receiving-and-reorder-records-for-professional-buyers",
+      "published_at": "2026-11-14T13:21:30.059957+00:00"
     }
   ]
 }
