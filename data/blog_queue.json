@@ -2501,15 +2501,17 @@
         "Catalogue category: Toxin"
       ],
       "sources": [],
-      "status": "pending",
-      "image": "../assets/images/products/botox/xeomin.jpg",
+      "status": "published",
+      "image": "../assets/images/Botox Xeomin Image.jpg",
       "product_url": "../products/xeomin.html",
       "primary_keyword": "Xeomin Wholesale wholesale",
       "secondary_keywords": [
         "Xeomin Wholesale quotation requirements",
         "Xeomin Wholesale receiving checklist"
       ],
-      "search_intent": "prepare an exact product request"
+      "search_intent": "prepare an exact product request",
+      "slug": "xeomin-wholesale-rfq-specification-for-professional-buyers",
+      "published_at": "2026-11-14T17:36:05.312315+00:00"
     },
     {
       "title": "Xeomin Wholesale: Receiving and Reorder Records for Professional Buyers",
@@ -3931,6 +3933,11 @@
       "title": "Nabota Wholesale: Receiving and Reorder Records for Professional Buyers",
       "slug": "nabota-wholesale-receiving-and-reorder-records-for-professional-buyers",
       "published_at": "2026-11-14T13:21:30.059957+00:00"
+    },
+    {
+      "title": "Xeomin Wholesale: RFQ Specification for Professional Buyers",
+      "slug": "xeomin-wholesale-rfq-specification-for-professional-buyers",
+      "published_at": "2026-11-14T17:36:05.312315+00:00"
     }
   ]
 }
