@@ -2554,15 +2554,17 @@
           "https://www.fda.gov.ph/fda-advisory-no-2023-2238-utilization-of-the-food-and-drug-administration-fda-verification-portal/"
         ]
       ],
-      "status": "pending",
-      "image": "../assets/images/How to evaluate wholesale partners Image.jpg",
+      "status": "published",
+      "image": "../assets/images/journal-rejuran-range.png",
       "primary_keyword": "Rejuran Wholesale Malaysia wholesale Philippines",
       "secondary_keywords": [
         "Rejuran Wholesale Malaysia supplier documentation Philippines",
         "Rejuran Wholesale Malaysia wholesale quotation checklist",
         "Rejuran Wholesale Malaysia product verification before ordering"
       ],
-      "search_intent": "commercial investigation by a professional buyer; eligibility and specifications require verification"
+      "search_intent": "commercial investigation by a professional buyer; eligibility and specifications require verification",
+      "slug": "rejuran-wholesale-philippines-a-variant-confirmation-worksheet",
+      "published_at": "2026-11-15T13:48:48.271837+00:00"
     },
     {
       "title": "Lipo Vela and Lipo Vela V: Avoiding Product-Name Errors in Malaysian Buyer RFQs",
@@ -3945,6 +3947,11 @@
       "title": "Xeomin Wholesale: Receiving and Reorder Records for Professional Buyers",
       "slug": "xeomin-wholesale-receiving-and-reorder-records-for-professional-buyers",
       "published_at": "2026-11-15T07:43:17.200566+00:00"
+    },
+    {
+      "title": "Rejuran Wholesale Philippines: A Variant Confirmation Worksheet",
+      "slug": "rejuran-wholesale-philippines-a-variant-confirmation-worksheet",
+      "published_at": "2026-11-15T13:48:48.271837+00:00"
     }
   ]
 }
