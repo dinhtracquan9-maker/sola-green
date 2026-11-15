@@ -2583,15 +2583,17 @@
           "https://www.npra.gov.my/index.php/en/consumers/reporting/quality-reporting-on-registered-product.html"
         ]
       ],
-      "status": "pending",
-      "image": "../assets/images/How to evaluate wholesale partners Image.jpg",
+      "status": "published",
+      "image": "../assets/images/Lipo vela V.jfif",
       "primary_keyword": "Lipo Vela and Lipo Vela V wholesale Malaysia",
       "secondary_keywords": [
         "Lipo Vela and Lipo Vela V supplier documentation Malaysia",
         "Lipo Vela and Lipo Vela V wholesale quotation checklist",
         "Lipo Vela and Lipo Vela V product verification before ordering"
       ],
-      "search_intent": "commercial investigation by a professional buyer; eligibility and specifications require verification"
+      "search_intent": "commercial investigation by a professional buyer; eligibility and specifications require verification",
+      "slug": "lipo-vela-and-lipo-vela-v-avoiding-product-name-errors-in-malaysian-buyer-rfqs",
+      "published_at": "2026-11-15T18:25:15.009444+00:00"
     },
     {
       "title": "Botulax, Nabota and Rentox: Keeping Supplier Quotations Separate by Product",
@@ -3952,6 +3954,11 @@
       "title": "Rejuran Wholesale Philippines: A Variant Confirmation Worksheet",
       "slug": "rejuran-wholesale-philippines-a-variant-confirmation-worksheet",
       "published_at": "2026-11-15T13:48:48.271837+00:00"
+    },
+    {
+      "title": "Lipo Vela and Lipo Vela V: Avoiding Product-Name Errors in Malaysian Buyer RFQs",
+      "slug": "lipo-vela-and-lipo-vela-v-avoiding-product-name-errors-in-malaysian-buyer-rfqs",
+      "published_at": "2026-11-15T18:25:15.009444+00:00"
     }
   ]
 }
