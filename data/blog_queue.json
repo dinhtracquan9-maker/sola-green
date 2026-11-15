@@ -2525,15 +2525,17 @@
         "Catalogue category: Toxin"
       ],
       "sources": [],
-      "status": "pending",
-      "image": "../assets/images/products/botox/xeomin.jpg",
+      "status": "published",
+      "image": "../assets/images/Botox Xeomin Image.jpg",
       "product_url": "../products/xeomin.html",
       "primary_keyword": "Xeomin Wholesale wholesale",
       "secondary_keywords": [
         "Xeomin Wholesale quotation requirements",
         "Xeomin Wholesale receiving checklist"
       ],
-      "search_intent": "document receipt and plan repeat purchasing"
+      "search_intent": "document receipt and plan repeat purchasing",
+      "slug": "xeomin-wholesale-receiving-and-reorder-records-for-professional-buyers",
+      "published_at": "2026-11-15T07:43:17.200566+00:00"
     },
     {
       "title": "Rejuran Wholesale Philippines: A Variant Confirmation Worksheet",
@@ -3938,6 +3940,11 @@
       "title": "Xeomin Wholesale: RFQ Specification for Professional Buyers",
       "slug": "xeomin-wholesale-rfq-specification-for-professional-buyers",
       "published_at": "2026-11-14T17:36:05.312315+00:00"
+    },
+    {
+      "title": "Xeomin Wholesale: Receiving and Reorder Records for Professional Buyers",
+      "slug": "xeomin-wholesale-receiving-and-reorder-records-for-professional-buyers",
+      "published_at": "2026-11-15T07:43:17.200566+00:00"
     }
   ]
 }
