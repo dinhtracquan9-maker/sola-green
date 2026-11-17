@@ -1870,10 +1870,12 @@
       "keyword": "arista wholesale supplier",
       "title": "Arista for Aesthetic Clinics: A Practical Wholesale Sourcing Guide",
       "category": "Skin Boosters",
-      "image": "../assets/images/products/arista.png",
+      "image": "../assets/images/editorial/13b3152d846faf6ae64d2e0a.webp",
       "status": "published",
       "slug": "arista-for-aesthetic-clinics-a-practical-wholesale-sourcing-guide",
-      "published_at": "2026-10-15T16:11:39.812580+00:00"
+      "published_at": "2026-10-15T16:11:39.812580+00:00",
+      "image_alt": "Arista for Aesthetic Clinics: A Practical Wholesale Sourcing Guide",
+      "image_locked": true
     },
     {
       "keyword": "nabota 200 for clinics",
