@@ -3,15 +3,22 @@
     {
       "title": "Restylane Kysse for UK Clinic Buyers: Compare Wholesale Quotes Beyond Unit Price",
       "keyword": "Restylane Kysse wholesale UK clinic procurement",
-      "category": "Dermal Fillers", "market": "United Kingdom", "status": "pending",
+      "category": "Dermal Fillers",
+      "market": "United Kingdom",
+      "status": "published",
       "buyer_role": "UK clinic procurement manager",
       "decision": "compare quote scope, exact presentation, remaining shelf life, payment terms and exclusions without assuming import eligibility",
-      "deliverable": "a weighted supplier-quote comparison worksheet with a hypothetical example and rejection criteria"
+      "deliverable": "a weighted supplier-quote comparison worksheet with a hypothetical example and rejection criteria",
+      "slug": "restylane-kysse-for-uk-clinic-buyers-compare-wholesale-quotes-beyond-unit-pric",
+      "published_at": "2026-11-17T07:49:48.439999+00:00",
+      "image": "../assets/images/seo-library/restylane-kysse.jpg"
     },
     {
       "title": "Restylane Refyne for German Distributors: Build a Supplier Onboarding Evidence File",
       "keyword": "Restylane Refyne wholesale Germany distributor",
-      "category": "Dermal Fillers", "market": "Germany", "status": "pending",
+      "category": "Dermal Fillers",
+      "market": "Germany",
+      "status": "pending",
       "buyer_role": "German distributor purchasing lead",
       "decision": "separate supplier identity, invoice traceability and product documentation from unverified authorisation claims",
       "deliverable": "a supplier onboarding evidence register with owner, review date and unresolved items; no invented legal requirements"
@@ -19,7 +26,9 @@
     {
       "title": "Restylane Kysse for Polish Resellers: Set Reorder Quantities Without Overstocking",
       "keyword": "Restylane Kysse wholesale Poland reorder planning",
-      "category": "Dermal Fillers", "market": "Poland", "status": "pending",
+      "category": "Dermal Fillers",
+      "market": "Poland",
+      "status": "pending",
       "buyer_role": "Polish professional reseller",
       "decision": "balance historical sell-through, available shelf life, lead-time uncertainty and working capital",
       "deliverable": "a labelled hypothetical reorder calculation and a small-order versus bulk-order comparison; do not invent demand data"
@@ -27,7 +36,9 @@
     {
       "title": "Restylane Refyne for Italian Clinics: Agree a Receiving and Discrepancy Procedure",
       "keyword": "Restylane Refyne wholesale Italy clinic purchasing",
-      "category": "Dermal Fillers", "market": "Italy", "status": "pending",
+      "category": "Dermal Fillers",
+      "market": "Italy",
+      "status": "pending",
       "buyer_role": "Italian clinic purchasing coordinator",
       "decision": "agree order-to-invoice matching, packaging evidence, discrepancies and supplier escalation before payment",
       "deliverable": "a receiving checklist and a sample discrepancy notification, without clinical or storage instructions"
@@ -35,7 +46,9 @@
     {
       "title": "Restylane Kysse for Spanish Distributors: Negotiate Clear Payment Milestones",
       "keyword": "Restylane Kysse wholesale Spain payment terms",
-      "category": "Dermal Fillers", "market": "Spain", "status": "pending",
+      "category": "Dermal Fillers",
+      "market": "Spain",
+      "status": "pending",
       "buyer_role": "Spanish distributor finance and procurement team",
       "decision": "connect payment milestones to agreed documentary evidence and written commercial terms",
       "deliverable": "a payment-milestone negotiation checklist and hypothetical dispute-prevention example; not financial or legal advice"
@@ -43,7 +56,9 @@
     {
       "title": "Restylane Refyne for US Professional Buyers: Separate Product Identity from Supply Eligibility",
       "keyword": "Restylane Refyne US professional buyer supplier evaluation",
-      "category": "Dermal Fillers", "market": "United States", "status": "pending",
+      "category": "Dermal Fillers",
+      "market": "United States",
+      "status": "pending",
       "buyer_role": "US professional procurement team",
       "decision": "do not treat a familiar brand name, foreign package or catalogue listing as proof of permission to import or distribute",
       "deliverable": "an evidence-request worksheet separating product identity, supplier role and independent eligibility review; no assertion of US availability"
@@ -51,7 +66,9 @@
     {
       "title": "Restylane Kysse for Mexican Distributors: Clarify What a Wholesale Quote Includes",
       "keyword": "Restylane Kysse Mexico B2B quotation checklist",
-      "category": "Dermal Fillers", "market": "Mexico", "status": "pending",
+      "category": "Dermal Fillers",
+      "market": "Mexico",
+      "status": "pending",
       "buyer_role": "Mexican distributor procurement manager",
       "decision": "separate goods price, freight, insurance and unresolved destination costs without promising customs clearance",
       "deliverable": "a bilingual English-Spanish RFQ field glossary and quote-scope checklist; no invented tariffs or import permissions"
@@ -59,7 +76,9 @@
     {
       "title": "Restylane Refyne for Colombian Buyers: Plan a Small First Order Before Scaling",
       "keyword": "Restylane Refyne Colombia professional wholesale enquiry",
-      "category": "Dermal Fillers", "market": "Colombia", "status": "pending",
+      "category": "Dermal Fillers",
+      "market": "Colombia",
+      "status": "pending",
       "buyer_role": "Colombian professional reseller",
       "decision": "define a first-order acceptance plan and measurable supplier service criteria before discussing a larger order",
       "deliverable": "a first-order scorecard and a hypothetical scale-or-stop decision; confirm eligibility independently before purchase"
@@ -67,7 +86,9 @@
     {
       "title": "Restylane Kysse for European Buying Teams: Manage Multiple Clinic Order Lists",
       "keyword": "Restylane Kysse Europe multi clinic procurement",
-      "category": "Dermal Fillers", "market": "Europe", "status": "pending",
+      "category": "Dermal Fillers",
+      "market": "Europe",
+      "status": "pending",
       "buyer_role": "multi-clinic purchasing coordinator",
       "decision": "consolidate clinic requests while preserving exact SKU, destination and approval responsibilities for each location",
       "deliverable": "a consolidation worksheet and duplicate-line prevention example; Europe is not a single legal market"
@@ -75,7 +96,9 @@
     {
       "title": "Restylane Refyne for UK Buyers: Evaluate a Supplier Substitution Request",
       "keyword": "Restylane Refyne UK wholesale substitution policy",
-      "category": "Dermal Fillers", "market": "United Kingdom", "status": "pending",
+      "category": "Dermal Fillers",
+      "market": "United Kingdom",
+      "status": "pending",
       "buyer_role": "UK clinic purchasing manager",
       "decision": "reject automatic substitutions and route any changed presentation through a documented buyer review",
       "deliverable": "a change-control request template; never imply different filler products are clinically interchangeable"
@@ -83,7 +106,9 @@
     {
       "title": "Restylane Kysse for US Buying Teams: Screen Unsolicited Wholesale Offers",
       "keyword": "Restylane Kysse US B2B supplier due diligence",
-      "category": "Dermal Fillers", "market": "United States", "status": "pending",
+      "category": "Dermal Fillers",
+      "market": "United States",
+      "status": "pending",
       "buyer_role": "US procurement and compliance team",
       "decision": "recognise missing supplier identity, unverifiable documents and pressure to pay without claiming photographs prove authenticity",
       "deliverable": "a stop-and-escalate screening checklist, not a guide to bypass import controls or source unapproved products"
@@ -91,7 +116,9 @@
     {
       "title": "Restylane Refyne for Mexico and Colombia: Keep Country-Specific Buyer Files Separate",
       "keyword": "Restylane Refyne Latin America distributor documentation",
-      "category": "Dermal Fillers", "market": "Mexico and Colombia", "status": "pending",
+      "category": "Dermal Fillers",
+      "market": "Mexico and Colombia",
+      "status": "pending",
       "buyer_role": "regional distributor procurement team",
       "decision": "avoid reusing one country's eligibility assumptions, commercial terms and consignee records for another",
       "deliverable": "a two-market document ownership matrix and missing-information checklist; no country-specific legal claims without verified sources"
@@ -4071,6 +4098,11 @@
       "title": "Botulax, Nabota and Rentox: Keeping Supplier Quotations Separate by Product",
       "slug": "botulax-nabota-and-rentox-keeping-supplier-quotations-separate-by-product",
       "published_at": "2026-11-16T07:49:28.722643+00:00"
+    },
+    {
+      "title": "Restylane Kysse for UK Clinic Buyers: Compare Wholesale Quotes Beyond Unit Price",
+      "slug": "restylane-kysse-for-uk-clinic-buyers-compare-wholesale-quotes-beyond-unit-pric",
+      "published_at": "2026-11-17T07:49:48.439999+00:00"
     }
   ]
 }
