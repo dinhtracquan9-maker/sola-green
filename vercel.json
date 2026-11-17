@@ -1,6 +1,10 @@
 {
   "$schema": "https://openapi.vercel.sh/vercel.json",
   "functions": { "api/image-admin.js": { "maxDuration": 60 } },
+  "rewrites": [
+    { "source": "/admin", "destination": "/admin/index.html" },
+    { "source": "/admin/", "destination": "/admin/index.html" }
+  ],
   "headers": [
     { "source": "/admin/:path*", "headers": [
       { "key": "X-Robots-Tag", "value": "noindex, nofollow, noarchive" },
