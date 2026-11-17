@@ -11,7 +11,11 @@ module.exports = async function handler(req, res) {
   res.setHeader('Content-Security-Policy',"default-src 'self'; script-src 'self'; style-src 'self'; img-src 'self' blob:; connect-src 'self'; object-src 'none'; base-uri 'none'; frame-ancestors 'none'; form-action 'self'");
   const json = (status,value) => { res.statusCode=status; res.setHeader('Content-Type','application/json; charset=utf-8'); res.end(JSON.stringify(value)); };
   const password=process.env.IMAGE_ADMIN_PASSWORD || '', secret=process.env.IMAGE_ADMIN_SESSION_SECRET || '', token=process.env.IMAGE_ADMIN_GITHUB_TOKEN || '';
-  if(password.length<24 || secret.length<32 || !token) return json(503,{error:'Trang quản trị chưa được kích hoạt. Cần cấu hình bảo mật trên Vercel.'});
+  const configIssues=[];
+  if(password.length<24) configIssues.push('IMAGE_ADMIN_PASSWORD cần ít nhất 24 ký tự');
+  if(secret.length<32) configIssues.push('IMAGE_ADMIN_SESSION_SECRET cần ít nhất 32 ký tự');
+  if(!token.trim()) configIssues.push('IMAGE_ADMIN_GITHUB_TOKEN chưa được cấu hình');
+  if(configIssues.length) return json(503,{error:`Cấu hình bảo mật chưa hợp lệ: ${configIssues.join('; ')}. Lưu trong Production rồi Redeploy trên Vercel.`});
   const origin=process.env.IMAGE_ADMIN_ORIGIN || 'https://www.hanseongbeauty.com';
   const url=new URL(req.url,origin), action=url.searchParams.get('action') || 'session';
   if(req.method!==(['login','logout','save'].includes(action)?'POST':'GET')) return json(405,{error:'Phương thức không hợp lệ.'});
