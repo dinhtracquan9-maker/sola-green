@@ -3,8 +3,22 @@ import json
 import re
 import unicodedata
 from pathlib import Path
+from urllib.parse import unquote
 
 ROOT = Path(__file__).resolve().parents[1]
+
+
+def article_override(slug):
+    registry = ROOT / 'data/article_image_overrides.json'
+    if not registry.exists():
+        return None
+    selected = json.loads(registry.read_text(encoding='utf-8')).get('articles', {}).get(slug)
+    if not selected or not selected.get('locked'):
+        return None
+    path = (ROOT / 'blog' / unquote(selected['src'])).resolve()
+    if not path.is_relative_to((ROOT / 'assets/images').resolve()) or not path.is_file():
+        raise RuntimeError('Locked article image is missing; manual review required')
+    return selected
 
 
 def normalize(value):

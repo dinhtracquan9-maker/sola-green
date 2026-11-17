@@ -4,7 +4,7 @@ import html
 import json
 import re
 from html.parser import HTMLParser
-from editorial_images import ROOT, approved_image
+from editorial_images import ROOT, approved_image, article_override
 
 
 class Images(HTMLParser):
@@ -64,7 +64,7 @@ def run(apply=False):
             continue
         title = html.unescape(re.sub('<[^>]+>', '', match[1]))
         try:
-            selected = approved_image({'title': title})
+            selected = article_override(path.stem) or approved_image({'title': title})
         except RuntimeError:
             unresolved.append(path.name)
             continue

@@ -1,9 +1,24 @@
 import unittest
-from editorial_images import approved_image
+import json
+from pathlib import Path
+from tempfile import TemporaryDirectory
+from unittest.mock import patch
+from editorial_images import approved_image, article_override
 from repair_editorial_images import replace_images
 
 
 class ImageTests(unittest.TestCase):
+    def test_locked_override_is_preserved(self):
+        with TemporaryDirectory() as directory:
+            root = Path(directory)
+            (root / 'data').mkdir()
+            (root / 'assets/images').mkdir(parents=True)
+            (root / 'assets/images/owner.jpg').touch()
+            selected = {'src': '../assets/images/owner.jpg', 'alt': 'Owner choice', 'locked': True}
+            (root / 'data/article_image_overrides.json').write_text(json.dumps({'articles': {'example': selected}}))
+            with patch('editorial_images.ROOT', root):
+                self.assertEqual(article_override('example'), selected)
+                self.assertIsNone(article_override('other'))
     def test_exact_variant(self):
         self.assertIn('200-stock', approved_image({'title': 'Ordering Rentox 200 wholesale'})['src'])
 
