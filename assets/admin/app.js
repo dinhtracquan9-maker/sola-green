@@ -14,7 +14,9 @@ async function api(action,body) {
   if(!response.ok)throw new Error(data.error || 'Không thể kết nối.');
   return data;
 }
-function thumbnail(url,cls,alt) {const img=el('img',cls);img.src=url;img.alt=alt || '';img.loading='lazy';img.addEventListener('error',()=>{img.hidden=true;});return img;}
+// Keep pre-deployment previews from caching a missing public image URL.
+function previewUrl(url){if(!url || url.startsWith('blob:'))return url;const parsed=new URL(url,location.origin);parsed.searchParams.set('admin-preview',String(Date.now()));return parsed.href;}
+function thumbnail(url,cls,alt) {const img=el('img',cls);img.src=previewUrl(url);img.alt=alt || '';img.loading='lazy';img.addEventListener('error',()=>{img.hidden=true;});return img;}
 function renderArticles(){
   const q=norm($('#search').value),filter=$('#filter').value;
   const rows=state.articles.filter(a=>norm(a.title+' '+a.slug).includes(q) && (filter==='all'||filter==='locked'&&a.locked||filter==='review'&&!a.reviewed||filter==='missing'&&!a.image));
@@ -40,7 +42,7 @@ function renderImages(){
 }
 function select(selected){
   if(!state.ready||state.busy)return;
-  state.selected=selected;$('#preview').src=selected.url;$('#preview').hidden=false;$('#no-preview').hidden=true;$('#selection').textContent=selected.name || '';
+  state.selected=selected;$('#preview').src=previewUrl(selected.url);$('#preview').hidden=false;$('#no-preview').hidden=true;$('#selection').textContent=selected.name || '';
   $('#save').disabled=state.busy||!selected;$('#editor-status').textContent='';
 }
 async function openEditor(article){
@@ -52,7 +54,7 @@ async function openEditor(article){
     const detail=await api('detail&slug='+encodeURIComponent(article.slug));state.current={...article,...detail};state.ready=true;
     $('#article-title').textContent=detail.title || article.title;$('#alt').value=detail.alt || detail.title || article.title;
     $('#view-article').href='/blog/'+article.slug+'.html';
-    if(detail.imageUrl){$('#preview').src=detail.imageUrl;$('#preview').hidden=false;$('#no-preview').hidden=true;}
+    if(detail.imageUrl){$('#preview').src=previewUrl(detail.imageUrl);$('#preview').hidden=false;$('#no-preview').hidden=true;}
     for(const h of [...(detail.override?.history || [])].reverse()){
       let path;try{path=decodeURIComponent(h.src.replace(/^\.\.\//,''));}catch{continue;}
       const image=state.images.find(i=>i.path===path);if(!image)continue;
