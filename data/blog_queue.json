@@ -2205,7 +2205,7 @@
       ],
       "sources": [],
       "status": "published",
-      "image": "../assets/images/Neuramis Deep Image.jpg",
+      "image": "../assets/images/editorial/f87c6f9b7ef818df0c0bf390.webp",
       "product_url": "../products/neuramis.html",
       "primary_keyword": "Neuramis Wholesale wholesale",
       "secondary_keywords": [
@@ -2214,7 +2214,9 @@
       ],
       "search_intent": "prepare an exact product request",
       "slug": "neuramis-wholesale-rfq-specification-for-professional-buyers",
-      "published_at": "2026-11-07T17:20:09.407011+00:00"
+      "published_at": "2026-11-07T17:20:09.407011+00:00",
+      "image_alt": "Neuramis Wholesale: RFQ Specification for Professional Buyers",
+      "image_locked": true
     },
     {
       "title": "Neuramis Wholesale: Receiving and Reorder Records for Professional Buyers",
