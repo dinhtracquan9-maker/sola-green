@@ -36,3 +36,24 @@ test('API requires auth and exact same-origin mutations',async()=>{
   const res=response();await handler({method:'GET',url:'/?action=list',headers:{}},res);assert.equal(res.statusCode,401);
   const cross=response();await handler({method:'POST',url:'/?action=save',headers:{origin:'https://evil.example','content-type':'application/json'}},cross);assert.equal(cross.statusCode,403);
 });
+
+test('session key is automatic and changes when the server token rotates',async()=>{
+  process.env.IMAGE_ADMIN_PASSWORD='test-pass-12';
+  process.env.IMAGE_ADMIN_SESSION_SECRET='short';
+  process.env.IMAGE_ADMIN_GITHUB_TOKEN='test-only-token-1';
+  const login=response();
+  await handler({method:'POST',url:'/?action=login',headers:{origin:'https://www.hanseongbeauty.com','content-type':'application/json'},body:{password:process.env.IMAGE_ADMIN_PASSWORD}},login);
+  assert.equal(login.statusCode,200);
+  const cookie=login.headers['Set-Cookie'].split(';')[0];
+  const check=response();
+  await handler({method:'GET',url:'/?action=session',headers:{cookie}},check);
+  assert.equal(check.statusCode,200);
+  process.env.IMAGE_ADMIN_GITHUB_TOKEN='test-only-token-2';
+  const rotated=response();
+  await handler({method:'GET',url:'/?action=session',headers:{cookie}},rotated);
+  assert.equal(rotated.statusCode,401);
+  process.env.IMAGE_ADMIN_PASSWORD='short';
+  const weak=response();
+  await handler({method:'GET',url:'/?action=session',headers:{}},weak);
+  assert.equal(weak.statusCode,503);
+});

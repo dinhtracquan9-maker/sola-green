@@ -1,6 +1,7 @@
 const { session, authenticated, equal } = require('../server/image-editor.cjs');
 const { client } = require('../server/github-editor.cjs');
 const dashboard = require('../server/admin-page.cjs');
+const { createHmac } = require('node:crypto');
 const attempts = new Map();
 const COOKIE = '__Host-hanseong_editor';
 module.exports = async function handler(req, res) {
@@ -10,10 +11,11 @@ module.exports = async function handler(req, res) {
   res.setHeader('Referrer-Policy','no-referrer');
   res.setHeader('Content-Security-Policy',"default-src 'self'; script-src 'self'; style-src 'self'; img-src 'self' blob:; connect-src 'self'; object-src 'none'; base-uri 'none'; frame-ancestors 'none'; form-action 'self'");
   const json = (status,value) => { res.statusCode=status; res.setHeader('Content-Type','application/json; charset=utf-8'); res.end(JSON.stringify(value)); };
-  const password=process.env.IMAGE_ADMIN_PASSWORD || '', secret=process.env.IMAGE_ADMIN_SESSION_SECRET || '', token=process.env.IMAGE_ADMIN_GITHUB_TOKEN || '';
+  const password=process.env.IMAGE_ADMIN_PASSWORD || '', configuredSecret=process.env.IMAGE_ADMIN_SESSION_SECRET || '', token=process.env.IMAGE_ADMIN_GITHUB_TOKEN || '';
+  // Derive a stable, domain-separated signing key from server-only credentials.
+  const secret=configuredSecret.length>=32?configuredSecret:createHmac('sha256',token).update('hanseong-image-admin/session/v1\0').update(password).digest('hex');
   const configIssues=[];
-  if(password.length<24) configIssues.push('IMAGE_ADMIN_PASSWORD cần ít nhất 24 ký tự');
-  if(secret.length<32) configIssues.push('IMAGE_ADMIN_SESSION_SECRET cần ít nhất 32 ký tự');
+  if(password.length<12) configIssues.push('IMAGE_ADMIN_PASSWORD cần ít nhất 12 ký tự');
   if(!token.trim()) configIssues.push('IMAGE_ADMIN_GITHUB_TOKEN chưa được cấu hình');
   if(configIssues.length) return json(503,{error:`Cấu hình bảo mật chưa hợp lệ: ${configIssues.join('; ')}. Lưu trong Production rồi Redeploy trên Vercel.`});
   const origin=process.env.IMAGE_ADMIN_ORIGIN || 'https://www.hanseongbeauty.com';

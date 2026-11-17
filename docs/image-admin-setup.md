@@ -13,10 +13,12 @@ yeu cau phien dang nhap; mat khau va token khong bao gio gui ve trinh duyet.
    Chon han su dung phu hop va gia han truoc khi token het han.
 2. Vercel > project sola-green > Settings > Environment Variables, Production:
    - `IMAGE_ADMIN_GITHUB_TOKEN`: token tren, danh dau Sensitive.
-   - `IMAGE_ADMIN_PASSWORD`: mat khau ngau nhien rieng, it nhat 24 ky tu,
+   - `IMAGE_ADMIN_PASSWORD`: mat khau rieng, it nhat 12 ky tu,
      tao trong trinh quan ly mat khau. Khong dung mat khau GitHub/Google.
-   - `IMAGE_ADMIN_SESSION_SECRET`: chuoi ngau nhien doc lap it nhat 32 ky tu,
-     danh dau Sensitive, khong dung lai mat khau.
+   - `IMAGE_ADMIN_SESSION_SECRET`: tuy chon. Neu khong co chuoi it nhat 32 ky
+     tu, may chu tu dan xuat khoa ky bang HMAC-SHA256 tu token GitHub va mat
+     khau, voi nhan rieng cho phien quan tri. Khong gui khoa ve trinh duyet.
+     Doi token se huy phien hien tai khi dung khoa tu dong.
    - `IMAGE_ADMIN_ORIGIN`: `https://www.hanseongbeauty.com`.
 3. Redeploy tren Vercel. Khong cung cap Production secrets cho Preview hay PR
    tu fork. Khong gui secrets vao chat, commit hay anh chup man hinh.
