@@ -33,10 +33,13 @@
       "keyword": "Restylane Kysse wholesale Poland reorder planning",
       "category": "Dermal Fillers",
       "market": "Poland",
-      "status": "pending",
+      "status": "published",
       "buyer_role": "Polish professional reseller",
       "decision": "balance historical sell-through, available shelf life, lead-time uncertainty and working capital",
-      "deliverable": "a labelled hypothetical reorder calculation and a small-order versus bulk-order comparison; do not invent demand data"
+      "deliverable": "a labelled hypothetical reorder calculation and a small-order versus bulk-order comparison; do not invent demand data",
+      "slug": "restylane-kysse-for-polish-resellers-set-reorder-quantities-without-overstocki",
+      "published_at": "2026-11-17T15:50:22.715019+00:00",
+      "image": "../assets/images/seo-library/restylane-kysse.jpg"
     },
     {
       "title": "Restylane Refyne for Italian Clinics: Agree a Receiving and Discrepancy Procedure",
@@ -4137,6 +4140,11 @@
       "title": "Restylane Refyne for German Distributors: Build a Supplier Onboarding Evidence File",
       "slug": "restylane-refyne-for-german-distributors-build-a-supplier-onboarding-evidence-",
       "published_at": "2026-11-17T08:58:08.856360+00:00"
+    },
+    {
+      "title": "Restylane Kysse for Polish Resellers: Set Reorder Quantities Without Overstocking",
+      "slug": "restylane-kysse-for-polish-resellers-set-reorder-quantities-without-overstocki",
+      "published_at": "2026-11-17T15:50:22.715019+00:00"
     }
   ]
 }
