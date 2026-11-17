@@ -1,4 +1,18 @@
 {
   "version": 1,
-  "articles": {}
+  "articles": {
+    "restylane-refyne-for-german-distributors-build-a-supplier-onboarding-evidence-": {
+      "src": "../assets/images/editorial/8ed67ae698843458a8b094bc.webp",
+      "alt": "Restylane Refyne for German Distributors: Build a Supplier Onboarding Evidence File",
+      "locked": true,
+      "updated_at": "2026-11-17T15:09:09.880Z",
+      "history": [
+        {
+          "src": "../assets/images/products/filler/restylane-refyne.jpg",
+          "alt": "Restylane Refyne for German Distributors: Build a Supplier Onboarding Evidence File",
+          "changed_at": "2026-11-17T15:09:09.880Z"
+        }
+      ]
+    }
+  }
 }
