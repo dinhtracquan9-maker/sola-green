@@ -46,10 +46,13 @@
       "keyword": "Restylane Refyne wholesale Italy clinic purchasing",
       "category": "Dermal Fillers",
       "market": "Italy",
-      "status": "pending",
+      "status": "published",
       "buyer_role": "Italian clinic purchasing coordinator",
       "decision": "agree order-to-invoice matching, packaging evidence, discrepancies and supplier escalation before payment",
-      "deliverable": "a receiving checklist and a sample discrepancy notification, without clinical or storage instructions"
+      "deliverable": "a receiving checklist and a sample discrepancy notification, without clinical or storage instructions",
+      "slug": "restylane-refyne-wholesale-italy-clinic-purchasing-agree-a-receiving-and-discr",
+      "published_at": "2026-11-17T16:41:11.448191+00:00",
+      "image": "../assets/images/products/filler/restylane-refyne.jpg"
     },
     {
       "title": "Restylane Kysse for Spanish Distributors: Negotiate Clear Payment Milestones",
@@ -4165,6 +4168,11 @@
       "title": "Restylane Kysse for Polish Resellers: Set Reorder Quantities Without Overstocking",
       "slug": "restylane-kysse-for-polish-resellers-set-reorder-quantities-without-overstocki",
       "published_at": "2026-11-17T15:50:22.715019+00:00"
+    },
+    {
+      "title": "Restylane Refyne Wholesale Italy Clinic Purchasing: Agree a Receiving and Discrepancy Procedure",
+      "slug": "restylane-refyne-wholesale-italy-clinic-purchasing-agree-a-receiving-and-discr",
+      "published_at": "2026-11-17T16:41:11.448191+00:00"
     }
   ]
 }
