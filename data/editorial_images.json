@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "products": [
+    {"id": "rentox-100", "aliases": ["rentox 100", "rentox 100u"], "src": "assets/images/seo-library/rentox-100-stock.jfif", "alt": "Rentox packaging labelled 100 units photographed with stock"},
+    {"id": "rentox-200", "aliases": ["rentox 200", "rentox 200u"], "src": "assets/images/seo-library/rentox-200-stock.jpg", "alt": "Rentox packaging labelled 200 units photographed with stock"},
+    {"id": "restylane-kysse", "aliases": ["restylane kysse"], "src": "assets/images/seo-library/restylane-kysse.jpg", "alt": "Restylane Kysse packaging in a Hanseong product illustration"},
+    {"id": "restylane-refyne", "aliases": ["restylane refyne"], "src": "assets/images/products/filler/restylane-refyne.jpg", "alt": "Restylane Refyne packaging in a Hanseong product illustration"},
+    {"id": "restylane-skinbooster", "aliases": ["restylane skinbooster", "restylane skin booster"], "src": "assets/images/seo-library/restylane-skinbooster.jpg", "alt": "Restylane Skinboosters Vital Light packaging in a Hanseong product illustration"}
+  ],
+  "needs_original_photos": ["Fabi", "Restylane Defyne"]
+}

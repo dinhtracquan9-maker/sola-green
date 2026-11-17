@@ -460,24 +460,8 @@ def select_real_cover(topic):
     return article_image_src(shortlist[seed % len(shortlist)])
 
 def select_cover(topic):
-    named_cover = select_named_real_cover(topic)
-    if named_cover and image_exists(named_cover):
-        return named_cover
-
-    text = f"{topic.get('keyword', '')} {topic.get('title', '')}".lower()
-    for needles, image in REAL_IMAGE_RULES:
-        if all(needle in text for needle in needles) and image_exists(image):
-            return image
-
-    image = topic.get("image") or "../assets/images/products-1.png"
-    if image_exists(image):
-        return image
-
-    real_cover = select_real_cover(topic)
-    if real_cover and image_exists(real_cover):
-        return real_cover
-
-    return "../assets/images/products-1.png"
+    from editorial_images import approved_image
+    return approved_image(topic)['src']
 
 def related_links(topic):
     category_url = CATEGORY_LINKS.get(topic["category"], "../products.html")
@@ -529,17 +513,29 @@ def main():
     if args.check:
         print("Configuration valid.")
         return
-    topic = next((x for x in data["topics"] if x.get("status") == "pending"), None)
+    topic = None
+    for candidate in data["topics"]:
+        if candidate.get("status") != "pending":
+            continue
+        try:
+            select_cover(candidate)
+        except RuntimeError:
+            continue
+        topic = candidate
+        break
     if not topic:
-        raise RuntimeError("Editorial queue exhausted: add researched topics before publishing")
+        raise RuntimeError("No pending topic has an approved product image; image review required")
+    # Check assets before spending API credits or writing any public files.
+    cover = select_cover(topic)
     article, used_fallback = generate_article(topic)
     if used_fallback:
         raise RuntimeError("Fallback content requires editorial review; nothing published")
+    if select_cover({**topic, "title": article["title"]}) != cover:
+        raise RuntimeError("Generated headline changed product identity; review required")
     slug = slugify(article["title"])
     target = BLOG / f"{slug}.html"
     if target.exists():
         raise RuntimeError(f"Refusing to overwrite {target.name}")
-    cover = select_cover(topic)
     now = datetime.now(timezone.utc)
     target.write_text(page(article, slug, topic["category"], now.strftime("%B %d, %Y"), cover, topic), encoding="utf-8")
     add_card(article, slug, topic["category"], cover)
