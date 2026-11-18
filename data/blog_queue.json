@@ -85,10 +85,13 @@
       "keyword": "Restylane Kysse Mexico B2B quotation checklist",
       "category": "Dermal Fillers",
       "market": "Mexico",
-      "status": "pending",
+      "status": "published",
       "buyer_role": "Mexican distributor procurement manager",
       "decision": "separate goods price, freight, insurance and unresolved destination costs without promising customs clearance",
-      "deliverable": "a bilingual English-Spanish RFQ field glossary and quote-scope checklist; no invented tariffs or import permissions"
+      "deliverable": "a bilingual English-Spanish RFQ field glossary and quote-scope checklist; no invented tariffs or import permissions",
+      "slug": "restylane-kysse-for-mexican-distributors-clarify-what-a-wholesale-quote-includ",
+      "published_at": "2026-11-18T15:29:37.201556+00:00",
+      "image": "../assets/images/seo-library/restylane-kysse.jpg"
     },
     {
       "title": "Restylane Refyne for Colombian Buyers: Plan a Small First Order Before Scaling",
@@ -4189,6 +4192,11 @@
       "title": "Restylane Refyne for US Professional Buyers: Separate Product Identity from Supply Eligibility",
       "slug": "restylane-refyne-for-us-professional-buyers-separate-product-identity-from-sup",
       "published_at": "2026-11-18T08:23:29.481012+00:00"
+    },
+    {
+      "title": "Restylane Kysse for Mexican Distributors: Clarify What a Wholesale Quote Includes",
+      "slug": "restylane-kysse-for-mexican-distributors-clarify-what-a-wholesale-quote-includ",
+      "published_at": "2026-11-18T15:29:37.201556+00:00"
     }
   ]
 }
