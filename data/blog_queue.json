@@ -72,10 +72,13 @@
       "keyword": "Restylane Refyne US professional buyer supplier evaluation",
       "category": "Dermal Fillers",
       "market": "United States",
-      "status": "pending",
+      "status": "published",
       "buyer_role": "US professional procurement team",
       "decision": "do not treat a familiar brand name, foreign package or catalogue listing as proof of permission to import or distribute",
-      "deliverable": "an evidence-request worksheet separating product identity, supplier role and independent eligibility review; no assertion of US availability"
+      "deliverable": "an evidence-request worksheet separating product identity, supplier role and independent eligibility review; no assertion of US availability",
+      "slug": "restylane-refyne-for-us-professional-buyers-separate-product-identity-from-sup",
+      "published_at": "2026-11-18T08:23:29.481012+00:00",
+      "image": "../assets/images/products/filler/restylane-refyne.jpg"
     },
     {
       "title": "Restylane Kysse for Mexican Distributors: Clarify What a Wholesale Quote Includes",
@@ -4181,6 +4184,11 @@
       "title": "Restylane Kysse for Spanish Distributors: Negotiate Clear Payment Milestones",
       "slug": "restylane-kysse-for-spanish-distributors-negotiate-clear-payment-milestones",
       "published_at": "2026-11-17T20:23:48.768568+00:00"
+    },
+    {
+      "title": "Restylane Refyne for US Professional Buyers: Separate Product Identity from Supply Eligibility",
+      "slug": "restylane-refyne-for-us-professional-buyers-separate-product-identity-from-sup",
+      "published_at": "2026-11-18T08:23:29.481012+00:00"
     }
   ]
 }
