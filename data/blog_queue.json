@@ -98,10 +98,13 @@
       "keyword": "Restylane Refyne Colombia professional wholesale enquiry",
       "category": "Dermal Fillers",
       "market": "Colombia",
-      "status": "pending",
+      "status": "published",
       "buyer_role": "Colombian professional reseller",
       "decision": "define a first-order acceptance plan and measurable supplier service criteria before discussing a larger order",
-      "deliverable": "a first-order scorecard and a hypothetical scale-or-stop decision; confirm eligibility independently before purchase"
+      "deliverable": "a first-order scorecard and a hypothetical scale-or-stop decision; confirm eligibility independently before purchase",
+      "slug": "restylane-refyne-for-colombian-buyers-plan-a-small-first-order-before-scaling",
+      "published_at": "2026-11-18T19:53:30.041567+00:00",
+      "image": "../assets/images/products/filler/restylane-refyne.jpg"
     },
     {
       "title": "Restylane Kysse for European Buying Teams: Manage Multiple Clinic Order Lists",
@@ -4197,6 +4200,11 @@
       "title": "Restylane Kysse for Mexican Distributors: Clarify What a Wholesale Quote Includes",
       "slug": "restylane-kysse-for-mexican-distributors-clarify-what-a-wholesale-quote-includ",
       "published_at": "2026-11-18T15:29:37.201556+00:00"
+    },
+    {
+      "title": "Restylane Refyne for Colombian Buyers: Plan a Small First Order Before Scaling",
+      "slug": "restylane-refyne-for-colombian-buyers-plan-a-small-first-order-before-scaling",
+      "published_at": "2026-11-18T19:53:30.041567+00:00"
     }
   ]
 }
