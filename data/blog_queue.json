@@ -124,10 +124,13 @@
       "keyword": "Restylane Refyne UK wholesale substitution policy",
       "category": "Dermal Fillers",
       "market": "United Kingdom",
-      "status": "pending",
+      "status": "published",
       "buyer_role": "UK clinic purchasing manager",
       "decision": "reject automatic substitutions and route any changed presentation through a documented buyer review",
-      "deliverable": "a change-control request template; never imply different filler products are clinically interchangeable"
+      "deliverable": "a change-control request template; never imply different filler products are clinically interchangeable",
+      "slug": "restylane-refyne-for-uk-buyers-evaluate-a-supplier-substitution-request",
+      "published_at": "2026-11-19T15:36:22.146084+00:00",
+      "image": "../assets/images/products/filler/restylane-refyne.jpg"
     },
     {
       "title": "Restylane Kysse for US Buying Teams: Screen Unsolicited Wholesale Offers",
@@ -4213,6 +4216,11 @@
       "title": "Restylane Kysse for European Buying Teams: Manage Multiple Clinic Order Lists",
       "slug": "restylane-kysse-for-european-buying-teams-manage-multiple-clinic-order-lists",
       "published_at": "2026-11-19T08:34:57.032746+00:00"
+    },
+    {
+      "title": "Restylane Refyne for UK Buyers: Evaluate a Supplier Substitution Request",
+      "slug": "restylane-refyne-for-uk-buyers-evaluate-a-supplier-substitution-request",
+      "published_at": "2026-11-19T15:36:22.146084+00:00"
     }
   ]
 }
