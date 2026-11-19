@@ -3,7 +3,7 @@ const WHATSAPP_KOREA = '821021892675';
 // Load the enquiry dialog separately, without delaying catalogue rendering.
 if (!document.querySelector('script[data-wholesale-popup]')) {
   const popupScript = document.createElement('script');
-  popupScript.src = '/assets/js/wholesale-popup.js';
+  popupScript.src = '/assets/js/wholesale-popup.js?v=buyer-offer';
   popupScript.dataset.wholesalePopup = 'true';
   popupScript.async = true;
   document.head.append(popupScript);
