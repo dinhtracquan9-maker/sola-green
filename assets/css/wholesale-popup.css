@@ -22,6 +22,9 @@
 #hs-wholesale-popup .hs-popup-primary{background:#145c3d;color:white;margin-bottom:9px}
 #hs-wholesale-popup .hs-popup-secondary{background:#f1eadf;color:#284d38}
 #hs-wholesale-popup .hs-popup-note{font-size:10px;line-height:1.6;margin:17px 0 0;color:#69776e}
+#hs-wholesale-popup .hs-popup-offer{margin-top:16px;padding:12px;background:#f5f0e8;border-left:2px solid #b89b6c;border-radius:4px;color:#475744}
+#hs-wholesale-popup .hs-popup-offer strong{display:block;margin-bottom:6px;font-size:12px;line-height:1.5}
+#hs-wholesale-popup .hs-popup-offer small{display:block;font-size:11px;line-height:1.6}
 #hs-wholesale-popup :focus-visible{outline:3px solid #ba9254;outline-offset:3px}
 @keyframes hs-popup-enter{from{opacity:0;transform:translateY(15px)}to{opacity:1;transform:translateY(0)}}
 @media(max-width:600px){#hs-wholesale-popup[open]{grid-template-columns:1fr;width:400px;max-height:calc(100dvh - 24px)}#hs-wholesale-popup .hs-popup-photo{min-height:105px;height:105px}#hs-wholesale-popup .hs-popup-photo img{object-position:center 45%}#hs-wholesale-popup .hs-popup-photo>span{bottom:14px;left:22px;font-size:19px}#hs-wholesale-popup .hs-popup-copy{padding:22px}#hs-wholesale-popup h2{font-size:27px}#hs-wholesale-popup h2 em{font-size:28px}#hs-wholesale-popup #hs-popup-description{font-size:13px;margin-bottom:12px}#hs-wholesale-popup .hs-popup-benefits{margin-bottom:14px;gap:7px}#hs-wholesale-popup .hs-popup-close{top:10px;right:10px}}

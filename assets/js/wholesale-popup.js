@@ -8,7 +8,7 @@
   if (dismissed && !preview) return;
   let engaged = false, shown = false, previousFocus;
   const stylesheet = document.createElement('link');
-  stylesheet.rel = 'stylesheet'; stylesheet.href = '/assets/css/wholesale-popup.css';
+  stylesheet.rel = 'stylesheet'; stylesheet.href = '/assets/css/wholesale-popup.css?v=buyer-offer';
   document.head.append(stylesheet);
   const dialog = document.createElement('dialog');
   dialog.id = 'hs-wholesale-popup';
@@ -19,11 +19,12 @@
     <div class="hs-popup-photo"><img src="/assets/images/inside-prepared.jpg" width="1485" height="1485" alt="Assorted product cartons grouped for a Hanseong wholesale order" loading="lazy"><span>HANSEONG<br><small>BEAUTY GLOBAL</small></span></div>
     <div class="hs-popup-copy">
       <p class="hs-popup-eyebrow">FOR PROFESSIONAL BUYERS</p>
-      <h2 id="hs-popup-title">Your next order.<br><em>Let's make it clear.</em></h2>
-      <p id="hs-popup-description">Planning your next wholesale purchase? Share your product list with our Korea team for current availability and a quotation tailored to your destination.</p>
+      <h2 id="hs-popup-title">Your product list.<br><em>One tailored wholesale quote.</em></h2>
+      <p id="hs-popup-description">Share your products, quantities and destination. Discuss current availability and shipping options with our Korea team before you order.</p>
       <ul class="hs-popup-benefits"><li>Exact products &amp; variants</li><li>Quantities &amp; destination</li><li>One clear quotation request</li></ul>
-      <a class="hs-popup-primary" href="https://wa.me/821021892675?text=Hi%20Hanseong%20Korea%20team%2C%20I%20would%20like%20a%20wholesale%20quotation.%0AProducts%20and%20variants%3A%0AQuantities%3A%0ADestination%20country%3A" target="_blank" rel="noopener noreferrer">Talk to our Korea team <span aria-hidden="true">&#8599;</span></a>
-      <a class="hs-popup-secondary" href="/products.html">Explore the catalogue <span aria-hidden="true">&#8594;</span></a>
+      <a class="hs-popup-primary" href="https://wa.me/821021892675?text=Hi%20Hanseong%20Korea%20team%2C%20I%20would%20like%20a%20wholesale%20quotation.%0APlease%20check%20whether%20my%20order%20qualifies%20for%20an%20offer.%0AProducts%20and%20variants%3A%0AQuantities%3A%0ADestination%20country%3A" target="_blank" rel="noopener noreferrer">Get my wholesale quote <span aria-hidden="true">&#8599;</span></a>
+      <a class="hs-popup-secondary" href="/products.html">Browse products first <span aria-hidden="true">&#8594;</span></a>
+      <aside class="hs-popup-offer" aria-label="Order-specific offer enquiries"><strong>Could your order qualify for an offer?</strong><small>Ask our Korea team to check. Any discount or code depends on the selected products, quantity and destination, and must be confirmed in your quotation before payment. No discount is guaranteed.</small></aside>
       <p class="hs-popup-note">For clinics, resellers &amp; distributors. Availability and shipment options are confirmed individually.</p>
     </div>`;
   document.body.append(dialog);
