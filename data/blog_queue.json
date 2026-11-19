@@ -137,10 +137,13 @@
       "keyword": "Restylane Kysse US B2B supplier due diligence",
       "category": "Dermal Fillers",
       "market": "United States",
-      "status": "pending",
+      "status": "published",
       "buyer_role": "US procurement and compliance team",
       "decision": "recognise missing supplier identity, unverifiable documents and pressure to pay without claiming photographs prove authenticity",
-      "deliverable": "a stop-and-escalate screening checklist, not a guide to bypass import controls or source unapproved products"
+      "deliverable": "a stop-and-escalate screening checklist, not a guide to bypass import controls or source unapproved products",
+      "slug": "restylane-kysse-for-us-buying-teams-screen-unsolicited-wholesale-offers",
+      "published_at": "2026-11-19T19:53:15.939152+00:00",
+      "image": "../assets/images/seo-library/restylane-kysse.jpg"
     },
     {
       "title": "Restylane Refyne for Mexico and Colombia: Keep Country-Specific Buyer Files Separate",
@@ -4221,6 +4224,11 @@
       "title": "Restylane Refyne for UK Buyers: Evaluate a Supplier Substitution Request",
       "slug": "restylane-refyne-for-uk-buyers-evaluate-a-supplier-substitution-request",
       "published_at": "2026-11-19T15:36:22.146084+00:00"
+    },
+    {
+      "title": "Restylane Kysse for US Buying Teams: Screen Unsolicited Wholesale Offers",
+      "slug": "restylane-kysse-for-us-buying-teams-screen-unsolicited-wholesale-offers",
+      "published_at": "2026-11-19T19:53:15.939152+00:00"
     }
   ]
 }
