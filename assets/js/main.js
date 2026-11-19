@@ -1,5 +1,13 @@
 const WHATSAPP_NUMBER = document.body.classList.contains('contact-page') ? '821021892675' : '84921909928';
 const WHATSAPP_KOREA = '821021892675';
+// Load the enquiry dialog separately, without delaying catalogue rendering.
+if (!document.querySelector('script[data-wholesale-popup]')) {
+  const popupScript = document.createElement('script');
+  popupScript.src = '/assets/js/wholesale-popup.js';
+  popupScript.dataset.wholesalePopup = 'true';
+  popupScript.async = true;
+  document.head.append(popupScript);
+}
 const DEFAULT_WHATSAPP_MESSAGE = "Hi! I'm interested in your products and would like a wholesale quotation.";
 const $ = (s, r = document) => r.querySelector(s);
 const $$ = (s, r = document) => [...r.querySelectorAll(s)];
