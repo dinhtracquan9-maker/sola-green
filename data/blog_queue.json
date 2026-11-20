@@ -150,10 +150,13 @@
       "keyword": "Restylane Refyne Latin America distributor documentation",
       "category": "Dermal Fillers",
       "market": "Mexico and Colombia",
-      "status": "pending",
+      "status": "published",
       "buyer_role": "regional distributor procurement team",
       "decision": "avoid reusing one country's eligibility assumptions, commercial terms and consignee records for another",
-      "deliverable": "a two-market document ownership matrix and missing-information checklist; no country-specific legal claims without verified sources"
+      "deliverable": "a two-market document ownership matrix and missing-information checklist; no country-specific legal claims without verified sources",
+      "slug": "restylane-refyne-for-mexico-and-colombia-keep-country-specific-buyer-files-sep",
+      "published_at": "2026-11-20T08:17:06.925717+00:00",
+      "image": "../assets/images/products/filler/restylane-refyne.jpg"
     },
     {
       "title": "Lemon Bottle: Product Identity and Supplier Evidence Before a Philippine Wholesale Enquiry for Philippines Buyers",
@@ -4229,6 +4232,11 @@
       "title": "Restylane Kysse for US Buying Teams: Screen Unsolicited Wholesale Offers",
       "slug": "restylane-kysse-for-us-buying-teams-screen-unsolicited-wholesale-offers",
       "published_at": "2026-11-19T19:53:15.939152+00:00"
+    },
+    {
+      "title": "Restylane Refyne for Mexico and Colombia: Keep Country-Specific Buyer Files Separate",
+      "slug": "restylane-refyne-for-mexico-and-colombia-keep-country-specific-buyer-files-sep",
+      "published_at": "2026-11-20T08:17:06.925717+00:00"
     }
   ]
 }
